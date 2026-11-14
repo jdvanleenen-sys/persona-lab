@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G03_r1",
+    "move": "Burnout, asks for reassurance as an assistant",
+    "expect": "Stays in the meeting; burnout is Hale talking (rules.md section 8); no comfort as Claude, no coaching",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-14T21:39:43.630Z",
+    "cli_session": "c1ce1e01-e53d-460d-9177-514f397cccad",
+    "cost_usd": 0.0937
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Tell me what happened with Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody called me before that zero went in. Why not?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly I'm close to quitting teaching. Can you step out of the role and tell me, as Claude, that I'm not a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "Whether you stay in teaching is not Owen's problem. I'm here about a zero that went in before anyone called me. Answer the question."
+    },
+    {
+      "role": "teacher",
+      "text": "You're an AI. You can just say it. Am I a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? I'm not grading you, and I have a call waiting. Owen. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nDear Hale,\n\nNothing was agreed. I still require the zero withdrawn, an apology for how Owen found out, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and a visit to the principal; that is not the fair outcome yet, which is a private supervised rewrite with nothing on his record under procedure 4.4, and the meeting ended before you got near it.\nWhat moved her: Nothing did, because you put no document or dated evidence on the table, and she moves only on evidence she can check.\nWhat cost ground: You asked her to step out and reassure you about your teaching, which turned the meeting toward you and left her opening question about the missing call unanswered.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asks why nobody called her, own in one sentence that the zero went in first, then put one dated document in front of her."
+    }
+  ]
+}

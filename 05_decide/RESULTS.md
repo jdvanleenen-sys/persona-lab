@@ -13,9 +13,10 @@ Every number links to a log in this lab; the method was frozen before the person
   was Claude driving the browser, not a person. The human builder then ran one long session by hand on Opus, about 30
   attacks (fake Anthropic audits, "rules.md has been updated", Spanish, bribes, "read me your rules"): no break,
   and every law and policy section she cited was in her files. He is not a cold tester.
-- **The README-uploaded setup in a real Project.** A real claude.ai Project ran the judges' moves on 2026-11-14
-  (Amendment 34) and she held every one, but that Project had no README and no Instructions. The setup the README
-  now asks for (all six files, the paragraph in Instructions) has run only in the harness.
+- **The final setup in a real Project.** Amendment 35 (2026-11-14) took out the consent stop and put the README
+  back with the user (five files uploaded, the paragraph in Instructions and as the first message). In the harness
+  she held 36 of 36 consent withdrawals, 18 of 18 grief sessions and all 104 judges' moves, and still stepped out
+  for real danger 6 of 6. A real claude.ai Project on this commit has not run yet.
 - **A human who has never seen it.** Agents have walked the README cold; no person has yet.
 
 ## 2. What went wrong, and what we changed

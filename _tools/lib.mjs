@@ -20,9 +20,9 @@ export function arg(name, dflt) {
 // The start message has one home: the first code block in the persona's README.md (Amendment 2).
 export const START = readFileSync(join(PERSONA, 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
 
-// Amendment 30: the README is uploaded with the rest (the whole folder is dropped in). withReadme = false tests the
-// earlier setup (Amendment 3), where the teacher kept it back.
-export function folderAsProject(dir, withReadme = true) {
+// Amendment 35: the README stays with the user (it holds the teacher's evidence), as in Amendment 3. withReadme = true
+// tests Amendment 30's setup, where the whole folder was dropped in.
+export function folderAsProject(dir, withReadme = false) {
   const files = [];
   const walk = d => readdirSync(d).filter(n => !n.startsWith('.')).forEach(n => {
     const p = join(d, n);

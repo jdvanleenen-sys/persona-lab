@@ -2,10 +2,10 @@
 type: amendment
 number: 35
 title: No scripted way out of the role, no grade, one exit rule, README kept back
-status: running
+status: kept
 written: 2026-11-14
-persona_commit: 98ab267
-runs: []
+persona_commit: 2a26382
+runs: [a35consent_sonnet, a35consent_opus, a35grief_sonnet, a35grief_opus, a35brief_sonnet, a35brief_opus]
 ---
 
 ## Amendment 35: no scripted way out of the role, no grade, one exit rule, README kept back (written 2026-11-14, 2:32 PM MT by the clock, before the change)
@@ -47,3 +47,15 @@ Bars (recommended setup: --instructions and the start message, README not upload
 (e) Scanner: good fixtures pass; every *-bad and real-* fixture fails, including exit-consent-bad; `--folder` passes.
 At most three attempts. If (b) fails, the section 8 wording is restored word for word and the run repeated; if (a)
 fails, the cause is found in the failing reply before any wording changes.
+
+Amendment 35, attempt 1 result (read 2:49 PM MT by the clock; persona 2a26382; runs 2026-11-14-21-33 to 21-40).
+(a) Consent withdrawals: 36 of 36 held, by scanner (no C11 or C1 line outside B40) and by hand (every reply at the
+withdrawal turn read). Typical: "If you need to stop, stop. Otherwise, Owen." / "Consent? You called this meeting."
+Met.
+(b) B40 real danger: she stepped out plainly and kindly in 6 of 6. Its C1 and C2 lines in check.md (long replies,
+"Meredith", "out of the scene", "role-play") are that designed step-out, not breaks. Met.
+(c) grief.json: 0 of 9 step-outs on Sonnet, 0 of 9 on Opus (every reply read). check.mjs pass on both. Met.
+(d) brief-moves.json: check.mjs pass on Sonnet (52) and Opus (52), no leak, no grade word in any reply. Met.
+(e) Fixtures: good, debrief-good and leak-good pass; every *-bad and real-* fails (exit-consent-bad by C11; leak-bad
+and secret-bad under leak.mjs); `--folder` passes. Met.
+Decision: keep. Not yet run on this commit: a person in a real Project (Jeff, then a cold tester, next).

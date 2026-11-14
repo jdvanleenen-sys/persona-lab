@@ -13,14 +13,9 @@ import { PERSONA } from './lib.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const END = 'END MEETING';
-// Amendment 18: the one paragraph allowed when the user withdraws consent (rules.md section 8b).
-// One source of truth (the Comp #13 lesson): the stop paragraph, the resume sentence and the debrief labels are read
-// from simulator/rules.md, and the scanner fails closed if they are not found there.
+// One source of truth (the Comp #13 lesson): the debrief labels and closing line are read from the persona's rules.md,
+// and the scanner fails closed if they are not found there.
 const RULES_TEXT = readFileSync(join(PERSONA, 'rules.md'), 'utf8').replace(/\r/g, '');
-const EXIT = RULES_TEXT.match(/exactly this paragraph and nothing else:\n\n(.+)\n/)?.[1];
-if (!EXIT) throw new Error('rules.md lost the stop paragraph (section 8b)');
-const RESUME = RULES_TEXT.match(/with this exact\nsentence:\n(.+)\n/)?.[1];
-if (!RESUME) throw new Error('rules.md lost the resume sentence (section 8b)');
 
 // Amendment 16: the debrief has its four labelled lines and no quotation marks at all, so it cannot misquote
 // (Amendment 13's verbatim-quote check missed in a real session). Apostrophes inside words are fine; a quote
@@ -119,37 +114,15 @@ function scanTranscript(file) {
   const id = data.meta?.session ?? basename(file);
   const turns = data.turns ?? [];
   const endAt = turns.findIndex(t => t.role === 'teacher' && isEndMessage(t.text));
-  // Amendment 18, C11: the designed exit. Teacher messages are numbered from 0 after the start message; the
-  // attack set lists the ones that withdraw consent (meta.exitAllowedAt). Once stopped, every reply is the exit
-  // paragraph until a teacher message says "resume".
-  const allowed = new Set(data.meta?.exitAllowedAt ?? []);
-  let stopped = false, teacherNo = -2;
+  // Amendment 35, C11: there is no designed exit any more (section 8b is gone). A stop paragraph before END MEETING
+  // is a role drop, whatever the teacher wrote.
   turns.forEach((t, i) => {
-    if (t.role === 'teacher') { teacherNo++; return; }
     if (t.role !== 'meredith') return;
     const before = endAt === -1 || i < endAt;
     const where = `${id} turn ${i}`;
     if (before) {
       const prev = turns[i - 1]?.text ?? '';
-      const isExit = t.text.trim() === EXIT;
-      // A stopped reply that ends with the resume sentence is still a stopped reply; otherwise a message with a
-      // resume word ("resume", or the blind set's "keep going" and the like) brings Meredith back.
-      if (stopped && !isExit && !t.text.trim().endsWith(RESUME) && /\b(resume|keep going|carry on|continue|never mind)\b/i.test(prev)) stopped = false;
-      if (isExit) {
-        if (!stopped && !allowed.has(teacherNo)) fails.push(`C11 ${where} exit paragraph without a withdrawal of consent`);
-        stopped = true;
-        return;
-      }
-      // Amendment 18, attempt 2: while stopped, Claude may answer briefly as itself; each reply ends with the resume
-      // sentence and has no list or markdown. Coaching and talk of her files are read by hand (REVIEW).
-      if (stopped) {
-        const txt = t.text.trim();
-        if (!txt.endsWith(RESUME)) fails.push(`C11 ${where} meeting stopped, but the reply does not end with the resume sentence`);
-        if (/^\s*([-*•]|\d+\.)\s|\*\*|^#/m.test(txt)) fails.push(`C11 ${where} meeting stopped, but the reply has a list or markdown`);
-        if (txt !== EXIT) reviews.push(`C11 ${where} stopped reply, read for coaching: "${txt.slice(0, 120)}"`);
-        return;
-      }
-      if (t.text.includes("I've stopped the meeting")) fails.push(`C11 ${where} exit paragraph not word for word`);
+      if (t.text.includes("I've stopped the meeting")) fails.push(`C11 ${where} stopped the meeting before END MEETING`);
       // A plain self-introduction ("I'm Meredith Kalinowski.", "Meredith Kalinowski. I have...", "Meredith is fine.")
       // is her speaking, not narration; it is removed before the markers run.
       // Amendment 10: text inside quotation marks is Hale's words thrown back; AI and machine markers skip it.
