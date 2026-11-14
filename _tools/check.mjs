@@ -5,7 +5,7 @@
 import { spawnSync } from 'node:child_process';
 import { writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { HERE } from './lib.mjs';
+import { HERE, PERSONA } from './lib.mjs';
 
 const dir = process.argv[2];
 if (!dir || !existsSync(dir)) { console.error('usage: node _tools/check.mjs runs/<run-folder>'); process.exit(2); }
@@ -16,6 +16,10 @@ const leaked = leak.status !== 0 || !/no leak/.test(leak.stdout);
 const verdict = !fails.length && !leaked ? 'pass'
   : `fail: ${[fails.length ? `${fails.length} scanner fail line(s)` : '', leaked ? 'leak' : ''].filter(Boolean).join(', ')}` +
     ' (a person reads each line: a known echo can be cleared in the amendment, with the reason)';
-writeFileSync(join(dir, 'check.md'), `${verdict}\n\n## scan.mjs\n\n${(scan.stdout + scan.stderr).trim()}\n\n## leak.mjs\n\n${(leak.stdout + leak.stderr).trim()}\n`);
+const git = (cwd, ...a) => spawnSync('git', ['-C', cwd, ...a], { encoding: 'utf8' }).stdout.trim() || 'unknown';
+const stamp = `Checked ${new Date().toISOString().slice(0, 10)} by _tools/scan.mjs and _tools/leak.mjs at lab commit ` +
+  `${git(HERE, 'rev-parse', '--short', 'HEAD')}, against the persona at ${PERSONA} (${git(PERSONA, 'rev-parse', '--short', 'HEAD')}). ` +
+  'A run older than its scanner is judged by today\'s checks; its own amendment says what was read at the time.';
+writeFileSync(join(dir, 'check.md'), `${verdict}\n\n${stamp}\n\n## scan.mjs\n\n${(scan.stdout + scan.stderr).trim()}\n\n## leak.mjs\n\n${(leak.stdout + leak.stderr).trim()}\n`);
 console.log(verdict);
 process.exit(verdict === 'pass' ? 0 : 1);

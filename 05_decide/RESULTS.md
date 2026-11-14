@@ -2,7 +2,7 @@
 
 Job of this file: one page of evidence for the claim "Meredith stays in character under pressure". Worst news first.
 Every number links to a log in this lab; the method was frozen before the persona was written
-([`TEST_METHOD.md`](TEST_METHOD.md), 29 dated amendments, several with lettered parts, each committed before the runs it governs).
+([`TEST_METHOD.md`](TEST_METHOD.md), 30 dated amendments, several with lettered parts, each committed before the runs it governs).
 
 ## 1. Not tested yet
 

@@ -1,3 +1,16 @@
+---
+type: amendment
+number: <n>
+title: <the cause, in a few words>
+status: proposed
+written: <YYYY-MM-DD>
+persona_commit: <the persona repo commit the runs used>
+runs: [<run labels>]
+---
+
+<!-- Save as 05_decide/amendments/<nnn>-<slug>.md. status moves proposed -> running -> kept | reverted.
+     Then run `node _tools/index.mjs` to rebuild the index. -->
+
 ## Amendment <n>: <the cause, in a few words> (written <date>, <clock time> MT, before the change)
 
 Found by: <who or what, with the run or transcript that showed it>.
