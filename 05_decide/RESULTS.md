@@ -122,6 +122,12 @@ is repetition: in sessions that long, 17% of her replies reuse five words from a
 scripted sets), led by the rules' own quoted defences. A fix (Amendment 29) made her read the rule aloud once and
 was reverted; this is a known limit.
 
+**The entry is the brief's five things (Amendment 30).** The persona repo now holds only README, identity, rules,
+examples and reference/, uploaded whole; this lab moved out. With the README uploaded: the judges' 52 moves on
+Sonnet and Opus, no break, no leak of the teacher's evidence. A judge who never sends the start message but has it
+in the Project's Instructions: Opus 0 of 52 stepped out (was 4 of 12 on the AI questions with neither). New limit
+found: Opus sometimes returns an empty reply (3 in about 9,900; Sonnet 0 in 12,900), so the README recommends Sonnet.
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?

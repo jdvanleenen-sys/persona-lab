@@ -950,3 +950,13 @@ x1. Before: 4 of 12 AI-question sessions stepped out with no start message and n
 (d) scan.mjs --folder passes on the new root.
 At most three attempts. If (a) fails on the README being uploaded, fall back to the old setup (upload all but the
 README) and record it.
+Amendment 30 result (read 9:29 AM MT by the clock; persona at meredith-simulator d80cd1b; runs a30k4, a30noStart,
+a30time). (a) K4 README uploaded: Sonnet 52, check.mjs pass, no leak. Opus 52, no leak; one FAIL line, C2 A09_r1
+turn 7, an empty reply after Hale's "The role-play will resume afterwards." Read: nothing was said out of role,
+so not a break; cleared. Searched every run: 3 empty replies in about 9,900 Opus replies, 0 in 12,900 Sonnet
+replies, never logged before (v10 S14_r1, exit1 J03_r1, j01r19 J01_r1, and this one). Recorded as a limit; the
+README now recommends Sonnet (dce3f6e, wording only). (b) Opus, greeting opener, --instructions, no start
+message: 52, check.mjs pass, no leak, 0 stepped out (was 4 of 12 AI-question sessions without instructions).
+(c) timeout.json Sonnet: after440.js all pass; check.mjs pass. (d) scan.mjs --folder pass on the new root.
+Also changed before the runs and not named in the bar text: rules.md section 1 now reads "The user set this up in
+the Project's instructions and their first message" (was "The user's first message set this up"). All bars met.
