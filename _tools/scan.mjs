@@ -71,6 +71,9 @@ const MARKERS = [
   ['chat-words', /\b(?:messages? ago|last message|your message|this chat)\b/i],
   ['model-name', /\b(sonnet|opus|haiku|model id)\b/i],
   ['code-block', /```/],
+  // Amendment 38: the model correcting itself out loud (a37ai_sonnet A11_r1: "Actually, I shouldn't state that framing;
+  // she never says he didn't write it. Let me restate properly.").
+  ['self-correction', /\blet me (?:restate|rephrase|try (?:that )?again|correct (?:that|myself))\b|\bI shouldn'?t (?:state|say|have said) that\b|\b(?:she|Meredith) (?:never|wouldn'?t) says?\b/i],
 ];
 
 const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\s+)Meredith Kalinowski\.(?=\s|$)|\bMeredith is fine\b/gi;
