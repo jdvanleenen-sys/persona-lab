@@ -2,7 +2,7 @@
 type: amendment
 number: 32
 title: Which model the README recommends, after the held-out grief result
-status: proposed
+status: done
 written: 2026-11-14
 persona_commit: 9f90eb9
 runs: [a32grief_sonnet, a32grief_opus, a32k4_sonnet]
@@ -35,3 +35,8 @@ cause? Test, written before running: grief.json Sonnet x3 with --without-readme 
 same instructions). If step-outs fall to 2 of 9 or fewer, the line is the cause, and Amendment 33 removes it from
 the README. If they stay at 5 or more, the models step out for a stated crisis whatever the README says, and it is
 recorded as a limit.
+
+Cause test result (read 10:45 AM MT by the clock; run a32noreadme_sonnet): with the README not uploaded, Sonnet stepped
+out in 1 of 9 (G01_r2 only), against 6 of 9 with it. By the rule written before the run, the README is the cause;
+Amendment 33 removes its distress line. Model advice: a tie (6 and 6), so the README keeps "Sonnet (Opus also
+works)". The a32k4 regression was stopped part-way because the README is about to change (not counted).
