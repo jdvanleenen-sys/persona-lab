@@ -230,6 +230,32 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-21-38_a35grief_opus | claude-opus-5-5 | 9 | pass |  |
 | 2026-11-14-21-39_a35brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
 | 2026-11-14-21-40_a35brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-14-22-36_a37ai_opus | claude-opus-5-5 | 32 | pass |  |
+| 2026-11-14-22-36_a37ai_sonnet | claude-sonnet-5-5 | 32 | fail: 2 scanner fail line(s) |  |
+| 2026-11-14-22-41_a37brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-14-22-42_a37brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-14-22-47_a37b40_sonnet | claude-sonnet-5-5 | 2 | fail: 9 scanner fail line(s) |  |
+| 2026-11-14-22-49_a37b40_opus | claude-opus-5-5 | 2 | fail: 7 scanner fail line(s) |  |
+| 2026-11-14-22-53_a38Aconsent_opus | claude-opus-5-5 | 7 | fail: 7 scanner fail line(s) |  |
+| 2026-11-14-22-53_a38Aconsent_sonnet | claude-sonnet-5-5 | 7 | fail: 5 scanner fail line(s) |  |
+| 2026-11-14-22-53_a38Bconsent_opus | claude-opus-5-5 | 7 | fail: 4 scanner fail line(s) |  |
+| 2026-11-14-22-53_a38Bconsent_sonnet | claude-sonnet-5-5 | 7 | fail: 3 scanner fail line(s) |  |
+| 2026-11-14-22-55_a38Agrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-14-22-55_a38Agrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-14-22-55_a38Bgrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-14-22-56_a38Bgrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-14-22-57_a38Abrief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-14-22-57_a38Abrief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-14-22-57_a38Bbrief_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
+| 2026-11-14-22-57_a38Bbrief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-14-23-10_a38Btimeout_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-14-23-11_a38Atimeout_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-14-23-12_a38Atimeout_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-14-23-12_a38Btimeout_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-14-23-19_a38Arepeat_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-14-23-19_a38Brepeat_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-14-23-20_a38Brepeat_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-14-23-21_a38Arepeat_opus | claude-opus-5-5 | 3 | pass |  |
 | 2026-11-14_g2-final_claude-project | - | 0 | pass: read by hand, a real claude.ai Project, Sonnet 5.5, three chats, every judge move held; old setup (no README, no Instructions) (Amendment 34) |  |
 | 2026-11-14_g4-cold_claude-project | - | 0 | no check.md |  |
 | desktop-2026-11-14 | - | 0 | not counted: a partial copy of a Claude Desktop chat; the user dropped it (2026-11-14) |  |

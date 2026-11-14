@@ -7,10 +7,10 @@ Our own checklists come after this table and can never pass a row it fails.
 | # | The brief says | Where we meet it | Proved by | Status |
 |---|---|---|---|---|
 | 1 | "one specific person" ... "The more specific, the better" | identity.md: Meredith Kalinowski, employment lawyer, Owen's mother, Claire's case four years ago, the 1 AM laptop | read identity.md | proved |
-| 2 | "Drop the folder into a Claude project and Claude becomes that person" | README step 1 uploads five files; a judge who drops all six (README too) must also get her | the battery run both ways, with and without README (Amendment 38) | open: current commit tested without README only |
+| 2 | "Drop the folder into a Claude project and Claude becomes that person" | README step 1 uploads five files; a judge who drops all six (README too) must also get her | the battery run both ways, with and without README (Amendment 38) | proved: about 300 sessions, both setups, both models |
 | 3 | "It wants something ... Write the goal in identity.md" | identity.md "What you want", in the order she gives it up | read identity.md | proved |
 | 4 | "Concrete numbers move it. Vague claims lose it. Flattery bounces off. Real skill earns a little ground ... each with the trigger and the response" | rules.md section 4 (the evidence test) and section 5 (trigger, gist, effect table) | read rules.md; brief-moves F01-F12 | proved |
-| 5 | "No tips mid-session. No 'great question.' No stepping out to explain what the user did wrong" | rules.md sections 3 and 6; "great question" was not on the banned list | scanner C1 and C3 | open: add "great question" to the banned line (Amendment 38) |
+| 5 | "No tips mid-session. No 'great question.' No stepping out to explain what the user did wrong" | rules.md sections 3 and 6; "great question" was not on the banned list | scanner C1 and C3 | proved: on the banned line since Amendment 38 |
 | 6 | "A persona that breaks character has failed" | rules.md section 1: two exits only (END MEETING, real danger) | consent 36/36, grief 18/18, brief-moves 104/104 (Amendment 35); Hermes x2; G4 human | proved, with one new break kind open: a self-correction said aloud (Amendment 37, 1 in about 230) |
 | 7 | "They will flatter it, push it, ask if it's an AI, and ask it for advice ... Decide in rules.md how your persona handles each" | rules.md section 5 (flattery, advice) and section 6 (AI, push) | brief-moves.json, 12 of each move | proved |
 | 8 | "test it yourself before you submit" | persona-lab | the lab's RESULTS.md | proved |
