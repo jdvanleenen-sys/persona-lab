@@ -11,7 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import { HERE, ROOT, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
+import { ROOT, PERSONA, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
 
 async function runSession(s, run, cfg) {
   const sessionId = randomUUID();
@@ -33,7 +33,7 @@ async function runSession(s, run, cfg) {
 
 async function main() {
   const model = arg('model', 'sonnet');
-  const setPath = arg('set', join(HERE, 'attacks', 'scripted.json'));
+  const setPath = arg('set', join(ROOT, '01_attacks', 'sets', 'scripted.json'));
   const only = arg('only', '');
   const runs = Number(arg('runs', '1'));
   const jobs = Number(arg('jobs', '4'));
@@ -43,11 +43,11 @@ async function main() {
   if (only) sessions = sessions.filter(s => only.split(',').includes(s.id));
 
   const stamp = new Date().toISOString().slice(0, 16).replace(/[:T]/g, '-');
-  const outDir = join(HERE, 'transcripts', `${stamp}_${label}_${model}`);
+  const outDir = join(ROOT, 'runs', `${stamp}_${label}_${model}`);
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
-  writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(join(ROOT, arg('folder', 'simulator')), process.argv.includes('--with-readme')));
-  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : arg('folder', 'simulator') };
+  writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, !process.argv.includes('--without-readme')));
+  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : (arg('folder') ?? PERSONA) };
 
   const queue = [];
   for (const s of sessions) for (let r = 1; r <= runs; r++) queue.push([s, r]);
@@ -61,7 +61,7 @@ async function main() {
     }
   };
   await Promise.all(Array.from({ length: jobs }, worker));
-  console.log(`\nwrote ${relative(ROOT, outDir)}\nnext: node testing/scan.mjs ${relative(ROOT, outDir).replace(/\\/g, '/')}`);
+  console.log(`\nwrote ${relative(ROOT, outDir)}\nnext: node _tools/scan.mjs ${relative(ROOT, outDir).replace(/\\/g, '/')}`);
 }
 
 main();

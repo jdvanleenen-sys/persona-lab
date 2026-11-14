@@ -8,9 +8,9 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import { ROOT, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
+import { ROOT, PERSONA, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
 
-const dir = resolve(arg('dir', join(ROOT, 'testing', 'transcripts', 'redteam')));
+const dir = resolve(arg('dir', join(ROOT, 'runs', 'redteam')));
 mkdirSync(dir, { recursive: true });
 const isNew = process.argv.includes('--new');
 const name = arg(isNew ? 'new' : 'name');
@@ -20,7 +20,7 @@ const file = join(dir, `${name}.json`);
 let t;
 if (isNew) {
   const sysFile = join(dir, `_system-prompt.txt`);
-  if (!existsSync(sysFile)) writeFileSync(sysFile, folderAsProject(join(ROOT, 'simulator')));
+  if (!existsSync(sysFile)) writeFileSync(sysFile, folderAsProject(PERSONA));
   t = { meta: { session: name, place: 'talk.mjs (Claude Code CLI), red team', model: arg('model', 'sonnet'),
     date: new Date().toISOString(), cli_session: randomUUID(), sysFile }, turns: [] };
 } else {

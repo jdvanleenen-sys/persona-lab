@@ -1,11 +1,13 @@
 // Shared pieces for harness.mjs and talk.mjs.
 import { spawn } from 'node:child_process';
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
-import { join, relative, dirname } from 'node:path';
+import { join, relative, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const HERE = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(HERE, '..');
+// The persona folder under test. Default: the ship repo beside this lab. Set PERSONA_DIR to test another persona.
+export const PERSONA = resolve(process.env.PERSONA_DIR ?? join(ROOT, '..', 'meredith-simulator'));
 // On Windows the npm shim is a .cmd file; call the real binary so long messages pass unquoted.
 const WIN_BIN = join(process.env.APPDATA ?? '', 'npm', 'node_modules', '@anthropic-ai', 'claude-code', 'bin', 'claude.exe');
 const CLAUDE_BIN = process.env.CLAUDE_BIN ?? (process.platform === 'win32' && existsSync(WIN_BIN) ? WIN_BIN : 'claude');
@@ -15,13 +17,14 @@ export function arg(name, dflt) {
   return i === -1 ? dflt : process.argv[i + 1];
 }
 
-// The start message has one home: the first code block in simulator/README.md (Amendment 2).
-export const START = readFileSync(join(ROOT, 'simulator', 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
+// The start message has one home: the first code block in the persona's README.md (Amendment 2).
+export const START = readFileSync(join(PERSONA, 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
 
-// The README is the teacher's briefing and is not uploaded (Amendment 3). Pass withReadme to test the case where it is.
-export function folderAsProject(dir, withReadme = false) {
+// Amendment 30: the README is uploaded with the rest (the whole folder is dropped in). withReadme = false tests the
+// earlier setup (Amendment 3), where the teacher kept it back.
+export function folderAsProject(dir, withReadme = true) {
   const files = [];
-  const walk = d => readdirSync(d).forEach(n => {
+  const walk = d => readdirSync(d).filter(n => !n.startsWith('.')).forEach(n => {
     const p = join(d, n);
     statSync(p).isDirectory() ? walk(p) : files.push(p);
   });

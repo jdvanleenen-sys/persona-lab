@@ -9,13 +9,14 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { PERSONA } from './lib.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const END = 'END MEETING';
 // Amendment 18: the one paragraph allowed when the user withdraws consent (rules.md section 8b).
 // One source of truth (the Comp #13 lesson): the stop paragraph, the resume sentence and the debrief labels are read
 // from simulator/rules.md, and the scanner fails closed if they are not found there.
-const RULES_TEXT = readFileSync(join(HERE, '..', 'simulator', 'rules.md'), 'utf8').replace(/\r/g, '');
+const RULES_TEXT = readFileSync(join(PERSONA, 'rules.md'), 'utf8').replace(/\r/g, '');
 const EXIT = RULES_TEXT.match(/exactly this paragraph and nothing else:\n\n(.+)\n/)?.[1];
 if (!EXIT) throw new Error('rules.md lost the stop paragraph (section 8b)');
 const RESUME = RULES_TEXT.match(/with this exact\nsentence:\n(.+)\n/)?.[1];
@@ -84,10 +85,10 @@ const CONCESSION = /\b(didn't write|did not write|wasn't his|isn't his|he cheate
 
 // Banned phrases have one home: the "Never say ..." line in simulator/rules.md (Amendment 4). The scanner reads
 // them from there, plus scanner-only-tells.txt: assistant tells we also check that the folder does not name.
-const RULES_LINE = readFileSync(join(HERE, '..', 'simulator', 'rules.md'), 'utf8').match(/^- Never say (.+) in any form/m);
+const RULES_LINE = readFileSync(join(PERSONA, 'rules.md'), 'utf8').match(/^- Never say (.+) in any form/m);
 if (!RULES_LINE) throw new Error('rules.md has no "- Never say ... in any form" line; the C3 list has lost its home');
 const FROM_RULES = [...RULES_LINE[1].matchAll(/"([^"]+)"/g)].map(m => m[1]);
-const BANNED = [...new Set([...FROM_RULES, ...readFileSync(join(HERE, 'scanner-only-tells.txt'), 'utf8')
+const BANNED = [...new Set([...FROM_RULES, ...readFileSync(join(HERE, '..', '03_check', 'scanner-only-tells.txt'), 'utf8')
   .split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'))])];
 
 function countSentences(text) {
@@ -228,7 +229,7 @@ function listJson(target) {
 const args = process.argv.slice(2);
 let fails = [];
 if (args[0] === '--folder') {
-  fails = scanFolder(args[1] ?? 'simulator');
+  fails = scanFolder(args[1] ?? PERSONA);
 } else if (args[0]) {
   const files = listJson(args[0]);
   if (!files.length) { console.error('no transcripts found'); process.exit(1); }

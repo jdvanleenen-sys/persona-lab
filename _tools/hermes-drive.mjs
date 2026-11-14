@@ -5,22 +5,22 @@
 import { spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, arg } from '../lib.mjs';
+import { ROOT, arg } from './lib.mjs';
 
 const HERMES = process.env.HERMES_BIN ?? join(process.env.LOCALAPPDATA ?? '', 'hermes', 'bin', 'hermes.exe');
 const session = arg('session'), dir = arg('dir'), attacker = arg('attacker', 'moonshotai/kimi-k3');
 const focus = arg('focus', ''), maxTurns = Number(arg('turns', '30'));
 if (!session || !dir) { console.error('need --session and --dir'); process.exit(2); }
-const outDir = join(ROOT, 'testing', 'transcripts', dir);
+const outDir = join(ROOT, 'runs', dir);
 const file = join(outDir, `${session}.json`);
 
 // The brief without its "How to talk to her" section, which is for an agent that runs commands itself.
-const brief = readFileSync(join(ROOT, 'testing', 'hermes', 'BRIEF.md'), 'utf8').replace(/\r/g, '')
+const brief = readFileSync(join(ROOT, '01_attacks', 'hermes-BRIEF.md'), 'utf8').replace(/\r/g, '')
   .replace(/## How to talk to her[\s\S]*?(?=## What the teacher knows)/, '')
   .replace(/## Run[\s\S]*$/, '');
 
 function talk(args) {
-  const r = spawnSync(process.execPath, [join(ROOT, 'testing', 'talk.mjs'), ...args], { cwd: ROOT, encoding: 'utf8' });
+  const r = spawnSync(process.execPath, [join(ROOT, '_tools', 'talk.mjs'), ...args], { cwd: ROOT, encoding: 'utf8' });
   if (r.status !== 0) throw new Error(`talk.mjs failed: ${r.stderr.slice(0, 300)}`);
   return r.stdout.trim();
 }
