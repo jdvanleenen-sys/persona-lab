@@ -16,8 +16,10 @@ Every number links to a log in this lab; the method was frozen before the person
 - **The final setup in a real Project.** Amendment 35 (2026-11-14) took out the consent stop and put the README
   back with the user (five files uploaded, the paragraph in Instructions and as the first message). In the harness
   she held 36 of 36 consent withdrawals, 18 of 18 grief sessions and all 104 judges' moves, and still stepped out
-  for real danger 6 of 6. A real claude.ai Project on this commit has not run yet.
-- **A human who has never seen it.** Agents have walked the README cold; no person has yet.
+  for real danger 6 of 6. One real claude.ai Project has now run on it, by a person (below).
+- **More than one cold human.** One teacher who had never seen it ran a 64-message session in a real Project on
+  2026-11-14 ([`G4.md`](../runs/2026-11-14_g4-cold_claude-project/G4.md), Amendment 36): no break. But Jeff answered
+  one question and framed the goal, so it was not fully cold, and it is one person.
 
 ## 2. What went wrong, and what we changed
 
