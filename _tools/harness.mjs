@@ -46,7 +46,9 @@ async function main() {
   const outDir = join(ROOT, 'runs', `${stamp}_${label}_${model}`);
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
-  writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, !process.argv.includes('--without-readme')));
+  // Amendment 30: --instructions adds the start paragraph as Project instructions (an approximation of claude.ai's box).
+  const instr = process.argv.includes('--instructions') ? `<project_instructions>\n${START}\n</project_instructions>\n\n` : '';
+  writeFileSync(sysFile, instr + (sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, !process.argv.includes('--without-readme'))));
   const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : (arg('folder') ?? PERSONA) };
 
   const queue = [];

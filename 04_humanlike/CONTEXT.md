@@ -1,0 +1,26 @@
+# 04_humanlike: does she read as a person
+
+This folder's job: measure what the gate cannot, whether she sounds like a parent or like Claude in a name tag.
+
+## Inputs
+
+- Working: runs that passed stage 03
+- Reference: `04_humanlike/PROMPT.md` (the blind-read prompt), `04_humanlike/RESEARCH-humanizing.md`
+
+## Process
+
+1. Habits: `node _tools/habits.js "<regex of run folder names>"` (name use, reply length, short replies, openers).
+2. Repetition: `node _tools/repeats.js runs/<run>` (share of replies that reuse five words from an earlier one).
+3. After her call: `node _tools/after440.js runs/<run>` (no reply ends like the one before it).
+4. Blind read: pair her transcripts with a control prompt's, seal the key in `KEY-<round>.json`, send
+   `PROMPT.md` plus the bundle to an outside reader, and save its answer as `PERPLEXITY-R<n>.md` before opening the
+   key.
+
+## Outputs
+
+- `04_humanlike/PERPLEXITY-R<n>.md`, `KEY-<round>.json`, `bundle-<round>.txt`; the counts go into the amendment
+
+## Check
+
+Each count is compared with the bar written in `05_decide` before the change. The reader's verdict is copied
+word for word, and the key is opened only after.

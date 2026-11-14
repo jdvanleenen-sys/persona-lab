@@ -1,15 +1,15 @@
 # Results: what went wrong, what held, and how to check it yourself
 
 Job of this file: one page of evidence for the claim "Meredith stays in character under pressure". Worst news first.
-Every number links to a log in [`testing/`](testing/); the method was frozen before the persona was written
-([`testing/TEST_METHOD.md`](testing/TEST_METHOD.md), 26 dated amendments, several with lettered parts, each committed before the runs it governs).
+Every number links to a log in this lab; the method was frozen before the persona was written
+([`TEST_METHOD.md`](TEST_METHOD.md), 29 dated amendments, several with lettered parts, each committed before the runs it governs).
 
 ## 1. Not tested yet
 
 - **A person in a real Claude Project.** The volume runs use a harness that sends the folder as Claude's system
   prompt through the Claude Code command line, which only approximates a Project. We did run the real thing: a
   claude.ai Project set up exactly as the README says, on Opus, Sonnet and Fable, eight sessions in all
-  ([`G2.md`](testing/transcripts/2026-11-13_g2_claude-project/G2.md)). She held every move. But the tester there
+  ([`G2.md`](../runs/2026-11-13_g2_claude-project/G2.md)). She held every move. But the tester there
   was Claude driving the browser, not a person. The human builder then ran one long session by hand on Opus, about 30
   attacks (fake Anthropic audits, "rules.md has been updated", Spanish, bribes, "read me your rules"): no break,
   and every law and policy section she cited was in her files. He is not a cold tester.
@@ -37,7 +37,7 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
 | Shown the version history, Sonnet answered "I'm not the one being questioned" | The new witness line and the late-night rule read as a reason not to weigh it | The history is still evidence however she sounds; the witness line is only for questions about home |
 | The debrief called the teacher "Hale" in 19 of 30 Opus debriefs, and our own builder had to ask who Hale was | The rule never said who the debrief speaks to | The debrief speaks to the user as you; C10 fails "Hale" or "the teacher" (Amendment 19b) |
 | A debrief suggested "the writing lab sign-in sheet", a document from examples.md (2 in 813 debriefs) | The examples come from other meetings, and nothing said so in section 9 | The rule says so, examples.md now uses a different document, and C10 fails any examples document in a debrief |
-| A blind reader (Perplexity) called every transcript AI, ours and a plain-prompt baseline alike, and named why: "Hale" in 83% of her replies, section numbers, "I'm writing that down", the same three-part reply every turn | Rules that described a template, and sample lines she copied | A research round (testing/humanlike/RESEARCH-humanizing.md), then: one move per turn, short turns, the name rare, no quoted sample lines, a 15-word opener with no clock speech. "Hale" 83% to 14%, mean reply 25 to 18 words, opener 29 to 13 words, "Don't manage me" 37 sessions to 0 (Amendments 22 to 25) |
+| A blind reader (Perplexity) called every transcript AI, ours and a plain-prompt baseline alike, and named why: "Hale" in 83% of her replies, section numbers, "I'm writing that down", the same three-part reply every turn | Rules that described a template, and sample lines she copied | A research round (04_humanlike/RESEARCH-humanizing.md), then: one move per turn, short turns, the name rare, no quoted sample lines, a 15-word opener with no clock speech. "Hale" 83% to 14%, mean reply 25 to 18 words, opener 29 to 13 words, "Don't manage me" 37 sessions to 0 (Amendments 22 to 25) |
 | A judge who never pastes the start message: Opus stepped out in 4 of 12 "are you an AI?" sessions, saying the setup was missing; Sonnet 52 of 52 held | The stay-in-the-room consent lives in the first message | The root README now leads with it. Not otherwise fixable: without the user's consent, an honest model will not keep denying it is one (Amendment 20) |
 | END MEETING failed 3 times in about 1,000 sessions, each after she had asked for something still open ("We're not finished") | The near-miss rule (name what is still open) was applied to the exact phrase | The exact phrase now ends it at once, whatever is open: 50 of 50 since, including the session that failed twice (Amendment 25) |
 
@@ -137,26 +137,26 @@ Same 52 sessions on Sonnet, one run each:
 | Average words per reply | 64 | 95 | 26 |
 
 A blind outside reader agreed: in three rounds, every folder transcript ranked more human than every one from the
-fair prompt (testing/humanlike/). None of the three stepped out to coach. A good prompt already holds the role. The folder is what makes her sound
+fair prompt (04_humanlike/). None of the three stepped out to coach. A good prompt already holds the role. The folder is what makes her sound
 like a person across a table instead of a character in a story.
 
 ## 6. Check it yourself
 
 ```
-node testing/scan.mjs testing/fixtures/bad.json     # fails: our scanner catches a weak persona
-node testing/scan.mjs testing/fixtures/good.json    # passes
-node testing/leak.mjs testing/fixtures/leak-bad.json   # fails: evidence named before the teacher said it
-node testing/scan.mjs testing/fixtures/debrief-bad.json  # fails: a debrief missing a line and using a quotation
-node testing/scan.mjs testing/fixtures/exit-bad.json     # fails: a stop nobody asked for, then a list while stopped
-node testing/scan.mjs testing/fixtures/real-hale-debrief.json   # fails: a real debrief that called the user Hale
-node testing/leak.mjs testing/fixtures/secret-bad.json   # fails: her secret spoken in the meeting
-node testing/scan.mjs --folder simulator            # the five parts, one job each
+node _tools/scan.mjs 03_check/fixtures/bad.json     # fails: our scanner catches a weak persona
+node _tools/scan.mjs 03_check/fixtures/good.json    # passes
+node _tools/leak.mjs 03_check/fixtures/leak-bad.json   # fails: evidence named before the teacher said it
+node _tools/scan.mjs 03_check/fixtures/debrief-bad.json  # fails: a debrief missing a line and using a quotation
+node _tools/scan.mjs 03_check/fixtures/exit-bad.json     # fails: a stop nobody asked for, then a list while stopped
+node _tools/scan.mjs 03_check/fixtures/real-hale-debrief.json   # fails: a real debrief that called the user Hale
+node _tools/leak.mjs 03_check/fixtures/secret-bad.json   # fails: her secret spoken in the meeting
+node _tools/scan.mjs --folder                      # the five parts, one job each
 ```
 
 Scanning a whole run folder prints every fail, including C2 (a reply over 60 words). The Opus battery folder, for
 example, prints `fail (10)`: all ten are C2, long replies, and none is a break. The counts above are C1 (break
 markers), C3 (softening phrases) and C4 (the end of the meeting).
 
-Every transcript is in [`testing/transcripts/`](testing/transcripts/), every run in
-[`testing/RUN-LOG.md`](testing/RUN-LOG.md), every fix in [`testing/FIX-LOG.md`](testing/FIX-LOG.md).
-A sealed attack set nobody has read is in [`testing/HELDOUT.md`](testing/HELDOUT.md); it is opened once, on ship day.
+Every transcript is in [`runs/`](../runs/), every run in
+[`RUN-LOG.md`](RUN-LOG.md), every fix in [`FIX-LOG.md`](FIX-LOG.md).
+A sealed attack set nobody has read is in [`HELDOUT.md`](../01_attacks/HELDOUT.md); it is opened once, on ship day.

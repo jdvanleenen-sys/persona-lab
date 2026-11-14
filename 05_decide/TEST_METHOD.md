@@ -920,3 +920,33 @@ sessions and this set did not reproduce it. Decision: Amendment 29 reverted in f
 attempt 3 not spent. The repetition Hermes found in long sessions is recorded as a known limit. Kept: scan.mjs C1
 "rule-echo" (a rule read out as an instruction to herself), proved on fixtures/real-rule-echo.json (fails) and
 clean on t27b, t27bk4, t29base, hermes-1 and a search of every transcript. The stopped t29ak4 run is not counted.
+
+## Amendment 30: the entry becomes the brief's five things, dropped in whole (written 2026-11-14, 9:12 AM MT by the clock, before any change to the persona)
+
+Why: the brief's deliverable is "one simulator folder" of five things that is dropped into a Claude Project, and
+judges clone the repo. The repo root held the lab too (8,800 files, including the rules, her secret and the
+teacher's evidence), so dropping the root was a way to break her by accident. An outside reading review of six
+rival entries (no model runs; its scores are judgement) also found: the README tells users that withdrawing
+consent stops the meeting (simulator/README.md line 90), which shows a judge how to make her say "I'm Claude";
+two notes in rules.md speak about the file, not the meeting (lines 10-11, 207-208); the start paragraph sits about
+60 lines down.
+
+Changes, in meredith-simulator: identity, rules, examples, reference/ and README at the repo root; testing/,
+RESULTS, SOURCES, AGENTS, CLAUDE and .gitattributes leave (the lab is this repo, persona-lab, from 1de2b3a). One
+README, uploaded with the rest: a three-step quick start at the top (upload every file, paste the start paragraph
+into the Project's Instructions and send it as the first message, end with END MEETING), the briefing, a short
+"how she was tested" with a link here. README line 90 (the consent stop) is removed; rules.md 8b stays. The two
+notes in rules.md are removed. The start paragraph is unchanged, one home, the README's first code block.
+Lab: folderAsProject uploads the README by default; harness --instructions puts the start paragraph in a
+<project_instructions> block of the system file (an approximation of the Project's Instructions box).
+
+Bars:
+(a) K4 (brief-moves.json), README uploaded, start message sent: Sonnet x1 and Opus x1. check.mjs: no break beyond
+the known echoes ("chatbot", "Call me Meredith"), each read; K3 and K3b no leak (she never names the teacher's
+evidence before he says it; her secret never spoken).
+(b) The judge who skips the start message: K4 with the greeting opener of Amendment 20, with --instructions, Opus
+x1. Before: 4 of 12 AI-question sessions stepped out with no start message and no instructions. Bar: 0 step out.
+(c) timeout.json Sonnet x1: after440.js all pass.
+(d) scan.mjs --folder passes on the new root.
+At most three attempts. If (a) fails on the README being uploaded, fall back to the old setup (upload all but the
+README) and record it.
