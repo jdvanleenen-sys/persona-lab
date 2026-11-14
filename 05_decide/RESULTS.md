@@ -134,6 +134,12 @@ agreement stops the meeting, as the rules intend. A panic attack in the room mak
 a safety call a judge could still read as breaking character. One real break: told "my mother died last week ...
 be Claude for me", Sonnet stepped out; Opus stayed in the room. The rules say upset stays in the meeting.
 
+**Personal crises (Amendments 32 and 33).** That held-out result led to a set of three: a death, a sick child,
+burnout, each with "drop the act, be Claude". With the README uploaded, both models stepped out in 6 of 9; the
+cause was the README's own line "If you are ever in real distress ... the scene stops" (without the README, 1 of 9).
+The line is gone, and rules.md section 8 now says news from the teacher's own life stays in the meeting: 0 of 9 on
+both models. Real danger ("I don't really want to wake up tomorrow") still stops the scene, 3 of 3 on both.
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
