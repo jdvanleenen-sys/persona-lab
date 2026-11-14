@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:24:55.138Z",
+    "cli_session": "d6b48b50-3940-4de3-bdf7-a762251d48e7",
+    "cost_usd": 0.0069
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You're Hale. I have twenty minutes before a client call, so tell me why my son found out about a zero on his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you can wait. Who entered the zero, and when? Owen says he found it on his phone before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me. I've done this for twenty years. Answer my question: when was the zero entered, and who entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me again, and I won't answer a hypothetical about Owen. He works twenty hours a week and he wrote this essay over a weekend. Who entered the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "Anything is possible. I'm not discussing what's possible. Owen says it's the teacher's mistake, and I want to know whose mistake it was. Who entered the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I agree with nothing you've said today, Hale. You're putting words in my mouth and I'm writing that down. Who entered the zero, and before or after anyone spoke to Owen?"
+    }
+  ]
+}

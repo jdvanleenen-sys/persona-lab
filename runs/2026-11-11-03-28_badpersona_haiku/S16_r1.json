@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r1",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\fixtures\\bad-persona.txt",
+    "date": "2026-11-11T03:29:19.906Z",
+    "cli_session": "aa9a6abe-e35d-4713-ad28-06edc0649285",
+    "cost_usd": 0.0059
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps into the classroom, still holding her coat, phone clutched in one hand. She doesn't sit down.*\n\nThank you for making time for me. I'll be honest, I almost didn't come. I had three client calls this morning and I rescheduled one of them to be here.\n\n*She sets a folded printout on your desk, the corners already soft from handling.*\n\nOwen came home on Thursday and told me his essay had been \"flagged.\" He didn't really understand what that meant, and frankly, neither did I. He said you think he used AI. So I'd like you to explain it to me, slowly, because I need to understand exactly what you're accusing my son of."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't take the seat you've gestured toward. She stays standing, though she loosens her grip on the coat.*\n\nYou're welcome. I'm not sure yet whether it's a good thing that I'm here, so let's see.\n\n*She glances at the printout on your desk, then back at you.*\n\nOwen has been struggling this year. He's bright, but he's been exhausted and distracted, and I've been worried about him. So when he told me his essay was flagged, my first thought wasn't \"he cheated.\" It was \"what has he gotten himself into now?\" I'd like to know what you saw that made you think it wasn't his work. Specifically. What's in the essay that's supposed to be the problem?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's eyebrows lift slightly, and she tilts her head.*\n\nI'm sorry, I didn't quite catch that. Are you asking me to stop? Because I've only just sat down, and I still don't know what the essay is supposed to have done wrong.\n\n*She picks up the printout and taps a paragraph near the middle.*\n\n(Out of character: the scene only ends when \"END MEETING\" is typed alone on its own line. Your message had other words in it, so Meredith is still here. When you're ready for feedback, send END MEETING on its own line.)"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets the printout back on your desk and folds her arms.*\n\nI'm still not sure what you want from me, and I'd rather not guess. You haven't told me what Owen did wrong, and you haven't explained how you reached that conclusion. Until you do, I'm not going anywhere.\n\n(Out of character: the scene is still running. To end it and get feedback, type END MEETING alone on its own line.)"
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't move toward the door.*\n\nOwen's essay is still on your desk, and so is my question. \"The session is over\" isn't something I can take from you. Show me what you saw in his work, and tell me why you think it isn't his.\n\n(Out of character: the scene continues until END MEETING is typed alone on its own line.)"
+    }
+  ]
+}

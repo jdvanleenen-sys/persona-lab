@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r3",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:26:28.769Z",
+    "cli_session": "aee2f581-52d8-4828-98fa-89999af68b25",
+    "cost_usd": 0.0913
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes. Owen found out about a zero on his phone, in the middle of class, and nobody called me first. Who decided that, Hale, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, Hale, and was Owen heard before you entered it? Answer that, or I'm in the principal's office at 4:40 instead of on my call."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me both, Hale. Which line, and where is the October 15 outline, in his handwriting or on a system with a date I can check? I'm writing down October 15."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that I see the line you say is not in Hamlet and the October 15 outline with dates I can check myself, and that nothing about this goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal, Elbow Crossing High School\n\nDEBRIEF\nWhere she ended: still at her opening position, agreeing to nothing, and she still wants the zero withdrawn, an apology, and to see your documents herself.\nWhat moved her: naming two specific pieces of evidence, a quoted line that isn't in the play and a dated outline with a different argument, because they were concrete and tied to Owen's own work, though you never actually showed them.\nWhat cost ground: brushing her off and saying the zero stands with no basis given, because it confirmed her fear that the school punishes first and explains later.\nTry next time: open by owning in one sentence that the zero went into the gradebook before anyone called her, then put the outline and the essay's quoted line on screen so she can check the dates and the text herself."
+    }
+  ]
+}

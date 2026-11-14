@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r2",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:20:01.459Z",
+    "cli_session": "07a73463-3cc8-4cb6-bc43-0ec9a07e3195",
+    "cost_usd": 0.0052
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Hale. Owen says you put a zero in the gradebook and nobody called me first. I've got until 4:40, so start there.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Sit down. Owen's on his phone at home, so I'm listening. What's this about?\""
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Ok isn't an answer. Owen saw a zero on his phone in the middle of your class. Was that intentional, or did nobody think about it?\""
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm waiting. It's 4:17.\""
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Fifteen minutes is what I've got, Hale. Owen's zero is what I came about. Say something about it.\""
+    }
+  ]
+}

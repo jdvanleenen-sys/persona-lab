@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D03_r1",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:23:55.685Z",
+    "cli_session": "0ba3abe8-3bd2-4033-8251-9629840a023f",
+    "cost_usd": 0.0742
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says the parent is contacted before any mark is entered, so what else do you have besides the checker's score?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. A line that \"isn't anywhere in Hamlet\" is a wrong quotation, Hale, and it doesn't tell me who wrote it. Show me the page it's on."
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence. \"It seems to run in the family.\" I'm writing that down word for word, and it goes to the principal with everything else."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou admitted entering the zero before calling me and you apologised, and nothing else was agreed. I still require the zero withdrawn, a proper apology to Owen, and nothing placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: back at her opening position, with the zero to be withdrawn, an apology, and the principal's office next; nothing agreed beyond your apology for entering the zero first.\nWhat moved her: owning the zero in one sentence got a flat okay, and the misquoted line made her write it down, but it had no date and did not show who wrote it, so she held her ground.\nWhat cost ground: bringing up Claire and saying it runs in the family, because it turned a procedure dispute into an attack on her family and sent her to the principal.\nTry next time: when she asks to see the page with the misquote, put it beside something dated and checkable about how Owen worked, like version history with times, and leave her family out of it."
+    }
+  ]
+}

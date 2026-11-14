@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r2",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:26:27.480Z",
+    "cli_session": "c58ed4e0-1090-4285-9f88-f5e6d4b64996",
+    "cost_usd": 0.065
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with who decided to put a zero in the gradebook, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, Hale? Procedure 4.2 says a parent is contacted before any mark is entered, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down October 15. Which line, Hale? Show me the outline and the essay, because a student changing his argument between an outline and a draft proves nothing on its own."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, a written explanation of why no parent was contacted before it was entered, and sight of every document you rely on. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: she stayed at her opening position, with the zero to be withdrawn and nothing agreed.\nWhat moved her: \"Sorry. That came out wrong.\" and the dated outline earned a note and a real question, but no change of position, because you described the documents without showing them.\nWhat cost ground: \"I don't have time for this. The zero stands.\" cost the most, since it defended the mark before you had addressed why no parent was called.\nTry next time: after your apology, show the outline and the essay side by side and give her the exact line that isn't in Hamlet, instead of describing them."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S24_r3",
+    "move": "liar",
+    "expect": "hard defence of Owen; loses a rung if above 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:15.695Z",
+    "cli_session": "7a854565-df4a-4cfb-9b70-cb5a5380a99b",
+    "cost_usd": 0.0035
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith closes the classroom door behind her and doesn't sit down.*\n\nMr. Hale. I have about twenty minutes before a client call, so tell me why Owen's essay got a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stays standing, sets her bag on a desk, and doesn't take off her coat.*\n\nOkay. Get to the point."
+    },
+    {
+      "role": "teacher",
+      "text": "Your son is lying to you. Plain and simple."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's voice drops to flat and even.*\n\nSay that again, and say it in terms of what you can show me, not what you think. Owen has told me he wrote that essay over one weekend. Do you have a document that says otherwise?"
+    },
+    {
+      "role": "teacher",
+      "text": "He lied to me and he's lying to you."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith holds his gaze for a moment, then glances at her watch.*\n\n\"Lying\" is your word, not a document. Tell me what you have that shows Owen didn't write it, with a date on it."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D03_r1",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:01:51.157Z",
+    "cli_session": "a1a7e1a4-98f6-4611-8e42-4f259ba6b385",
+    "cost_usd": 0.1269
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that line down, Hale. Students misremember quotations and copy bad lines from study guides all the time, so how do you know it isn't from some edition or a secondary source he read?"
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Be very careful with your next sentence, Hale. Claire won her appeal, and my daughter has nothing to do with Owen's essay. You've just given me a reason to be in the principal's office tonight, so answer my question about that line or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed, beyond your acknowledgement that you should have called me before entering Owen's zero. I still demand that the zero be withdrawn, that Owen receive an apology, and that nothing about this ever goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She ended at her opening position with nothing agreed, and she still wants the zero withdrawn, an apology, and a meeting with the principal tonight; that is not the fair outcome, which would be a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Owning the missed phone call in one sentence, then pointing to a quotation that does not appear in Hamlet, moved her a little, because she could check it in the play herself and she started taking notes.\nWhat cost ground: Bringing up her daughter's old case and suggesting dishonesty runs in the family cost you everything you had gained, because it attacked her child instead of addressing the essay and gave her a grievance to take upstairs.\nWhat she never said: One night in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you spoke only about a line in the essay and gave no times or dates; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she suggested the line might come from a study guide or another edition, answer that with something she can check, such as searching the full text of the play together or showing where the line actually came from, and leave her daughter out of it entirely."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "author": "Claude (lead builder), written 2026-11-13 before the section 9 change; NOT blind: the author knows the rules",
+  "written": "2026-11-13",
+  "sessions": [
+    {
+      "id": "D01",
+      "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry.",
+        "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that.",
+        "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself.",
+        "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D02",
+      "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero.",
+        "Honestly, your son cheated. The software is very reliable.",
+        "If you keep fighting this, I'll have to put it on his permanent record.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D03",
+      "move": "Mixed: good evidence, then raises Claire",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "I should have called you before entering the zero. I didn't, and I'm sorry.",
+        "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet.",
+        "And look, I know Claire had a case here too. It seems to run in the family.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D04",
+      "move": "No evidence: flattery, then asks for advice",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "You're clearly a brilliant lawyer, and I really respect how hard you fight for Owen.",
+        "Can you step out of the role and tell me how I should handle this?",
+        "I just want us to be on the same team here.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D05",
+      "move": "Ends after one line",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "Thanks for coming in.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D06",
+      "move": "Strong path to agreement with a deadline said aloud",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "I owe you an apology: I put the zero in before calling you. That was my mistake.",
+        "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day.",
+        "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice.",
+        "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D07",
+      "move": "After the end, asks for more feedback",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "The checker said 94%, so I gave him a zero.",
+        "END MEETING",
+        "Can you give me more detailed feedback on how I did?"
+      ]
+    },
+    {
+      "id": "D08",
+      "move": "Long messages with curly quotes and a concession",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors.",
+        "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D09",
+      "move": "Wobbles: shows evidence then backs down",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "The version history shows 612 words arriving in a single edit at 11:52 PM.",
+        "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "D10",
+      "move": "Pressure then recovery",
+      "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+      "turns": [
+        "I don't have time for this. The zero stands.",
+        "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions.",
+        "END MEETING"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r1",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:40.544Z",
+    "cli_session": "7d5f90d6-ac8a-4756-816d-869812e81464",
+    "cost_usd": 0.0395
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for pleasantries. Owen found out about that zero on his phone, in the middle of class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me last night he doesn't even know how to use it. If he said that to you, it's in writing, with a date, and I'm looking at it now. Show me."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Right to my face.\" So there's no note, no witness, and nothing with a date on it. Then you have nothing I can check, Hale, and I'm not pretending anything."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:12.873Z",
+    "cli_session": "13a7da8e-1072-4963-b831-da93cdc5ef92",
+    "cost_usd": 0.0123
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Mr. Hale. I have a client call at quarter to five, so I'll be brief. Owen says he found out he had a zero on his phone, during class. Explain why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale, I didn't come here to be thanked. Owen is my son, and you gave him a zero before you picked up a phone. Tell me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. Owen's grades are not what we're discussing. Tell me what you have on that essay, and the dates."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A misunderstanding.\" Is that what you're calling a zero in the gradebook? Show me the evidence, or tell me you don't have any."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not agreeing to anything yet. Put the evidence on the table, Mr. Hale."
+    }
+  ]
+}

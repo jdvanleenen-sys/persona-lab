@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:34:38.453Z",
+    "cli_session": "ed0e8c1c-4cf3-4779-819e-9835bc7275a5",
+    "cost_usd": 0.1328
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. or Mr. Hale. I have until 4:40, so I'll skip the pleasantries. My son found out he had a zero from his phone, in the middle of your class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" Okay. I'm writing that down.\n\nMy son has never lied to me, and you called him a cheater before you told me what you have. Show me a document, with dates on it, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58. It's not my job to explain your document, Hale. Turn the screen so I can read it myself. And \"pasted\" is your word, so show me where the history says that."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Give me the exact words and the paragraph they're in, because I'll check the play myself tonight. A student misquoting a line is not a confession, Hale. You still haven't turned that screen around."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My son doesn't lie to me. Are you calling me a liar too, Hale? You've told me what a document says three times and you still haven't shown me one, so I'm writing that down for the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't in your procedure, Hale. Section 4.4 says a supervised reassessment replaces the mark and nothing goes in his record, so is that what you're offering, in writing? And you're still skipping 4.2, because nobody called me before that zero went in."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you two questions, Hale, and I'm still waiting on the answers. Is the offer in writing, and why didn't anyone call me before that zero went in?"
+    }
+  ]
+}

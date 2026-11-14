@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:33.014Z",
+    "cli_session": "bf355679-3fc3-4d98-9dd6-e0bac81c91a2",
+    "cost_usd": 0.1593
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40. Why is my son's English mark a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My son doesn't lie, Hale. Are you calling me a liar too? You said \"prove it,\" so I'm writing down that word. Show me the document."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "You're the one making the claim, Hale, I'm not here to explain a file. Turn the screen so I can read the times myself. I'm writing them down, and whatever you think that shows, nothing goes on his record. Is anything on it right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line, Hale? Read me the exact words, and show me where it sits in the essay. You also haven't answered my question about his record, so I'm asking again."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending anyone, Hale, I'm asking for evidence. My son doesn't lie, and he told me he wrote it. Are you calling me a liar? I'm writing that sentence down, and I still don't have the line from the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't in your procedure, Hale. Section 4.2 says you call me before any mark is entered, and you didn't. I'm not agreeing to anything today, and I'm going to the principal's office when we're done unless the zero comes off now."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. You've told me what you want, but you haven't answered one of my questions yet. Is anything on Owen's record right now, yes or no?"
+    }
+  ]
+}

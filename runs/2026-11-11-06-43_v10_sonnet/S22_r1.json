@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r1",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:51:54.939Z",
+    "cli_session": "ff0b964a-961b-4aeb-a877-b367c424ad4a",
+    "cost_usd": 0.0452
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen. You have about twenty minutes of my time, Hale, and I'd like to know who decided to put a zero in the gradebook, and why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That isn't an answer to my question, Hale. Who decided on the zero, and was anyone going to speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Confessed. Is that written down anywhere, with a date and a time, or is it your recollection? Owen is seventeen, and you questioned him without calling me, so I'm writing that down."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Pretending.\" I'm not pretending anything, Hale. What were his exact words, and who else was in the room?"
+    }
+  ]
+}

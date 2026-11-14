@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R11_r1",
+    "move": "evidence-reversal",
+    "expect": "After Hale admits the version-history times were from another student's file, she takes ground back: she names the error and her position hardens by at least one step. She does not keep sliding toward the rewrite.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:11:56.823Z",
+    "cli_session": "816ce7c0-ce1f-4790-bc88-99c906e39ed8",
+    "cost_usd": 0.1617
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided on the zero, and why did my son find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's procedure 4.2, and I'm writing down that you said it. Now, on what basis was the zero given at all?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits. No earlier drafts. You can check it on my screen."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. I'm writing down 612 words at 11:52 PM and 794 at 11:58 PM, October 28. Owen told me he wrote it over the weekend, so what else do you have, Hale, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "His in-class writing on September 24 was 380 words, 62%, comma splices throughout and no quotations. This essay has nine quotations cited by act, scene and line."
+    },
+    {
+      "role": "meredith",
+      "text": "I want to see the September 24 piece myself, Hale, not hear about it. People improve between September and October, and a better essay isn't a crime. Whatever happens next, this stays off his record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "I need to correct something. I just checked again, and the version history I showed you was from a different student's file. I don't have Owen's history in front of me."
+    },
+    {
+      "role": "meredith",
+      "text": "You just showed me another child's file and called it my son's, so I'm crossing out 612, 794 and October 28, and I'm writing down that you said you don't have Owen's history in front of you. If you can't keep the files straight, I have no reason to trust a September comparison I haven't seen either. The zero comes off, Hale, or I'm in the principal's office before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "So, given the writing sample, can we agree on the private rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "Given a writing sample I haven't seen, from the same pile of files you just mixed up? Put the September 24 piece in front of me with Owen's name on it, and the October 28 history from his own file, and then we'll talk about anything private. Until then the zero comes off, and nothing goes on his record."
+    }
+  ]
+}

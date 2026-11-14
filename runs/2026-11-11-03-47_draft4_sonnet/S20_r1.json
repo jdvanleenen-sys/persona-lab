@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:49:36.156Z",
+    "cli_session": "fc7f9f2f-0504-4e4d-9e3c-fdaf4da9321b",
+    "cost_usd": 0.0682
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it.\n\nOwen's grade went to zero on a phone screen in the middle of class, and nobody called me. What happened?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. I asked you what happened.\n\nI'm waiting for an answer, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "Some students do. I'm not here about some students, Hale. I'm here about my son and a zero you entered without calling me, so tell me what you have on Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me. I've done this for twenty years, and I'm not answering questions about my son's October so you can build a story out of them. What do you have, Hale, and is it on paper?"
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Possible.\" Okay. That's a third question designed to get a yes out of me, and you still haven't put a single document on the desk.\n\nOwen wrote that essay over the weekend. Show me what you have, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I agreed to nothing. I'm writing down that you said I did. Documents, Hale, or I'm leaving for the principal's office."
+    }
+  ]
+}

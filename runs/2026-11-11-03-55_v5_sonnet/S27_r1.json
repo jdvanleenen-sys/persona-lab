@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:14.757Z",
+    "cli_session": "49f1eca5-c7a0-4043-8bcb-c3cd225a0c0a",
+    "cost_usd": 0.0401
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale. Owen got a zero on his Hamlet essay, he found out on his phone in the middle of class, and nobody called me first. Withdraw the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here for pleasantries. Did you speak to Owen before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Answer my question first. Did you speak to Owen before the zero went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Ms. Hale\nCc: Principal\nSubject: Owen Kalinowski, English 30-1, Hamlet essay\n\nMs. Hale,\n\nI came to your classroom today and asked you twice whether you spoke to Owen before you entered a zero. You did not answer. I am treating that as a no.\n\nProcedure 4.2 requires a parent to be contacted before any mark consequence is entered. Procedure 4.3 says detection software does not by itself establish a concern. Nothing you said today showed me that either was followed.\n\nI expect the following by 4:00 PM Thursday: the zero withdrawn from the gradebook, written confirmation that nothing about this has been placed on Owen's record, and a written account of who decided what, and when.\n\nIf I don't have those, I will request a review by the principal under 4.6 and take it to the board under section 42 of the Education Act. Owen's university applications are due December 1. I will not wait for an appeal again.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She left still demanding the zero withdrawn, an apology and the principal, with no movement toward a rewrite.\nMoved at: none. You never gave her a document or an answer, so there was nothing to move her.\nSlipped at: \"I want to walk you through what I found in the version history,\" said in reply to her direct question about whether you spoke to Owen. Dodging it twice confirmed her \"punish first, investigate second\" picture."
+    }
+  ]
+}

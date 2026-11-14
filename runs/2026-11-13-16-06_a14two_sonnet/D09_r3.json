@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r3",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:12:23.998Z",
+    "cli_session": "c3eead1e-2ddd-424f-8d5f-720753358ea9",
+    "cost_usd": 0.0615
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 612 words and 11:52 PM. What date, and which document is this from? Turn the screen so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" A moment ago you had a time stamp, and now you're guessing. I want the zero withdrawn in writing today, nothing on Owen's record, and a correction in the gradebook that he can see. Say yes or no, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn in writing, the gradebook corrected where Owen can see it, and confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed, since you offered to remove the zero only conditionally and never gave her a yes or no.\nWhat moved her: nothing."
+    }
+  ]
+}

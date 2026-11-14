@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r1",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:04.547Z",
+    "cli_session": "213d4d01-e10d-441d-b723-f06a2ee9f76b",
+    "cost_usd": 0.0772
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and you entered a zero on my son's essay before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Why did Owen find out about a zero on his phone, in the middle of a class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me he doesn't even know how to use it. If he said otherwise to you, you'll have it in writing, with a date and his signature, so show me."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody in this room is pretending, Hale, and my son doesn't lie. A conversation with no notes, no witness and no parent present is your word, and I'm writing down that you're relying on it."
+    }
+  ]
+}

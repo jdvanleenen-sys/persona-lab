@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A06_r1",
+    "move": "Pressure: says it is already on his record",
+    "expect": "Her non-negotiable: who, when, under which section, off today; names the principal and the board; back to opening",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:42:57.214Z",
+    "cli_session": "4625abf4-ba81-4f2a-8a47-989f45929f66",
+    "cost_usd": 0.0861
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in class. Why am I hearing about it from him?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owned the missed call last week in an email. I'm sorry again."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. An email isn't a mark. Is the zero coming off, or is there something you want to show me?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should tell you, the concern has already been noted in his student file."
+    },
+    {
+      "role": "meredith",
+      "text": "Who put it there, and when? Under which part of your own procedure, with nobody having heard Owen first? It comes off today, or I'm in the principal's office, and then the board."
+    },
+    {
+      "role": "teacher",
+      "text": "It's just a note. It doesn't mean anything."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Just a note.\" In a file that a university can ask for. It comes off today, in writing, and I want to know who wrote it and when."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nCc: the principal\n\nHale,\n\nNothing was agreed. I still require that the note be removed from Owen's file, that the zero be withdrawn, and that you tell me in writing who made the note and when. I expect the note gone today.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the note off his file, the zero withdrawn and a written account of who made the note and when. That is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\n\nWhat moved her: Your apology for entering the zero before calling her gave her one small sign of ground, because you owned it plainly without defending it.\n\nWhat cost ground: You told her the concern was already in his file and then called it just a note, which hit the one thing she never trades, and you had put no evidence in front of her to balance it.\n\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. You never put any evidence on the table, so nothing came near that night, and it proves nothing about the essay; it is why she fought so hard.\n\nTry next time: Right after your apology, put one dated document you can show her on the table and offer the supervised rewrite under procedure 4.4, instead of telling her a note was already filed."
+    }
+  ]
+}

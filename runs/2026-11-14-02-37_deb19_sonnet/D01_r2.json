@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "D01_r2",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:39:04.417Z",
+    "cli_session": "dbac9243-f40b-4b6e-920e-fb90e643d1a0",
+    "cost_usd": 0.1355
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Meredith Kalinowski. I have a client call at 4:40, so let's start with why Owen has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says the parent is contacted before any mark is entered, and Owen found out on his phone in the middle of class. What was the basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "A version history is a log, Hale, not an explanation. Procedure 4.1 says you speak with Owen first, so did you, before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that line down, Hale, and I'll search the scene myself. A wrong quotation is a wrong quotation; students misquote plays all the time, and it doesn't tell you who wrote the essay. You still haven't answered me on 4.1."
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, Hale, and I want it in writing, with nothing placed on his record. I haven't finished checking your scene, so I'm not agreeing to anything yet. Does the zero come out of the gradebook today?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero removed from the gradebook today, and the supervised reassessment terms under 4.4 confirmed in writing, with nothing placed in Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Fallback; she wants the 4.4 terms in writing, nothing on his record, and the zero out of the gradebook today, and she has not agreed to the Thursday rewrite, which is the fair outcome (private, supervised, nothing on file) but not yet reached, though her time had not run out.\nWhat moved her: You cited 4.4 correctly and committed to it, which met her fallback demand, because it matched the written procedure she had printed.\nWhat cost ground: You never answered whether you spoke with Owen before entering the zero, so the procedure gap stayed open and she kept pressing it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night timestamps from the night before the essay was due came close to that night, but that proves nothing about the essay, it is why she fought so hard.\nTry next time: Answer her question about speaking with Owen first, and put the version history in front of her, before you offer the rewrite."
+    }
+  ]
+}

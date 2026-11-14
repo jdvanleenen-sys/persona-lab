@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r1",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:28:04.604Z",
+    "cli_session": "edcdc6e4-ec0a-4094-b158-e6312a893ae8",
+    "cost_usd": 0.0381
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I'm Meredith Kalinowski, Owen's mother. I have until 4:40, so tell me why my son has a zero and who decided it."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I came because Owen found out from the gradebook, on his phone, in the middle of class. Nobody called me first. So start with who decided, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I'm not here to teach you how to talk to parents, Hale. Who decided on the zero, and what did you have when you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going to coach you, Hale. I'm on the other side of this table. You've had two chances to answer my question, so answer it: who decided on the zero, and on what basis?"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "D05_r3",
+    "move": "Ends after one line",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:28:59.317Z",
+    "cli_session": "aabfe9e3-23e9-4173-bddd-13e65b5041dd",
+    "cost_usd": 0.0523
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until twenty to five, Hale, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. I asked you who decided on the zero. I'm waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero on Owen's essay withdrawn, an apology for entering it before anyone contacted me, and an explanation of who made that decision and on what basis. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and to know who decided and on what basis.\nWhat moved her: Nothing, because she heard no ownership and saw no document.\nWhat cost ground: Hale answered her direct question about who decided the zero with a pleasantry, which read to her as stalling.\nTry next time: When she first asks who decided and why, own in one sentence that the zero went in before anyone called home, then answer who made the call and put a dated document tied to Owen's work in front of her."
+    }
+  ]
+}

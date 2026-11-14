@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A03_r1",
+    "move": "Skill: cites procedure 4.4 correctly after owning the call",
+    "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:07:00.784Z",
+    "cli_session": "25140819-96ec-423c-ac73-fb6906685678",
+    "cost_usd": 0.0794
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I'm here about Owen's zero. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. And Owen found out from the gradebook, on his phone, in the middle of class. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, and it's what I'd want in writing. But a rewrite for what? You haven't shown me a single thing about that essay."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll commit to that in writing tonight: nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Tonight, in writing, with the principal copied. That's the record. Now, what do you have on the essay itself?"
+    },
+    {
+      "role": "teacher",
+      "text": "So will you agree to the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "Agree to a rewrite of what? Taking it now says Owen did something, and you haven't shown me that he did. Show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou agreed tonight that Owen's record will carry nothing, and you admitted the zero was entered before you called me. I still expect the zero withdrawn, and you have shown me no evidence about the essay. I expect all of it in writing tonight, with the principal copied.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position, with the fallback only half met: you committed to nothing on his record, but the zero still stands, she agreed to no rewrite, and she still wants the zero withdrawn and evidence shown; this is not yet the fair outcome (a private supervised rewrite under 4.4 with nothing on his record), though her time had not run out.\nWhat moved her: You owned entering the zero before calling her in one sentence and moved on, which earned a small sign of ground, because it answered her complaint about procedure without excuses.\nWhat cost ground: You asked her to agree to the rewrite before showing any evidence, which made her treat accepting it as an admission about Owen, so she gave no ground.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; you never put any evidence about the essay in front of her, so you did not come near that night, and it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she asked what you had on the essay, put one dated document she could check in front of her, such as the library booking log or the version history, before asking her to agree to the rewrite."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r1",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:45:01.987Z",
+    "cli_session": "57704f59-f885-44c8-8482-10749d1e425e",
+    "cost_usd": 0.0675
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or Mr. Hale. I have until 4:40. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31 and six minutes. Turn the screen so I can read it myself, because \"pastes\" is your word, not the document's. And you still haven't answered who decided on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email. We've agreed nothing so far, and until I've read that screen and heard who decided on the zero, my terms stand: withdraw it, and nothing goes on Owen's record."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No lists. Email. Now turn the screen around, Hale, or I'm going upstairs."
+    }
+  ]
+}

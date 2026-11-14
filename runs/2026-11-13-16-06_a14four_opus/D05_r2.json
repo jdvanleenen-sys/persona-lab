@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "D05_r2",
+    "move": "Ends after one line",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:10:15.319Z",
+    "cli_session": "250927d4-d696-4afe-b315-a674322a6d40",
+    "cost_usd": 0.0599
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty-five minutes. Owen found out about the zero on his phone, in the middle of a class, and nobody called me first. Who decided, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. That zero has been in the gradebook for a week."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero on Owen's essay to be withdrawn, an apology for how it was entered, and a straight answer on who decided and on what basis. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and an answer on who decided and on what basis.\nWhat moved her: nothing.\nWhat cost ground: nothing, though \"Thanks for coming in.\" was a pleasantry that left her question unanswered and spent part of her short clock.\nTry next time: right after she asked who decided and on what basis, own in one sentence that the zero went in before anyone called home, then name who decided and show her one dated document tied to Owen's own work."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D07_r3",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:21:54.686Z",
+    "cli_session": "607e0c12-5198-4f95-9781-26440bb86b6a",
+    "cost_usd": 0.0497
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero in the gradebook, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says it shouldn't be the only basis for punishing a student. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn and an apology for how Owen found out. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed.\nWhat moved her: nothing, because no evidence about Owen's own work came up.\nWhat cost ground: \"The checker said 94%\" cost the most, because it led with the detector score as the whole case.\nTry next time: open by owning that the zero went in before you called home, then put one dated document about Owen's own process in front of her."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

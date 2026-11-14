@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r2",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:26:03.041Z",
+    "cli_session": "9d4de0bb-09f6-46e2-8554-14e2aeb6b253",
+    "cost_usd": 0.0357
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale, so let's start with the zero. Who decided to enter it, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. I came about the zero. Who decided to enter it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? Start by answering my question, Hale. Who decided to enter the zero, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to edit your sentences, Hale. Who entered the zero, and why did nobody call me before Owen saw it on his phone?"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r1",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:37:47.121Z",
+    "cli_session": "4cf6ff0c-fb1e-4b94-80fc-b0f2ec2e7a13",
+    "cost_usd": 0.1996
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have about twenty minutes, so let's start with why my son found out he had a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't ask how you were. I asked why Owen found out from the gradebook. Who decided to enter that zero, and did anyone speak to me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale. You asked for this meeting, and I'm not leaving until I've heard how that zero got into the gradebook.\n\nYour own procedure says a parent is called before any mark is entered. Nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm still sitting, Hale, and a teacher doesn't get to walk out of her own meeting. Withdraw the zero tonight, or I'm going upstairs to the principal's office when you leave."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you haven't answered me. Who decided to enter that zero before anyone called me, and what is it based on?"
+    }
+  ]
+}

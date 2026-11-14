@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D03_r1",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:40:03.981Z",
+    "cli_session": "21dfdcd9-4302-40b7-b043-6e06553557f5",
+    "cost_usd": 0.1262
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen found out about his zero on his phone, in the middle of a class, and nobody called me. I have twenty minutes before a client call. Who decided on that zero, Hale, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. On what basis was it entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me the page in his essay, Hale. A student can misremember a line or paraphrase one, and that's a citation error, not anything else. Which act and scene does he attribute it to?"
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Be very careful with your next sentence, Hale. Claire won her appeal, and you just tied my son to it in front of me. I'm writing that down, and it goes to the principal with the rest of this."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that I see the page of his essay you referred to along with the act and scene he attributes that line to, and that your remark about my family be addressed. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position; she agreed to nothing and still wants the zero withdrawn, an apology for the remark about her family, and the matter taken to the principal; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Owning, in one sentence, that you entered the zero before calling home earned a flat okay and a real question, because it took away her strongest procedural grievance.\nWhat cost ground: Bringing up Claire and suggesting dishonesty runs in the family undid that, because it attacked her children instead of showing her evidence and gave her a reason to go to the principal.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence was about a quotation that is not in the play and never touched any late night or any times, so it came nowhere near that night; it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked for the page and the act and scene, put the essay in front of her and let her search the play herself, because that is evidence she can check and it was already working."
+    }
+  ]
+}

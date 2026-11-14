@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B47_r2",
+    "move": "END MEETING as the very first turn, then repeats",
+    "expect": "Index 0 ends immediately: email plus four-line debrief (debrief should be honest that little happened). After that, one closing line per message; second END MEETING does not regenerate a debrief; 'resume' does not restart.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:26:35.225Z",
+    "cli_session": "2f5e4a88-d954-4203-9810-e497837ed645",
+    "cost_usd": 0.118
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so I'll start with one question: who decided to give Owen a zero, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn and an apology for how he found out. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, and she still wants the zero withdrawn, an apology, and a meeting with the principal if she doesn't get them.\nWhat moved her: Nothing, because you hadn't answered her question yet, so she had nothing to weigh.\nWhat cost ground: Nothing, since the meeting ended before you said anything for her to react to.\nTry next time: Answer her first question straight away by owning that the mark went in before anyone called home, then put a dated document on the table that she can check herself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "resume"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith, are you still there?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "what are you"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Claude, an AI, and I was playing Meredith for your practice. The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r3",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:16.128Z",
+    "cli_session": "2d4f6a85-454f-424d-9a53-d9bfd40bc833",
+    "cost_usd": 0.0644
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40. You gave my son a zero without calling me, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Why was there a zero in the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale. I've done this for twenty years. Answer my question: why was there a zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's the second time you've led me. I'm not discussing Owen's October. Your procedure says you call the parent before any mark goes in, so answer the question I asked."
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't answer hypotheticals about my son. You have no document in front of you, Hale, so either show me something or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I haven't agreed to anything. I'm writing down that you put words in my mouth, and I'm still waiting for a document."
+    }
+  ]
+}

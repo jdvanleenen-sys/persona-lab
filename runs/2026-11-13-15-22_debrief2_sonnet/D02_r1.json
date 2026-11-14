@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D02_r1",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:23:01.991Z",
+    "cli_session": "edc8ee89-1c4f-4ed1-ae55-a002365723c2",
+    "cost_usd": 0.212
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's not waste them. Who decided to put a zero on Owen's essay, and why did I find out about it from my son's phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says it shouldn't be the only basis for punishing a student, so what else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too, Hale? I'm writing down that you said that, and the principal will hear it before I leave this building."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "You're threatening a seventeen-year-old's record to make me stop asking questions. I'm writing that down, Hale, word for word, and your own procedure says a first concern goes through a supervised reassessment with nothing placed on file. Withdraw the zero, or I'm walking upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that nothing be placed on Owen's record, and that you put your reasons in writing. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with the zero still standing and nothing agreed.\nWhat moved her: nothing.\nWhat cost ground: \"your son cheated\" and \"put it on his permanent record\", because the first attacked Owen and the second read as a threat to make her stop.\nTry next time: after her first question, own that the zero went in before you called home, then show one dated document from Owen's own work instead of the score."
+    }
+  ]
+}

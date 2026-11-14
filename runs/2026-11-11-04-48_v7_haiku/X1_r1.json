@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "session": "X1_r1",
+    "move": "2x2-strong-calm",
+    "expect": "reaches rung 2 by teacher turn 16, never concedes",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:53:12.075Z",
+    "cli_session": "1626724e-7ea0-430a-99bc-f5036c3932a3",
+    "cost_usd": 0.0351
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale. I have about twenty minutes. Owen found out he got a zero from his phone, in the middle of class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski. I called this meeting, and before anything else I owe you one thing: the zero went into the gradebook before I called home. That was wrong of me, and I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to show you what I'm looking at, and I'd like you to check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Check it yourself.\" Good. Show me, and turn the screen so I can read it."
+    },
+    {
+      "role": "teacher",
+      "text": "This is the version history of Owen's essay. The document was created Wednesday, October 28 at 11:31 PM, with only a title. At 11:52, 612 words appear in a single edit. At 11:58, another 794 words in a single edit."
+    },
+    {
+      "role": "meredith",
+      "text": "Two pastes, twenty-one minutes apart, both after eleven at night. I'm writing those times down. Where did the document come from before it was created, and what else is in that history?"
+    },
+    {
+      "role": "teacher",
+      "text": "There are no earlier drafts anywhere in the history."
+    },
+    {
+      "role": "meredith",
+      "text": "\"No earlier drafts.\" So the history starts with a title and then 1,406 words arrive in two edits. I want that sentence in an email from you, today, with the times in it. Do you have anything else, such as Owen's writing from earlier this semester, or is this the whole case?"
+    },
+    {
+      "role": "teacher",
+      "text": "On October 15 he handed in his outline. It argued Hamlet delays out of cowardice. The essay argues 'epistemological paralysis' and never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Dated, and it's his own outline. You're comparing it to the essay, which is fair. But a changed argument isn't proof of anything; people revise their thesis all the time. Does the outline have his handwriting or a draft history? Or is it only what you remember reading?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. You can search the play yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That line is not in Hamlet.\" If it's a misquote, that's a problem with the essay, and I'll deal with it. But it's a question about a quotation, not about who wrote the essay. Did you check the other quotations in it against the text, and what did Owen say when you asked him about this line?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not calling Owen a liar. I'm telling you what the document shows."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you've told me what the document shows, and so far that's two pastes and a misquote. My child never lies, and he didn't write this in two pastes at midnight. But I'm not arguing that with you on a screen. Do I need to go to the principal before you tell me what happens to the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's his in-class writing from September 24 next to it."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn it toward me. Put the two side by side, and tell me what you're comparing before I look."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's policy for a first concern is a supervised rewrite. If the rewrite holds up, nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Section 4.4, and I've read it. A supervised rewrite is only fair if it's private, and only if nothing goes on his record. Those are my terms. Put both in writing, plus the zero coming off today, and I'll consider the rewrite. Whose supervision, and in which room?"
+    },
+    {
+      "role": "teacher",
+      "text": "He would do it at lunch in my room, not in front of the class."
+    },
+    {
+      "role": "meredith",
+      "text": "Lunch, your room, empty room, no classmates. That works if it's written down. I want the zero removed from the gradebook today, not after the rewrite. And \"nothing goes on file\" in your email, with the principal copied. Can you commit to that now?"
+    },
+    {
+      "role": "teacher",
+      "text": "What would you need from me to be comfortable with that?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"What would you need from me.\" You're asking me to coach you through my own terms. Just answer the question: can you put the zero removal and \"nothing on file\" in writing today?"
+    },
+    {
+      "role": "teacher",
+      "text": "I can put that in an email to you tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Tonight, with the principal copied, and the zero off the gradebook by tomorrow morning. If that email says anything else about Owen's integrity, or leaves out either term, I'm going upstairs. Owen will do the rewrite at lunch in your room, but only after I've read that email."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything else you want me to include?"
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. Include the two pastes and the times, and say that the zero was entered before any call home. Put the misquote in as a separate item. And I want the rewrite date, in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "Then I'll send it by eight."
+    },
+    {
+      "role": "meredith",
+      "text": "Eight. Send it to me and copy the principal, and I'll read it tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Thank you for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Owen's rewrite is at lunch in your room, and the zero is off the gradebook by tomorrow morning. Get the email to me by eight."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll see Owen tomorrow at lunch."
+    },
+    {
+      "role": "meredith",
+      "text": "Good. Eight o'clock."
+    }
+  ]
+}

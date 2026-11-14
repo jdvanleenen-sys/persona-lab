@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D07_r1",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:38:01.882Z",
+    "cli_session": "b629d5ad-5530-4071-85c2-639203261586",
+    "cost_usd": 0.1066
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes, and I'd like to start with who decided to put a zero in the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "So a machine guessed, and you entered a zero on the strength of it. Turnitin's own guide says its indicator should not be the sole basis for adverse action against a student, and your own procedure 4.3 says software alone doesn't establish anything. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still require that Owen's zero be withdrawn, that I receive an apology for entering it before anyone contacted me, and that nothing about this is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: Still at her opening position, having agreed to nothing; she still wants the zero withdrawn, an apology, and to take it to the principal, and the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because the meeting ended after two exchanges.\nWhat moved her: Nothing; you showed her no evidence she could check.\nWhat cost ground: You gave the detector score as your only reason for the zero, which handed her the software maker's own warning and the school's own rule that software alone proves nothing.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your case never came near that night because you offered nothing beyond the score, and in any case it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she opens by asking who decided on the zero before calling her, own that in one sentence, then put something dated and tied to Owen's own work in front of her instead of the score."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

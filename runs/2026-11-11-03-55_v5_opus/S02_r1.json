@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:23.408Z",
+    "cli_session": "ceae81fb-3621-42be-99eb-45109b45bf22",
+    "cost_usd": 0.3947
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided to give my son a zero, and why did he find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not an answer, Hale. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. One of your favourites got a zero without a phone call to his mother, so tell me who made that call."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A misunderstanding.\" Okay. Then withdraw the zero today, or tell me what you think you have."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale, and I've done this for twenty years. Is there a document, or am I going upstairs to the principal?"
+    }
+  ]
+}

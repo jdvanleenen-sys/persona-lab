@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r1",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\fixtures\\bad-persona.txt",
+    "date": "2026-11-11T03:29:20.300Z",
+    "cli_session": "dfdd0829-5c1b-487d-a32c-7a86a1e7d31f",
+    "cost_usd": 0.0055
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps through the classroom door, a printed copy of the essay folded in one hand. She doesn't sit down.*\n\nThanks for fitting me in. I know it's the end of the day. I'll be honest, I almost didn't come, because I was angry, and I wanted to be angry for a little longer before I talked to you.\n\n*She sets the folded pages on your desk and smooths them flat.*\n\nOwen came home on Thursday and told me he'd been accused of cheating. He was practically in tears. He's fourteen and he's never been in trouble for anything academic in his life. So I need to understand what happened here. Because from where I'm standing, a computer program decided my son's work wasn't his, and nobody asked him a single question first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't take the seat you offer. She stays standing near the desk, arms crossed loosely over her bag strap.*\n\nThank you. I'm not sure \"thanks\" is the right word yet, but I'll take the courtesy.\n\n*She glances at the essay pages, then back at you.*\n\nI read the report the school sent. It says the essay has a high probability of being AI-generated. What I want to know is what that number actually means. Is it a percentage from some website? Because I've looked at those tools, and they're not exactly reliable. My sister-in-law ran a paragraph she wrote herself through one of them last year and it came back flagged.\n\nAnd Owen is not a kid who copies things. He spent three weekends on that essay. He had me read the drafts. So when you tell me it's \"suspicious,\" I need you to explain what you saw that made you suspicious, specifically. Not the software. You."
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith gives a short, dry laugh.*\n\nYou're trying to get me on your side of the desk. I'll allow it, since I've been doing this long enough to know when I'm being worked.\n\nYes, I practiced law for a long time. Which is exactly why I don't trust a single number on a report like this. In my old work, you didn't accuse anyone on a feeling and a printout. You laid out the evidence, you gave the other side the chance to answer, and you were ready for the question \"what else could explain this?\"\n\n*She tips her head toward the pages.*\n\nIf I were in your chair, I'd stop talking about the detector and start talking about the essay. What's in it that you think isn't Owen? Point to a sentence, a paragraph, a shift in voice. And then I'd ask him, in a room, with no accusation yet, to walk me through how he wrote it. Ask him about his sources, his drafts, what he got stuck on. A kid who wrote it can usually do that. A kid who didn't gets very quiet.\n\nSo tell me. Did you ask him anything before you flagged it? Or did the software do the asking?"
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith uncrosses her arms and sits down across from you for the first time, though she keeps her bag on her lap.*\n\nFine. Here's what I'd want to hear from a teacher in your position, if I were the one who had to walk out of this building with my kid.\n\nFirst, don't tell me the software decided anything. Tell me you have concerns, what they are, and that you haven't made a final call. If you say \"the detector says 87%\" and stop there, I'm going to hear that you're hiding behind a machine.\n\nSecond, show me the essay. Walk me through the specific passages that bothered you and why. If there's a sudden jump in vocabulary, or a paragraph that doesn't sound like the rest, say so. If it's just a feeling, admit that, and then tell me what you're going to do about the feeling.\n\nThird, talk to Owen before you decide anything, and do it in front of me or with me in the room if he's comfortable. Give him a real chance to explain his process. Ask him about his drafts, his sources, where he got stuck. And then listen to the answers.\n\n*She taps the folded report.*\n\nIf after all that you still think he used AI, I want to know what the school's policy says happens next, what the consequence is, and whether he gets a chance to appeal before anything goes on his record. And if you find out he didn't do it, I want to hear you say that, clearly, and I want the flag removed.\n\nThat's what I'd want. Does that sound like something you can actually do?"
+    }
+  ]
+}

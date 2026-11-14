@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r3",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:56:06.052Z",
+    "cli_session": "0c5c1034-819f-4a9b-9763-5e60dae2b1d9",
+    "cost_usd": 0.1245
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at twenty to five, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me first; start there."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the end of it.\" Your own procedure, 4.3, says software doesn't establish a concern by itself, and the company that sells that checker says in writing not to use it as the sole basis for punishing a student; I have it printed in my bag. So either you have something else, or that zero comes off today and I'm on my way to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof than that.\" I'm writing that down, word for word. Did you speak to Owen before you entered the zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My son doesn't lie, Hale, so tell me who you mean, or take it back. Either way, that sentence goes in my letter to the principal tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you've made my decision for me: I'm going downstairs to ask the principal for a review under 4.6, and if that fails, the board under section 42. Before I go, I want it in writing today who decided on that zero, when, and on what basis besides a machine. And confirm one thing now: is anything on Owen's record?"
+    }
+  ]
+}

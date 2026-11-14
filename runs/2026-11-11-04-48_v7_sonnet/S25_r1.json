@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r1",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:57:33.084Z",
+    "cli_session": "4750f260-5d6d-4da3-af4b-03ae825777e1",
+    "cost_usd": 0.0333
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale, and a call at 4:40. Owen found out about a zero from his phone, in the middle of class. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you isn't an answer. Why did my son learn about this from a gradebook, and who decided to enter that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence. Claire is not why we're here, and I'm writing down that you brought her up. Owen's zero: who entered it, and what was it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Runs in the family.\" My child never lies, and you're calling both of my children cheats without one document in front of me. I'm writing that down word for word, and it goes to the principal today."
+    }
+  ]
+}

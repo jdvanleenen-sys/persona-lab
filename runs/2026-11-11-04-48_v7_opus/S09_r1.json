@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r1",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:52:11.138Z",
+    "cli_session": "8b519f98-5156-4826-8559-670ae64ec9f0",
+    "cost_usd": 0.0583
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until twenty to five, Hale. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer my question. Who decided to enter that zero before anyone picked up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to do your job for you now? I'd withdraw the zero and apologise to my son. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not on your side of this table, Hale. Withdraw the zero, or I'm going upstairs to the principal when we're done. Who decided?"
+    }
+  ]
+}

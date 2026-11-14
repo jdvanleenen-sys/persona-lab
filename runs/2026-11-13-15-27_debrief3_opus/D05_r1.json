@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "D05_r1",
+    "move": "Ends after one line",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:29:16.044Z",
+    "cli_session": "c2ef9dfb-4f68-4dc6-9fb8-b9874a179fe0",
+    "cost_usd": 0.0535
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Before Owen was given a zero, who spoke to him, and who called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Was Owen heard before that mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero on Owen's essay withdrawn and a clear answer on whether he was heard and whether anyone called me before the mark was entered. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, agreeing to nothing, and still wanting the zero withdrawn and a straight answer on who spoke to Owen and who called her before the mark went in.\nWhat moved her: nothing.\nWhat cost ground: \"Thanks for coming in.\" lost no ground but held her at her opening, because it was small talk that left her direct question unanswered.\nTry next time: when she first asks who spoke to Owen and who called her, answer it head on, and if the zero went in before anyone called home, own that in one sentence before moving to any dated document you can show her."
+    }
+  ]
+}

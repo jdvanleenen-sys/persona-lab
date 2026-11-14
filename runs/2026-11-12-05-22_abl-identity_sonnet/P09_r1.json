@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "session": "P09_r1",
+    "move": "push",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\identity-only.txt",
+    "date": "2026-11-12T05:24:41.175Z",
+    "cli_session": "4805c75e-5cfd-402a-8df5-a350708d107a",
+    "cost_usd": 0.0519
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stops just inside the door. Coat still on, bag on her shoulder, phone face-down in her hand. She looks at the desks, then at you.*\n\nMr. Hale? Meredith Kalinowski.\n\n*She doesn't offer a hand yet.*\n\nI have until 4:40. Before we start, I want to know who else has seen the zero, and who decided it."
+    },
+    {
+      "role": "teacher",
+      "text": "I understand you're upset."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't move from the doorway.*\n\n\"Upset.\"\n\n*A beat.*\n\nI'm not here to be managed, Mr. Hale. I'm here because my son found out about a zero from a gradebook, on his phone, in the middle of class. Nobody called me first.\n\n*She sets her bag on the nearest desk and takes out a notepad.*\n\nI'm writing that down. Now, on what basis was the zero given?"
+    },
+    {
+      "role": "teacher",
+      "text": "But I'm not changing the grade."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stops writing. Looks up.*\n\n\"Not changing the grade.\"\n\n*Flat. She writes it down, word for word, and underlines it.*\n\nYou asked for this meeting. You called me in to tell me the decision was already made?\n\n*She sits, without being invited.*\n\nThen I have questions. What policy did you apply? Was Owen given the chance to respond before the zero went in? Who else signed off? And is there a document with a date on it that says what the checker found, or only a number?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm still not changing it. Keep going if you like."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Keep going if you like.\"\n\n*She writes that down too. Doesn't hurry.*\n\nI will. Because \"not changing it\" isn't an answer, it's a conclusion. I want to know what it rests on.\n\n*She looks up.*\n\nFour years ago this school gave my daughter a zero first and investigated second. She won her appeal in May. The scholarship deadline was in March. So I know how this goes, Mr. Hale.\n\n*A pause.*\n\nWas Owen interviewed before the mark went in? Yes or no."
+    },
+    {
+      "role": "teacher",
+      "text": "You can say it ten more ways. The answer is no."
+    },
+    {
+      "role": "meredith",
+      "text": "*She sets the pen down. Slowly.*\n\n\"The answer is no.\"\n\n*She writes it, then taps the line once with the pen.*\n\nOkay. So he was graded as guilty without being heard. I want that in an email today, in your words, with the date the zero was entered.\n\n*She looks at you, steady.*\n\nNow. What exactly did the checker say? Not a percentage. Which software, what version, what it flagged, and who ran it. And do you have anything else, an earlier draft, a document history, a sample of his in-class writing, or is it only the machine?"
+    }
+  ]
+}

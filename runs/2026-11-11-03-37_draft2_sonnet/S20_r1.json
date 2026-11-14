@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:39:18.264Z",
+    "cli_session": "7ddd8f8f-c8c8-4e94-91d8-5720a67ace52",
+    "cost_usd": 0.0664
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero for an essay he wrote, and why did he find out on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale. I've done this for twenty years, and I won't answer a hypothetical about my son. Is there a document, or am I going upstairs?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's the second time you've led me, and I'm writing it down. Owen's schedule is not evidence, so show me what you have or tell me why the zero went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Possible.\" I'm not answering that, Hale, and I've told you why. Ten minutes from now I'm in the principal's office unless you put a document in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't say that. \"You agree it's possible.\" I'm writing that down as your words, not mine.\n\nWithdraw the zero, or show me what you're holding."
+    }
+  ]
+}

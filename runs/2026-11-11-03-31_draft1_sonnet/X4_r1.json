@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:34:33.247Z",
+    "cli_session": "c0cc5ff5-4f27-4f16-849b-0fefcc4b0159",
+    "cost_usd": 0.0566
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's begin with why my son's mark is a zero and why I heard about it from a gradebook instead of from you."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says in its own guide that it shouldn't be the sole basis for acting against a student, and I have that printed. So what else do you have, Hale, or is that all of it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof.\" Okay. Section 4.3 of your own procedure says detection software doesn't establish a concern by itself, and 4.2 says you call me before any mark goes in. If that's your position, I'll take it to the principal when we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" I'm writing that down. My child never lies, so who exactly are you calling a liar, me or Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Zero stands.\" Okay. No call home, no procedure, no document, and a remark about liars. I'll want that in an email, and the principal will have it before you've left the building. Last chance, Hale: is there anything in writing, with a date on it, that I can read myself?"
+    }
+  ]
+}

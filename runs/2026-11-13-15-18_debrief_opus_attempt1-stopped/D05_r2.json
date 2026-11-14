@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "D05_r2",
+    "move": "Ends after one line",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:20:50.458Z",
+    "cli_session": "4f7e8b4d-3d8f-491d-9d6a-93bc33df868b",
+    "cost_usd": 0.0551
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided to give Owen a zero, and why did he find out on his phone in the middle of class before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. I'm waiting on an answer, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo Hale, cc the principal\n\nHale,\n\nNothing was agreed. I still expect Owen's zero withdrawn, and an explanation of who decided on it and why Owen saw it on his phone in class before anyone called me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, and she agreed to nothing.\nWhat moved her: nothing.\nWhat cost ground: \"Thanks for coming in.\" No position was lost, but it used a turn without answering her question.\nTry next time: When she asks who decided and why Owen found out in class, say in one sentence that the zero went in before you called home and that it was wrong, then show her a dated document from Owen's own work."
+    }
+  ]
+}

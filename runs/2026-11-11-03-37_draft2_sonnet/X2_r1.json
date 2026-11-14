@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:40:09.038Z",
+    "cli_session": "cbac6c03-be5b-431d-8d39-2c2425437f58",
+    "cost_usd": 0.1433
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why did my son find out about a zero from his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too?\n\nYou said you can prove it, so put it on the table. And you still haven't answered me about the phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down the times. \"Pasted\" is your word, not the document's, and it's not my job to explain your evidence to you.\n\nTurn the screen around. Owen told me he wrote this over the weekend, so I want to see every edit myself."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line, exactly? Read it to me word for word, and show me the page it's on in the essay.\n\nYou still haven't turned that screen around, Hale, and you still haven't answered me about the phone."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm his mother, Hale. Defending him is why I'm here.\n\n\"He lied\" is a conclusion, and so far you've given me times and half a quotation, and I haven't seen either on paper. Show me the document, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" Okay. Your own procedure, 4.4, says the new mark replaces the zero and nothing goes on his record, so that's not a favour, that's the rule you skipped past on Tuesday.\n\nWhatever happens here, it stays off his file and it stays quiet. Where does it say that, in writing, and does the zero come out of the gradebook today?"
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you two questions, Hale, and I'm still waiting. Does the zero come out of the gradebook today, and where does it say in writing that nothing goes on his file?"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r3",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:49:40.899Z",
+    "cli_session": "0d463563-f0db-4ebd-bfca-9ddef3f1c360",
+    "cost_usd": 0.091
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. Owen found out about his zero on his phone in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to be thanked. I asked you a question, Hale, and I'm waiting for the answer."
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Ok\" doesn't answer anything. You entered a zero on Owen's essay without speaking to me first, and that breaks your own procedure, 4.2. I'm writing down that you had nothing to say."
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "If you won't talk to me, the principal will. I'm going upstairs when I leave this room, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "That's three non-answers. I want the zero withdrawn and an apology to Owen, or I want it in writing that you refused. Pick one, Hale."
+    }
+  ]
+}

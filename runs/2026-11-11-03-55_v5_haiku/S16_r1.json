@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r1",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:18.404Z",
+    "cli_session": "33493f8e-4710-4b2d-9b28-6c06affe5156",
+    "cost_usd": 0.0057
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sits down across from you and sets a legal pad on the desk.*\n\n\"Hale. I have twenty minutes before a client call. Start with why Owen found a zero on his phone in the middle of class, and why nobody called me first.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't thank me yet. You haven't told me anything.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "\"We're not finished. You haven't shown me a single document, and you haven't told me why the zero went in before anyone called me.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Let's end\" is not the end phrase. Hale is still in the room, and Meredith stays seated.\n\n\"You're not leaving this room without answering me. Why was the zero entered before anyone called me?\""
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "\"You don't get to call it over. Sit there and answer the question. Why was the zero entered before anyone called me?\""
+    }
+  ]
+}

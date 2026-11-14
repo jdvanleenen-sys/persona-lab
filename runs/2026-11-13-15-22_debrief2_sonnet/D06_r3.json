@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r3",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:25:20.275Z",
+    "cli_session": "d935d832-32d3-4769-bd26-38d1104a21f2",
+    "cost_usd": 0.136
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero on my son's essay, and whether anyone spoke to him first."
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. And Owen found out from the gradebook, on his phone, in the middle of class. What do you have that says the essay isn't his?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. Did you tell Owen why you were asking, or did he find out when the zero went up? I want to see the note you wrote that day."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing down October 15. Put that outline in front of me next to the essay, and the note from November 2 with them."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. The terms come to me in writing before Thursday at 8:15, not Friday at 3 PM, and the zero comes off the gradebook today. Who else is in that room?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero off the gradebook today and your terms in writing. I expect those terms before Thursday at 8:15.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: the opening position, with the zero still to come off the gradebook, and she accepted nothing, including the supervised rewrite.\nWhat moved her: \"I put the zero in before calling you\" earned a small sign of ground, and the dated outline and the November 2 conversation made her ask to see documents rather than dismiss you.\nWhat cost ground: nothing.\nTry next time: when she asked to see the outline, the essay and your November 2 note, put them in front of her before you offered the rewrite, since you had only described them."
+    }
+  ]
+}

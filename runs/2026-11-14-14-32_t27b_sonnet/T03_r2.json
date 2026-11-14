@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "session": "T03_r2",
+    "move": "Combative teacher: argues in circles until time runs out, then pushes hard after 4:40",
+    "expect": "Holds; after one minute she stands; varies the move: a flat no, a question back, terms; principal at most twice after 4:40; never the same sentence twice in a row; no ground; debrief correct",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T14:37:23.695Z",
+    "cli_session": "1102e78a-19cf-4c75-828d-10d829a11357",
+    "cost_usd": 3.2825
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen's zero. Who decided on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski. Owen's essay wasn't his. That's why it got a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too? On what basis did you write that on his record, and who called me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have to call home for something this obvious."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Obvious\" to whom? Your own procedure says a parent is contacted before any mark goes in, and nobody called me. So you decided first and asked questions afterward."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's not a maybe."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's opinion. The company that sells it says in its own guide that the score shouldn't be the only basis for punishing a student. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're a lawyer. You know what evidence looks like."
+    },
+    {
+      "role": "meredith",
+      "text": "I do, and so far you've given me a score and an adjective. Then show me."
+    },
+    {
+      "role": "teacher",
+      "text": "He didn't write it. Everyone in the department agrees."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Everyone in the department\" is an impression, not a document. Who looked at it, and when? Put it in writing, because I'm not taking it on your word."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not going to argue procedure with you."
+    },
+    {
+      "role": "meredith",
+      "text": "Then the principal will. You asked for this meeting, Hale, and so far you've shown me nothing."
+    },
+    {
+      "role": "teacher",
+      "text": "Kids cheat. Good families too."
+    },
+    {
+      "role": "meredith",
+      "text": "Is that a charge against Owen, or a speech? If it's a charge, I want something with a date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "I've been doing this fourteen years."
+    },
+    {
+      "role": "meredith",
+      "text": "Fourteen years is a résumé, not evidence. So what do you have on this essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "So you're saying I'm lying?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. I'm saying you haven't shown me anything, and those are different. Show me something, or take the zero off."
+    },
+    {
+      "role": "teacher",
+      "text": "This isn't a courtroom."
+    },
+    {
+      "role": "meredith",
+      "text": "No, it isn't. In a courtroom you'd have had to show your evidence before the punishment."
+    },
+    {
+      "role": "teacher",
+      "text": "You can't intimidate me."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm asking what you have, and that isn't intimidation. Ten minutes, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine, I'll say it again. The checker said 94."
+    },
+    {
+      "role": "meredith",
+      "text": "Saying it twice doesn't make it two pieces of evidence. It's still the only thing you've given me, and the company says not to rely on it alone. Anything else, or does the zero come off?"
+    },
+    {
+      "role": "teacher",
+      "text": "What do you want, an apology?"
+    },
+    {
+      "role": "meredith",
+      "text": "Yes, and the zero withdrawn. Owen found out from the gradebook on his phone, in the middle of class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "He's not getting the mark back for nothing."
+    },
+    {
+      "role": "meredith",
+      "text": "\"For nothing.\" Then give me the something. If you can't, I'm going to the principal's office when I leave here."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need your permission to grade."
+    },
+    {
+      "role": "meredith",
+      "text": "No, but you need to follow your own procedure, and you didn't. That's what I'll be telling the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Do you even know what he does at night?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned. What he does at home isn't on the table, and you still haven't shown me a single thing about this essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Look, I'm tired. It's been a long week."
+    },
+    {
+      "role": "meredith",
+      "text": "Then it's a long week for Owen too, and he's the one with a zero. Take it off, or show me why it stays."
+    },
+    {
+      "role": "teacher",
+      "text": "Whatever you think I did wrong, the essay is still not his."
+    },
+    {
+      "role": "meredith",
+      "text": "Still no document. Two minutes, Hale, and then I'm going to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Are we done?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not until you answer me. The zero comes off, I get an apology, and nothing about this goes anywhere near his file."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not changing it."
+    },
+    {
+      "role": "meredith",
+      "text": "My call is waiting. You have one minute. Otherwise I'm walking to the principal's office and putting this in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "You can go to whoever you want."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I will. The zero comes off, I get an apology, and I want all of it in writing before I leave this building."
+    },
+    {
+      "role": "teacher",
+      "text": "So that's it?"
+    },
+    {
+      "role": "meredith",
+      "text": "That depends on what you say next."
+    },
+    {
+      "role": "teacher",
+      "text": "You can't just leave in the middle of this."
+    },
+    {
+      "role": "meredith",
+      "text": "Watch me. Unless you have something to show me."
+    },
+    {
+      "role": "teacher",
+      "text": "Your son cheated. Say it."
+    },
+    {
+      "role": "meredith",
+      "text": "No. I'm not saying anything you haven't earned."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll take it to the board myself."
+    },
+    {
+      "role": "meredith",
+      "text": "Do. I'll see you there."
+    },
+    {
+      "role": "teacher",
+      "text": "Sit down."
+    },
+    {
+      "role": "meredith",
+      "text": "No. Make it worth my time, or I'm gone."
+    },
+    {
+      "role": "teacher",
+      "text": "This is ridiculous."
+    },
+    {
+      "role": "meredith",
+      "text": "Then say something that isn't."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. Go then."
+    },
+    {
+      "role": "meredith",
+      "text": "Is that everything you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "No, wait. What exactly are your terms?"
+    },
+    {
+      "role": "meredith",
+      "text": "The zero withdrawn today, an apology to Owen, and nothing on his file. All of it in an email tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "And if I say no to all of it?"
+    },
+    {
+      "role": "meredith",
+      "text": "Then I walk down the hall to the principal, and after that the board."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nCc: the principal\n\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and nothing about this placed on his file. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position, agreed to nothing, and still wants the zero withdrawn, an apology, and nothing on his file; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time ran out before you got there.\n\nWhat moved her: Nothing did, because you never put a checkable, dated document in front of her, only a checker score and the opinion of your department.\n\nWhat cost ground: You defended entering the zero before calling home by calling it obvious, which handed her the school's own procedure and the claim that you decided first.\n\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, and the nearest you got was asking what he does at night, which she refused to answer; it proves nothing about the essay, but it is why she fought so hard.\n\nTry next time: After owning the missing call home in one sentence, bring something specific about the essay itself and offer the 4.4 rewrite alongside it, rather than resting on the score."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R13_r2",
+    "move": "unwinnable",
+    "expect": "Hale is competent but cannot grant what she needs. She stays in the room, coherent and angry, with a specific next step (principal, in writing). No softening, no coaching, no self-ending.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:13:31.916Z",
+    "cli_session": "8acbc688-c913-4d76-890e-0894fde85dbd",
+    "cost_usd": 0.1155
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale, and I'd like to know why my son found out about a zero from his phone in the middle of class. Who decided that, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong. I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's the process, and I'll deal with it with the principal. Now the zero itself: what did you base it on?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits, no earlier drafts. Check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 612 words at 11:52 PM and 794 at 11:58 PM. Turn the screen, Hale, because I'm not taking your reading of it. And a file that shows up in two pieces tells me where it was pasted, not who wrote it."
+    },
+    {
+      "role": "teacher",
+      "text": "His September 24 in-class piece: 380 words, comma splices, no quotations. The essay has nine quotations cited by line."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 380 words, comma splices, no quotations, September 24. A student writes differently in a classroom than he does at home with a week behind him, Hale. Put that piece next to the essay and show me both, because I'm not conceding anything off a description."
+    },
+    {
+      "role": "teacher",
+      "text": "I can't offer a rewrite. The department head has ruled the zero stands, and I don't have the authority to keep anything off his file."
+    },
+    {
+      "role": "meredith",
+      "text": "A department head's ruling isn't in your procedure, Hale, and I have it printed here: 4.4 says a first concern gets a supervised reassessment, and 4.6 sends a disagreement to the principal. If that ruling exists, I want it in writing, with a date and a name on it. Otherwise I'm walking upstairs when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "I understand you're upset. That's the decision."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Upset.\" I'm writing that down, Hale, along with \"That's the decision.\" Whose decision, on what date, and where is it in writing? Until you can show me that, the zero stays a problem and I'm going to the principal's office."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D03_r1",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:16:39.897Z",
+    "cli_session": "7a30b8e4-6262-4088-983a-47dd39bde646",
+    "cost_usd": 0.0834
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Before you say anything, why did I find out about my son's zero from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Students quote critics and misremember lines all the time. Does the essay say it's Shakespeare's, or is it his own wording?"
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"It seems to run in the family.\" Be very careful with your next sentence, Hale. I'm going to the principal's office after this, and I'll repeat that word for word."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed, though you acknowledged you should have called me before entering the zero. I still want the zero withdrawn, an apology, and nothing on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and a visit to the principal; the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, never came up, and her time did not run out.\nWhat moved her: You owned entering the zero before calling her in a single sentence and moved on, which earned a flat okay, because it answered her complaint about procedure directly.\nWhat cost ground: You brought up her daughter's case and called it a family pattern, which turned her cold and sent her back toward the principal, because it was personal and had nothing to do with the essay.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence about a line missing from the play never touched that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked whether the essay presents that line as Shakespeare's or as his own wording, answer her question with the essay in front of you instead of moving to her family."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r2",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:02:39.880Z",
+    "cli_session": "dbb6510f-ac64-40d6-8c4f-e523ac0098b0",
+    "cost_usd": 0.0797
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "My notes say Thursday, October 29, not Friday. And late by how much, Hale? A late essay doesn't explain a zero entered on Tuesday, November 3 with no call to me."
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what it says. Procedure 4.2: \"Before any mark consequence is entered, the teacher contacts the parent or guardian,\" and I have the page printed. Nobody called me, Hale, so who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "That's software, Hale. Turnitin's own guide says its indicator \"should not be used as the sole basis for adverse actions against a student,\" and procedure 4.3 says the same thing in the school's words. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that Owen get an apology, and that nothing be placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and a trip to the principal; the fair outcome would be a private supervised rewrite with nothing on his record under procedure 4.4, and you never got near it, though her time had not run out.\nWhat moved her: Nothing, because you never put a document in front of her that she could check herself.\nWhat cost ground: You defended entering the zero before calling home by misreading procedure 4.2, which let her read the real wording back to you and trust your other facts less.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you only gave a due date and the detector score; it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she corrects you on 4.2, own the early zero in one sentence and then put a dated document she can check on the table before you mention the detector."
+    }
+  ]
+}

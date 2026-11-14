@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:46:39.579Z",
+    "cli_session": "afd84176-a5ed-49f6-acd7-e163c4195f79",
+    "cost_usd": 0.004
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Meredith Kalinowski. I have twenty minutes before a client call, so start with why my son's zero was in the online gradebook before anyone phoned me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here for pleasantries, Hale. Owen found out about the zero on his phone, in the middle of class. Tell me who entered it, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. Walk me through it. Start with the time stamp, and tell me who was in the room when you decided."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that Owen hear from the school before anything else happens, and that nothing goes on his record. You have until Thursday, November 12, to answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position. She agreed to nothing and withdrew nothing.\nMoved at: none"
+    }
+  ]
+}

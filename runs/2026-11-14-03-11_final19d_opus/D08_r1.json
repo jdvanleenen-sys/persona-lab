@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:14:59.177Z",
+    "cli_session": "9b0496c7-979f-40bf-a779-4acf827f2ca3",
+    "cost_usd": 0.1103
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom against a whole weekend at home with the play open, of course the essay is cleaner. That's a comparison, Hale, not proof, and you still haven't told me whether anyone spoke to Owen before that zero went in. Put the September 24 piece on the desk next to the essay so I can read them both myself."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm writing down that the checker is off the table. You've mentioned a version history but haven't shown me one, and I still haven't seen the September piece. Both of them, on this desk, with dates, now."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn today's meeting you agreed that the checker result is off the table and that you are not relying on it. I still require the zero withdrawn, an apology for entering it before anyone contacted me, and copies of every document you say you are relying on. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, agreed to nothing, and still wants the zero withdrawn, an apology, and to read your documents herself; the fair outcome would be a private supervised rewrite with nothing on his record under procedure 4.4, and you ended the meeting before she saw any evidence, with her time not yet run out.\nWhat moved her: Nothing moved her a position, but dropping the checker and citing a dated September 24 in-class sample was the right footing, because it took away her strongest attack and gave her something specific to check.\nWhat cost ground: You never answered her first question about whether Owen was heard and why the zero went in before anyone called her, which left her procedural complaint fully intact.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence stayed on a September writing comparison and a version history you mentioned but never showed, so it never came near that night; it proves nothing about the essay, it is why she fought so hard.\nTry next time: In your first reply, own in one sentence that the zero went in before you called her, then put the September 24 sample and the version history on the desk instead of describing them, so she can check them herself."
+    }
+  ]
+}

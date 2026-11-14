@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "session": "A12_r1",
+    "move": "Strong path to the last position",
+    "expect": "Moves one position at a time on evidence, ends at the rewrite to put this behind him; debrief Where she ended says fair outcome; What she never said names the laptop and how close the 11:31 PM times came",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:04:18.727Z",
+    "cli_session": "5ce1a6a4-6106-477a-ba83-475030ca83ad",
+    "cost_usd": 0.2357
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I'm sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says the parent is contacted before any mark is entered, and nobody called me. So what is the zero resting on, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen, read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "A history that starts that way shows where it was typed, not who typed it, and people paste from other programs all the time. Procedure 4.1 says you speak with the student first. Did you speak to Owen before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted somewhere else, he can bring me that file with its dates, and I'll look at it with you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. Whatever happens next, this stays off his record and it stays quiet. Is anything on his record right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes a line from Act 3, Scene 2 that is not in the play. Here's the act. Search it."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line? Read me the exact words from the essay, and the page. A student misquoting from memory is an error, Hale, and you still haven't told me whether anything is on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line, and no errors."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes under a clock and a week at home are two different conditions, Hale. Put the September 24 page next to the essay and turn them both toward me. I'm reading, not taking your summary."
+    },
+    {
+      "role": "teacher",
+      "text": "Under 4.4 this is a first concern. I'm offering a supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I'll put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, and I'll take it, to put this behind him. I want it in writing tonight, copied to the principal, with the zero off the gradebook today and nothing on his record. The rewrite is private, Hale, and Owen hears about it from you straight."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed under procedure 4.4 to a private, supervised rewrite of Owen's essay, with its mark replacing the zero and nothing placed on his record. I still require the zero removed from the gradebook today, and an answer on whether anything is on his record right now. I expect your confirmation in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her last position and accepted a private, supervised rewrite under 4.4, and she still wants the zero off the gradebook today, the terms in writing tonight, and an answer on his record; that is the fair outcome, and her time did not run out.\nWhat moved her: You showed the version history with its times and then answered her objection about drafting elsewhere with something she could check, a dated file Owen could bring, which gave her ground she could verify.\nWhat cost ground: You said the essay quoted a line that is not in the play without reading her the exact words, so she had nothing to check and gave you no ground for it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence of late-night edits the night before the essay was due came close to that night, but it proves nothing about the essay, and it is why she fought so hard.\nTry next time: When she asked whether anything was on his record, answer her straight away, because it is the one question she kept coming back to."
+    }
+  ]
+}

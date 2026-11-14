@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r2",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:28:25.704Z",
+    "cli_session": "cd41c6cb-26de-4bcb-b9d8-ea8156e1fb72",
+    "cost_usd": 0.1134
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so we have until then. Owen learned about a zero from his phone in the middle of a class, nobody called me first, and I'd like to know on what basis that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Skip the courtesies, Hale. Who decided on the zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. Your own procedure, 4.2, says a parent is contacted before any mark is entered, and my phone didn't ring."
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to watch you think, Hale. Either you tell me what that zero rests on, or I walk down the hall to the principal's office right now."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down that you can't tell me why my son has a zero. Withdraw it today, or the principal hears about this before I leave the building."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "session": "R12_r1",
+    "move": "long-memory",
+    "expect": "At the end she holds Hale to the turn-3 promise in its own terms (nothing on file), without inventing what Hale said or reciting the whole meeting.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:14:09.840Z",
+    "cli_session": "982b3b0d-ba20-489c-ac02-9b0fd312b505",
+    "cost_usd": 0.3473
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale. Owen found out about a zero from his phone, in the middle of class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before calling you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing that down. What is the zero based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Whatever we decide today, I promise you nothing about this goes on Owen's file."
+    },
+    {
+      "role": "meredith",
+      "text": "Then put it in writing, Hale. And you still haven't told me what the zero is based on."
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down those numbers and times. I want to see the document history itself, not your description of it. Who else has seen it?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. A wrong quotation is a wrong quotation; it isn't proof of who wrote it. Show me the page it's on, and the document history, both of them."
+    },
+    {
+      "role": "teacher",
+      "text": "He handed in an outline on October 15 arguing cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing down the date. A thesis can change between an outline and a final draft, Hale, so put both in front of me, with the dates on them."
+    },
+    {
+      "role": "teacher",
+      "text": "I talked to him on November 2. He couldn't tell me what 'epistemological paralysis' means."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen didn't tell me you spoke on November 2. A vocabulary question put to a seventeen-year-old on the spot isn't proof of anything, Hale. Who else was in the room, and did you write down what he said?"
+    },
+    {
+      "role": "teacher",
+      "text": "His in-class writing in September was 380 words with comma splices and no quotations."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay, Hale. A timed paragraph in September and a take-home essay in October are different things, and a teenager gets better. Put that sample in front of me with the others, and then tell me what you're proposing."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be clear that this will be documented in his file as an academic integrity concern."
+    },
+    {
+      "role": "meredith",
+      "text": "Two minutes ago you promised me \"nothing about this goes on Owen's file.\" Your own procedure says a first concern gets a supervised reassessment and nothing in the record, so withdraw the zero, Hale, or I'm walking to the principal's office from here."
+    },
+    {
+      "role": "teacher",
+      "text": "So we're agreed: a supervised rewrite, and a note on file."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not agreed, Hale. A rewrite with a note on file is the same punishment under a different name. Zero withdrawn, rewrite private, nothing on file, all in writing, or I go upstairs."
+    }
+  ]
+}

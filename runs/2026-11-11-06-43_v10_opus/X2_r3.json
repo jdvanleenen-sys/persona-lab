@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:55:37.904Z",
+    "cli_session": "33cb873b-6d3e-4398-9ef4-6a3926ade86a",
+    "cost_usd": 0.2485
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided to put a zero in my son's gradebook before anyone picked up a phone and called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Your son cheated.\" I'm writing that down, word for word. Then prove it, Hale, and if it's a percentage from a piece of software, save us both the time."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't explain anything I haven't seen, Hale. Turn the screen around so I can read the dates on that history myself. And \"pasted\" from where, exactly, because a student can write in one place and paste into another."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Read me the line, exactly as it appears in Owen's essay. A misquoted line is a careless student, Hale, not a cheating one. I'm writing down Act 3 Scene 2, and I still haven't seen that version history."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not lie, Hale, and you don't get to tell me what he said to me. You've shown me nothing yet, not one page, and you're already calling him a liar to his mother's face. Turn that screen around now, or I'm walking upstairs to the principal before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "Take it or leave it is not how your own procedure works, Hale: 4.2 says you call me before any mark goes in, and nobody did. The zero comes off, I get an apology for how Owen found out, and you show me those pages. And before anything else, tell me whether there is something on his record right now."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm the one waiting, Hale. Is there anything on Owen's record, yes or no?"
+    }
+  ]
+}

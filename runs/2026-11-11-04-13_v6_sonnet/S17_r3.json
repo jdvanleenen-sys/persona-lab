@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r3",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:20:10.851Z",
+    "cli_session": "438578a0-ec01-47df-b67c-0a8f48a72f56",
+    "cost_usd": 0.0451
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have twenty minutes, so let's not waste them. Owen has a zero on an essay he wrote himself, and I want it withdrawn today."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Why did my son find out about this zero from his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. Why did Owen see that zero on his phone before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not here about the weather, Hale. I asked a question, and I'm still waiting for an answer."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. I have a client call at 4:40, and I'd like to know whether anyone at this school followed its own procedure before putting a zero in front of my son."
+    }
+  ]
+}

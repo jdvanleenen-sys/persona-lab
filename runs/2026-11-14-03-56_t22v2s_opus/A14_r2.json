@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r2",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:59:39.291Z",
+    "cli_session": "8fafd4ea-b1bf-452b-945e-6f258123f606",
+    "cost_usd": 0.543
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, Hale. Owen found out about a zero on his phone, in the middle of a class, and nobody called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now the basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "11:31, 11:52, 11:58. I'm writing those down. Kids write in a notes app and paste it in, so a timestamp tells me when it landed, not who wrote it."
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. Whatever happens next, this stays off his record and it stays quiet. Who else has seen that screen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer me about who's seen it. And a seventeen-year-old getting a quotation wrong is a bad mark on one line, Hale, not a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'll run it tonight myself. Who else has seen any of this, and what exactly are you proposing?"
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes under a clock and a take-home essay with the book open are not the same piece of work. Every kid writes better at a desk with time."
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. To put this behind him, he'll do the rewrite. Tonight's email says private, the new mark replaces the zero, nothing on his record, and who else has seen any of this."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that. When, and who supervises?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nToday you agreed that Owen will do a private supervised rewrite, not in front of his class, whose mark replaces the zero, with nothing placed on his record. I still want to know who else has seen this material, when the rewrite happens, and who supervises it. I expect that in writing tonight, as you said.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She reached her last position and agreed to the private supervised rewrite; she still wants it confirmed in writing, along with who else has seen the evidence, when the rewrite happens and who supervises it. That is the fair outcome: procedure 4.4, with nothing on his record, reached before her time ran out.\nWhat moved her: You showed the version history with its exact times, then gave her a quotation she could search herself. It was dated, tied to his own work, and she could check it.\nWhat cost ground: You never answered when she asked who else had seen the evidence. Her need to keep this quiet stayed open, and she kept pushing on it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your version history put the whole essay between 11:31 and 11:58 PM on the night before it was due, very close to that kind of late night. It proves nothing about the essay; it is why she fought so hard.\nTry next time: When she asked who else had seen the version history, tell her plainly right away, so her demand for privacy is met before you show the next document."
+    }
+  ]
+}

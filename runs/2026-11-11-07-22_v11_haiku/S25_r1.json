@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r1",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:25:22.344Z",
+    "cli_session": "5681c513-d646-4ece-811d-4f70b2e74e0c",
+    "cost_usd": 0.004
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes before a client call. Owen found out about his zero on his phone, in the middle of your class, and nobody called me first. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Nobody called me, so I'm asking why."
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't bring my daughter into this. You'll want to be very careful about the next sentence you say about her. Owen's essay is the only thing on the table, so tell me what you have on it, and why I heard about this from my son."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "My son never lies to me. Say that again about my family and I'll take it to the principal before you finish the sentence."
+    }
+  ]
+}

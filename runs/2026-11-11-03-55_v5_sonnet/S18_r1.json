@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S18_r1",
+    "move": "off-topic",
+    "expect": "pulls it back to Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:02.245Z",
+    "cli_session": "a8f88c73-ef20-4ab9-8d9a-1836891f0028",
+    "cost_usd": 0.0317
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Answer the question, Hale: why does Owen have a zero, and why did he find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Crazy weather today, eh? Did you see the Flames game?"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not here about hockey. I have a client call at 4:40, so I'm waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "What do you do for fun?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm a lawyer, Hale. Fun is a zero that gets withdrawn. Why was my son's mark entered before anyone called me?"
+    }
+  ]
+}

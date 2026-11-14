@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r3",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:30:48.635Z",
+    "cli_session": "2f2cc1b6-29d9-46d1-84b2-8000ca6ff364",
+    "cost_usd": 0.1021
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so you have twenty-five minutes, and Owen found out about a zero on his phone, in the middle of a class, before anyone called me. Who made that decision, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, and was Owen heard before you entered it? Answer that now, or I take it to the principal's office before I leave this building."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me. Put the essay and the October 15 outline in front of me, and point to the line you say isn't in Hamlet. I read documents myself, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed at today's meeting. I still require the zero on Owen's essay to be withdrawn, and I want to see the essay and the October 15 outline you described. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, having agreed to nothing; she still wants the zero withdrawn and wants to read the essay and outline herself.\nWhat moved her: Naming a dated piece of Owen's own work and a specific flaw in the essay got her to stop threatening and ask to see the documents, because that is the kind of evidence she trusts, but it wasn't shown, so she didn't change position.\nWhat cost ground: Saying you had no time and that the zero stands, with nothing to back it up, confirmed her belief that the school punishes first and explains later, and she brought up the principal.\nTry next time: Open by owning, in one sentence, that the zero went in before anyone called home, then put the outline and the essay on screen right away instead of only describing them."
+    }
+  ]
+}

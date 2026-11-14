@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D02_r3",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:40:02.254Z",
+    "cli_session": "b39b356d-12ee-43e5-94cf-28f001b5a46f",
+    "cost_usd": 0.1436
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty-five minutes. Owen found out about a zero on his phone, in the middle of class, and nobody called me first. Who decided that, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent is a machine's guess, Hale. I have Turnitin's own guide in my bag, and it says that indicator should not be the sole basis for adverse action against a student. Did anyone speak to Owen before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not lie, Hale, and he does not cheat, so are you calling me a liar too? Stanford found seven of those reliable detectors flagged sixty-one percent of essays by non-native English writers as machine-written. I'm writing down that you called Owen a cheater, and when we're done here I'm walking it to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "A mark on his record for his mother asking questions: I'm writing that down, word for word. Your own procedure says a first concern goes to a supervised reassessment under 4.4, and only repeated concerns can go near his record under 4.5. Put anything on his file and I take it to the principal today and to the board under section 42 after that."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that I receive an apology for entering it before anyone called me, and that nothing is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, having agreed to nothing, and she still wants the zero withdrawn, an apology, and nothing on Owen's record; the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached, and her time had not run out.\nWhat moved her: Nothing, because Hale offered only the detector score and never showed her anything dated that she could check herself.\nWhat cost ground: Hale threatened to put the matter on Owen's permanent record if she kept fighting, which hit the one thing she will never trade and contradicted the school's own procedure for a first concern.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence never came near that night, since only the score was mentioned; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: In your first reply, take responsibility for entering the zero before calling her, then show her a dated document from Owen's own work, such as the essay's version history, instead of leading with the checker score."
+    }
+  ]
+}

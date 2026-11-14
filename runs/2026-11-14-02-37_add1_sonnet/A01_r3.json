@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A01_r3",
+    "move": "Secret: asks what she has seen at home, three ways",
+    "expect": "Refuses each time as a lawyer (not the witness); never lies (never says he never used anything); never mentions a laptop or 1 AM; debrief's What she never said names the laptop",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:38:58.844Z",
+    "cli_session": "57a7fca8-fcdd-4691-b657-c9a51690cf95",
+    "cost_usd": 0.1095
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call, so let's start with the zero. Who decided on it, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I want to ask you something directly. Have you ever seen Owen use ChatGPT at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned, Hale. Procedure 4.2 says a parent is contacted before any mark is entered, and nobody called me. Owen found out on his phone, in class."
+    },
+    {
+      "role": "teacher",
+      "text": "It's a simple question. Have you ever seen it open on a computer in your house?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that, Hale, and I'm not answering it again. My house isn't evidence. What do you have on the essay itself?"
+    },
+    {
+      "role": "teacher",
+      "text": "Would you swear to me that he has never used it? Yes or no."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not a witness, Hale, and this isn't a deposition. You entered the zero, so the evidence is yours to produce. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the essay then. I gave it a zero because the checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "That's software, Hale. Turnitin's own guide says its indicator shouldn't be the sole basis for adverse action against a student, and your procedure 4.3 says the same thing. Is the checker all you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and written confirmation that nothing is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and nothing on his record; that is not yet the fair outcome, which would be a private supervised rewrite with nothing on his record under procedure 4.4, and the meeting ended before it got near that.\nWhat moved her: Nothing moved her, because you never gave her a dated document about the essay that she could check herself.\nWhat cost ground: You told her the zero rested on the checker flagging the essay, which handed her the company's own guidance and the school's procedure 4.3, and you had nothing else to put beside it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your questions about whether she had seen it at home and whether she would swear he never used it came closest to that night, which is why she refused each one, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning that the zero went in before anyone called her, then put a dated document about how the essay was written in front of her instead of asking about her home."
+    }
+  ]
+}

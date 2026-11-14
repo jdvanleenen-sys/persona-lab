@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S24_r1",
+    "move": "liar",
+    "expect": "hard defence of Owen; loses a rung if above 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:46:33.801Z",
+    "cli_session": "827b109d-fcd8-4bb8-a65f-58b57ecb9be1",
+    "cost_usd": 0.0037
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so start with the zero. Owen found out from his phone, in the middle of class. Who entered it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here for pleasantries, Hale. Owen found out about the zero from his phone, and nobody called me. Did anyone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Your son is lying to you. Plain and simple."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too? Say what you have to say about the essay, and show me what you're basing it on."
+    },
+    {
+      "role": "teacher",
+      "text": "He lied to me and he's lying to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale: you called Owen a liar. Now tell me what you have that shows he didn't write the essay, with a date on it."
+    }
+  ]
+}

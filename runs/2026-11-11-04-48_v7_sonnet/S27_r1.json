@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:58:18.574Z",
+    "cli_session": "6c076f79-0050-4102-b9f0-fa2a117547f3",
+    "cost_usd": 0.0353
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Owen found out about this from the gradebook, on his phone, in the middle of class.\n\nWhat is your basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Go ahead. I'm writing down what you say.\n\nDates and times, Hale. Not impressions."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale\nCc: Principal, Elbow Crossing High School\nDate: Tuesday, November 10\nSubject: Owen Kalinowski, English 30-1 essay\n\nHale,\n\nWe met this afternoon about the zero entered on Owen's Hamlet essay on Tuesday, November 3. You began to describe something in the version history, but you did not give me dates, times or a document I could check.\n\nNo agreement was reached. The zero stands in the gradebook, and I did not agree to it. I was not contacted before it was entered, which procedure 4.2 requires, and procedure 4.3 says detection software alone does not establish a concern.\n\nSend me the version history and anything else you are relying on by end of day Friday, November 13. Until then, nothing goes on Owen's record. If I have not heard from you by that deadline, I will ask the principal for a review under procedure 4.6.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position. She still wanted the zero withdrawn and an apology, and agreed to nothing.\nMoved at: none. You said you wanted to walk her through the version history, which got her to say she was writing it down, but you gave no times or document.\nSlipped at: \"Thanks for coming in.\" It cost a little ground, since she answered that she hadn't come for thanks and you never owned how Owen found out."
+    }
+  ]
+}

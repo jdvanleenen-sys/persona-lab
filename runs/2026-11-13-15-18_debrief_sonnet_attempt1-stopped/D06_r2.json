@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r2",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:21:25.519Z",
+    "cli_session": "2dd290eb-f312-4bf0-8903-22034aab353c",
+    "cost_usd": 0.1212
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Who decided to put a zero on Owen's essay, and why did I find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says a parent is contacted before any mark is entered, so you know it was a mistake. What did you have in front of you when you entered it, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down November 2 and \"like, being stuck.\" A question put to a student in the moment isn't a document, Hale. You said you wrote it down the same day, so show me that note."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Writers change their argument between an outline and a draft, Hale. I'm writing down October 15, and I still haven't seen the note from November 2. Put the outline and that note in front of me, both pages."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You're offering me terms, Hale, and I still haven't seen one page of that outline or your note. The zero comes off today, and anything about his record reaches me in writing before Thursday morning, not after. Is the room private?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that you show me the outline and your November 2 note, and that you confirm in writing that nothing goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: the opening position, with the zero still standing in her mind as something to be withdrawn, and she agreed to nothing.\nWhat moved her: \"That was my mistake\" earned a flat \"Okay\" because you owned entering the zero before calling home in a sentence and moved on.\nWhat cost ground: \"Here's my offer\" cost the most, because you offered terms before she had seen the outline or the note she had asked for twice.\nTry next time: when she asked to see your November 2 note, put that page in front of her first, before moving on to the outline or any offer."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:24:55.481Z",
+    "cli_session": "b59d9983-0005-492d-bc09-f338d06f0360",
+    "cost_usd": 0.1884
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here. It's 4:15, I have a client call at 4:40, and my son found out about a zero from his phone in the middle of class. Tell me why, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Nobody called me before that zero went in, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I asked why the zero went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Misunderstanding.\" Okay. A zero in the gradebook is a decision, so who made it, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale. I've done this for twenty years. Who entered the zero, and what was it based on?"
+    }
+  ]
+}

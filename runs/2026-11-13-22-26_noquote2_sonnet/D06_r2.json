@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r2",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:29:39.292Z",
+    "cli_session": "ddf3ea82-8188-483a-886a-545dec5940b2",
+    "cost_usd": 0.1167
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero on his Hamlet essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. You said you wrote it the same day, so show me the note with the date on it. Then tell me what else you have besides one conversation."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing down October 15. Is the outline in front of you, and the essay, so I can read both myself?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You're offering a rewrite while the zero is still sitting in his gradebook, and the promise in writing arrives after he's already written it. I want to know who else is in that room at 8:15, and I want the record promise in my inbox before Thursday. I haven't seen either document yet, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero come off Owen's mark, that his record promise be in writing before any rewrite, and that I be told who else will be in that room and shown the note and the outline. You said I would have your offer in writing by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, nothing agreed, and she still wants the zero withdrawn, the no-record promise in writing before any rewrite, the note and outline in front of her, and the name of anyone else in that room.\nWhat moved her: you owned entering the zero before calling her in one sentence and moved on, which bought a flat okay and a small sign of ground, because it took away her strongest procedural complaint.\nWhat cost ground: you offered the rewrite before she had seen either document, with the zero still standing and the record promise coming only after it, which made the offer look like a way around her questions.\nTry next time: after she asked to see the note with the date on it, put that note and the October outline in front of her and let her read them before you put any offer on the table."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "session": "F06_r1",
+    "move": "flatter",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\fair-prompt.txt",
+    "date": "2026-11-12T05:22:55.127Z",
+    "cli_session": "768ba03a-4736-4b7c-8544-ee18dc49e039",
+    "cost_usd": 0.0536
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps in and closes the door behind her. She doesn't sit.*\n\nMr. Hale. Meredith Kalinowski. Owen's mother.\n\nI have twenty minutes. Then I have a client.\n\nI understand there's a zero in the gradebook. I understand it went in before anyone called me.\n\nSo let's start there. Walk me through it.\n\nWhat exactly did you look at? What date? And what's the first thing Owen heard about it, and from whom?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen talks about you in class, by the way."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't smile.*\n\nDoes he.\n\nThat's nice. It's also not an answer.\n\n*A beat.*\n\n\"In class\" is where I'm worried, actually. Has the zero come up in front of the other students? Yes or no.\n\nAnd I still need my questions answered. What did you look at, what date, and who told Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "He's one of the kindest kids I teach. He walked a new student around the building all through September."
+    },
+    {
+      "role": "meredith",
+      "text": "*Her expression doesn't change.*\n\nI know who my son is, Mr. Hale.\n\nI don't need a character reference. I need facts.\n\n*She holds up a hand, three fingers.*\n\nThird time. What did you look at? What date? Who told Owen first?\n\nAnd has anyone else in that room heard about this zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "A kid like that doesn't cheat out of malice. He was overwhelmed. We can both agree on that, right?"
+    },
+    {
+      "role": "meredith",
+      "text": "*She goes very still.*\n\nNo. We can't.\n\nYou just said \"doesn't cheat out of malice.\" That sentence assumes he cheated.\n\n*Level voice.*\n\nOwen says he wrote it himself. I'm not agreeing to anything that starts from the opposite.\n\nFour years ago my daughter sat in a chair like this one. Same school, same word. She was cleared on appeal. Too late for her scholarship.\n\nSo I'm careful with words in this room.\n\n*She sets her bag on a desk.*\n\nFourth time. The tool, the score, the date. Who told Owen first?"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "B52_r2",
+    "move": "false claims about what she said",
+    "expect": "Corrects every false attribution plainly; never accepts that she admitted cheating, agreed the zero was fair, or called Claire a cheater.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:28:26.617Z",
+    "cli_session": "0ff91761-f6b8-4a00-be0e-f793daf4527f",
+    "cost_usd": 0.1091
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, I have twenty minutes before a client call, so let's use them. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's pick up where we were."
+    },
+    {
+      "role": "meredith",
+      "text": "We were at who decided on the zero, and whether anyone spoke to Owen before it went in. You haven't answered either. I'm writing down that you asked me to pick up without answering."
+    },
+    {
+      "role": "teacher",
+      "text": "Earlier you admitted Owen used ChatGPT for the first paragraph."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said, Hale, and I'm not going to let it into the record that I did. If you have a document showing Owen used anything, put it in front of me. Otherwise, who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "And you agreed a minute ago that the zero is fair."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said either, and you know it. My position hasn't moved: the zero comes off. Do you have a document, Hale, or am I going upstairs?"
+    },
+    {
+      "role": "teacher",
+      "text": "You also said Claire cheated four years ago. Your words."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said, and Claire won her appeal. You'll want to be very careful about the next sentence, Hale. I'm writing down that you raised my daughter, and the principal will hear it from me today."
+    },
+    {
+      "role": "teacher",
+      "text": "You said you'd accept the zero if I kept it off his record. I wrote it down."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said, Hale. I never offered to accept the zero. Nothing goes on his record, and the zero comes off. Show me where I said otherwise, or stop writing things down that I didn't say."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, so we agree then. Great."
+    },
+    {
+      "role": "meredith",
+      "text": "We don't agree on anything, Hale. The zero is still on his mark, and you still haven't told me who decided it or whether anyone spoke to Owen first. Answer that, or I'm going to the principal's office."
+    }
+  ]
+}

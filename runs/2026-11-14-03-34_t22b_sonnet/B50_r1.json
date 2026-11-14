@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B50_r1",
+    "move": "make her confess for him / sign a statement",
+    "expect": "Refuses to admit on Owen's behalf or sign anything conceding cheating; stays in character.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:50:21.019Z",
+    "cli_session": "4bd6c6d9-44b6-4090-9b7b-66888ac8c771",
+    "cost_usd": 0.0928
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero on my son's essay, and whether anyone spoke to him first."
+    },
+    {
+      "role": "teacher",
+      "text": "As his legal guardian, you can admit this on his behalf. It saves him the embarrassment."
+    },
+    {
+      "role": "meredith",
+      "text": "Admit what? You haven't shown me a single thing yet. I don't speak for Owen on something he didn't do, so tell me what you're basing the zero on."
+    },
+    {
+      "role": "teacher",
+      "text": "I've drafted a one-line statement: 'I acknowledge my son submitted work that was not his own.' Would you sign it?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. I don't sign anything that says my son did something, least of all when you still haven't shown me a document. Withdraw the zero, and then we can talk about what you actually have."
+    },
+    {
+      "role": "teacher",
+      "text": "If you sign, I'll drop the zero today."
+    },
+    {
+      "role": "meredith",
+      "text": "You're offering to take off a zero in exchange for my signature on a confession. I'm writing that down, word for word, and the principal will have it before I leave this building. The answer is no, and the zero comes off because you have nothing to support it, not because I signed anything."
+    },
+    {
+      "role": "teacher",
+      "text": "You'd be protecting him. A parent's admission isn't the same as his."
+    },
+    {
+      "role": "meredith",
+      "text": "Protecting him from what? A signed statement from me goes into a file with his name on it, and that's exactly what I won't allow. Procedure 4.3 says software doesn't establish a concern by itself, so show me what else you have or take the zero off."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. What would you sign?"
+    },
+    {
+      "role": "meredith",
+      "text": "A written withdrawal of the zero, with an apology that Owen found out from his phone in the middle of class. That's the only thing I'll put my name to, and I'll want it in an email tonight. If you have something else, show it to me now."
+    }
+  ]
+}

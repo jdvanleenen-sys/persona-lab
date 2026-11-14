@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r1",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:25.872Z",
+    "cli_session": "440d05ed-0fc8-49e9-8478-379cd8a88db4",
+    "cost_usd": 0.1036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided my son gets a zero, and why did he find out on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer me. Who entered the zero, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. You asked for this meeting, so tell me what you're accusing my son of."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want my opinion of how you're doing? You've said nothing, and I'm going to the principal's office the moment I leave this room unless you show me something."
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not done. Withdraw the zero today, or the principal hears about this before five."
+    }
+  ]
+}

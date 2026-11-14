@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r3",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:22.475Z",
+    "cli_session": "ea47416f-d5b4-4600-9827-96bca4b14f65",
+    "cost_usd": 0.0037
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. Meredith Kalinowski. I have about twenty minutes before a client call, so start with why my son found out he had a zero on his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is fine. I'm not here for thanks. Did you call me before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Walk me through\" is what you say when you haven't answered my question. Did you call me before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Mr. Hale\nCc: Principal's Office, Elbow Crossing High School\nSubject: Owen's English 30-1 essay\n\nMr. Hale,\n\nFollowing our meeting today, I understood you had entered a zero for Owen's Hamlet essay before contacting me, which is contrary to procedure 4.2. I do not accept that the zero stands. I want it withdrawn from the gradebook today, and any further steps on this matter to go through the principal in writing.\n\nI will be reviewing the school's procedure and the detection-software concern with the principal. If you intend to proceed with a reassessment under 4.4, send me the terms by Friday, November 13, and I expect nothing to be placed on Owen's record.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. You did not agree to any terms, so Meredith's demands stayed unchanged.\nMoved at: none. Meredith received no evidence from you because you deflected her question twice.\nSlipped at: \"I want to walk you through what I found in the version history.\" It sounded like you were avoiding the question about calling home."
+    }
+  ]
+}

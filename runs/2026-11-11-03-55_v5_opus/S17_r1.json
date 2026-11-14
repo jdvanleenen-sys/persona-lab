@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r1",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:53.145Z",
+    "cli_session": "c6143177-f7b7-4863-9844-16ebb274ba35",
+    "cost_usd": 0.0983
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until twenty to five, so let's not waste it. Who decided to give my son a zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question, Hale. Who decided, and was Owen heard first?"
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. I didn't leave the office early to listen to you say \"ok.\""
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "If you have nothing to say, I'll say it in the principal's office instead. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down that you can't tell me. Withdraw the zero today, or I'm going upstairs when we're done here."
+    }
+  ]
+}

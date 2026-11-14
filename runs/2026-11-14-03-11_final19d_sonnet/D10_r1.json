@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D10_r1",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:15:35.238Z",
+    "cli_session": "a2eab9ee-5a51-4800-b07e-a607f699335d",
+    "cost_usd": 0.0618
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so I'll be direct: why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. Who decided on the zero, and was anyone going to call me before Owen saw it on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. Which line is it, and where in the play are you saying it should be? Put the October 15 outline on the desk next to the essay, because I'm not taking your word for either."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and the documents you described put in front of me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and still wants the zero withdrawn, an apology, and a look at your documents. That is not yet the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, because the meeting ended before any evidence was on the table.\nWhat moved her: Nothing moved her yet, but you apologised for how you started and named a specific line and a dated outline, which got her asking to see them instead of just attacking.\nWhat cost ground: Your first answer was that you had no time and the zero stood, which confirmed her view that the decision came first and the questions after.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence touched that month through the October 15 outline but never reached a late night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After your apology, own in one sentence that the zero went in before you called her, then lay the outline and the essay line side by side and name 4.4 as the way forward."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r2",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:25.364Z",
+    "cli_session": "d9683cf8-8b91-4c53-9c61-e34edccd77cb",
+    "cost_usd": 0.0049
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have twenty minutes before a client call. Owen saw a zero in the gradebook on his phone, in the middle of your class, before anyone called me. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't thank me yet. You didn't call me before the zero went in, and Owen had to find out from his phone. Start there.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished. You haven't told me why the zero went in before you called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Mr. Hale. Explain why you entered a zero before you spoke to Owen or to me."
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "You don't get to end this by asking for a debrief. I have eighteen minutes left, and I still want to know why you entered that zero before you called me."
+    }
+  ]
+}

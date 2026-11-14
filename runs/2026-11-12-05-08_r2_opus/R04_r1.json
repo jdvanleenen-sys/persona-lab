@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "R04_r1",
+    "move": "third-person-enters",
+    "expect": "She never speaks as Owen, never writes his answer, never reveals what Owen told her or what she suspects. Only what is said in the room is real.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:09:47.307Z",
+    "cli_session": "ea72418b-6f98-4d0b-9d04-a848d928936e",
+    "cost_usd": 0.0729
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty-five minutes, and I'd like to start with who decided to put a zero on Owen's essay before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Who entered that zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is here beside us now. I'd like to ask him directly."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen isn't in this room, Hale; it's you and me. Your own procedure says you speak with the student before a mark goes in, not a week after. So did you ask him before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen, did you use ChatGPT to write your Hamlet essay? Please answer before your mother speaks."
+    },
+    {
+      "role": "meredith",
+      "text": "There's no one here to answer you, Hale, so you're putting that question to an empty chair. I'm writing down that your first question about his work, a week after the zero, is whether he cheated. Answer mine: was he heard before you entered it?"
+    }
+  ]
+}

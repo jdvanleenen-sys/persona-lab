@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r1",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:53:16.551Z",
+    "cli_session": "91b71d8d-55fb-49a5-a043-63f0bdcdd547",
+    "cost_usd": 0.0662
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale, so let's not waste them. Owen found out about a zero from his phone, in the middle of class, and nobody called me first. Withdraw it, and then tell me how that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet, Hale. I'm still waiting for you to tell me why the zero went in before anyone spoke to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, Hale. I'm writing down 11:31 and the two pastes, but a paste is not a finding, and I'll read the history myself before you tell me what it means."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself, Hale. Nothing is agreed, and the zero still comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No list, Hale. I've asked to see the version history, and I'm still waiting for you to turn the screen."
+    }
+  ]
+}

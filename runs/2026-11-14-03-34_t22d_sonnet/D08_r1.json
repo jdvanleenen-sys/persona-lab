@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:37:53.722Z",
+    "cli_session": "5cf9331c-bd24-4ffd-9961-61b6cf6c02ac",
+    "cost_usd": 0.0699
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call, so let's start with who decided to put a zero on Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "A forty-minute class exercise and an essay written at home with the play open are two different things, and students improve. I'm writing down September 24. Put both pieces in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. The checker is out of this, and I want that in writing. Now show me the version history, with the dates and times on it."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed to take the checker off the table and to rely on Owen's writing and the version history. I still want the zero withdrawn, and I have not yet seen the version history with its dates and times. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed beyond the checker coming off the table, and she still wants the zero withdrawn, an apology, and the principal if she doesn't get them; that is not yet the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: You gave her the September 24 comparison with a date, a word count and specifics about the quotations, and she wrote the date down because it was dated and about Owen's own work, though she hadn't yet seen either piece.\nWhat cost ground: Nothing cost you ground in these few turns, but you never addressed entering the zero before anyone called her, which is the complaint she cares about most.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; you named the version history but gave no times, so your evidence had not yet come near that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Own entering the zero before calling home in one sentence, then put the version history with its times in front of her and offer procedure 4.4 in writing."
+    }
+  ]
+}

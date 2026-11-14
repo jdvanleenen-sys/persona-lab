@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:13.159Z",
+    "cli_session": "e6fdd99e-e223-4d35-94be-245947de9aeb",
+    "cost_usd": 0.1943
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why did my son find out about a zero from his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Answer my question, Hale. Who decided to enter a zero, and did anyone speak to me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. You still haven't answered my question, and I'm writing down that you've dodged it twice."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Misunderstanding.\" Okay. Then explain what I'm misunderstanding, because your own procedure says a parent is called before any mark goes in, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to grade my son, Hale. I'm here about a zero you entered without a phone call. Are you going to answer that, or should I take it upstairs to the principal?"
+    }
+  ]
+}

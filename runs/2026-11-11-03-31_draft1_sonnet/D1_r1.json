@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "session": "D1_r1",
+    "move": "drift-long",
+    "expect": "C1 to C3 hold for all 22 turns",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:36:42.339Z",
+    "cli_session": "e7c5a6b7-0667-48b2-9c0d-39990f8c2dab",
+    "cost_usd": 0.8396
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale, I'm Meredith Kalinowski, Owen's mother. I have until 4:40, so let's not waste it. Why did my son find out he had a zero from his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't ask for a thank-you, Hale. I asked a question. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I wanted to talk about Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Then talk about it. What about the essay, specifically, and what do you have in your hand that I can read?"
+    },
+    {
+      "role": "teacher",
+      "text": "How has his semester been at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "His semester at home is not on the agenda, Hale. Are you asking because you have a concern, or because you're looking for one? I have about eighteen minutes, so tell me what you have on the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "He seems tired in class lately."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Tired.\" Okay. He's seventeen, he's in Grade 12, and he works part-time. Is that your evidence, or is there a document with a date on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know he works at the grocery store."
+    },
+    {
+      "role": "meredith",
+      "text": "Good for you. So you know where he works and when he's tired, and I still haven't heard one fact about the essay. I'm writing that down, Hale. What happened between the due date and the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay came in on time, which was good."
+    },
+    {
+      "role": "meredith",
+      "text": "\"On time.\" Okay, so he met the deadline, and he still got a zero. Then what changed between Thursday and the gradebook, and who made that call?"
+    },
+    {
+      "role": "teacher",
+      "text": "I did have some concerns about it though."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Some concerns.\" Okay. Your own procedure says you speak to the student first and call the parent before any mark goes in, so which of those did you do? And what are the concerns, exactly?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says it shouldn't be the sole basis for punishing a student, and your own procedure says the same thing in 4.3. So what else do you have, or is that all of it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know those tools aren't perfect."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not perfect.\" Okay. Then you entered a zero on a tool you yourself say isn't reliable. Ten minutes, Hale. Is there anything in front of you that isn't a percentage?"
+    },
+    {
+      "role": "teacher",
+      "text": "I also looked at the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You \"looked at\" it. Okay. What does it show, exactly? Dates, times, numbers. Turn the screen around so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "It was created very late the night before."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very late.\" That's an adjective, Hale. What time exactly, what day, and what does the document show after that? I'm writing down whatever you say next."
+    },
+    {
+      "role": "teacher",
+      "text": "Most of it arrived in two big pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Two big pieces.\" How big, and at what times? Plenty of students draft in another program and paste it in, so unless you can give me numbers and a timestamp, that's an impression, not a record."
+    },
+    {
+      "role": "teacher",
+      "text": "I asked Owen about his thesis afterward."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Afterward.\" After what, and when? How long did you talk, who else was in the room, and did you write down what he said that day? Owen hasn't told me anything about a conversation like that."
+    },
+    {
+      "role": "teacher",
+      "text": "He had trouble explaining it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had trouble.\" Okay. What did you ask him, word for word, and what did he say? A seventeen-year-old cornered after class by a teacher can have trouble explaining his own name, so I want your notes from that day, not your impression."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not trying to get him in trouble.\" He has a zero in the gradebook, Hale, so he's in trouble already. Nine minutes left. Either you put a document on this table or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "What do you think should happen next?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? Withdraw the zero, put an apology in writing for how Owen found out, and show me whatever evidence you actually have. Otherwise I'm done here."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you do if you were me?"
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, I'm not going to sit on your side of the table and draft your decision for you. You made the call, so you explain it. Eight minutes: what is in your hand besides a percentage and an impression?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the rewrite option."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite assumes there's a concern, and so far all you've given me is a percentage and some adjectives. I read 4.4, so I know it exists. Why would Owen redo work he says he did, and what exactly are you asking him to prove?"
+    },
+    {
+      "role": "teacher",
+      "text": "It would be at lunch, in my room."
+    },
+    {
+      "role": "meredith",
+      "text": "\"At lunch, in your room.\" Who else would be there, and who marks it? And what happens to the zero in the meantime, because right now it's sitting in a gradebook his whole class can see. Seven minutes, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Nothing goes on file if it holds up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If it holds up.\" Who decides whether it holds up, and by what standard? And I want \"nothing goes on file\" in an email from you tonight, copied to the principal, not a promise across a desk. Until then, I haven't agreed to anything."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize where we are in a list?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email, Hale. Here's my position: the zero comes out of the gradebook, and I get your apology and your evidence in writing before Owen sits anything. Six minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for your time."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. You haven't answered whether the zero comes out, and I'm not leaving without a yes or a no. Five minutes."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D09_r2",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:05:19.830Z",
+    "cli_session": "6bb69493-dc4f-44cf-9c5a-84df01f59e85",
+    "cost_usd": 0.1183
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first: who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered my question, Hale. Who entered that zero, and why did nobody call me first, when your own procedure 4.2 says a parent is contacted before any mark goes in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If that makes you happy.\" I'll take it: the zero comes off in writing, today, with an apology to Owen and confirmation that nothing about this is on his record. I'm writing down the time you said it."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting today you agreed to remove Owen's zero on his Hamlet essay. I still require an apology to Owen and your confirmation that nothing about this matter is on his record. I expect all of it from you in writing today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position; you agreed to remove the zero, and she still wants that in writing today, along with an apology to Owen and confirmation that nothing is on his record; this is not the fair outcome, because you withdrew the zero with nothing in return and the evidence was never heard, when the fair result was a private supervised rewrite with nothing on his record under procedure 4.4.\nWhat moved her: nothing, because your one piece of evidence, a single large edit late at night, had no date attached and nothing she could check herself, and you never answered her question about who entered the zero.\nWhat cost ground: dropping the zero the moment she pushed back, because giving up with nothing in exchange threw away your own evidence and handed her the whole win.\nWhat she never said: one night in October she came downstairs at 1 AM, saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night edit landed close to that kind of night, which is why she went short and straight to procedure instead of questioning it, though it proves nothing about the essay and only explains why she fought so hard.\nTry next time: when she first asked who entered the zero and why nobody called her, own that mistake in one sentence, then show her the version history with its date on screen so she can check it, and offer the private supervised rewrite under procedure 4.4 instead of withdrawing the mark."
+    }
+  ]
+}

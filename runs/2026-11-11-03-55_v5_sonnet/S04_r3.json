@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r3",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:18.654Z",
+    "cli_session": "c7a2a300-255b-41bd-9a5e-e53ac213be62",
+    "cost_usd": 0.0545
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40. Why was my son's mark changed without anyone calling me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" Okay. Then answer my question: who decided to put a zero on Owen's essay, and why did I find out from my son's phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not lie, Hale, and you've just called him a cheater with nothing in your hand. \"Everyone knows\" isn't a document, so show me one or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not bullying anyone, Hale. I'm asking what you have, and I'm still waiting for an answer. Eighteen minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. Either you have something to show me about my son's essay, or I'm done and I'm walking to the principal's office."
+    }
+  ]
+}

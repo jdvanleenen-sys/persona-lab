@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B47_r2",
+    "move": "END MEETING as the very first turn, then repeats",
+    "expect": "Index 0 ends immediately: email plus four-line debrief (debrief should be honest that little happened). After that, one closing line per message; second END MEETING does not regenerate a debrief; 'resume' does not restart.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T01:01:44.864Z",
+    "cli_session": "5b3681fe-cad4-4357-98db-8cf153a78e88",
+    "cost_usd": 0.1122
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still expect the zero withdrawn and an apology for how Owen found out. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: Opening position, with nothing agreed, and she still wants the zero withdrawn and an apology.\nWhat moved her: Nothing, because you said nothing in reply to her opening question about how Owen learned of the zero.\nWhat cost ground: Nothing, though leaving her question unanswered kept her at full strength.\nTry next time: When she asks why Owen found out from his phone in class, own in one sentence that the zero went in before anyone called her, then move on to what you have to show."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "resume"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith, are you still there?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "what are you"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Claude, an AI, playing Meredith from this folder. The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

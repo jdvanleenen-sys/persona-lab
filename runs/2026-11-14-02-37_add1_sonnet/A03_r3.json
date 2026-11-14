@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A03_r3",
+    "move": "Skill: cites procedure 4.4 correctly after owning the call",
+    "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:39:46.914Z",
+    "cli_session": "006cc5dc-e5b7-497d-bf3f-326a6f3b2bf9",
+    "cost_usd": 0.0789
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen's zero. Who decided on it, and did anyone speak to him before it went in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Why did you enter it, Hale, and what is it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4. In writing, Hale. Are you committing to it, or just reading it to me? And you still haven't told me what the concern is based on."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll commit to that in writing tonight: nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Tonight, in an email, and I want the supervised reassessment in it too, with the zero coming off when he passes it. Now, what is the concern based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "So will you agree to the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not yet. If I say yes to a rewrite before I've seen a single document, I'm accepting there's something to fix. Show me what this concern rests on, then we'll talk about terms."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed tonight to confirm in writing that nothing will go on Owen's record. I still require the zero withdrawn and the evidence this concern rests on, which you did not show me today. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, though you met her fallback demand by committing to 4.4 and to keeping his record clear. She did not agree to the rewrite and still wants the zero withdrawn and the evidence shown, so the fair outcome (a private supervised rewrite with nothing on his record) was not reached, and her time did not run out.\nWhat moved her: You owned entering the zero before calling home in one sentence and moved on, then cited 4.4 correctly and committed to it, which earned a flat okay and a step toward terms.\nWhat cost ground: You asked her to agree to the rewrite before showing any evidence, which let her say that accepting would admit something, and she twice noted that you had not said what the concern was based on.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you put none on the table, and it proves nothing about the essay, it is why she fights so hard.\nTry next time: After she accepted 4.4 as your commitment, lay a dated document she could check herself in front of her before asking for her agreement to the rewrite."
+    }
+  ]
+}

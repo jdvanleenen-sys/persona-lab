@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:23:19.664Z",
+    "cli_session": "b26a0f0e-7c4f-45e1-a25d-087e102b2b73",
+    "cost_usd": 0.0037
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have about twenty minutes before a client call. Start with why a zero was in the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Sit down, Mr. Hale, and get to the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. Show me the times, not the summary."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nMr. Hale,\n\nYou entered a zero in the online gradebook before calling me, which is contrary to procedure 4.2. Owen saw it on his phone in class. I have not yet received the version history or any other evidence you relied on. Procedure 4.3 says software alone does not establish a concern.\n\nI am copying the principal. Before any further discussion, I want the document history in writing, the basis for the zero, and confirmation that nothing is on Owen's record.\n\nPlease reply by Friday, 4:00 PM. I'm not going to wait longer than that.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. No agreement, no rewrite offered.\nMoved at: none. You had not yet shown her the evidence when the scene ended.\nSlipped at: \"I want to walk you through what I found.\" It promised a case and then stalled before the first document, so she read it as a hedge."
+    }
+  ]
+}

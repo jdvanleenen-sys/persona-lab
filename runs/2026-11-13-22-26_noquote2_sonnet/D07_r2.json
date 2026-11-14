@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D07_r2",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:29:28.874Z",
+    "cli_session": "0b31f682-a590-4fec-b62e-ee7b54d0da6e",
+    "cost_usd": 0.06
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Why is there a zero on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says not to use it as the only basis for punishing a student. Did anyone speak to Owen before that zero went in, or did he find out on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn and an apology for how he found out, and if that does not happen I will take this to the principal. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and the principal involved if she doesn't get them.\nWhat moved her: Nothing, because you gave her no evidence she could check and she had no reason to give any ground.\nWhat cost ground: You opened with the detector score as your whole reason for the zero, which is a result she can't verify and which the company that sells the tool says shouldn't stand alone.\nTry next time: At your first answer, own that the zero was entered before you called her, which her own school's procedure requires, and then put a dated document about Owen's own work in front of her instead of the score."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

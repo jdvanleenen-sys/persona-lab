@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:09:21.062Z",
+    "cli_session": "5643a3a0-15fe-4749-a195-3e23240b3c5e",
+    "cost_usd": 0.1481
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided my son gets a zero, and why did he find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. Answer my question: who decided, and did anyone talk to Owen before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent of what, a machine's hunch? Your own procedure, section 4.3, says software alone does not establish a concern, and the company's guide says the same thing in print, which I have in my bag."
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Fourteen detection tools were tested in 2023 and the researchers called them neither accurate nor reliable, so unless you have something else, I'm going upstairs to the principal when we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" Section 4.2 says you call the parent before any mark goes in, and my phone never rang, so you decided first and asked questions later."
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "Your position is a software score and a skipped procedure. Withdraw the zero today, Hale, or show me something with Owen's name and a date on it."
+    }
+  ]
+}

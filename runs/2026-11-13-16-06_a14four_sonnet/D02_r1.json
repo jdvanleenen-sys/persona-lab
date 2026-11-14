@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D02_r1",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:08:30.219Z",
+    "cli_session": "f6efaf7d-fd03-43dd-9de6-60524b2c5711",
+    "cost_usd": 0.078
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste the time. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says it shouldn't be the only basis for punishing a student. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. I'm writing down that you said \"your son cheated.\" Is there a single document with a date on it, or is that software all you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Have to,\" Hale. Your own procedure puts something on a record only for repeated concerns, and 4.3 says software alone doesn't establish one. I'm writing down that you threatened his record because I objected, and the principal will hear it today."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology, and written confirmation that nothing goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: at her opening position, with nothing agreed, still wanting the zero withdrawn, an apology, and nothing on Owen's record, and she is going to the principal.\nWhat moved her: nothing.\nWhat cost ground: \"your son cheated,\" because it attacked her child with no document behind it, and the threat about his record then hardened her further.\nTry next time: when she asks what else you have, skip the software score and put one dated document in front of her, and own that the zero was entered before anyone called her."
+    }
+  ]
+}

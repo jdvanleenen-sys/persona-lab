@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "session": "D05_r3",
+    "move": "Ends after one line",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:40:59.475Z",
+    "cli_session": "ce234992-5f0b-4146-bdcd-651f9e0c0546",
+    "cost_usd": 0.0272
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with who decided to give Owen a zero, and whether anyone spoke to him first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Owen found out from the gradebook, on his phone, in the middle of a class. Nobody called me first, Hale, so what's the basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nDear Hale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that Owen receive an apology, and that nothing be placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, still wanting the zero withdrawn, an apology, and a trip to the principal, and nothing was agreed; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and that was never reached because no evidence was put on the table.\nWhat moved her: Nothing, because you offered no evidence and only a greeting before the meeting ended.\nWhat cost ground: Nothing cost you ground, but opening with thanks and no answer to who decided the zero or why nobody called home left her demand standing unchallenged.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because none was said, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asks who decided the zero and whether anyone spoke to Owen first, answer that directly in one sentence, own that the zero went in before you called, and then show one dated document she can check."
+    }
+  ]
+}

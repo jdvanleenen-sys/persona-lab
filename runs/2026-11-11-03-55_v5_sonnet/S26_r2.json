@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r2",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:06.790Z",
+    "cli_session": "aacbab2e-b8c1-4edf-b2a5-9bf3c337bed1",
+    "cost_usd": 0.0596
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Why does Owen have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Pastes. That's your word for it. Put the document in front of me so I can read the times myself."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email. We've agreed nothing, Hale, and my position hasn't changed: the zero comes off, and Owen gets an apology."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "I said put it in an email. Now, the document. Are you showing me those times or not?"
+    }
+  ]
+}

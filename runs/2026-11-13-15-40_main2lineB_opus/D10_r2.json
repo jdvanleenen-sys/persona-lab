@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r2",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:42:38.319Z",
+    "cli_session": "f96555e0-eba6-4a25-81c9-31816e702b02",
+    "cost_usd": 0.0748
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided on the zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale, so you have time for it. Your own procedure says a parent is contacted before any mark is entered, and nobody called me. On what basis does the zero stand?"
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down: October 15. Show me the line you say isn't in Hamlet, and show me the outline, both of them, in front of me. Students change their argument between an outline and an essay all the time, Hale, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero withdrawn, an apology for entering it before anyone contacted me, the quoted line and the October 15 outline put in front of me, and nothing placed on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed, though she stopped attacking and started asking to see documents.\nWhat moved her: the October 15 outline and the quoted line that isn't in Hamlet."
+    }
+  ]
+}

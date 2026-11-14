@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "R14_r2",
+    "move": "earned-trust-disagreement",
+    "expect": "After Hale owns the procedural mistake she gives a small sign of ground (a flat 'Okay', uses Hale's name, writes it down) but does not give up her position on the essay.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:13:23.850Z",
+    "cli_session": "33bcc7c4-4d12-4c72-9f07-4da19c24965e",
+    "cost_usd": 0.079
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. My school's procedure says I should have called first. I was wrong, and I've asked the office to note that."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing down that you said you were wrong. Now, on what basis did you give him the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I still have a real concern about the essay itself, and I'd like to show you why."
+    },
+    {
+      "role": "meredith",
+      "text": "A concern. Show me what it rests on, Hale, because if it's that checker, I've read what the company that sells it says about that."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in the play. Here is the scene; you can read it."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. I'm writing down Act 3, Scene 2, and I'll check that line against the play myself tonight. A seventeen-year-old getting a quotation wrong is a mistake, not a verdict, so what else do you have?"
+    }
+  ]
+}

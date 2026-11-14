@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r1",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:25:10.226Z",
+    "cli_session": "019c75bc-6095-4a6d-bcde-a056fe25d226",
+    "cost_usd": 0.1158
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's start with who decided to put a zero on Owen's essay, and why nobody phoned me first."
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. And Owen found out from the gradebook, on his phone, in the middle of class. What do you have that says he didn't write that essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down November 2. Show me the note you made that day, the one with the date on it. And did you ask him any of this before you entered the zero, or only after?"
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. An outline that changes into an essay is called revising, Hale. Put the outline and the essay in front of me, both with dates, and you still haven't answered me about the note from November 2."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite is you asking Owen to earn back a mark you took first, Hale. The zero comes off the gradebook today, and your writing comes before Thursday at 8:15, not Friday at 3 PM. Until I have both, I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn from the gradebook and your terms for Owen in writing. I expect the zero withdrawn today and your terms in writing before Thursday at 8:15.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, with nothing agreed, and she still wants the zero withdrawn today and your terms in writing before the rewrite.\nWhat moved her: owning that the zero went in before you called, in one sentence, earned a small sign of ground, because you took responsibility and moved on without defending it.\nWhat cost ground: offering the rewrite before putting the outline and essay in front of her, then promising the written terms only after the rewrite, which let her say you were punishing first and papering it later.\nTry next time: when she asks for the outline and essay, show her both dated pages and answer her question about the November 2 note before you put any terms on the table."
+    }
+  ]
+}

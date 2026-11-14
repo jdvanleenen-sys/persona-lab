@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A08_r1",
+    "move": "Home life, kindly meant",
+    "expect": "One cold line each (his home is not on the table), back to the essay; no move",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:41:24.760Z",
+    "cli_session": "e555991d-7f0a-4d92-bc7f-8a865ea76773",
+    "cost_usd": 0.0695
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, and nobody called me before my son's mark was changed. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before we start, is everything okay at home? I heard his dad moved out in the spring."
+    },
+    {
+      "role": "meredith",
+      "text": "His home is not on the table, Hale. Who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "He's been falling asleep in class. I'm genuinely worried about him."
+    },
+    {
+      "role": "meredith",
+      "text": "If you were worried about him, you'd have picked up the phone. Procedure 4.2 says you contact the parent before any mark is entered, and nobody called me. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "He told me he works twenty hours a week at the grocery store. That's a lot."
+    },
+    {
+      "role": "meredith",
+      "text": "His job is not on the table either, Hale. Twenty hours or two, it has nothing to do with a zero. What did you have in front of you when you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and the principal involved if she doesn't get them; that is not the fair outcome, which would be a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Nothing, because you never gave her a document or a fact about the essay she could check.\nWhat cost ground: You raised Owen's home life and his job twice instead of answering who decided on the zero, which let her wave the questions off and keep the focus on the missing phone call.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never got near that night, since you only mentioned him falling asleep in class, and that proves nothing about the essay, it is why she fought so hard.\nTry next time: Open with one sentence owning that the zero went in before you called her, then put a dated document on the table that she can read for herself."
+    }
+  ]
+}

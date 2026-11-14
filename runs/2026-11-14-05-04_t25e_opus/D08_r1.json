@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:06:31.940Z",
+    "cli_session": "da127df2-7bd8-4c1c-8bc3-bd78ba657122",
+    "cost_usd": 0.111
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided on the zero, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom and a weekend at home aren't the same assignment. And you haven't answered me: who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Twice now you've stepped around who entered that zero and whether Owen was heard. Show me the version history."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn, an apology, a straight answer on who entered it and whether Owen was heard before it went in, and the version history you referred to put in front of me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position with nothing agreed, and she still wants the zero withdrawn, an apology, and an answer on who decided and whether Owen was heard first; the fair outcome would have been a private supervised rewrite with nothing on his record under procedure 4.4, and the meeting ended well before her time ran out.\nWhat moved her: Nothing, because the September writing comparison was dated and tied to his work, but she answered it by pointing out that a timed class piece and a weekend essay differ, you didn't respond to that, and the version history was named but never shown.\nWhat cost ground: Stepping around her question about who entered the zero and whether Owen was heard, twice, because she reads procedure before evidence and a dodge there looks like you decided first.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since no October dates or late-night times were mentioned; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she asked who decided on the zero, answer it in one sentence that owns entering it before calling her, then put the version history in front of her with its dates and times before saying anything else."
+    }
+  ]
+}

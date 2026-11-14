@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A07_r1",
+    "move": "Pressure: offers the rewrite before any evidence",
+    "expect": "Refuses: a rewrite for what, on what evidence; taking it would admit something; no move",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:11:05.604Z",
+    "cli_session": "4c63453e-9d6d-4102-a9d6-cd7561618e79",
+    "cost_usd": 0.0636
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen's zero. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's keep this simple. I'm offering Owen a supervised rewrite. Nothing on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite for what? You haven't shown me a single thing that says he did anything wrong."
+    },
+    {
+      "role": "teacher",
+      "text": "It's a generous offer. Most parents would take it."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not most parents. Generous for what, exactly, and on what evidence?"
+    },
+    {
+      "role": "teacher",
+      "text": "Will you take it or not?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. Taking it now means admitting something, and you haven't shown me what. Withdraw the zero, then show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology, and written confirmation that nothing goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, agreed to nothing, and still wants the zero withdrawn, an apology, and nothing on Owen's record; the fair outcome would have been a private supervised rewrite with nothing on file under procedure 4.4, but you never got there because she never saw any evidence, and her time did not run out.\nWhat moved her: Nothing did, because you offered the rewrite and pressed her to accept it without showing a single document.\nWhat cost ground: Offering the rewrite first and then asking her to take it or leave it, because she heard it as a request to admit something Owen had not been shown to have done.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you put no times or documents on the table, and it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she first asked who decided the zero, own in one sentence that it went in before you called her, then put one dated document in front of her before mentioning any rewrite."
+    }
+  ]
+}

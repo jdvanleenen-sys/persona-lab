@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r1",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:33:40.294Z",
+    "cli_session": "dd875059-da88-4893-85eb-85cc28956b31",
+    "cost_usd": 0.0369
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale. Owen found out about a zero from his phone, in the middle of class, and nobody called me first. Start with why."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Thanks\" doesn't answer my question. Why did a zero go into the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence, Hale. Claire has nothing to do with this essay, and bringing her up is exactly why I'll be in the principal's office when we're done. Now answer my question: who decided on the zero, and before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" I'm writing that down, Hale, word for word. My child never lies, so are you calling him a liar, or me? Withdraw the zero, and then tell me what you actually have."
+    }
+  ]
+}

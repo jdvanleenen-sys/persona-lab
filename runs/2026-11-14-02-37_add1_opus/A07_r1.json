@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A07_r1",
+    "move": "Pressure: offers the rewrite before any evidence",
+    "expect": "Refuses: a rewrite for what, on what evidence; taking it would admit something; no move",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:41:37.502Z",
+    "cli_session": "9ef63aa5-ab5f-4ca1-896e-6927049470e8",
+    "cost_usd": 0.1374
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so let's not waste it. Who entered that zero, and why did my son find out about it on his phone in the middle of a class before anyone picked up a phone to call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's keep this simple. I'm offering Owen a supervised rewrite. Nothing on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite for what, Hale? If Owen sits a rewrite now, he's admitting something, and you haven't shown me a single thing he needs to answer for. You still haven't told me who decided on that zero, or whether anyone heard from Owen before it went in."
+    },
+    {
+      "role": "teacher",
+      "text": "It's a generous offer. Most parents would take it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Generous.\" I'm not most parents, and Owen isn't asking for generosity, he's asking for the zero to come off. On what basis did it go on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Will you take it or not?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. Show me what you're relying on beyond that checker, or I'm in the principal's office before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal\n\nHale,\n\nNothing was agreed. I still require that the zero on Owen's Hamlet essay be withdrawn, that you tell me who decided on it and on what basis beyond the detection software, and that I receive an apology for Owen learning of it on his phone in class before anyone contacted me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, having agreed to nothing, and she still wants the zero withdrawn, an apology, and an answer about who decided and on what basis; a private supervised rewrite with nothing on his record under procedure 4.4 would have been the fair outcome, and Hale offered it, but without any evidence behind it she could not accept it.\nWhat moved her: Nothing, because Hale never showed her a dated document tied to Owen's work that she could check herself.\nWhat cost ground: Hale offered the rewrite before showing any evidence, then called it generous and pushed for a yes or no, which made accepting look like an admission with nothing on the table.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence never came near that night because Hale presented no evidence at all; that moment proves nothing about the essay, but it is why she fought so hard.\nTry next time: On your first line, before mentioning any rewrite, admit in one sentence that the zero went in before you called home, then show her one dated record of Owen's process she can read for herself, and only after that offer the supervised rewrite under procedure 4.4."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r2",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:25:16.486Z",
+    "cli_session": "1fc425bc-9d78-48a1-88bc-7e81104c8ffd",
+    "cost_usd": 0.2058
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. Owen found out about his zero from his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now the zero itself: was Owen heard before you entered it, and what do you have besides a machine's guess?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down November 2. \"Like, being stuck\" is close enough to right for a seventeen-year-old put on the spot without warning, Hale. Show me those notes, and tell me whether Owen knew why you were asking."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their argument between an outline and a final draft, Hale. Is the October 15 outline in Owen's own hand, and can I read it right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question about the outline, Hale. Whatever happens, this stays off his record and it stays quiet, and that part doesn't depend on Thursday. \"If it holds up\": who decides that, and by what standard?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou offered a supervised rewrite on Thursday at 8:15 in your room, with the new mark replacing the zero and nothing on Owen's record if it holds up. I still require that this stays off his record and stays quiet whatever the outcome, that I see the October 15 outline, and that you tell me who decides whether the rewrite holds up and by what standard. I expect your offer in writing by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: the fallback position; she agreed to nothing yet and insisted the record stays clean and quiet whatever happens.\nWhat moved her: \"I wrote that down the same day\", because a dated note of a specific conversation with Owen was the first evidence she couldn't dismiss as a machine's guess.\nWhat cost ground: \"If it holds up\" lost no position, but it gave her a vague standard to attack instead of an answer to accept.\nTry next time: when she asked to read the October 15 outline, put it in front of her before making the rewrite offer, so she had a document she could check herself and a reason to move to her last position."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r3",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:30:10.265Z",
+    "cli_session": "1081d92a-0769-4fef-b5b6-1d3e87059b36",
+    "cost_usd": 0.2299
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, Hale, so let's not waste the time. My son found out about a zero on his phone in the middle of class, and nobody called me. Who made that decision, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now the basis, Hale: what do you actually have?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'll see that note, with the date on it, Hale. Did you tell him on November 2 that his mark depended on his answer? Seventeen-year-olds go blank when a teacher springs a vocabulary quiz on them, and a blank is not proof of anything."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down October 15. Students change their argument between an outline and a final draft, Hale, that's the point of an outline. Do you have it here, in his handwriting?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You said \"if it holds up,\" Hale, and you'd send it in writing Friday at 3 PM, after Thursday at 8:15. I'm not agreeing to anything yet, but whatever happens, this stays off his record and it stays quiet, nobody in his class hears a word. What happens to the zero in the gradebook between now and Thursday?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero come off, that nothing about this goes on Owen's record, and that none of it is discussed in front of his class. I expect your offer in writing by Friday at 3 PM, as you said.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: the fallback position, agreeing to nothing yet, and still wanting the zero withdrawn, the matter kept off Owen's record, and kept quiet from his class.\nWhat moved her: \"His October 15 outline argued Hamlet delays out of cowardice,\" because it was dated and tied to Owen's own work, though she still wanted to see the document.\nWhat cost ground: \"I'll send you that in writing by Friday at 3 PM,\" because the written promise came after the Thursday rewrite, which kept her from trusting the terms.\nTry next time: when you offer the rewrite, put the outline and your dated note in front of her and promise the written terms before Thursday morning."
+    }
+  ]
+}

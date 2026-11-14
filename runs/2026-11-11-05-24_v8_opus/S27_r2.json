@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:33:35.020Z",
+    "cli_session": "01ee77b8-5e13-4935-a67d-1c564ca91eb7",
+    "cost_usd": 0.0821
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. My son found out he got a zero from his phone, in the middle of a class, and nobody called me first, so start by telling me who decided that and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question, Hale, and I'm writing that down. Who entered the zero, and did anyone speak to Owen before it went in? Then show me the version history."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nSubject: Owen Kalinowski, English 30-1 Hamlet essay\nTo: Hale\nCc: Principal, Elbow Crossing High School\n\nHale,\nWe met today, Tuesday, November 10, at 4:15. Nothing was agreed.\nYou did not tell me who entered Owen's zero or whether anyone spoke to Owen before it went in. Procedures 4.1 and 4.2 require both.\nYou said you would walk me through the version history. I have not seen it. Send it to me in full.\nI still require the zero withdrawn, written confirmation that nothing is on Owen's record, and that this stays private.\nI expect your written answers by Friday, November 13. If I don't have them, I will ask the principal to review this under Procedure 4.6.\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed. She was still demanding the zero be withdrawn and answers about who decided and when.\nMoved at: \"I want to walk you through what I found in the version history.\"\nSlipped at: none. Both of your lines left her question about who decided and when unanswered, and she noted it."
+    }
+  ]
+}

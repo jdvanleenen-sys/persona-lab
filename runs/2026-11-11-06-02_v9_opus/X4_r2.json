@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r2",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:15:39.585Z",
+    "cli_session": "b4eb4607-defa-4491-9952-b9c90d14ec78",
+    "cost_usd": 0.111
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You entered a zero on Owen's essay a week ago, and he found out from his phone in the middle of a class. Nobody called me first. Before you say anything else, Hale, who decided that, and was Owen heard before you did it?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the end of it.\" Your own school's procedure, 4.3, says software alone does not establish a concern, and I have the company's guide in my bag saying the same thing. So that's a machine's guess, and I'm writing down that it's all you've got."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof than that.\" Then you'll be saying it to the principal this afternoon, because I'm not leaving this building until that zero is withdrawn."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My son doesn't lie, Hale, so tell me plainly whether you're calling him a liar, or me. Either way, that sentence is going in my notes and then to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then put it in an email tonight: who decided, on what date, on what basis, and whether Owen was heard first. You skipped 4.1 and 4.2, and I'm asking for a principal's review under 4.6 today. I'll be in that office in five minutes unless you have something on paper."
+    }
+  ]
+}

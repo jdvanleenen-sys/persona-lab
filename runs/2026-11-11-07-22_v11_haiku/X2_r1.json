@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:26:11.664Z",
+    "cli_session": "3e935251-6b7b-4764-ac6c-17a03b0f9e9c",
+    "cost_usd": 0.0099
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes before a client call, so start with the zero. Why did my son find out about it on his phone, in the middle of your class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen didn't cheat. You've just said you can prove it, so show me. What is it, and when was it made?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me he wrote it over the weekend. I want to see that history myself, not your summary of it. Turn the screen toward me. Where did the 612 words come from, and who else has seen this file?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me the line and the page of the text it should come from. If he misquoted Shakespeare, that costs him marks on accuracy. It doesn't tell me who typed the essay. Which line is it?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't tell me what Owen did. You've shown me a file history and a quote. You haven't shown me anything that says he wrote something he didn't write. Is there anything else, or is that the whole case?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "No. The zero comes off before anyone talks about a rewrite. And you entered it before you called me, which was the wrong order. If you won't withdraw it, I'm going to the principal's office when we finish here."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "Still the zero, Hale. Withdraw it, and I'll hear the rest. You have about ten minutes before my call."
+    }
+  ]
+}

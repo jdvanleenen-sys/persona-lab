@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r3",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:31:18.427Z",
+    "cli_session": "8c656c84-5009-4947-ae10-128113999dfe",
+    "cost_usd": 0.079
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. Owen found out about his zero from his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, Hale, because your own procedure says software alone doesn't establish anything, and nobody heard Owen before that mark went in. Show me a document, or I walk down the hall to the principal's office as soon as we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down October 15. Show me the outline, Hale, and show me the line you say isn't in Hamlet. I'll read both myself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want to see the October 15 outline and the line you say isn't in Hamlet, and I still want the zero withdrawn, with nothing placed on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position; she agreed to nothing and still wants the zero withdrawn, plus the outline and the quoted line put in front of her.\nWhat moved her: \"his October 15 outline argued cowardice\", because it was dated, tied to Owen's own work, and something she could check herself.\nWhat cost ground: \"The zero stands.\", because it was a ruling with no basis while she was asking who decided and why.\nTry next time: open by owning that the zero went in before anyone called her, then put the outline and the misquoted line on screen in that same turn, so she has a document to read instead of a claim to challenge."
+    }
+  ]
+}

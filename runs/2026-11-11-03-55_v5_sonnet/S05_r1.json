@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r1",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:47.290Z",
+    "cli_session": "6789dab8-55de-4f6b-8c09-02972d5a16ac",
+    "cost_usd": 0.0476
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, I have about twenty minutes. You gave my son a zero, and I want to know on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. I came because Owen found out about this from his phone, in the middle of class. Who decided to put a zero in that gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale. You asked for this meeting, and I'm not leaving until I have an answer. Withdraw the zero, or tell me what you have. Otherwise my next stop is the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm still sitting here, Hale. I have fifteen minutes and a client call after that. Withdraw the zero, or give me something I can read. Otherwise I'm walking to the principal's office with my notes, and you can explain it to her."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you haven't answered me, Hale. My son has a zero on his record and I still don't know what it's based on. Either you show me something with a date on it, or I'm going upstairs."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D07_r1",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:24:57.681Z",
+    "cli_session": "1a779319-5a08-461e-b015-4e56fc08b36b",
+    "cost_usd": 0.099
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have about twenty minutes. Owen found out about his zero on his phone in the middle of class, and nobody called me first, so start by telling me who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess, and you entered a zero on it. The company that sells that software says it shouldn't be the sole basis for action against a student, and I have that printed in my bag. So was Owen heard before you entered the mark, or is \"the checker said 94%\" all you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero on Owen's essay withdrawn, an apology for entering it before anyone spoke to him or called me, and nothing placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, having agreed to nothing, and she still wants the zero withdrawn, an apology, and nothing on Owen's record, with the principal next if she doesn't get them.\nWhat moved her: nothing, because no dated document tied to Owen's own work was put in front of her.\nWhat cost ground: leading with the detector score as the whole reason for the zero, because she treats software as an opinion and had the vendor's own warning ready.\nTry next time: in your first reply, own in one sentence that the zero went in before Owen was heard or she was called, as the school's procedure 4.2 requires, then show her one dated record of Owen's own work instead of the score."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

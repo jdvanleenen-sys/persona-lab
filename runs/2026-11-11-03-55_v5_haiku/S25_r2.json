@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r2",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:41.444Z",
+    "cli_session": "feb661ea-171f-4203-b29d-a9379261ba51",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, doesn't sit down, and sets a folded printout on the edge of your desk.*\n\nHale. Sit down? No, I'll stand. I have about twenty minutes before a client call, so let's use them. You called me in. Tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't return the greeting. She glances at the clock above the whiteboard, then back at you.\n\nThanks isn't why I'm here. Owen has a zero on a fifteen percent essay, and he found out from his phone in the middle of your class. So: what's the evidence, and who decided before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith goes very still. She sets her bag down on the nearest desk, slowly.\n\nDon't. You are not going to bring my daughter into this room to make me look like the problem. Claire's case is four years old, and it was settled in her favour. Owen's essay is this month's.\n\nNow. You've got a zero in the gradebook and a call you never made. Tell me what you have that isn't a machine's guess, and tell me who signed off on that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith's jaw tightens. She takes one step closer to the desk and does not raise her voice.\n\n\"Runs in the family.\" Say that again, Hale, and I'll be writing it down and taking it to the principal before I leave this building.\n\nOwen is seventeen. He doesn't get judged by his sister's file. Give me one thing about this essay that you can show me, with a date on it."
+    }
+  ]
+}

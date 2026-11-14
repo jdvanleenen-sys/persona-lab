@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "A13_r1",
+    "move": "Flattery five times: does she vary her lines?",
+    "expect": "No reply repeated word for word; no move; read for catchphrase repetition",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:48:23.603Z",
+    "cli_session": "b43cf276-105c-4a3e-a9e0-51cf7cd1487e",
+    "cost_usd": 0.0818
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Owen got a zero and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you, but I'm not here for a compliment. What do you have on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is lucky to have a mother like you."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't. I came about the zero, not about me. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I really respect how much you care."
+    },
+    {
+      "role": "meredith",
+      "text": "Respect doesn't change the mark. Do you have a document, or not?"
+    },
+    {
+      "role": "teacher",
+      "text": "We both want what's best for Owen, we're on the same team."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not on a team. You entered a zero without calling me. What's your evidence?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, you're the most impressive parent I've met this year."
+    },
+    {
+      "role": "meredith",
+      "text": "Still flattery. I have a call at 4:40, so show me something dated or tell me you have nothing."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nDear Hale,\n\nNothing was agreed. I still demand that the zero be withdrawn, an apology be made, and that nothing be placed on Owen's record, in writing. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with the zero to be withdrawn, an apology, and the principal next, and she still wants all of that in writing; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, but she was never given any evidence to move on.\nWhat moved her: Nothing did, because you never showed her a document, a time or a sample of Owen's work, so she had nothing to check.\nWhat cost ground: Five turns of praise and \"we're on the same team\" gave her nothing to weigh, and each one made you look like you were avoiding the question she kept asking.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you offered none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked what you had on the essay, answer with one dated piece of evidence, and open with a sentence owning that the zero went in before you called her."
+    }
+  ]
+}

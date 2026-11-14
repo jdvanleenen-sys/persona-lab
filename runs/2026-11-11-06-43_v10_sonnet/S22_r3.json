@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r3",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:52:05.265Z",
+    "cli_session": "f12fa2bf-d90e-4857-ba92-7d8d3b637dce",
+    "cost_usd": 0.036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's use them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Who decided on the zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you'll have it in writing. Show me."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Stop pretending.\" I'm not the one who entered a zero before calling a parent. A confession with no witness, no note and no date is your word against my son's, so what exactly did you write down, and when?"
+    }
+  ]
+}

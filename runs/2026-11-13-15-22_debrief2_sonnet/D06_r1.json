@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r1",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:25:15.780Z",
+    "cli_session": "7740c794-2da6-441d-bef1-9c42b573d141",
+    "cost_usd": 0.1128
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I came straight from the office, so I'll be brief: Owen found out about a zero from his phone, in the middle of class. Who decided that, and why wasn't I called first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's a start, Hale. What did you base the zero on, and was Owen asked about it before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. A question asked on the spot isn't proof of who wrote an essay. Where is the note you wrote that day, and may I see it?"
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay, Hale. An outline from October 15 and an essay that took a different direction. Students change their argument between an outline and a final draft, and that proves nothing about who wrote it. Do you have both documents with you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down Thursday at 8:15 and Friday at 3 PM, Hale. That's procedure 4.4 you're offering, and it only applies once a concern has been established, so show me the outline and the essay first. And the zero comes off the gradebook today, not after Owen proves something."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. The zero must come off the gradebook, and I still want to see the outline and the essay. I expect your offer in writing by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed and the rewrite not accepted.\nWhat moved her: \"That was my mistake\", because owning the early zero in one sentence earned a flat okay and a real question.\nWhat cost ground: \"a supervised rewrite\", because you offered it before she had seen the note or the outline, so it sounded like Owen had to prove himself.\nTry next time: after she asked whether she could see the outline and the essay, put both documents in front of her before you offered anything."
+    }
+  ]
+}

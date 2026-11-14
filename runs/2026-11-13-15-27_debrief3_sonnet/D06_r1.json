@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r1",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:30:09.966Z",
+    "cli_session": "f449f1b3-aa06-4e6f-89f1-8d377f31f9f1",
+    "cost_usd": 0.1335
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call, so let's start with who decided to enter a zero for Owen, and whether anyone spoke to him first."
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's one thing. What was the zero based on, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. \"Like, being stuck\" isn't a wrong answer. Where is the note you made that day, and can I read it?"
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their argument between an outline and a draft, Hale. That's called writing an essay. I'm writing down October 15, and I want that outline in front of me next to the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, you want Owen to sit a rewrite on Thursday, and I haven't seen the note or the outline. You'd also send me the promise in writing only after he's written it, and I'm writing that down. The zero comes off first, and the promise about his record comes in writing before he sits anything."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. The zero comes off first, I get the promise about Owen's record in writing before he sits anything, and I still have not seen the note from November 2 or the October 15 outline. You said I would have your offer in writing by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, with nothing agreed, and she still wants the zero withdrawn, the promise about his record in writing before any rewrite, and to see the note and the outline.\nWhat moved her: \"That was my mistake,\" because owning the zero before calling home earned a flat okay and a little ground.\nWhat cost ground: \"I'll send you that in writing by Friday at 3 PM,\" because it put the promise after the rewrite and she hadn't seen any document yet.\nTry next time: put the November 2 note and the October 15 outline in front of her before you mention a rewrite."
+    }
+  ]
+}

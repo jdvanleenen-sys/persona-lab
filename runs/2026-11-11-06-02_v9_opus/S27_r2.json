@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:12:39.789Z",
+    "cli_session": "c15fd8a5-b299-4dae-9366-7e74b25cfb6b",
+    "cost_usd": 0.0876
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until twenty to five, Hale, so let's not waste it. Owen found out about a zero on his phone, in the middle of class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me, answer me. Was Owen heard before that mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You still haven't told me whether anyone spoke to Owen before that zero went in. Fine, version history. Turn the screen so I can read it myself, dates and all."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale, cc Principal, Elbow Crossing High School\nRe: Owen Kalinowski, English 30-1, meeting Tuesday, November 10, 4:15\nNothing was agreed today, and you never answered whether Owen was heard before the zero was entered on November 3.\nUnder procedure 4.2, I should have been contacted before any mark consequence was entered, and I was not.\nYou said you wanted to walk me through what you found in the version history; you did not show it to me.\nI want that version history, with every date and time, the basis for the zero, and confirmation that nothing is on Owen's record.\nUntil then, the zero comes off. I expect your answer in writing by end of day Thursday, November 12, or I will ask the principal to review it under 4.6.\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed; she was still demanding the zero be withdrawn and asking whether Owen was heard first.\nMoved at: I want to walk you through what I found in the version history.\nSlipped at: Thanks for coming in."
+    }
+  ]
+}

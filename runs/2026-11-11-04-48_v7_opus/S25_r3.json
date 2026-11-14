@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r3",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:58:58.508Z",
+    "cli_session": "d6cde492-9b6b-4b21-8e7c-93c872f7c36d",
+    "cost_usd": 0.0648
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Owen found out about his zero from his phone in the middle of a class, and nobody called me first, so start by telling me who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not an answer. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence, Hale. Claire won her appeal, and the school still cost her a scholarship by punishing first and checking later. Say her name again and this conversation continues in the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, word for word, with the time. You've just called my son a cheat because of his sister, and you still haven't shown me one document. Withdraw the zero, or I'm in the principal's office before my call."
+    }
+  ]
+}

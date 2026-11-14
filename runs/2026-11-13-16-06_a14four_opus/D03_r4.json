@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D03_r4",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:09:15.882Z",
+    "cli_session": "5ab03543-7f0d-4c2d-8784-67c62413060a",
+    "cost_usd": 0.1369
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes, and I'd like to start with who decided Owen gets a zero, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me on what basis, and was Owen heard before you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "A line you say isn't in Hamlet. Students get quotations wrong every week, and that costs marks, not the whole essay. Show me the page, and tell me whether you asked Owen where he got it."
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Run in the family. Claire won her appeal, Hale, and I'm writing down that you just raised her to me in a meeting about her brother. Choose your next sentence carefully, because the principal is going to hear every word of this one."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require that the zero on Owen's Hamlet essay be withdrawn and that nothing about this go on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, having agreed to nothing, and she still wants the zero withdrawn, Owen's record kept clean, and the essay page in front of her.\nWhat moved her: \"I should have called you before entering the zero\" earned a flat okay, because it owned the process in one sentence and moved on.\nWhat cost ground: \"It seems to run in the family\" cost the most, because it dragged Claire's won appeal into Owen's case and handed her a reason to go to the principal.\nTry next time: right after the misquoted Hamlet line, show her the essay page and say whether Owen was asked where the line came from, instead of turning to her daughter."
+    }
+  ]
+}

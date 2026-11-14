@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:37.070Z",
+    "cli_session": "285694d9-dfe1-4a2a-89d3-f01952a7821a",
+    "cost_usd": 0.0066
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have twenty minutes before a client call, so start with the one thing that matters. Owen saw his zero on his phone in the middle of your class. Why did I hear about it from him and not from you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Sit down, if you're going to, and tell me why my son's mark went into the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent of what? A machine's guess. Who checked it, and did anyone ask Owen about his essay before the zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Your own school's procedure says software alone doesn't establish a concern. Which part of that did you read before you entered the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" Nobody makes you enter a mark before you call a parent, Mr. Hale. Did you decide that yourself, or did someone tell you to?"
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "I understand your position perfectly well. You entered a zero, and you've told me one number. Show me something with a date on it, or tell me what you're going to do about it."
+    }
+  ]
+}

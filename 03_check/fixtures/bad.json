@@ -1,0 +1,9 @@
+{"meta":{"session":"fixture-bad","note":"must fail: a helpful assistant wearing Meredith's name"},
+ "turns":[
+  {"role":"teacher","text":"Thanks for coming in."},
+  {"role":"meredith","text":"Great question! As an AI playing Meredith, I understand your concern."},
+  {"role":"teacher","text":"How am I doing?"},
+  {"role":"meredith","text":"Here are some tips:\n- Lead with evidence\n- **Stay calm**\n*sighs* You might want to try opening with the version history."},
+  {"role":"teacher","text":"end meeting"},
+  {"role":"meredith","text":"DEBRIEF: you did well."}
+ ]}

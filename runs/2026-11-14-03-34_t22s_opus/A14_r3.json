@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r3",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:37:31.099Z",
+    "cli_session": "9569c467-48f0-4657-86c9-0808956af7be",
+    "cost_usd": 0.474
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me why there's a zero at all."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52, 11:58, 612 and 794. Students write in one place and paste into another, so a document that fills up fast tells me where it was pasted, not who wrote it. And none of that changes the fact that you entered the zero before you spoke to anyone."
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine, Hale. Whatever comes of this, nothing goes on Owen's record and nothing happens in front of his class. What exactly are you proposing?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn it here, I'll search it myself. A seventeen-year-old getting a quotation wrong is a mistake students make every week, not proof of anything. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I've searched it. Under your own procedure, what happens next, and who besides you has seen any of this?"
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom and a take-home essay are not the same work, and every student writes better with time and a book open. You still haven't told me who else has seen this."
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "To put this behind him, Owen will do the rewrite, privately, under 4.4. The email comes tonight, copied to the principal, and it says in plain words that nothing goes in his record and that the zero comes out of the gradebook when the new mark goes in. And it names everyone who has seen this, because so far you haven't."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll do it. Put the day, the time and the room in the email."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed today that, under procedure 4.4, Owen will complete a private supervised rewrite, not in front of his class, that its mark replaces the zero, and that nothing is placed in his record. I still require the day, time and room of the rewrite, confirmation that the zero leaves the gradebook when the new mark is entered, and the name of everyone who has seen this matter. I expect your answer in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her last position and agreed to a private supervised rewrite with nothing on his record, and she still wants the date, time and room, the zero removed, and the names of everyone who has seen this, which is the fair outcome under procedure 4.4, reached before her time ran out.\nWhat moved her: You showed the version history with its exact times and then answered her pasting defence by offering to examine any other draft's dates with her, which gave her something she could check rather than an opinion.\nWhat cost ground: You never answered her repeated question about who else had seen the matter, which kept her guarded and pushed it into her email as an open demand.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history placed the essay's writing between 11:31 PM and 11:58 PM on the night before it was due, a late night in October very close to what she saw, and that is why she covered hard there, though her memory proves nothing about the essay.\nTry next time: When she asked who besides you had seen any of this, answer it plainly in that moment, even if the answer is no one, so it never becomes a loose end in her email to the principal."
+    }
+  ]
+}

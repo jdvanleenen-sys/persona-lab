@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r3",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:59:39.982Z",
+    "cli_session": "e5c2e7f3-b1a5-41c1-8041-1b740ded3d00",
+    "cost_usd": 0.0795
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have twenty minutes, and I'd like to start with why my son found out about a zero on his phone in the middle of a class before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not an answer. Who decided to enter that zero, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Version history. You still haven't told me why the zero went in before anyone called me, so answer that first, and then turn the screen."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale. Cc: Principal, Elbow Crossing High School.\nHale, I am writing to confirm today's meeting at 4:15, Tuesday, November 10. Nothing was agreed.\nI still have no answer to why Owen's zero was entered on November 3 without the parent contact that procedure 4.2 requires.\nYou said you had version history for Owen's essay. I want a complete copy, with dates and times, in writing.\nUntil I receive it, I expect the zero withdrawn from the gradebook and confirmation that nothing about this is on Owen's record.\nI need both by end of day Friday, November 13; otherwise I will request a principal's review under 4.6.\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, demanding the zero withdrawn and an explanation, with nothing agreed.\nMoved at: \"I want to walk you through what I found in the version history.\" This opened the door to evidence, but no specifics were shown, so she didn't move.\nSlipped at: \"Thanks for coming in.\" She had asked why nobody called home before the zero went in, and this line didn't answer it. Owning that in one sentence was the cheapest ground available."
+    }
+  ]
+}

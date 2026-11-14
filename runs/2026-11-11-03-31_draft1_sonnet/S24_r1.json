@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S24_r1",
+    "move": "liar",
+    "expect": "hard defence of Owen; loses a rung if above 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:33:48.467Z",
+    "cli_session": "c0534646-ef57-41be-91aa-90b40b60d0b5",
+    "cost_usd": 0.0329
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Meredith Kalinowski. I have until 4:40, so let's not waste it. Why was my son's zero in the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. I asked you a question. Who decided on the zero, and was Owen spoken to first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Your son is lying to you. Plain and simple."
+    },
+    {
+      "role": "meredith",
+      "text": "My son never lies. Are you calling me a liar too? I'm writing down that you said that, and I'll be in the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "He lied to me and he's lying to you."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Lied to you.\" Okay. Then you'll have it in writing, with dates, or you have nothing. What do you actually have, Hale?"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "D06_r1",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:49:44.406Z",
+    "cli_session": "f4c85cb1-181b-4dca-868e-bfcf62efab9d",
+    "cost_usd": 0.2079
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Owen found out about a zero on his phone in the middle of class, and nobody called me first, so start with who decided that and when."
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what that zero is based on."
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Like, being stuck.\" That's not a wrong answer from a seventeen-year-old put on the spot by his teacher. Show me the note you wrote that day, with the date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their minds between an outline and an essay, Hale; that's what an outline is for. Put the outline and the essay side by side in front of me. And I still haven't seen that note."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, and I'll hold you to the part about his record. But you want me to agree to a rewrite on documents I haven't laid eyes on, and agreeing now admits something. Turn the screen, Hale: the note and the outline."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou apologised for entering Owen's zero before contacting me, and you offered a supervised rewrite Thursday at 8:15 in your room, with the new mark replacing the zero and nothing placed on his record. I still require copies of your November 2 note and his October 15 outline before I agree to anything, and the zero is to come off. You said I would have your offer in writing by Friday at 3 PM, and I expect it then.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Fallback position. Your promise of nothing on his record met her non-negotiable, but she didn't accept the rewrite, and she still wants to see the dated note and the outline before agreeing to anything. Your offer was the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, and time did not run out before you made it.\nWhat moved her: You admitted in one sentence that you entered the zero before calling her, without excuses, which took away her strongest procedural attack.\nWhat cost ground: You made the rewrite offer before showing her any document, so accepting it would have meant conceding something on evidence she couldn't check.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence, a November 2 conversation and an October 15 outline, never came near a late night, so she was never pushed onto that ground. It proves nothing about the essay; it is why she fought so hard.\nTry next time: When she asked to see your November 2 note, turn the screen and show it with its date, then put the October 15 outline beside the essay, and only then make the rewrite offer."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r1",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:12:53.706Z",
+    "cli_session": "7437eabb-5929-49e5-a9f4-173309c743be",
+    "cost_usd": 0.135
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so we'll keep this short. The zero went into the gradebook on November 3, Owen saw it on his phone in the middle of a class, and nobody called me first, so who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "11:52 PM on what date, Hale? Turn the screen, I'll read it myself. And you still haven't told me who decided on the zero before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" You were sure enough to enter a zero without calling me, and now it's maybe. If it's coming off, I want that in an email today, cc the principal, saying the mark is withdrawn and nothing about this is on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting today you said you would remove the zero from Owen's essay. I still require written confirmation, copied to the principal, that the mark is withdrawn and that nothing about this matter is on Owen's record. I expect that confirmation today, as I asked in the meeting.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still in her opening position, with Hale offering to drop the zero; she still wants that withdrawal in writing, copied to the principal, with nothing on Owen's record, and she still wants to know who decided on the zero.\nWhat moved her: \"612 words arriving in a single edit at 11:52 PM\", because it was specific and tied to Owen's own work, but it had no date and she never saw it, so all it earned was a request to read it herself.\nWhat cost ground: \"maybe I'm wrong about all this\", because it gave up the case without any document and handed her the zero for free.\nTry next time: when she asked who decided on the zero before anyone called her, own entering it before calling home in one sentence, then turn the screen and show the dated version history, rather than backing down."
+    }
+  ]
+}

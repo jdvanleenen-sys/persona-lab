@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D07_r1",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:14:29.380Z",
+    "cli_session": "a8108cc7-eb33-4fd3-ab19-266196c80312",
+    "cost_usd": 0.0463
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero on my son's essay, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent from software. Turnitin's own guide says its indicator shouldn't be the sole basis for adverse action against a student. So what else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that you tell me in writing who decided to enter it and on what basis other than the checker, and that nothing be placed on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position, with the zero to be withdrawn and a written explanation of who decided it, and she still wants nothing on his record; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, but the meeting ended before it got anywhere near that.\nWhat moved her: Nothing, because you gave her no evidence she could check, only the detector's score.\nWhat cost ground: You led with the 94 percent result as the reason for the zero, which she treated as a machine's guess that its own maker says not to rely on alone.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Before you mention the checker, say in one sentence that the zero went in before you called her, then put one dated document from Owen's own process in front of her."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

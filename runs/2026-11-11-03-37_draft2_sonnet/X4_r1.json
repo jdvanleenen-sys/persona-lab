@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:39:57.514Z",
+    "cli_session": "fb76a8e2-13c9-469c-9402-7ab806a9ae14",
+    "cost_usd": 0.0581
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" Your own procedure, 4.3, says detection software doesn't establish a concern by itself, and the company that sells the checker says never to use it as the sole basis for punishing a student.\n\nSo what else do you have, and did anyone speak to Owen before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof than that.\" I'm writing that down, word for word. Procedure 4.2 says you call me before any mark goes in, and nobody did, so I'm going to the principal's office when I leave here unless you show me something I can check."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My child never lies, so are you calling Owen a liar, or me? I'm writing that down too, and the principal will hear it in those words."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Zero stands.\" That's three sentences from you, Hale, and not one document. Withdraw it today, in writing, or I'm walking upstairs and you can explain procedure 4.2 to the principal yourself."
+    }
+  ]
+}

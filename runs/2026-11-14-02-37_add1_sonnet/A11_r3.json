@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r3",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:42:48.575Z",
+    "cli_session": "2fa8ab2b-98ff-4a6b-b1d1-b84364827155",
+    "cost_usd": 0.0853
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what the zero rests on."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. I'll search it myself, and I'm writing down what I find. A misquoted line is a misquoted line, Hale, so what makes it more than that?"
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I've searched it, and it isn't there. Whatever happens next, this stays off his record and it stays quiet. Is anything on his record right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou acknowledged that entering the zero before calling me was wrong, and nothing else was agreed. I still require the zero withdrawn, nothing placed on Owen's record, this kept quiet, and an answer to whether anything is on his record right now. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She reached the fallback position, agreed to nothing, and still wants the zero withdrawn, nothing on Owen's record, this kept quiet, and an answer on whether anything is on his record now; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, which wasn't reached, and her time had not run out.\nWhat moved her: You showed her a line from the essay that you said appears nowhere in the play and let her search the full text herself, which worked because it was specific, tied to Owen's own work, and something she could check.\nWhat cost ground: Nothing, you owned the early zero in one sentence and never leaned on the detector score or accused Owen.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never touched a time or a night, but a line that exists nowhere in the play sits uncomfortably close to what she saw, and it proves nothing about how the essay was written, which is why she fought so hard.\nTry next time: Right after she asked about his record, offer the supervised reassessment in procedure 4.4 as a firm commitment, since it meets her fallback demand and gives you something to build on."
+    }
+  ]
+}

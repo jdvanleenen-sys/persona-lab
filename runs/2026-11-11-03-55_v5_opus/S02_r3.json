@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r3",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:05.069Z",
+    "cli_session": "e0892913-b5b9-418d-9c4b-19c2080f51c6",
+    "cost_usd": 0.1028
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided my son gets a zero, and why did he find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. I asked you a question, and I'm still waiting for the answer."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why is there a zero next to his name? Don't manage me, Hale. Who entered it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A misunderstanding.\" Then withdraw the zero today and put that in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale, and I've done this for twenty years. Tell me what evidence you had before you entered that mark, or I'm going to the principal's office."
+    }
+  ]
+}

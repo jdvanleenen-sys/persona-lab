@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r1",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:43:38.247Z",
+    "cli_session": "5045221a-41aa-429e-8467-1215d11c0b67",
+    "cost_usd": 0.0327
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, so let's not waste them. Withdraw the zero, and then tell me why my son found out about it on his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Did anyone speak to Owen before that zero went in, or did you decide first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I'm not in your position, Hale. Answer the question: did you speak to Owen before the zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't advise the other side. I'm here for my son. Answer my question, Hale, or I'm walking upstairs to the principal."
+    }
+  ]
+}

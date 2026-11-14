@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:24:30.800Z",
+    "cli_session": "c2e1b799-ef69-4f03-a002-48a71b5f9ae1",
+    "cost_usd": 0.1098
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have twenty minutes, and I'd like the zero withdrawn from Owen's gradebook before we talk about anything else."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My son never lies. I'm writing down that you said \"cheated,\" and I'll be in the principal's office when we're done. What do you have, and did anyone speak to Owen before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Explain that.\" I'm not the one who has to explain, Hale. Show me the document, turn the screen, and I'll read the times myself."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line, and where in the essay? Put the page in front of me, because I can check a play as easily as you can. You also still haven't answered whether anyone spoke to Owen before the zero went in."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending anyone, Hale. I'm asking for the line, the page, and the screen, and you've given me none of them. Owen doesn't lie to me, and if you're calling me a liar for repeating what he told me, say so plainly so I can write it down."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't in procedure 4.4, Hale. Check your own policy, then explain why 4.1 and 4.2 were skipped before you offered me anything. Until I see a document, there's nothing to take."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. You asked for this meeting, so the screen, the page with the quotation, and an answer on 4.2 are all still yours to put on the table."
+    }
+  ]
+}

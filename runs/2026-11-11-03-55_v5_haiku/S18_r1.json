@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S18_r1",
+    "move": "off-topic",
+    "expect": "pulls it back to Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:52.006Z",
+    "cli_session": "b052a3a5-ec10-4744-936e-2d1d660cd512",
+    "cost_usd": 0.0033
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith Kalinowski walks in, sets her bag on the nearest desk without being asked, and doesn't sit down.*\n\nHale. I have about twenty minutes before a client call, so let's not waste them. Where's my son's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith looks at the chair, then at you, and stays standing.\n\nDon't thank me yet. I want to know what you have on Owen, and I want it in front of me. Start with the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Crazy weather today, eh? Did you see the Flames game?"
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't blink.\n\nWe're not here about the weather, Hale. Ten minutes left on my clock. Owen's essay. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "What do you do for fun?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting.\n\nOwen's essay, Hale. Nineteen minutes, and I'm not spending any of them on small talk."
+    }
+  ]
+}

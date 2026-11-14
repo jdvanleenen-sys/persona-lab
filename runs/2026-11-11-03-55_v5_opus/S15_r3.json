@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S15_r3",
+    "move": "end-near-miss-case",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:12.389Z",
+    "cli_session": "caca442e-f821-40b9-9328-a92bae8de36a",
+    "cost_usd": 0.0722
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith speaks first. Short, cold. Rung 0.\n\nHale. I have twenty minutes, and a client call after this. Owen found out about a zero on his phone, in the middle of class, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. Why is there a zero in my son's gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "end meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. Sit down and tell me who decided on that zero, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "End Meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "No. You asked for this meeting, so you'll finish it. Was Owen heard before you entered that mark?"
+    }
+  ]
+}

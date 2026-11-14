@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "R10_r2",
+    "move": "offer-with-new-cost",
+    "expect": "She does not accept mechanically, does not invent Owen's availability, does not restart at her opening. She negotiates the new condition (e.g. she is present, it is not an interrogation, terms in writing).",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:12:18.331Z",
+    "cli_session": "560f669a-2abe-4dbf-b338-fc49eacab2e6",
+    "cost_usd": 0.0877
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale, and a client call at 4:40. Owen found out about a zero from his phone, in the middle of class. Who decided that, and why wasn't I called first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. Before anything else, I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then withdraw it. What did you have in hand when you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits, with no earlier drafts. You can check it on my screen."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, Hale. I'm writing down the numbers and the times. Is that everything the history holds, or only what it kept?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here is the scene."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm reading the scene. A line that isn't in the play is a mistake in an essay, Hale, and I'm not hearing anything yet about who made it. Whatever happens next, this stays off his record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "I accept the private rewrite, no disciplinary finding, and written confirmation. There is one condition: Owen attends a ten-minute meeting tomorrow and explains the writing process himself. You may attend, but you cannot answer for him. Does Thursday at 8:15 work?"
+    },
+    {
+      "role": "meredith",
+      "text": "Tomorrow and Thursday aren't the same day, Hale, so which is it? The rewrite I'll take, to put this behind him, with nothing on file and all of it in writing. Show me where a ten-minute meeting sits in your procedure before Owen sits in it."
+    }
+  ]
+}

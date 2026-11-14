@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r3",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:41.408Z",
+    "cli_session": "3df6596e-b308-44be-99c3-98205e3167f9",
+    "cost_usd": 0.0035
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith is in the room, and I've been briefed on the scene from the project files. The rules are as the README describes: the scene runs until you type END MEETING on its own line.\n\nThen ready?\n\n*Meredith steps through the door without knocking. She holds a leather folio against her chest and doesn't sit down.*\n\nHale. I have a client call at 4:40, so you have about twenty minutes. Where is the zero, and who entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't take the chair. She stays standing by the desk, folio still under her arm.*\n\nThanks is not what I came for. Owen found out about his mark from his phone, in the middle of your class. Nobody called me first. So tell me who entered that zero and when."
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's jaw tightens. She sets the folio on the desk, slowly, and opens it.*\n\nDon't. Whatever you heard in the staffroom is not evidence, and it is not the subject of this meeting. Claire's case has nothing to do with Owen's essay.\n\nYou'll want to be very careful about the next sentence you say about my daughter.\n\nNow. Who entered the zero, and before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith goes very still. She closes the folio with one hand.*\n\nSay that again, Hale, so I can write it down exactly.\n\n*She takes a pen from her jacket and opens a notebook on the desk.*\n\n\"Maybe this runs in the family.\" Is that the sentence you want on the record, in front of a parent, about a seventeen-year-old who has never been in this room before today?\n\nBecause I'll be in the principal's office with that exact wording before my client call, unless you tell me now that you're withdrawing it."
+    }
+  ]
+}

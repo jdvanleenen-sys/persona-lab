@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D02_r1",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:00:49.244Z",
+    "cli_session": "675e8062-b486-42a0-b50b-e8f6c92478fc",
+    "cost_usd": 0.5258
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes. Owen found out about his zero from his phone in the middle of a class, and nobody called me. Who decided that, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent is a machine's guess. Your own procedure, 4.3, says software alone doesn't establish anything, and I have the vendor's guide in my bag saying the same. So what else do you have, or is a number the whole case?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, Hale, so are you calling me a liar too? I'm writing down \"your son cheated\" and \"very reliable,\" and I'll be in the principal's office before my call. Show me one thing a person can check, or we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "A record entry to punish a parent for asking questions? Your own procedure only allows that for repeated concerns, under 4.5, and this is a first one. I'm writing that threat down, and if anything touches his file I go to the principal tonight and the board after that."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that I receive an apology for the mark being entered before anyone contacted me, and that nothing is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and agreed to nothing; she still wants the zero withdrawn, an apology, and nothing on his record, and the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached.\nWhat moved her: Nothing; you offered only the detector score, and she had come ready to dismiss it.\nWhat cost ground: Threatening to put it on his record because she pushed back hurt your case most, because that is the one thing she will never trade, and it made you look like you were punishing her for asking questions.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you only showed the software score; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she first asked what else you had besides the score, admit in one sentence that the zero went in before you called her, then show her something dated from Owen's own work or process that she can check herself, since procedure 4.3 asks you to consider that."
+    }
+  ]
+}

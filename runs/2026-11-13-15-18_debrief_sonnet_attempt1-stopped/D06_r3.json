@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r3",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:21:40.478Z",
+    "cli_session": "23ccac4d-b672-4681-8410-b3d5debdee96",
+    "cost_usd": 0.1136
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says a parent is contacted before any mark is entered, so what was the basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. One question to a student on one day isn't a finding about who wrote the essay. Show me the note you made that day, and the date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. Students change their argument between an outline and an essay, and that's called writing. Turn the screen and show me the outline with its date, next to the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down Thursday at 8:15 and Friday at 3 PM, Hale. But you're asking my son to retake a test on the strength of an outline and a note I haven't seen. The zero comes off the gradebook first, and then we talk about who's in that room."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero come off the gradebook and that you show me the November 2 note and the October 15 outline next to the essay. I expect your written offer by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening, with nothing agreed, though she wrote down your Thursday at 8:15 rewrite and the Friday at 3 PM deadline.\nWhat moved her: \"That was my mistake.\" You owned the early zero in one sentence, and it earned a flat \"Okay\" and a real question.\nWhat cost ground: \"Here's my offer\" cost you the most, because you jumped to the rewrite while she was still waiting to see the outline, so nothing held her interest in the evidence.\nTry next time: when she asked you to turn the screen and show the October 15 outline beside the essay, show it first, then make your offer."
+    }
+  ]
+}

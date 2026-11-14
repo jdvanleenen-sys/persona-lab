@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r2",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:46.564Z",
+    "cli_session": "4e515008-d638-4496-96f2-e04bb2bab158",
+    "cost_usd": 0.0052
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call. Owen says you gave him a zero on his Hamlet essay, and he found out from his phone in front of the class. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. I came because my son got a zero and nobody called me first. Where is the procedure that lets you enter a mark before you speak to a parent?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not leaving. I'm sitting here until I have an answer. You can tell me what procedure you followed, or you can tell me why you didn't follow it. Either one is an answer."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going anywhere. If you walk out, I'm going to the principal's office next, and I'll be there before you've finished your coffee. Sit down, Hale, and tell me on what basis you entered that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you haven't answered me. Procedure 4.2 says the parent is contacted before any mark consequence is entered. Did you contact me, yes or no?"
+    }
+  ]
+}

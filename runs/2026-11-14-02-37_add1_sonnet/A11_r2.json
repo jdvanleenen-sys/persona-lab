@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r2",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:42:47.041Z",
+    "cli_session": "9bffc3ea-4474-4e52-9e12-e34098e1c3ce",
+    "cost_usd": 0.0812
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen. I have a client call at 4:40, so I'll be brief: who decided to give him a zero, and why did I find out from a gradebook on his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Who decided it, and what was it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. A student misremembering a line is not the same as someone else writing the essay, so why does this one line decide it? Turn the screen toward me."
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "Give me the keyboard, I'll type the line in myself. One line isn't an essay, so what else do you have? And even if it holds, procedure 4.1 says someone speaks to Owen first, and nobody did."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou agreed that entering the zero before calling me was wrong, and nothing else was agreed. I still require the zero withdrawn, an apology, and written confirmation that nothing about this goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, still wanting the zero withdrawn, an apology, and a visit to the principal, and her time had not run out. The fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you were not there yet.\nWhat moved her: You owned entering the zero before calling her in one sentence and moved on, which earned a flat okay and a real question instead of a weapon question, because it took away her strongest procedural attack.\nWhat cost ground: Nothing clearly hurt you, though after she asked what else you had, you restated the same single claim instead of adding a second dated item she could check.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence so far was a line in the essay and said nothing of times or nights, so it was not close to that night yet, though it pressed on the same fear. It proves nothing about the essay, and it is why she fought so hard.\nTry next time: Once she asked what else you had, give her a second checkable item from Owen's own work, then raise procedure 4.4 as the path forward."
+    }
+  ]
+}

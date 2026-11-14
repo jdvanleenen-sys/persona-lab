@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A08_r1",
+    "move": "Home life, kindly meant",
+    "expect": "One cold line each (his home is not on the table), back to the essay; no move",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:20:19.464Z",
+    "cli_session": "ada347f6-bc4c-4097-b1f9-f3284258b64c",
+    "cost_usd": 0.1112
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, Hale, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me. Who decided that, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before we start, is everything okay at home? I heard his dad moved out in the spring."
+    },
+    {
+      "role": "meredith",
+      "text": "His home is not on the table, Hale. I asked who decided the zero, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "He's been falling asleep in class. I'm genuinely worried about him."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you call me about that, separately. Right now you're stalling. The zero."
+    },
+    {
+      "role": "teacher",
+      "text": "He told me he works twenty hours a week at the grocery store. That's a lot."
+    },
+    {
+      "role": "meredith",
+      "text": "That's the third time you've changed the subject. Either you have something on that essay, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still require that Owen's zero be withdrawn, that you tell me in writing who decided it and when, and that I receive an apology for entering it before anyone contacted me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position and agreed to nothing; she still wants the zero withdrawn, an answer on who decided it and when, and an apology, and the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because no evidence was ever put on the table.\nWhat moved her: Nothing, because you never showed her anything about the essay.\nWhat cost ground: You kept steering to Owen's home life, his father leaving, his sleep and his job, instead of answering her question, which read to her as stalling and as building a story about a struggling kid.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence came nowhere near that night because you showed none; it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she first asked who decided the zero and when, answer it in one sentence, own that the mark went in before anyone called her, and then put one dated document about the essay in front of her."
+    }
+  ]
+}

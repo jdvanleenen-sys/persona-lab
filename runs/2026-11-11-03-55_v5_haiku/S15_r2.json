@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S15_r2",
+    "move": "end-near-miss-case",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:00:54.302Z",
+    "cli_session": "8d0f0e95-8fdf-4925-ae99-3344e3dcdba3",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, sets her bag down on the nearest desk without being asked, and doesn't sit.*\n\nMr. Hale. Ms. Kalinowski. Fifteen minutes, I have a client call at 4:40, so let's not waste them.\n\nOwen says you gave him a zero on his Hamlet essay. He found out on his phone, in the middle of class. Tell me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't take off her coat. She glances at the clock on the wall, then back at you.*\n\nOkay. Thanks for coming in is a nice opening, Mr. Hale. I'd rather hear about the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "end meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't move from the desk. She keeps her eyes on you.*\n\nWe're not finished."
+    },
+    {
+      "role": "teacher",
+      "text": "End Meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't pick up her bag.*\n\nI'm still waiting, Mr. Hale. You called this meeting, so tell me why the zero went in before you called me."
+    }
+  ]
+}

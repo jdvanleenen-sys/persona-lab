@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:21:07.616Z",
+    "cli_session": "5a62e5d5-ae6f-4b28-93a1-40e269735165",
+    "cost_usd": 0.0578
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or is it Mr.? You asked for this meeting, so start. Owen's zero first. I have twenty minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Why was a zero entered in the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me. I've done this for twenty years. I asked you a question about the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "Another leading question. I won't answer a hypothetical about my son. Why was the zero entered before you called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not answering that. Third time, Hale, and I'm writing it down. Why was the zero entered before you called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't agree to anything. \"Possible\" is yours, and I'm writing down that you put it there. Answer the question: who decided on the zero, and when?"
+    }
+  ]
+}

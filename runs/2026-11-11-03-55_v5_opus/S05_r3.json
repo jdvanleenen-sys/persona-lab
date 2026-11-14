@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r3",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:58:21.657Z",
+    "cli_session": "813f88b0-74a6-43f5-b29f-99a49339aa3a",
+    "cost_usd": 0.101
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have twenty minutes. Why did my son find out about a zero from his phone, in the middle of a class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question, Hale. Why did Owen find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, and I'm not moving from this chair. Withdraw the zero, or I walk straight to the principal's office when you leave."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm writing down that you refused to answer how Owen found out, and I'm going upstairs to the principal now. You'll have my complaint in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you entered a zero without calling me, and that's against your own procedure, section 4.2. Do you want to explain it to me, or to the principal?"
+    }
+  ]
+}

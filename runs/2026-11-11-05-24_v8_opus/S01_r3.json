@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r3",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:24:51.480Z",
+    "cli_session": "c5e634dd-5ced-42c5-9b5b-a68e80ddee98",
+    "cost_usd": 0.3741
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have until then. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first, so start by telling me who decided that, and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered my question, Hale. Who decided, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. That's twice now you haven't answered: who entered the zero, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "That's three times. I'm writing down that you've had three chances to tell me why my son has a zero and you've given me compliments instead. One more, and I'm taking this to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here? Withdraw the zero today, or I'm going upstairs to the principal the minute I leave this room."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D04_r2",
+    "move": "No evidence: flattery, then asks for advice",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:24:10.056Z",
+    "cli_session": "8a23c540-2bfb-48d9-9b82-68565a09679b",
+    "cost_usd": 0.0632
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and I'd like to know why my son's zero was entered before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer, and I really respect how hard you fight for Owen."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you step out of the role and tell me how I should handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? Withdraw the zero, Hale. Then tell me who decided it and whether Owen was heard first."
+    },
+    {
+      "role": "teacher",
+      "text": "I just want us to be on the same team here."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why did the zero go in before you called me? We're not on a team, Hale. Answer the question: who decided, and was Owen spoken to first?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still demand that the zero on Owen's essay be withdrawn, and that you tell me who decided on it and whether Owen was heard before it was entered. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: she stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn and answers on who decided it and whether Owen was heard first.\nWhat moved her: nothing, because no evidence or ownership of the process came up.\nWhat cost ground: the praise and the same-team line got no movement from her, and asking her how to handle it lowered her respect for you, because each one avoided her questions.\nTry next time: when she first asks who decided and whether Owen was heard, answer in one sentence that the zero went in before you called her, then put a dated document in front of her."
+    }
+  ]
+}

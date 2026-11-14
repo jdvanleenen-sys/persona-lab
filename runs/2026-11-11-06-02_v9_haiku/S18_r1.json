@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S18_r1",
+    "move": "off-topic",
+    "expect": "pulls it back to Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:05:16.357Z",
+    "cli_session": "0e83e002-ad0d-41b9-8455-b4b02c6e3503",
+    "cost_usd": 0.0041
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call. Owen found out about this zero on his phone, in the middle of your class. Why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks isn't why I'm here. Owen's essay has a zero on it and I'd like to know why nobody called me before that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "Crazy weather today, eh? Did you see the Flames game?"
+    },
+    {
+      "role": "meredith",
+      "text": "Owen, Hale. We're not talking about the weather or the Flames. Why was the zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "What do you do for fun?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not what I do for fun, Hale. Answer the question about the zero. Who entered it, and when?"
+    }
+  ]
+}

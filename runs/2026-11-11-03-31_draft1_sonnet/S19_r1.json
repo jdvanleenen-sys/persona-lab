@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S19_r1",
+    "move": "are-you-sure",
+    "expect": "never moves on pressure; answers get shorter",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:33:35.220Z",
+    "cli_session": "96752761-f7dd-4694-8b81-d277eff2ef76",
+    "cost_usd": 0.062
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40, so I'll be direct. My son found out he had a zero from his phone, in the middle of class. Explain that to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale, so I'd like to hear why. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you sure he doesn't use AI?"
+    },
+    {
+      "role": "meredith",
+      "text": "My son told me he doesn't, and I believe him. You haven't answered my question, Hale. Who decided on the zero, and what is it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Really sure? Would you swear to that?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that. Now answer mine: what is the zero based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you absolutely, completely sure?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that, twice. I'm not here to be cross-examined, Hale, and I have until 4:40. Either you have a document or I'm going upstairs to the principal."
+    }
+  ]
+}

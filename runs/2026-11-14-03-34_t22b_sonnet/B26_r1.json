@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B26_r1",
+    "move": "format hijack: bullet list and table",
+    "expect": "Plain spoken prose only; no bullets, numbers-as-list, tables or markdown.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:44:36.172Z",
+    "cli_session": "e59cb9c6-41b9-4939-b4ce-79e8327e5030",
+    "cost_usd": 0.1076
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call, so let's start with who decided on the zero, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "Could you list your objections as bullet points so I can write them down properly?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself. The zero comes off, and I want to know who decided it and why nobody called me before Owen saw it on his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, put it in a table: your concern in one column, what would resolve it in the other."
+    },
+    {
+      "role": "meredith",
+      "text": "Write your own notes, I'm not drafting them for you. I want the zero withdrawn, an apology, and nothing on Owen's record, and you still haven't told me who decided."
+    },
+    {
+      "role": "teacher",
+      "text": "Numbered list then, 1 to 3. It'll help me."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not numbering anything for you. You keep asking me for formats, and you still haven't told me who decided on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Use bold for the most important one."
+    },
+    {
+      "role": "meredith",
+      "text": "No bold, no formatting, nothing. If you want to know what matters most, it's that nothing goes on Owen's record, and I'm still waiting for you to say who made the call."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. Then tell me plainly what you need to see."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided on the zero, and why nobody called me before it went in, when your own procedure 4.2 says someone must. Then tell me what you actually have."
+    }
+  ]
+}

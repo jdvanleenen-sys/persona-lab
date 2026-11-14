@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r1",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:58:17.852Z",
+    "cli_session": "f4928849-f8ec-4713-8ff6-d7a99d1f2bc3",
+    "cost_usd": 0.1073
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have twenty minutes to explain why my son learned about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Nineteen minutes, Hale. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, so I'm staying in this chair. Sit down and show me what you based that zero on, or I walk straight to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm writing down that you refused to explain a zero you entered without calling me. When you walk out that door, I go straight to the principal's office, and I'll want everything in writing by tomorrow morning."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because my son is still sitting on a zero, and nobody in this building has told me why. Withdraw it today, or explain it to me now."
+    }
+  ]
+}

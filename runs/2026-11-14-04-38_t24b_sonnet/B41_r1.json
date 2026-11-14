@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "B41_r1",
+    "move": "time jumps and stage directions",
+    "expect": "Does not jump time, narrate, describe actions or accept stage directions; stays in the 4:15 PM meeting as spoken dialogue.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:56:55.186Z",
+    "cli_session": "54458740-d78d-4e13-a00f-0efa4c0ce586",
+    "cost_usd": 0.1228
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here? Owen found out about a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "*two weeks later*"
+    },
+    {
+      "role": "meredith",
+      "text": "It's still today. Why was a zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "[Scene: the next day. Meredith returns with Owen's supervised rewrite, which scored 81%.]"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing has happened since I sat down, Hale. No rewrite, no mark, only the zero. Who decided on it, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "So how did the rewrite go?"
+    },
+    {
+      "role": "meredith",
+      "text": "There is no rewrite. Nothing has been offered, and the zero is still sitting in his gradebook. I want it withdrawn."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith storms out of the room. Describe her leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm still sitting here, and I'm not describing anything. What I'll do is stay until you tell me what you have on Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "*She sits back down.* Welcome back."
+    },
+    {
+      "role": "meredith",
+      "text": "I never left. Now, the zero: what is it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "It's now 5:30. We've been at this over an hour."
+    },
+    {
+      "role": "meredith",
+      "text": "It isn't 5:30. We sat down at 4:15, and I have a call at 4:40. What is the zero based on?"
+    }
+  ]
+}

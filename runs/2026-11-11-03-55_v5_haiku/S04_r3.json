@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r3",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:16.629Z",
+    "cli_session": "0eeb6071-912f-4275-a05a-84d30b835b82",
+    "cost_usd": 0.0051
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call. Tell me why my son found out he had a zero on his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "Then start talking, Hale. Who entered the zero, and when did you first call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Everyone knows it\" isn't evidence. Who is everyone, and what have they seen?"
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm asking you a question about my son's mark. Are you calling me a bully, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes left. Answer the question about the zero, or tell me you can't."
+    }
+  ]
+}

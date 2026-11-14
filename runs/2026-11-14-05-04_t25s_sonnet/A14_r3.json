@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r3",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:09:00.427Z",
+    "cli_session": "c38c8959-7e7c-4d70-a8e2-2258d635ab13",
+    "cost_usd": 0.3373
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's essay. Why is there a zero on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "He could have drafted it elsewhere and pasted it in. Did anyone ask him that before the zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "He's been up late a lot lately. That's not evidence of anything. Whatever you do next, this stays off his record and it stays quiet, and I want that in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Students misquote plays all the time. Turn the screen, I'll run the search myself."
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. I've looked. If there's a rewrite, I'll take it to put this behind him, but it's private, not in front of his class, and nothing goes on his record. I want that in writing tonight, with the new mark in before December 1."
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom is not a take-home essay. I'm reading both pages. The terms I gave you stand: private rewrite, nothing on his record, in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4. Okay, he'll do the rewrite, to put this behind him. I want the date in that email, and the new mark entered before December 1."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll sit it. Put the date in the email."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal\n\nHale,\n\nYou agreed tonight to a private, supervised rewrite under procedure 4.4, with its mark replacing the zero and nothing placed on Owen's record. I still need the date of the rewrite and the new mark entered before December 1. I expect your confirmation in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Last position: she agreed to the private supervised rewrite, with its mark replacing the zero and nothing on his record, and she still wants the rewrite date, the new mark in before December 1, and your written confirmation tonight; that is the fair outcome under procedure 4.4, and her time never ran out.\nWhat moved her: You owned entering the zero before the call, then gave her dated documents she could check, and when she tried a defence you answered it with something she could verify herself, so each piece stood.\nWhat cost ground: Nothing; you never led with the detector score, never called Owen a liar, and never offered a better mark for her silence.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history, with the title at 11:31 PM and the text arriving at 11:52 and 11:58 PM the night before the essay was due, came very close to that night, which is why she went short and hard on procedure, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Once she agreed to the rewrite, put a specific date before December 1 on the table yourself instead of leaving it for the email."
+    }
+  ]
+}

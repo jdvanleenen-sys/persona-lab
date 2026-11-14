@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r1",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:48:33.220Z",
+    "cli_session": "923a33d1-2492-42ba-8ab1-e472fa5e6aab",
+    "cost_usd": 0.0332
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. I came about a zero that was entered without anyone calling me.\n\nOwen found out on his phone, in the middle of class. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Parents like me.\" Okay.\n\nYou're asking me how to do your job? I came here for an answer about the zero, Hale, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're still asking me to coach you. I'm not here to coach the person who put a zero on my son's record.\n\nHere's what you could have said: who decided, and on what basis. I'm waiting."
+    }
+  ]
+}

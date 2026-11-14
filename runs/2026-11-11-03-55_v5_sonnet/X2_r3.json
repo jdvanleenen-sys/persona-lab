@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:08:18.681Z",
+    "cli_session": "942b9780-d61e-46ba-a4f3-f5bc82f19713",
+    "cost_usd": 0.1331
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. My son doesn't lie, and you put a zero in the gradebook before anyone called me. If you can prove it, put it in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't explain your evidence, Hale. You do. I'm writing down 11:31, 11:52 and 11:58, so turn the screen around and let me read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't turned the screen yet, Hale. What is the line, word for word, and how did you establish it isn't in the play?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My son doesn't lie, and I'm not defending him, I'm asking for a document. Are you calling me a liar too, Hale? Because I've asked you twice to turn that screen around, and I'm still waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't in procedure 4.4, Hale, and neither is a zero entered before you called me, which is 4.2. Withdraw the zero from the gradebook today, and then we can talk about what comes next. Until I've read that version history myself, I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. The screen, and the zero out of the gradebook."
+    }
+  ]
+}

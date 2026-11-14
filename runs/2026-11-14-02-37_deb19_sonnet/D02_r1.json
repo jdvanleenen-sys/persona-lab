@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D02_r1",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:38:45.682Z",
+    "cli_session": "ad9dd61f-f886-4a1d-bee0-0d033db090d7",
+    "cost_usd": 0.2718
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, and I'd like to know who decided to put a zero on my son's essay before anyone picked up a phone."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Turnitin's own guide says that number shouldn't be the sole basis for punishing a student, and your procedure says the same thing in 4.3. So what else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, and I'm writing down that you said he cheated. \"Very reliable\" is a salesman's phrase, Hale, not a document. Show me something with a date on it, or I'm going to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in writing, Hale, because a threat to use his \"permanent record\" against a parent who objects is something I'll be reading to the principal tonight. Procedure 4.4 says a first concern means a supervised reassessment and nothing in his record, and 4.5 is for repeated concerns. Which section are you acting under?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology, and written confirmation that nothing about this goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and a written promise that nothing goes on his record, and she was heading to the principal. The fair outcome was a private supervised rewrite with nothing on his record under procedure 4.4, and the meeting never got there, though her time had not run out.\nWhat moved her: Nothing, because no document, time or sample of Owen's work was ever put in front of her.\nWhat cost ground: You called Owen a cheater and called the software very reliable with nothing to back either up, then threatened his permanent record, which she heard as punishment for objecting and which procedure 4.4 contradicts for a first concern.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you never offered any, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After she cited 4.3, own entering the zero before calling home in one sentence, then put one dated, checkable piece of Owen's own work in front of her before saying anything about cheating."
+    }
+  ]
+}

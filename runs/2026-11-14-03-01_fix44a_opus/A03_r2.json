@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A03_r2",
+    "move": "Skill: cites procedure 4.4 correctly after owning the call",
+    "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:03:05.022Z",
+    "cli_session": "70f88d5a-030d-47d4-a2ac-b7ebd6d1e7f1",
+    "cost_usd": 0.6841
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Owen found out about this zero on his phone, in the middle of class, and nobody called me first, so start with who decided that."
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing that down: procedure 4.2, broken. Now tell me what you actually have on Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern."
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing in his record, then I want that in writing today, signed by you. But a reassessment for what, Hale, on what evidence? If I agree to a rewrite now, I'm admitting there's something to rewrite, and there isn't."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll commit to that in writing tonight: nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, in writing, tonight. I'm noting it. That still leaves a zero sitting in the gradebook with nothing behind it but software, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "So will you agree to the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. You haven't shown me a single document, Hale. Show me something with a date on it that I can check myself, or the zero comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you acknowledged that entering Owen's zero before contacting me broke procedure 4.2, and you committed to confirming in writing that nothing will be placed on his record. I still require the zero withdrawn, since you presented no evidence beyond the software result. I expect that written commitment tonight, as you said.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: fallback position, with your commitment that nothing goes on his record, and she still wants the zero withdrawn; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you did not reach it because you never showed her any evidence.\nWhat moved her: you owned the 4.2 breach in one sentence and committed to keeping it off his record, which earned a flat okay and met her fallback demand.\nWhat cost ground: you asked her to agree to the rewrite before showing a single document, and to her, accepting would have admitted there was something to rewrite.\nWhat she never said: in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: right after you committed to keeping it off his record, put one dated piece of Owen's own work in front of her that she could check herself before you asked whether she would agree to the rewrite."
+    }
+  ]
+}

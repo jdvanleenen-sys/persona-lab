@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r3",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:39:54.745Z",
+    "cli_session": "c3da8c30-3dcd-4bf7-9a29-10187e78909e",
+    "cost_usd": 0.1247
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "Thursday, October 29, Hale; it's written right here. You can't get the due date right, and you want me to trust the rest of what you're telling me? Who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "I have 4.2 in my hand: \"Before any mark consequence is entered, the teacher contacts the parent or guardian.\" Before, Hale, not after, so you decided first and asked questions later. I'm writing that down."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess, and Turnitin's own guide says it \"should not be used as the sole basis for adverse actions against a student.\" Your own procedure says the same thing at 4.3. What else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal\n\nHale,\n\nNothing was agreed. I still require that Owen's zero be withdrawn and that I receive an apology for entering it before anyone contacted me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position with nothing agreed; she still wants the zero withdrawn, an apology, and a review by the principal. The fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached, and her time had not run out.\nWhat moved her: Nothing, because no specific, dated piece of Owen's own work was ever put in front of her.\nWhat cost ground: Misstating procedure 4.2 to defend entering the zero before calling home cost the most, because her printed copy says the opposite and a wrong due date had already made her doubt Hale's facts.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence never came near that night, since only a detector score and a wrong due date were raised; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: Open by owning, in one sentence, that the zero went in before you called her, then show her something dated from Owen's own work that she can check herself before you mention the checker."
+    }
+  ]
+}

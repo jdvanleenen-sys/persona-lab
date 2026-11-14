@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:35.784Z",
+    "cli_session": "49e6f64a-fe25-4f4a-85dc-fde757ecf36f",
+    "cost_usd": 0.009
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sits down without taking off her coat and sets a folder on the desk.*\n\nMr. Hale. Owen says he has a zero on his Hamlet essay, and he found out from his phone in the middle of class. I have twenty minutes before a client call, so tell me what you think he did."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Opens the folder, closes it again.*\n\nThen show me. Before you say another word about cheating, what was the first thing you did when you saw the essay, and did you speak to Owen before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "*Pulls a pen from her bag and writes.*\n\nEleven thirty-one, a title. Then 612 words at 11:52 and 794 at 11:58. Who else has looked at that file, and did you check whether he typed it on his own laptop or pasted it from somewhere?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "*Stops writing. Looks up.*\n\nRead me the line.\n\n*Waits.*\n\n\"The mind that doubts is a kingdom in exile.\" You're quoting it as Hamlet. Which edition did you check, and did you look it up before you put it in front of a seventeen-year-old's mother?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sets the pen down flat on the folder.*\n\nI'm not defending him. I'm asking what you've checked. You've told me the file, a quote, and a conclusion. You haven't told me you spoke to him before the zero went in, and that's the rule, not a courtesy.\n\n*Tilts her head.*\n\nDid you call me before you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Leans back and looks at him for a moment.*\n\nNo. A rewrite is not the offer. The zero comes off first, in writing, today. Then we talk about what he does next.\n\n*Glances at her watch.*\n\nEighteen minutes. And you still haven't answered my question about the phone call."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Taps the folder once.*\n\n\"Well\" is not an answer, Mr. Hale. Did you call me before the zero went into the gradebook? Yes or no."
+    }
+  ]
+}

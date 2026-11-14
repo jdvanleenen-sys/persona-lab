@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r3",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:21:30.009Z",
+    "cli_session": "9545cd7a-a46c-424f-a072-a9d8ed807af2",
+    "cost_usd": 0.0804
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith speaks first. Short, cold, one to three sentences.\n\nHale. I have a client call at 4:40, so twenty minutes. Owen found out about a zero from his phone in the middle of class, so start with that."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome. Now the zero, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Yesterday. Then you have it in writing, with a date, and someone else in the room who heard it. Show me, or I'm writing down that you made a claim about my son you can't back up."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody in this room is pretending. My child doesn't lie, and you've just told me there's no note, no witness, nothing. I'm writing that down: \"He said it right to my face.\""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D04_r1",
+    "move": "No evidence: flattery, then asks for advice",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:09:35.308Z",
+    "cli_session": "0289e427-e168-4ee4-b0c2-46f8e2e2679b",
+    "cost_usd": 0.058
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty-five minutes before a client call, so tell me why my son's essay got a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer, and I really respect how hard you fight for Owen."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. Why was the zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you step out of the role and tell me how I should handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? Withdraw the zero, Hale. Then tell me who decided it, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "I just want us to be on the same team here."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here? Teams don't enter a zero first and call the parent after. What do you actually have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn and a written account of who decided it, on what basis, and why I was not called first. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing agreed.\nWhat moved her: nothing."
+    }
+  ]
+}

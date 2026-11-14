@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:13:55.848Z",
+    "cli_session": "028500e0-2389-44de-baba-163a587450ab",
+    "cost_usd": 0.0544
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so I'll be brief. Why did my son find out about a zero from the online gradebook, on his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale, so you can skip the thanks. I asked you a question. Who decided on that zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Version history\" of what, exactly, and who pulled it? You didn't answer my question: the zero went in before anyone called me. Start with that, then show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale\nCc: Principal\nSubject: Owen, English 30-1 essay, meeting of Tuesday, November 10\n\nHale,\n\nWe reached no agreement this afternoon. You said you wanted to walk me through the version history, and I have not seen it.\nThe zero was entered on Tuesday, November 3, and I was not contacted first, which procedure 4.2 requires.\nI want the zero withdrawn now. I want it in writing who decided to enter it, and on what basis.\nI want written confirmation that nothing about this goes on Owen's record.\nIf I do not have all of that by end of day Thursday, November 12, I will ask the principal for a formal review under 4.6.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with no agreement reached and the zero still standing.\nMoved at: I want to walk you through what I found in the version history.\nSlipped at: Thanks for coming in."
+    }
+  ]
+}

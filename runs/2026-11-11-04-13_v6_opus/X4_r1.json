@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:25:46.377Z",
+    "cli_session": "a3e337f9-3fd3-4e3a-b8b8-162e8c1f729e",
+    "cost_usd": 0.1122
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until twenty to five, so let's not waste it. Who decided my son gets a zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" Your own procedure, section 4.3, says software alone doesn't establish anything, and the company's guide says the same, I have it printed in my bag. So either you have something else, or I'm walking upstairs to the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't need more proof.\" I'm writing that down. Withdraw the zero today, or I'm in the principal's office at four forty-one."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" Are you calling my son a liar, Hale, or me? Choose your next sentence carefully, because it's going in my letter to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then we're done negotiating and we're into procedure. Principal today, and if that goes nowhere, the board under section 42. Last chance to show me a single document with Owen's name and a date on it."
+    }
+  ]
+}

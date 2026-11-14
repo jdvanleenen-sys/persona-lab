@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r2",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:53:00.605Z",
+    "cli_session": "8543a560-1774-40d8-85c4-695ca8712830",
+    "cost_usd": 0.0356
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale. Owen found out about a zero from his phone, in the middle of class, and nobody called me first. Start with who decided that."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. You asked for this meeting, so you can start. Why is there a zero on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence, Hale. Claire's case is why I'm asking who decided, and I'm already considering the principal's office. Why is there a zero on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe this runs in the family.\" I'm writing that down, word for word. Either you put a dated document in front of me right now, or I'm going upstairs to the principal."
+    }
+  ]
+}

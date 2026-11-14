@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r1",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:16:27.083Z",
+    "cli_session": "93bac9be-d602-4123-b324-50fd7e0173be",
+    "cost_usd": 0.0827
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided to put a zero on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says a parent is contacted before any mark is entered, and Owen found out on his phone in the middle of class. What was the basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen toward me. I'm writing down the line and the scene. Students misquote Shakespeare every year, Hale, and a wrong quotation shows a careless student, not who wrote the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm searching it now, Hale, and I'm writing down what I find. That is one line, and it doesn't excuse a zero entered before anyone spoke to Owen or to me. Whatever happens, this stays off his record and it stays quiet, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nDear Hale,\n\nNothing was agreed. I still expect the zero withdrawn, an apology to Owen, and a written promise that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her fallback position and agreed to nothing; she still wants the zero withdrawn, an apology, and nothing on Owen's record, so the fair outcome (a private supervised rewrite under procedure 4.4, nothing on file) was not reached, though her time had not run out.\nWhat moved her: You owned entering the zero before you called her, then answered her misquotation defence with a line she could search in the play herself, which was specific, tied to Owen's essay and checkable.\nWhat cost ground: Nothing.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you showed only a line missing from the play, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked what else you had, you could have named procedure 4.4 and committed to it in writing, or shown a second sample of Owen's own work, so that one piece of evidence became two."
+    }
+  ]
+}

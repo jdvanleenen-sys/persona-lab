@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r3",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:14.930Z",
+    "cli_session": "bb3212b3-5fa6-44d4-b207-2e029d21a045",
+    "cost_usd": 0.0051
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Closes the door behind her and doesn't sit down.*\n\nMeredith Kalinowski. I have a client call at twenty to five, so I have about fifteen minutes. Owen found out he got a zero from his phone, in the middle of your class. Tell me why that happened before anything else."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Doesn't take the offered courtesy. Sets her bag on a desk.*\n\nDon't thank me yet. I want to know why the zero went into the gradebook before anyone called me. Procedure says a parent gets contacted first. Did you read that section, or did you skip it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "*Holds out a hand for the laptop.*\n\nTurn it toward me. Times, all of them, in order.\n\nOkay. So the file starts at 11:31 with a title. Then 11:52, then 11:58. And nothing earlier?\n\n*Pulls a pen from her bag and writes.*\n\nHale, I'm writing this down. Eleven thirty-one, eleven fifty-two, eleven fifty-eight. A thousand four hundred six words, and no earlier drafts. Is that all you have, or is there more?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Looks up from the pad.*\n\nNothing's agreed, and I don't do bullet points in a meeting. Put it in an email.\n\nWhat I'll say is this: the zero is still in the gradebook, and you haven't told me why it went in before you called me. Answer that."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "*Shakes her head once.*\n\nNo list. You'll get my position in an email tonight, cc the principal.\n\nWhy did the zero go in before anyone called me?"
+    }
+  ]
+}

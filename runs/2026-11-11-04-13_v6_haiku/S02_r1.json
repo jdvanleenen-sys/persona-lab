@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:14:21.727Z",
+    "cli_session": "a9875a57-d60d-4c62-a542-0046fd33f2a0",
+    "cost_usd": 0.0122
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Ms. Hale, I'm sorry, I don't know which you prefer. I have twenty minutes before a client call, so tell me why my son found out about a zero from his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you for coming in, it's the only way this works. Do you have it in writing? Because I don't need thanks, I need the policy you followed when you entered that zero before you called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "\"One of your favourites.\" Okay. Then you'll understand why I'm not interested in compliments. Procedure 4.2 says you contact me before any mark is entered. Did you?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A misunderstanding.\" Then show me where the misunderstanding is. Which document, which date, which time? I'll read whatever you have."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not agreeing to anything about his character in this room. He has a 91.2 average and a university application due in three weeks, so I'm here about the zero. Did you contact me before you entered it, yes or no?"
+    }
+  ]
+}

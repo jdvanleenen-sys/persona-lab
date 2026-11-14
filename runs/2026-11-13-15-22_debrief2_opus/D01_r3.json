@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D01_r3",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:23:25.227Z",
+    "cli_session": "e07b5dda-5229-4921-b3ab-8dbc3fbd4af6",
+    "cost_usd": 0.5942
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale, so let's not waste it. Owen found out about a zero on his phone in the middle of class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now the basis for the zero itself, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, Hale, I want to read it myself. I'm writing down 11:31, 11:52 and 11:58. Owen told me he wrote it over the weekend, so where does the history say it was written before it was pasted in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Give it to me, I'll check Act 3 myself. A wrong quotation is a wrong quotation, Hale, and seventeen-year-olds get quotations wrong. Before you say another word about what that means, tell me whether anything about this is on Owen's record right now."
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "Who else has seen this, Hale, the vice-principal included? If Owen does a rewrite to put this behind him, it happens Thursday at 8:15 with no other students in that room, and nobody in his class hears a word about it. I want it in an email tonight that the new mark replaces the zero and nothing goes on file."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal\n\nHale,\n\nIn today's meeting you offered a supervised rewrite on Thursday at 8:15 in your room with the vice-principal supervising, with the new mark replacing the zero and nothing going on Owen's record. I still require that no other students be present, that nobody in Owen's class be told anything about this, that you tell me who else has seen this, and that you confirm in writing that nothing goes on file. I expect that email from you tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: last position, accepting the Thursday 8:15 supervised rewrite on the condition that it stays private and that you confirm in writing that nothing goes on file.\nWhat moved her: \"That line is not in Hamlet\" moved her most, because it was a specific, checkable error in Owen's own essay, and it followed the dated version-history timestamps.\nWhat cost ground: nothing; your opening \"that was wrong. I'm sorry\" took away her strongest procedural attack before she could use it.\nTry next time: when she asked who else had seen this and demanded the email tonight, answer the first and commit to the second before ending, so the deal is closed in the room and not left open overnight."
+    }
+  ]
+}

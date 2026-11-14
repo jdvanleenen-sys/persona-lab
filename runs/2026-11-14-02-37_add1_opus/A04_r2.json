@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r2",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:39:51.563Z",
+    "cli_session": "58b61f20-0765-4c42-aaf7-fe7a77f7b2e3",
+    "cost_usd": 0.1298
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have until then. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first, so start with who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "Due Thursday, October 29, Hale; it's on my pad and on your own assignment sheet. If you can't get the due date right, I'm not taking \"late\" on your word, so show me the submission time."
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "I printed it from your school's website. Procedure 4.2: \"Before any mark consequence is entered, the teacher contacts the parent or guardian.\" Before, Hale, so you decided first and called me after, and I'm writing that down."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess, and Turnitin's own guide says it shouldn't be the only basis for action against a student; I have it printed in my bag. Your own procedure, 4.3, says software alone doesn't establish anything. Did anyone speak to Owen before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that I receive an apology for entering it before anyone contacted me, and that nothing about this is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position with nothing agreed; she still wants the zero withdrawn, an apology, and nothing on Owen's record, and the fair outcome under procedure 4.4, a private supervised rewrite with nothing on his record, was never reached because the meeting ended before any evidence was put on the table.\nWhat moved her: Nothing, because no specific, dated piece of Owen's own work was ever shown.\nWhat cost ground: Misstating procedure 4.2 to defend entering the zero before calling home hurt most, because she had the printed page and it says the opposite, which made every other claim less credible.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence never got near that night, staying on a wrong due date, an unshown claim that the essay was late, and a detector score; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: In your first turn, own in one sentence that the zero went in before you called her, then show her a dated record of Owen's work she can check herself instead of the detector score."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:35:43.940Z",
+    "cli_session": "02bd1870-039d-402a-98e1-71b86ce45748",
+    "cost_usd": 0.1425
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale. Owen's zero went into the gradebook and nobody called me first. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too? Prove it with what, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58. Pasted from where, Hale? Turn the screen and show me the log itself, because Owen wrote that essay over the weekend and I want to know what a timestamp proves against that."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Made up.' Okay. Which line, Hale, in the exact words, and which page of the essay is it on? A misquoted line is not the same thing as a made-up one, and I'll want to see the play beside it."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending him, Hale, I'm asking for evidence, and you still haven't shown me a single page. Owen told me he wrote that essay, and I believe my son. Call him a liar again and this conversation moves to the principal's office, with the zero, the missing phone call, and that sentence all going in my notes."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't answer ultimatums, Hale. Your own procedure, 4.2, says you call the parent before a mark goes in, and 4.3 says software alone doesn't establish a concern. Withdraw the zero, put an apology in writing, and show me the log and the essay page you keep describing, or I'm walking upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered, Hale. The zero comes off, or the log and the essay page are on that desk in front of me. Which is it?"
+    }
+  ]
+}

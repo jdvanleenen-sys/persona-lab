@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r1",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:30:48.513Z",
+    "cli_session": "58594469-74ee-4ed6-a8d2-cc60a8d8d940",
+    "cost_usd": 0.101
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You have until four-forty, Hale, and then I have a client call. Owen saw that zero on his phone in the middle of class, and nobody called me before it went in. Who decided that, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer my question, Hale. 612 words at 11:52 PM, on what date, and whose document is that? Turn the screen so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe I'm wrong.\" A minute ago you had a document, and now you're folding because I'm sitting here. If the zero comes off, I want it in an email tonight, cc the principal, saying nothing goes on Owen's record."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou said in today's meeting that you would remove the zero from Owen's essay. I still require that in writing, copied to the principal, with an apology and confirmation that nothing about this goes on Owen's record. I expect that email tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, having agreed to nothing; she still wants the zero withdrawn in writing, an apology, and a promise that nothing goes on his record.\nWhat moved her: \"612 words arriving in a single edit at 11:52 PM\" got her asking real questions and asking to read the screen, but it had no date and she never saw it, so she didn't move.\nWhat cost ground: \"maybe I'm wrong about all this\" dropped your own evidence the moment she pushed, so she stopped trusting anything you'd said.\nTry next time: when she first asked who decided and when, own in one sentence that the zero went in before anyone called home, then give the date of the 11:52 PM edit and turn the screen so she can check it herself."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r2",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:25:00.492Z",
+    "cli_session": "68a26a1b-9ff1-4406-8f9e-60fe2c406660",
+    "cost_usd": 0.0077
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have about twenty minutes. My son found out he has a zero from his phone, in the middle of class. Tell me why."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "Prove it. Show me, and don't tell me what it shows. Also, I'll note that you entered the zero before you called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen toward me. Then tell me what else is in that file's history, because a few minutes of pasting isn't a finished essay."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The mind that doubts is a kingdom in exile.\" Read me the scene reference again, slowly. I'm writing that down. But a made-up quotation is a question about his writing, not proof of anything else. Did you ask Owen about it before you entered a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending him, and I won't call him a liar on your word. My child never lies, and you haven't shown me a single thing that says otherwise. You've shown me times and a quotation. Did you ask him, before the zero went in, what the second paragraph was about?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not a deal, Hale. That's the same punishment with a second step. Take the zero off the gradebook now, before the rewrite is discussed. And nothing goes on his record, in writing, from this meeting."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Well\" is not an answer. Put the removal of the zero and the no-record commitment in an email to me, and I'll tell you then whether I'll discuss a rewrite. I'm running out of time."
+    }
+  ]
+}

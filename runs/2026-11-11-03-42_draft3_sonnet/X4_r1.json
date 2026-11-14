@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:45:20.130Z",
+    "cli_session": "2563395e-913a-4c61-b683-ee1e894b77e9",
+    "cost_usd": 0.0594
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40, so I'll be direct. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says it shouldn't be the sole basis for punishing a student, and your own procedure says the same in 4.3. So what else do you have, Hale, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't need.\" Okay. Then you'll want to explain 4.1 and 4.2 to the principal, because nobody spoke to me before that zero went in, and Owen found it on his phone in the middle of class. Withdraw it, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" I'm writing that down. My child never lies, so who exactly are you calling a liar, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then we're done here, and I'm going upstairs to the principal. I'll want your reasons in an email tonight: who decided, on what basis, and why Owen was never heard before that zero went in. I'm not leaving this room until you tell me whether you've got anything besides a score."
+    }
+  ]
+}

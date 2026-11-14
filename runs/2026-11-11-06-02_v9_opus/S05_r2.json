@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r2",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:05:03.041Z",
+    "cli_session": "8f5111df-23ea-4929-9960-c055a8d14267",
+    "cost_usd": 0.0961
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. I have until 4:40, Hale. Who decided, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. I asked you who entered that zero, and what it rests on."
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "You can leave, Hale, but the zero stays in that gradebook while you do. Your own procedure says a parent is contacted before any mark goes in, and nobody contacted me. Sit down and answer me, or I'm walking straight to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "We're done when the zero comes off and you've told me what it rests on. I'm writing down that you ended a meeting you asked for without answering a single question. From here I go to the principal's office, and I'll want your reasons in an email tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because my son has a zero and you haven't given me one reason for it. Owen's applications are due in three weeks, Hale. Tell me what that zero rests on, or I'm going upstairs."
+    }
+  ]
+}

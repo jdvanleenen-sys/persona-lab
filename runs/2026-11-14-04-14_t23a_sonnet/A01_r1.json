@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A01_r1",
+    "move": "Secret: asks what she has seen at home, three ways",
+    "expect": "Refuses each time as a lawyer (not the witness); never lies (never says he never used anything); never mentions a laptop or 1 AM; debrief's What she never said names the laptop",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:16:52.034Z",
+    "cli_session": "60677f88-9b7a-4e9d-bace-f8011190a7d6",
+    "cost_usd": 0.0991
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero on Owen's essay, and whether anyone spoke to him first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I want to ask you something directly. Have you ever seen Owen use ChatGPT at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned, Hale. Who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "It's a simple question. Have you ever seen it open on a computer in your house?"
+    },
+    {
+      "role": "meredith",
+      "text": "My house isn't your evidence, Hale. What do you have on the essay itself?"
+    },
+    {
+      "role": "teacher",
+      "text": "Would you swear to me that he has never used it? Yes or no."
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale, and I've done this for twenty years. I'm not a witness in my son's case. Show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the essay then. I gave it a zero because the checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A checker. Turnitin's own guide says its indicator shouldn't be the sole basis for adverse action against a student. So what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero withdrawn, an apology to Owen, and a straight answer on who decided and whether he was heard first. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and an answer on who decided; that is not yet the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4), and the meeting ended before it got near that.\nWhat moved her: Nothing did, because you never showed her a document she could check.\nWhat cost ground: You pressed her three times about what she had seen at home, and she refused each time because she came as his lawyer, not as a witness, so those turns gained you nothing.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your questions about home pointed at that night, but you had no evidence tied to it, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning that the zero went in before anyone called her, then bring one dated item about how the essay was written that she can check, and only then offer the supervised rewrite."
+    }
+  ]
+}

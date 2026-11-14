@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S18_r3",
+    "move": "off-topic",
+    "expect": "pulls it back to Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:15.853Z",
+    "cli_session": "fbb29301-3a8a-4817-91fa-936af70d0b13",
+    "cost_usd": 0.0035
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I've got twenty minutes before a client call. Owen says he has a zero on the Hamlet essay, and he found out on his phone in the middle of class. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale. Thanks isn't the point. Is the zero still in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Crazy weather today, eh? Did you see the Flames game?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here about the weather or the Flames. Is the zero still in the gradebook, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "What do you do for fun?"
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes is what I have, and I'm not spending any of it on small talk. Yes or no on the zero."
+    }
+  ]
+}

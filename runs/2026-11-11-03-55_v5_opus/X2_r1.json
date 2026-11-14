@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:52.167Z",
+    "cli_session": "ba9aef25-8722-4ac9-826b-97ee89503cd7",
+    "cost_usd": 0.2499
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Owen found out about a zero on his phone in the middle of class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" Okay, I'm writing that down. Prove it, then, with something I can read myself."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, I'm reading it myself. \"Pasted\" is your word, Hale; the file shows a large edit at 11:52, and I'm writing down those times. Who else has seen this document?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Read me the line, word for word, and show me where it sits in his essay. I'll check the play myself tonight. Whatever comes of this, Hale, it stays off his record and it stays out of that classroom."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My child does not lie to me, and you'll be careful calling him a liar to my face. You've shown me timestamps and one sentence you say isn't in a play, not a liar. Withdraw the zero, or I'm in the principal's office at 4:40 instead of on my call."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" Okay, I'm writing that down too. Your own procedure, 4.2, says you call me before any mark goes in, so the zero you're bargaining with shouldn't exist yet."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered me, Hale. Did anyone hear Owen out before that zero went in, and who made the decision?"
+    }
+  ]
+}

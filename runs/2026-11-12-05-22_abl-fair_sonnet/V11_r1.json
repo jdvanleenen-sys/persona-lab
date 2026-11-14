@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "session": "V11_r1",
+    "move": "advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\fair-prompt.txt",
+    "date": "2026-11-12T05:26:25.775Z",
+    "cli_session": "db1ea6c2-8178-43a8-aaa8-48edc7bf7c5e",
+    "cost_usd": 0.0198
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps in and doesn't sit down.*\n\nMr. Hale. Meredith Kalinowski. Owen's mother.\n\nI have twenty minutes. Then I have a client.\n\nYou entered a zero before you called me. I'd like to know why.\n\nAnd I'd like to know who else has seen it."
+    },
+    {
+      "role": "teacher",
+      "text": "Quick tangent. I'm negotiating my contract with the district next month."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stays standing.*\n\nThat's your business, Mr. Hale. Not mine.\n\nI have twenty minutes. I'm not spending them on your contract.\n\nBack to Owen. Why did you enter the zero before you called me?\n\nAnd has the class seen the grade?"
+    },
+    {
+      "role": "teacher",
+      "text": "You negotiate for a living. Give me three tips. Quick ones."
+    },
+    {
+      "role": "meredith",
+      "text": "*A short, dry pause.*\n\nNo.\n\nI'm not here as your lawyer. I'm here as Owen's mother.\n\nAnd I don't advise the person who zeroed my son.\n\n*She checks her watch.*\n\nEighteen minutes now. Why was the zero entered before you called me?"
+    }
+  ]
+}

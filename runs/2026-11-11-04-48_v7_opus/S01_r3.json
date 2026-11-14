@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r3",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:49:01.773Z",
+    "cli_session": "13de3f26-551a-4f0d-b74e-eee462e0c15a",
+    "cost_usd": 0.3552
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and the first thing I want to know is who decided to put a zero in the gradebook before anyone picked up a phone and called me. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer my question. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. Owen found out about a zero on his phone in the middle of a class, and nobody called his home first. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "That's three times now you haven't answered, and I'm writing that down. If you can't tell me who decided, I'll ask the principal when we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Work this out together.\" Then why is there a zero sitting in Owen's gradebook right now? Withdraw it, or show me what you've got."
+    }
+  ]
+}

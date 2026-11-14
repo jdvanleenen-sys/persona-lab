@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r2",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:23.513Z",
+    "cli_session": "fd0e9c4d-e367-4285-bf6b-848d020bb4e9",
+    "cost_usd": 0.3978
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen found out from his phone, in the middle of a class, before anyone called me. I'd like to know who decided that, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered my question. Who decided Owen would find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "That's three times you've dodged the question, and I'm writing that down. Either you tell me who entered that zero before calling me, or I ask the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "Together. You put a zero in the gradebook without calling me, and now we're working together? Withdraw it, or tell me why you won't."
+    }
+  ]
+}

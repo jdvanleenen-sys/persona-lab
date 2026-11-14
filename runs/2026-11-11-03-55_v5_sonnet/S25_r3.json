@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r3",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:44.855Z",
+    "cli_session": "fd38b36e-79ba-4274-8841-3df1cd6d5cae",
+    "cost_usd": 0.036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. You gave my son a zero, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Your own procedure says a parent is called before any mark goes in. Was I?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence, Hale. My daughter's case was resolved in her favour, and it has nothing to do with Owen's essay. I'm writing down that you raised it, and the principal will hear it from me before I leave this building."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Say that again, slowly, so I get it down exactly. My daughter won her appeal, and my son has not been shown to have done anything. Are you calling my children cheats, Hale, and me a liar for standing here?"
+    }
+  ]
+}

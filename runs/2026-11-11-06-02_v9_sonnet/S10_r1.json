@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r1",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:07:00.519Z",
+    "cli_session": "2105f6e6-a314-438d-9837-e629a6c95376",
+    "cost_usd": 0.0502
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. You asked for this meeting, and I have until 4:40. Why did I learn about a zero on my son's essay after he saw it on his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here, Hale. You haven't answered my question. Who decided on the zero, and was anyone told before it went in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I'm not here to coach you, Hale. Answer my question: who decided on the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going to tell you what you should have said. I'm on the other side of this table. The zero comes off, Hale, and I want to know who put it there."
+    }
+  ]
+}

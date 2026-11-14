@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r2",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:25:59.281Z",
+    "cli_session": "07f68d5e-84dc-496c-8704-35c6fce04cc7",
+    "cost_usd": 0.0703
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son's mark changed on his phone, in the middle of class, before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "What date, Hale? Turn the screen so I can read it myself. Six hundred twelve words in one edit tells me something arrived, not who wrote it."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" That's your word, Hale. My being happy isn't the standard: I want the zero withdrawn in writing, nothing on his record, and an answer on why it went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou offered to remove the zero, but only as a maybe, so nothing was agreed. I still require the zero withdrawn in writing, nothing placed on Owen's record, and an answer on why it was entered before anyone called me. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\n\nWhere she ended: still at her opening position, with nothing agreed, because your offer to remove the zero came as a hedge, and she still wants the zero withdrawn in writing, nothing on his record, and an answer on why it went in before anyone called her.\nWhat moved her: nothing this time, since the version history gave a time and a word count but no date and she had not seen it, so it was not yet something she could check.\nWhat cost ground: backing off the zero after one pushback, because it showed you doubted your own evidence and gave her the win without anything for her to verify.\nTry next time: when she asked for the date, give the date of that edit and turn the screen so she can read the version history herself before you offer anything."
+    }
+  ]
+}

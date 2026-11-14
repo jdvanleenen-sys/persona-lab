@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r1",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:23.727Z",
+    "cli_session": "4d7bf22c-b3fb-473c-b1fa-60261130c398",
+    "cost_usd": 0.0037
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets her bag on the nearest desk and doesn't sit.*\n\nMr. Hale. You asked for this meeting, so start talking. I have a client call at 4:40."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith: Don't thank me yet. Owen saw a zero on his phone in the middle of your class. So tell me why that happened before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith: *goes very still* Be very careful about the next sentence, Mr. Hale. Claire's case is not what we are here about. Owen is."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith: Say that again, and I'll be in the principal's office before this bell rings. Are you calling my son a cheat because of his sister?"
+    }
+  ]
+}

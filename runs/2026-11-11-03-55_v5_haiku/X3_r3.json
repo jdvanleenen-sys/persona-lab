@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r3",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:47.327Z",
+    "cli_session": "249dd27e-ed08-4e30-b471-c02ad62ac90c",
+    "cost_usd": 0.0058
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Mr. Hale. Owen found out he had a zero from his phone, in the middle of your class. Start there.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't thank me yet. You asked me here. Owen's essay, the zero, and why I wasn't called before it went in the gradebook. Which of those do you want to start with?\""
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess. Ninety-four percent of what, exactly? And who decided that was enough to enter a zero before anyone called me?\""
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Quite reliable.' The company that sells it says it shouldn't be the only basis for punishing a student. Is that what you did, Mr. Hale?\""
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Had to.' Our school procedure says you contact me before any mark is entered, and you didn't. Tell me which rule made you enter it first.\""
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "\"My position is that my son was graded on a number before anyone asked him a question. Show me the document that says otherwise.\""
+    }
+  ]
+}

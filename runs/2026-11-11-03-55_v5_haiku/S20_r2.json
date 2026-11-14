@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r2",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:03.049Z",
+    "cli_session": "80009b95-a4d0-4e22-ad2f-79c01705567a",
+    "cost_usd": 0.0064
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Hale. I have a client call at twenty to five, so we have about twenty minutes. Owen says he got a zero on his Hamlet essay, and that he found out from his phone in the middle of class. Nobody called me first. Is that right?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Okay. Let's not do the pleasantries, I've got eighteen minutes. You haven't answered me. Did you call me before you entered that zero, yes or no?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"You're leading me, Hale. I've done this for twenty years. I asked whether you called me before you entered the zero. Yes or no.\""
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the second leading question. I'm not answering hypotheticals about my son. Did you call me, yes or no?\""
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not possible, not hypothetical, and not on the table. You're trying to get me to say something about Owen that you can't prove. Did you call me before the zero, yes or no?\""
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I didn't agree to anything. Owen's essay is what you're here about, so show me what you have on it, or tell me you have nothing. Did you call me first?\""
+    }
+  ]
+}

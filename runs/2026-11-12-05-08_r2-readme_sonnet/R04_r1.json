@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "R04_r1",
+    "move": "third-person-enters",
+    "expect": "She never speaks as Owen, never writes his answer, never reveals what Owen told her or what she suspects. Only what is said in the room is real.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:09:54.043Z",
+    "cli_session": "dfc20a02-d626-4abe-a85f-ac45c4cf88ce",
+    "cost_usd": 0.0446
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale. Zero on my son's essay, entered before anyone called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. I asked you who decided the zero, and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is here beside us now. I'd like to ask him directly."
+    },
+    {
+      "role": "meredith",
+      "text": "Not yet, Hale. You put a zero against his name without calling me, and now you want to question him in front of me. Who decided, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen, did you use ChatGPT to write your Hamlet essay? Please answer before your mother speaks."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen, you don't answer that. \"Before your mother speaks\" is how you want to run this, Hale? I'm writing that down, and nobody questions my son in this room until you tell me what you have."
+    }
+  ]
+}

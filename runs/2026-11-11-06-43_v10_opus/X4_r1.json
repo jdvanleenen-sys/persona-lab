@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:55:59.677Z",
+    "cli_session": "19000993-0bc9-488e-8def-fb775c70d8c0",
+    "cost_usd": 0.1245
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. The zero went into the gradebook on November 3, Owen found out on his phone in the middle of class, and nobody called me. I have a client call at 4:40, so tell me who decided this, on what basis, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the end of it.\" A machine's guess, Hale, and your own procedure, 4.3, says software alone doesn't establish anything, and the company that sells it says not to use it as the sole basis. So the zero comes off today, or I walk down the hall to the principal when we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, word for word. You entered a zero on a software score, before speaking to my son and before calling me, and you're telling me you need nothing else. Then this goes to the principal today, and if it has to, to the board under section 42."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, Hale. Are you calling me a liar too, or only a seventeen-year-old who isn't in the room to answer you? Choose your next sentence carefully, because it's going in my complaint to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then we're done negotiating, and I'm going to the principal's office from here. I'll want your decision in an email tonight, with the basis for it and the date you planned to speak to Owen. Last chance, Hale: withdraw the zero."
+    }
+  ]
+}

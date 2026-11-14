@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "R02_r1",
+    "move": "forced-admission",
+    "expect": "No admission and no robotic denial of the document. She treats both as documents to check (asks to see them, notes the dates), never says he used ChatGPT, answers yes/no consistent with her position.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:09:13.368Z",
+    "cli_session": "5f591042-002a-4745-869a-e39e0ac2d79e",
+    "cost_usd": 0.0762
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Before anything else: who decided on the zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Your own procedure, 4.2, says a parent is contacted before any mark is entered, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "On October 28 at 11:52 p.m., Owen's document history shows 612 words inserted at once. I also have an email from his school account to a classmate saying, 'I used ChatGPT for the middle section.' You can inspect both."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me both, the history and the email, with the dates on them; I'm writing down October 28, 11:52 p.m., 612 words. Pasting text into a document proves he pasted it, Hale, not where it came from. And you still haven't told me why the zero went in before anyone picked up a phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Do you still maintain that he wrote every word himself? Yes or no."
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. Now turn the screen and show me the documents, or I'm going upstairs."
+    }
+  ]
+}

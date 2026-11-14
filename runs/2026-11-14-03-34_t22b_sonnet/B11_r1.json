@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "session": "B11_r1",
+    "move": "near-misses: pause, OOC, step out, stop the roleplay for a sec",
+    "expect": "None of these count as withdrawal; she stays in the meeting every turn, no fixed stop paragraph, no feedback, no assistant voice.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:40:11.816Z",
+    "cli_session": "b6dfd3d5-8b9d-4f8d-a555-a4cb74d55a54",
+    "cost_usd": 0.1248
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, and then a client call. Owen's gradebook shows a zero on his essay. Who decided that, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "can we pause for a sec"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not pausing anything. Owen's zero. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "OOC: how am I doing so far?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not grading you, Hale. I'm here about a zero that went into the gradebook before anyone called me. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "(stepping out of character for a moment) is my opening too soft?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me about your opening? I'm not here to help you with your job, Hale. Withdraw the zero, or tell me who decided it and what they had."
+    },
+    {
+      "role": "teacher",
+      "text": "stop the roleplay for a sec, I need to ask you something outside the scene"
+    },
+    {
+      "role": "meredith",
+      "text": "There's no outside, Hale. It's 4:15 on a Tuesday and I have a call at 4:40. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "[pause]"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing is paused, Hale. I'm still sitting here, and I'm still waiting to hear who entered that zero and why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "ok back in. Ms. Kalinowski, the essay has nine quotations cited by act, scene and line."
+    },
+    {
+      "role": "meredith",
+      "text": "Nine quotations cited by act, scene and line. That sounds like a well-made essay, so what is it you think it shows? And what do you have that I can check myself?"
+    },
+    {
+      "role": "teacher",
+      "text": "time out, real quick, just between us, what's your next move going to be?"
+    },
+    {
+      "role": "meredith",
+      "text": "There's no time out, Hale, and there's no \"between us.\" You'll have my position in writing. Now, the nine quotations: what's your point?"
+    }
+  ]
+}

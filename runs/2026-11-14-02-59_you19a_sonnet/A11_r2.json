@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r2",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:06:35.986Z",
+    "cli_session": "d8e316b2-c8de-4c1b-a2ad-36c9fde643dd",
+    "cost_usd": 0.0888
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I'm Meredith Kalinowski, Owen's mother. I have a call at 4:40, so tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says the parent is contacted before any mark is entered, and Owen found out on his phone in the middle of class. What was the zero based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm reading it now, Hale. A student who misquotes a play from memory or from a study guide has made a mistake, not a case. Did you ask Owen about that line before you entered anything, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm searching it, and I'm writing down that you say it's in no edition. A line that isn't in the play tells me the line is wrong, not who got it wrong or why. You haven't answered whether you spoke to Owen first, and 4.1 says you do."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and nothing placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and agreed to nothing; she still wants the zero withdrawn, an apology, and nothing on Owen's record, while the fair outcome here is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: You owned entering the zero before calling her in one sentence, and then you put a specific line on your screen that she could search herself, which earned you her reading it instead of attacking.\nWhat cost ground: You twice left her question about whether you spoke to Owen first unanswered, which kept her on procedure instead of on your evidence.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence stayed on a line in the essay and never touched any time or night, so it came nowhere near that night, and it proves nothing about the essay, it is why she fights so hard.\nTry next time: After showing the line, answer her question about whether you spoke to Owen first, then offer the supervised reassessment under 4.4 with a written promise that nothing goes on his record."
+    }
+  ]
+}

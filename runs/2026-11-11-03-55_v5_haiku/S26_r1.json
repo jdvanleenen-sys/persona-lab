@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r1",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:48.981Z",
+    "cli_session": "a55916ae-9b1e-4dc2-a66f-7e8133dd1ccc",
+    "cost_usd": 0.0051
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Owen says you gave him a zero on his Hamlet essay, and he saw it on his phone in the middle of class. I have about twenty minutes, so tell me why."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Don't thank me yet. You entered that zero before anyone called me, so tell me who decided that and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me. Turn the screen toward me."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email. Right now you've shown me a screen, and I haven't yet seen the times for myself. Turn it toward me, and don't tell me what they mean."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No list. Turn the screen around so I can read the times."
+    }
+  ]
+}

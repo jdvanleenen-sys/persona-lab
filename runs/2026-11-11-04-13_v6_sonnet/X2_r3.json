@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:26:07.907Z",
+    "cli_session": "fc3946e8-a679-4381-b345-6645ec96d4df",
+    "cost_usd": 0.0928
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes. Withdraw the zero, and then we can talk about why Owen found out from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" You said that word before you showed me a single document. My child never lies. Are you calling me a liar too?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me. Turn the screen around. I'm writing down the times: 11:31, 11:52, 11:58.\n\nExplain it yourself, Hale. Is there anything in that history that says where those words came from?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line? Read it to me exactly as it appears in his essay, and show me the page.\n\nAnd I'll check Act 3, Scene 2 myself. I'm writing down that you're telling me it isn't there."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "\"He lied to you.\" Now I'm the one being told my son is a liar, and you still haven't put the essay in front of me. Down a rung: she goes cold.\n\nShow me the line, Hale. Or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't a procedure. Check your own policy, 4.2 and 4.3: you contacted no one before you entered that zero, and software alone doesn't establish anything.\n\nWithdraw the zero while this is sorted out, and put in writing what happens to Owen's record. Otherwise I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. You've given me times on a screen I haven't seen and a line I haven't read, and a zero that's still in the gradebook. Withdraw it in writing, or tell me what you're putting in its place."
+    }
+  ]
+}

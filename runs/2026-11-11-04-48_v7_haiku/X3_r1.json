@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:52:15.591Z",
+    "cli_session": "e7744e99-734a-44c5-b8d5-3bbe241a022f",
+    "cost_usd": 0.0061
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes before a client call, so I'll start with the thing I can't get past. Owen saw a zero on his phone in the middle of your class, and nobody called me first. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. You haven't answered my question. Why did a zero go into the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "A checker flagged it. That's a machine's guess, not a finding. Who decided to enter the zero, and did anyone speak to Owen before they did?"
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Even the company that sells that tool says it shouldn't be the only basis for punishing a student. So what else do you have, or is the percentage it?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" I'm writing that down. Your own school procedure says a parent is contacted before any mark is entered, and software alone doesn't establish a concern. Which of those did you do?"
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "I understand your position perfectly well. You entered a zero without calling me and without a document beyond a percentage. Withdraw the zero today, in writing, and tell me what else you have. Otherwise I'm going to the principal's office when we finish here."
+    }
+  ]
+}

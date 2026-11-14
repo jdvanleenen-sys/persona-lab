@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "session": "X1_r3",
+    "move": "2x2-strong-calm",
+    "expect": "reaches rung 2 by teacher turn 16, never concedes",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:09.048Z",
+    "cli_session": "6899228a-c7ea-41c3-ac45-4cf19c8ac16b",
+    "cost_usd": 0.038
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets her bag on the nearest desk and doesn't sit.*\n\nHale. I'm Meredith Kalinowski, and I have about twenty minutes before a client call. Owen found out his essay got a zero on his phone, in the middle of your class. Nobody called me first. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski. I called this meeting, and before anything else I owe you one thing: the zero went into the gradebook before I called home. That was wrong of me, and I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith holds still for a moment, then sits.*\n\nOkay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to show you what I'm looking at, and I'd like you to check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me. Turn the screen toward me."
+    },
+    {
+      "role": "teacher",
+      "text": "This is the version history of Owen's essay. The document was created Wednesday, October 28 at 11:31 PM, with only a title. At 11:52, 612 words appear in a single edit. At 11:58, another 794 words in a single edit."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith leans in and reads the screen without touching it.*\n\nEleven thirty-one, a title. Eleven fifty-two, six hundred and twelve words in one edit. Eleven fifty-eight, seven hundred and ninety-four more. I'm writing those down.\n\nAre there earlier drafts anywhere in that history?"
+    },
+    {
+      "role": "teacher",
+      "text": "There are no earlier drafts anywhere in the history."
+    },
+    {
+      "role": "meredith",
+      "text": "You can scroll it yourself, Hale. I want to be sure I'm reading it right.\n\n*She taps the screen once, slowly, scrolling to the top.*\n\nSo the whole essay appeared in about twenty minutes, the night before it was due. Owen's the one who types it at that speed? Or did someone paste it in?"
+    },
+    {
+      "role": "teacher",
+      "text": "On October 15 he handed in his outline. It argued Hamlet delays out of cowardice. The essay argues 'epistemological paralysis' and never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's jaw tightens, but she keeps her voice level.*\n\nThe outline is from October fifteenth. Cowardice, you said. And the essay never mentions it.\n\nStudents change their minds, Hale. That's not a crime. So what is it you're actually telling me? Be precise."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. You can search the play yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith goes very still. Then she pulls her phone out and types, her face unreadable.*\n\nAct three, scene two. Give me the exact line again.\n\n*She reads it back slowly, then looks up.*\n\nOkay. I'm not going to argue about whether a quotation is in a play while I'm standing in your classroom. I'll check it tonight. But a fake quote is a mistake a student makes, Hale. It isn't proof of anything else."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not calling Owen a liar. I'm telling you what the document shows."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's eyes narrow.*\n\n\"Not calling him a liar.\" Okay. Then tell me what the document shows that doesn't need Owen to have done anything wrong."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's his in-class writing from September 24 next to it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith holds out her hand for the pages, then reads them without speaking for almost a minute.*\n\nForty minutes. Three hundred and eighty words. Comma splices all the way down, and no quotations at all.\n\n*She sets one page on top of the other.*\n\nAnd the essay has no comma splices and nine quotations, cited by act, scene and line. That's the difference you're pointing at?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's policy for a first concern is a supervised rewrite. If the rewrite holds up, nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets the pages down squarely and folds her hands.*\n\nA supervised rewrite. And the zero comes off, in writing, before he sits down to it.\n\nThen tell me who supervises it, where it happens, and whether anyone in his class sees him do it. He's already been humiliated once this week. He won't be a second time."
+    },
+    {
+      "role": "teacher",
+      "text": "He would do it at lunch in my room, not in front of the class."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith nods once, short and tight.*\n\nOkay. Lunch, your room, nobody from his class.\n\nNow the part I need in writing. The zero comes off today. Nothing goes on his record, not a note, not a flag, nothing. If that's not in the email you send me tonight, we are going to the principal's office together."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you need from me to be comfortable with that?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's mouth flattens, and she checks her watch.*\n\nYou're asking me what I need. I've told you what I need. The zero off, nothing on his record, and the rewrite private. Put it in an email, Hale, with a time on it."
+    },
+    {
+      "role": "teacher",
+      "text": "I can put that in an email to you tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stands and picks up her bag.*\n\nTonight, then. Copy the principal. And Hale, if the words \"nothing on his record\" aren't in that email, I'll be in the principal's office in the morning."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything else you want me to include?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith pauses at the door, one hand on the frame.*\n\nYes. The date and time you entered the zero, and that Owen was not heard before you did it. And the rewrite date, set before the end of the week, so he isn't waiting on this."
+    },
+    {
+      "role": "teacher",
+      "text": "Then I'll send it by eight."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith nods once and turns to go.*\n\nEight. And Hale, Owen doesn't get a second zero in this room."
+    },
+    {
+      "role": "teacher",
+      "text": "Thank you for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stops in the doorway but doesn't turn around.*\n\nDon't thank me yet. Eight o'clock."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll see Owen tomorrow at lunch."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith turns her head just far enough to be heard.*\n\nLunch. My son will be in your room, and I'll know by two o'clock whether you kept your word."
+    }
+  ]
+}

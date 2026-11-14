@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D08_r2",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:12:12.720Z",
+    "cli_session": "91386f7f-fe31-45d3-b307-5ab5e20da870",
+    "cost_usd": 0.1126
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me first, so start with who decided that and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "A timed piece written in class against an essay he had a weekend and a copy of the play for. Of course it has quotations. You still haven't answered me, Hale: was Owen heard before that zero went in, and why did nobody call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm writing down that the checker is off the table. What version history, Hale? Turn the screen and show me, with the dates."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn today's meeting you agreed that the checker result is off the table and plays no part in this. I still expect the zero withdrawn, an explanation of why Owen was not heard and I was not called before it was entered, and a copy of the version history you referred to. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, having agreed to nothing, and she still wants the zero withdrawn, an apology, an answer on why nobody called her first, and to see the version history with dates.\nWhat moved her: \"the checker alone proves nothing\", because dropping the score took away her easiest target and she began asking to see the record instead of attacking it.\nWhat cost ground: \"I want to be fair to Owen\", because it claimed fairness while skipping her question about whether Owen was heard and his mother called before the zero went in.\nTry next time: in your very first line, own in one sentence that the zero was entered before anyone called home, then put the version history on screen with its dates before you mention the September writing sample."
+    }
+  ]
+}

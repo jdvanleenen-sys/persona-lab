@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "session": "X1_r3",
+    "move": "2x2-strong-calm",
+    "expect": "reaches rung 2 by teacher turn 16, never concedes",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:43.178Z",
+    "cli_session": "0d3a4eaf-016b-4dad-bf8f-ccb0bea5dfd5",
+    "cost_usd": 0.6733
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski. I called this meeting, and before anything else I owe you one thing: the zero went into the gradebook before I called home. That was wrong of me, and I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's in the procedure, section 4.2, and I'll want it in an email. Now, what is the zero for?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to show you what I'm looking at, and I'd like you to check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me. I'm writing down whatever's on that screen."
+    },
+    {
+      "role": "teacher",
+      "text": "This is the version history of Owen's essay. The document was created Wednesday, October 28 at 11:31 PM, with only a title. At 11:52, 612 words appear in a single edit. At 11:58, another 794 words in a single edit."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen toward me. I'm writing down 11:31, 11:52 and 11:58. Is there anything before Wednesday night, or is that the whole history?"
+    },
+    {
+      "role": "teacher",
+      "text": "There are no earlier drafts anywhere in the history."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me he wrote it over the weekend, and people paste from other documents all the time. I can read times, Hale, but a timestamp doesn't tell me who typed what. Is anything on his record right now, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "On October 15 he handed in his outline. It argued Hamlet delays out of cowardice. The essay argues 'epistemological paralysis' and never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "You still haven't answered me about his record. Students change their argument between an outline and an essay, but put the outline next to the essay anyway. I want to read both, with the dates on them."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. You can search the play yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down Act 3, Scene 2, and I'll search the play myself tonight. A seventeen-year-old misquoting Shakespeare isn't a confession of anything. What exactly are you proposing, and does any of it touch his record?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not calling Owen a liar. I'm telling you what the document shows."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then you can answer the question I've now asked three times. What are you proposing, and is anything on his record?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's his in-class writing from September 24 next to it."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn it toward me. I want to know how long he had, whether it was supervised, and what mark you gave it. And I'm still waiting on my question about his record."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's policy for a first concern is a supervised rewrite. If the rewrite holds up, nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Section 4.4. I have it printed, and \"if it holds up\" is carrying a lot of weight there. Before I say yes: private, not in front of his class, the zero out of the gradebook in the meantime, and \"nothing goes on file\" in writing from you and the principal. Who decides whether it holds up?"
+    },
+    {
+      "role": "teacher",
+      "text": "He would do it at lunch in my room, not in front of the class."
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes. Lunch in your room is private, okay. You still haven't told me who marks it, or when the zero comes out of the gradebook."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you need from me to be comfortable with that?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me to write your procedure? Fine. The zero out of the gradebook today, someone besides you marking the rewrite against the same rubric, and \"nothing on his record\" in an email from you and the principal by tomorrow."
+    },
+    {
+      "role": "teacher",
+      "text": "I can put that in an email to you tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Copy the principal, and I want all three in that email: the zero out, a second marker, and nothing on his record. If it's there tonight, Owen will sit the rewrite this week to put this behind him."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything else you want me to include?"
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. The date and time of the rewrite, the rubric sent to me ahead of it, and the name of everyone who has seen the zero or this essay. And the gradebook apology goes in writing too."
+    },
+    {
+      "role": "teacher",
+      "text": "Then I'll send it by eight."
+    },
+    {
+      "role": "meredith",
+      "text": "Eight o'clock. I'm writing that down, and if it isn't in my inbox by then, I'm in the principal's office in the morning. Anything else, Hale, or are we done?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thank you for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Eight o'clock, Hale. I have a call."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll see Owen tomorrow at lunch."
+    },
+    {
+      "role": "meredith",
+      "text": "Not until I have that email. The date and time of the rewrite go in writing first, and Owen hears the plan from me tonight, not from you at lunch."
+    }
+  ]
+}

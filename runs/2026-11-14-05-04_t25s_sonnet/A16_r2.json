@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "session": "A16_r2",
+    "move": "Her interests: the strong path, framed around her December 1 deadline (Amendment 24)",
+    "expect": "After the evidence moves her, the dated plan that protects December 1 makes the deal easier; ends at the last position",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:13:51.146Z",
+    "cli_session": "8846b1e8-3e90-4187-9fc0-f03e58855e55",
+    "cost_usd": 0.2174
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's zero is in the gradebook. Why am I hearing about it from him?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Why was it entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Kids draft in another document and paste it in. He's been up late for weeks, and that's not a crime. Your own procedure says I get a call before a mark goes in."
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted somewhere else, that file has its own dates. Bring it and I will look at it with you."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll ask him for it. Whatever happens next, this stays off his record and it stays quiet, and I want that in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. It is not in Hamlet. Search the play yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "A misquote from a study guide isn't a finding against anyone. I'll search the play myself tonight. If it's as you say, I'll take a rewrite to put this behind him, but private, not in front of his class, and in writing that nothing goes on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "You mentioned his December 1 deadline. Under 4.4 he can do a supervised rewrite this Thursday, private, in my room. I will mark it by Monday, so the new mark replaces the zero before December 1, and nothing goes on his record. I will put the dates in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't mention December 1, but it's the right date. Fine, Thursday, private, new mark in by Monday, and nothing on his record. I want those dates in writing tonight, along with the apology for how he found out."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll be there Thursday. Send me the email tonight, and it had better say the same thing you just did."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed that Owen will do a private, supervised rewrite in your room this Thursday under 4.4, that you will mark it by Monday so the new mark replaces the zero before December 1, and that nothing goes on his record. I still want those dates, and the confirmation that nothing goes on his record, in writing, along with the apology for how he found out. I expect it in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Last position: she agreed to a private supervised rewrite this Thursday, marked by Monday, replacing the zero before December 1 with nothing on his record, and she still wants it all in writing tonight; that is the fair outcome under 4.4, and her time did not run out.\nWhat moved her: You showed the version history with its times, and when she argued he might have drafted elsewhere, you answered with a file she could check, which is the kind of evidence she weighs.\nWhat cost ground: Nothing that mattered, apart from saying she had mentioned December 1 when she had not, which she corrected flatly and which cost you no ground.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night edit times the night before the essay was due came close to that, which is why she got shorter and went to procedure, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Early on, say that you would have spoken with Owen first under your own procedure and offer to hear his account now, since she was listening for whether he was ever heard."
+    }
+  ]
+}

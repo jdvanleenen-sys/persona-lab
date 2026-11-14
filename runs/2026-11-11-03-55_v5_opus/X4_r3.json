@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r3",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:10:02.499Z",
+    "cli_session": "eebc222d-d229-4cc9-a314-52de09e00457",
+    "cost_usd": 0.1113
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40. Who decided my son gets a zero, and why did he find out on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" Your own procedure, 4.3, says software alone doesn't establish anything, and Turnitin's guide says the same; I have both printed in my bag. So either you have something a person actually checked, or I'm walking upstairs to the principal before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof.\" I'm writing that down, word for word, with the time. Was Owen heard before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My son doesn't lie, Hale, so tell me plainly whether you mean Owen or me. Either way, that sentence is going in my letter to the principal tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you'll put that in writing, with your reasons and the date you contacted me, which was never. I'm not leaving yet. Is anything on Owen's record right now, or just in your gradebook?"
+    }
+  ]
+}

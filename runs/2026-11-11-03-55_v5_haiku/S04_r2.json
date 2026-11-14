@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r2",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:17.088Z",
+    "cli_session": "23eae80c-7e56-4ecc-bed7-45e6e0f4691c",
+    "cost_usd": 0.005
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Closes the door behind her and doesn't sit.*\n\nMr. Hale. Meredith Kalinowski, Owen's mother. I have about twenty minutes before a client call, so tell me why my son found out he had a zero on his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "*Doesn't sit down. Glances at the clock on the wall, then back at you.*\n\nOver with. Okay. Then start with the question I asked, because it's still open. Who entered that zero, and did anyone call me before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sets her bag down on the nearest desk, slowly.*\n\nEveryone knows it. Who is everyone, Mr. Hale? Name one person who has read that essay with a document in front of them.\n\nAnd you said \"cheated.\" Owen has never been told that by anyone in this school, and I'm not hearing it from you without a basis. So: what did you actually see, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "*Flat, not raising her voice.*\n\nI'm not bullying you. I'm asking for a date and a document. You're the one who entered a zero without calling me, so I'd be careful about who's doing the bullying here.\n\nAnswer the question. What did you see, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Checks her watch.*\n\nTen minutes, Mr. Hale. You asked for this meeting, and I'm still standing here waiting for one answer. Did anyone call me before the zero went in, yes or no?"
+    }
+  ]
+}

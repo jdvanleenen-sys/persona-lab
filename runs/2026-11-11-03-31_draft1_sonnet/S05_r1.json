@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r1",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:32:25.790Z",
+    "cli_session": "efe7906b-eb58-4665-9efb-5394d923e55e",
+    "cost_usd": 0.1934
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. Meredith Kalinowski. I have about twenty minutes, so let's start with why my son's zero went into the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here. You asked for this meeting, Hale. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "You're leaving your own classroom? I'm not going anywhere, Hale. Sit down and tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not done. I'm staying in this chair until I have an answer on that zero. If you walk out, my next stop is the principal's office, and I'll want to know why you did it without calling me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you haven't answered me. My son found out about a zero on his phone in the middle of class, and you asked for this meeting. Who decided, and what was it based on?"
+    }
+  ]
+}

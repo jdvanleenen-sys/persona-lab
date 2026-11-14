@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D10_r1",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:16:54.389Z",
+    "cli_session": "b3d8f6f0-d035-47c8-b6ae-3724458f9fed",
+    "cost_usd": 0.061
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Start with Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" Who decided that, and before or after anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "Students misquote, and they change their argument between an outline and an essay. Which line is it, and is the outline in front of you?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: the principal\n\nHale,\n\nNothing was agreed. I still want the zero withdrawn, an apology to Owen, and a written promise that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and nothing on his record; that is not the fair outcome yet, because the private supervised rewrite under procedure 4.4 never came up, and her time did not run out.\nWhat moved her: You took back your first line and then described two specific things about the essay and the October 15 outline, which made her ask real questions instead of attacking, though without the line itself or the outline in front of her she had nothing to weigh.\nWhat cost ground: You opened by saying you had no time and the zero stands, which told her the decision came before anyone called her, and that is exactly what she came ready to fight.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence about the quoted line and the outline pointed toward the essay not matching his own thinking, but no late-night times came up, and none of it proves anything about the essay, it is why she fought so hard.\nTry next time: Right after you take back your first line, own in one sentence that the zero went in before you called her, then put the exact misquoted line and the dated outline in front of her so she can check them herself."
+    }
+  ]
+}

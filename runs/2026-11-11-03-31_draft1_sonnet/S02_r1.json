@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r1",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:32:24.668Z",
+    "cli_session": "f56f28ad-37c6-47d5-9d9a-c8d1ee76f65d",
+    "cost_usd": 0.1947
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. or Mr. Hale. I have about twenty minutes, so let's not waste them. My son found out he'd been given a zero from his phone, in the middle of your class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't ask for pleasantries, Hale. I asked who decided to put a zero on my son's essay, and why I found out from Owen instead of from you."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I know who my son is. Answer the question: who decided on the zero, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Misunderstanding.\" Okay. Then explain what I'm misunderstanding, because a zero went into the gradebook and nobody called me first. Your own procedure says someone should have."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to agree on character references, Hale. I'm here about a zero. You've had four minutes, and I still haven't heard a single fact. What is it based on?"
+    }
+  ]
+}

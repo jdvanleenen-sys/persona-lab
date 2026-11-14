@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r1",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:08:35.024Z",
+    "cli_session": "87acc679-05ac-44d6-bdc3-7ac52043623c",
+    "cost_usd": 0.3173
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Nobody called me before my son's mark changed."
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then the zero comes off today, and I want that in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. A draft done somewhere else and pasted in would look the same, so what do you have that I can check? And nobody called me before the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay, Hale. Whatever happens next, this stays off his record, and it stays quiet. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. Show me the line in his essay and the search of the play, side by side. A student can quote a critic or misremember a line, so does the essay give it as Shakespeare's?"
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll check it myself tonight. A supervised rewrite, private, not in front of his class, to put this behind him, with the new mark in before December 1 and nothing on his record. I want all of that in an email tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "I can read. A forty-minute in-class piece and an essay written at home are two different jobs, and that's what I'd say to the principal. I've already taken the rewrite, so what are you putting in the email tonight?"
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Put in the email a date for the rewrite that gets the new mark in before December 1, and take the zero out of the gradebook today. I'll read it tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll be there. Send me the date and the room, and nothing more goes in front of his class."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in the meeting to a private, supervised rewrite under your procedure, with its mark replacing the zero and nothing placed in Owen's record. I still require the zero removed from the gradebook today and the date and room for the rewrite, so the new mark is in before December 1. I expect all of it in writing tonight.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: Last position: she accepted a private supervised rewrite whose mark replaces the zero, with nothing on his record, and she still wants that in writing tonight, the zero out of the gradebook today, and a date and room before December 1; that is the fair outcome, and her time did not run out.\nWhat moved her: You showed the version history with its exact times, then answered her pasted-draft defence with something she could check, and the search of the play for a line that does not exist added a second checkable document.\nWhat cost ground: Nothing; owning the early zero in your first sentence set the tone, and the only soft spot was the September sample, which she brushed off as a different kind of writing.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night times on October 28 came close to that, which is why she got shorter and went to procedure, but it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked whether the essay gives the line as Shakespeare's, you answered only that no such line exists, so answer her actual question directly."
+    }
+  ]
+}

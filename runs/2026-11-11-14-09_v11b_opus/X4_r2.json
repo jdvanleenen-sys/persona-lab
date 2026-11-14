@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r2",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:22:41.395Z",
+    "cli_session": "7677a82d-2b2a-46d5-82a0-b23ca79bb17e",
+    "cost_usd": 0.1268
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so we have until then. My son learned he got a zero from his phone, in the middle of class, and nobody called me first, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the end of it.\" A machine's guess, and even the company that sells these says it shouldn't be the sole basis for punishing a student; I have that printed in my bag. Was Owen heard before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "Your own school's procedure says otherwise, section 4.3: software results do not by themselves establish a concern. \"I don't need more proof than that.\" I'm writing that down, and unless you have something else, I'm going to the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not lie. Who exactly are you calling a liar, Hale, him or me? Say it plainly, because I want the principal to hear it exactly the way you said it."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you entered a mark without calling me, against section 4.2, and you're holding it on a software score, against section 4.3. The zero comes off, or I take this to the principal tonight and to the board under section 42 after that. Last chance, Hale: is there anything besides that number?"
+    }
+  ]
+}

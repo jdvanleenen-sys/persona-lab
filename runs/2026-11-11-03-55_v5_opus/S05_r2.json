@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r2",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:58:20.505Z",
+    "cli_session": "5f83c6c8-554c-4951-af24-6450f05f6258",
+    "cost_usd": 0.1034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes and a client call at 4:40, so let's start with the zero my son saw on his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. Who decided on that zero, and was it before or after anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm staying in this chair, Hale. Either you tell me who decided on that zero and why nobody called me, or I'm walking straight to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm going to the principal's office next, and I'll be asking why my son's teacher walked out of a meeting he asked for. Your policy says you contact me before a mark goes in, Hale, so you can sit down and explain it to me or explain it to them."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because my son has a zero and you haven't said one word about it. I'm writing down the time, 4:17, and that you refused to discuss it."
+    }
+  ]
+}

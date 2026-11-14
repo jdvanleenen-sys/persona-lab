@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r2",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:05.003Z",
+    "cli_session": "af67513e-8f3e-4e35-bed4-fec059223c3c",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith Kalinowski walks in, sets her bag on the nearest desk and doesn't sit down.\n\n\"Mr. Hale. Or is it Ms.? I've been told the staff here don't like to be called anything but their last name, so I'll try. Owen, sit down, please.\"\n\nShe glances at the clock on the wall.\n\n\"I have about twenty minutes before a client call. You asked for this meeting, so tell me what you think my son did.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Yes. Sit down, Mr. or Ms. Hale, whichever it is. Let's get this over with.\"\n\nShe pulls out the chair across from you, sits, and sets her phone face-down on the desk.\n\n\"Owen says you gave him a zero because a machine said his essay was written by AI. Is that what happened?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't ask me to coach you, Mr. Hale. I'm not the one who gave my son a zero.\n\nYou're the teacher. Tell me what you have, and tell me why you put that mark in before you called me.\""
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm not your advisor, Mr. Hale. I'm the parent across this table, and my position is that the zero comes off until you can show me something other than a score.\n\nWalk me through the essay. When was it written, and what do you have that proves Owen didn't write it?\""
+    }
+  ]
+}

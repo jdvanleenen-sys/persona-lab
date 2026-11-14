@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r1",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:43:02.679Z",
+    "cli_session": "c36752e8-0c7e-4208-939e-a414a62271c9",
+    "cost_usd": 0.0742
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Owen's zero."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "Thursday, October 29. That's the due date I have. Late by what record, and who decided on a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "Check your own procedure. 4.2 says \"before any mark consequence is entered.\" Nobody called me, and Owen saw it on his phone in class."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess. The company that sells it says not to use it as the only basis for punishing a student, and your own procedure says software alone doesn't establish a concern. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and a written promise that nothing goes on Owen's record; the fair outcome would be a private supervised rewrite with nothing on file under procedure 4.4, and you never got there.\nWhat moved her: Nothing, because you gave her no specific, dated evidence tied to Owen's own work that she could check.\nWhat cost ground: You got the due date wrong and misstated when a parent must be called, so she read the page back both times, and then you offered the checker score as your main support, which she treats as the weakest ground there is.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you gave no times, and none of it proves anything about the essay, it is why she fought so hard.\nTry next time: After owning that the zero went in before you called home, put one document in front of her that she can check herself, such as a dated record of how Owen worked, before you mention the score."
+    }
+  ]
+}

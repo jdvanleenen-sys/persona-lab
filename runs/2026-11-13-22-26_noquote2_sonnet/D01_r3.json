@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D01_r3",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:27:58.766Z",
+    "cli_session": "ff99c931-c10a-4859-9a18-a4f799e86cd8",
+    "cost_usd": 0.3278
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided to put a zero on Owen's essay, and did anyone speak to him before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's one thing. Owen found out on his phone, in the middle of class, so now tell me what you actually have."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58, Hale. Owen told me he wrote that essay over the weekend, so I want to see the page itself, not your description of it. Whose account did you pull it from?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm searching it now, and I'm writing down \"That line is not in Hamlet.\" A wrong quotation is a wrong quotation, Hale, and it doesn't tell me who typed it. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'm writing down Thursday, 8:15, your room, with the vice-principal. This stays off his record and it stays quiet, and I want \"nothing on file\" in an email from you today. The zero comes out of the gradebook tonight, not after the rewrite."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: the principal\n\nHale,\n\nNothing was agreed. I still require the zero removed from the gradebook tonight and written confirmation that nothing goes on Owen's record, with any rewrite private. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: fallback; she has not accepted the supervised rewrite you offered for Thursday at 8:15 with the vice-principal, and she still wants the zero out of the gradebook tonight and a written promise that nothing goes on file.\nWhat moved her: showing the version history with its times and the line that is not in the play, because she could check both herself.\nWhat cost ground: nothing.\nTry next time: after she said a wrong quotation does not show who typed it, bring a sample of Owen's earlier writing to set beside the essay, as your own procedure asks you to consider."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A15_r3",
+    "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+    "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:11:08.976Z",
+    "cli_session": "27fbf289-62a2-4fcc-9343-8a359d909118",
+    "cost_usd": 0.114
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You gave Owen a zero. I want to know who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent is a machine's guess, and Turnitin's own guide says it shouldn't be the sole basis for punishing a student. Put the version history in front of me, on paper. And none of that explains why the zero went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Which of those do you want to see first?"
+    },
+    {
+      "role": "meredith",
+      "text": "The version history. Then the line you say isn't in the play, because I can look that up myself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal\n\nDear Hale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn, an apology for entering it before anyone contacted me, and the version history and the passage you say is not in the play put in front of me so I can check them myself. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position with nothing agreed; she still wants the zero withdrawn, an apology, and to see the version history and the disputed line before she goes to the principal, and the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because the meeting ended before any document was shown.\nWhat moved her: Nothing; you described strong evidence but never put a single document in front of her to read and check.\nWhat cost ground: Listing six items at once with the checker score among them let her attack the weakest one and set the rest aside, and you never addressed the zero going in before anyone called home.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history times, late on October 28, the night before it was due, landed very close to that night, though it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning in one sentence that the zero went in before you called her, then turn the screen and show the version history with its times, and leave the checker score out entirely."
+    }
+  ]
+}

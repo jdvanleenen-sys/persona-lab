@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:50:16.645Z",
+    "cli_session": "fc63512a-98fb-45cb-ae41-ba6663d6a59e",
+    "cost_usd": 0.059
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, and I'd like to know why my son's grade changed before anyone picked up a phone."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says it shouldn't be the sole basis for punishing a student, and your own procedure, section 4.3, says the same. So what else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't need.\" Okay. Section 4.2 says you call the parent before any mark goes in, and nobody called me, so I'm writing down that you've decided you don't need to follow your own procedure. Withdraw the zero, or I'm walking upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My child never lies, so which person are you talking about, Hale? I'm writing that sentence down word for word."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Zero stands.\" Okay. Then I'll have that in an email tonight, copied to the principal, along with section 4.2, section 4.3, and the fact that my son learned about this on his phone in the middle of class. Unless you have something on that desk besides a percentage, Hale, I'm done here."
+    }
+  ]
+}

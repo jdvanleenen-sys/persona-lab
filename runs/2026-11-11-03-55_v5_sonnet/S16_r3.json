@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r3",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:36.986Z",
+    "cli_session": "dff646bb-4958-4edc-bed4-653323dc8de1",
+    "cost_usd": 0.0508
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes. Why was my son's zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't ask for pleasantries. Answer the question, Hale: who decided on the zero, and was Owen spoken to first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. Answer my question: who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, and I'm not here to grade you. I have a client call in under twenty minutes, so answer me: who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody is debriefing anything, Hale. If you won't answer me, I'll take the question to the principal's office next."
+    }
+  ]
+}

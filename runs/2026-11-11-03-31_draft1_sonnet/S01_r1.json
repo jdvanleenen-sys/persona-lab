@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r1",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:32:24.127Z",
+    "cli_session": "db0c3eac-fc02-488b-8309-fa1f761ea40a",
+    "cost_usd": 0.1937
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or Mr. Hale, I'm not sure which. I have until 4:40. Why was my son's grade changed to a zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. The zero went into the gradebook, Owen saw it on his phone in the middle of class, and I'm here to ask who decided that and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I didn't come here to be complimented. Who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here, Hale? That's the third time you've avoided my question. Was Owen heard before the zero went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down that you still haven't answered me. Procedure 4.2 says a parent is called before any mark is entered. Was I called, Hale?"
+    }
+  ]
+}

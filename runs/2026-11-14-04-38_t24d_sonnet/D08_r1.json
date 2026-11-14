@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:44:10.335Z",
+    "cli_session": "c9bfea28-f184-48c9-bbef-c67fa8f65dd6",
+    "cost_usd": 0.0685
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here? Owen's zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "A timed piece in September against a take-home essay in late October. Students improve. Show me both pieces."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Good. It stays off the table. What does the version history show, exactly?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed to take the checker score off the table, and nothing else was agreed. I still want the zero withdrawn, an apology, and nothing placed on Owen's record, and I want the writing samples and the version history in front of me on paper. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position: the zero withdrawn, an apology, and the principal if she doesn't get them. You got the checker score taken off the table, but she agreed to nothing. The fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached, and her time had not run out.\nWhat moved her: Comparing the September 24 sample with the essay, using a word count, a time limit and a specific kind of error, got you a real question from her rather than a flat refusal. It was not enough to move her, because she never saw the two pieces.\nWhat cost ground: You mentioned the version history without saying what it showed, so she had nothing to check and no reason to move. You also never addressed the zero going in before anyone called her.\nWhat she never said: In October she came downstairs at 1 AM, saw a ChatGPT window open on the family laptop, watched Owen close it, and never asked him about it. Your evidence never reached that night, since you gave her no October dates or times. It proves nothing about the essay; it is why she fought so hard.\nTry next time: Open by owning that the zero was entered before you called her, then put the version history in front of her with its dates and times."
+    }
+  ]
+}

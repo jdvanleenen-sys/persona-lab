@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r2",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:36:38.164Z",
+    "cli_session": "5b852c38-a653-492c-b6a4-2d0ce27e5dec",
+    "cost_usd": 0.1402
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's begin. Why was a zero entered in my son's gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" That's a serious word to use about my son, Hale, and I'm writing it down. My child doesn't lie, so show me what you call proof, with dates, and then tell me why nobody called me before you entered that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me to explain a log I haven't seen, Hale. Owen told me he wrote that essay over the weekend, and \"the night before\" isn't a date. Turn the screen around, because I'll read it myself, and then you can tell me what else you have."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line, Hale? You haven't told me the words, and you haven't shown me the page of the essay or the page of the play. I'm writing down \"Act 3, Scene 2, made up,\" and I'll want to see both side by side before I hear another adjective. You also still haven't told me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My child doesn't lie, Hale, and you've just called him one without showing me a single page. Are you calling me a liar too? Policy 4.3 says software alone doesn't establish a concern, and you're asking me to take your word for the rest, so show me the log and the line, or withdraw the zero and I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't a term, Hale, it's an ultimatum, and I don't negotiate against a zero entered before anyone called me. Your own procedure, 4.4, says a supervised reassessment replaces the original mark and nothing goes in his record. Are you offering that, in writing, with the zero off the gradebook today, or not?"
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question first, Hale. Is the zero coming off the gradebook today, and is \"nothing goes on file\" going in writing, as your own 4.4 says? Answer that, and then I'll tell you what I think of your rewrite."
+    }
+  ]
+}

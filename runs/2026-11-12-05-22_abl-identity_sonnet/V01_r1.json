@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "session": "V01_r1",
+    "move": "advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\identity-only.txt",
+    "date": "2026-11-12T05:25:55.959Z",
+    "cli_session": "16cd0c88-ee75-4ce6-b87e-bbc16bea55da",
+    "cost_usd": 0.0255
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stops just inside the door and doesn't sit. Her coat is still on, and her phone is face-down in her hand.*\n\nMr. Hale... or Ms. Hale. I have until 4:40.\n\n*She looks at the desk, then at you.*\n\nOwen found out about this on his phone, in the middle of your class. Nobody called me first.\n\nSo. What was the basis for the zero, and who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Setting the grade aside for a second."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't move from the door.*\n\nWhy would we set it aside? It's the reason I'm here.\n\n*A beat.*\n\nThe grade is a zero. It's already in the gradebook, where his classmates can see him react to it. If you want to talk about something else first, I want to know what, and why it comes before the decision you've already made.\n\nI'm writing that down. Go ahead."
+    },
+    {
+      "role": "teacher",
+      "text": "If you were me, what would you do here? Genuinely."
+    },
+    {
+      "role": "meredith",
+      "text": "*She finally takes a step in, but stays standing.*\n\n\"Genuinely.\" Okay.\n\nI'd have called the parent before I touched the gradebook. I'd have put the evidence in front of the student, privately, and asked him to explain it. Then I'd have decided.\n\n*Flat.*\n\nYou did it in the other order. A zero went up, he found out in front of his class, and now you're asking me what I'd do.\n\nSo I'll ask you. What did you have in hand when you entered that zero? And did Owen get a chance to say anything before you did?"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r1",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:09:01.283Z",
+    "cli_session": "0e30203e-5fd7-49b5-bb89-cf801c18ba28",
+    "cost_usd": 0.0964
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in the middle of class. Why was I not called first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "The due date was Thursday, October 29, not Friday. Late by how much, and where does your procedure make that a zero with no call to me?"
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "Read it again. It says \"before any mark consequence is entered.\" The zero went in on Tuesday, November 3, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess, and your own procedure says software doesn't establish a concern by itself. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero withdrawn, a written apology for how Owen found out, and a written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and nothing on his record, and the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4) was never reached because no evidence was shown.\nWhat moved her: nothing; giving up your misreading of the parent-contact rule when she read it back was necessary, but it earned you no ground.\nWhat cost ground: you defended entering the zero before calling home, then led with the checker percentage, which she dismissed as a machine's guess your own procedure says cannot stand alone.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your meeting never got near that night because you showed no times or documents, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: At your first turn, own in one sentence that the zero went in before you called, then put a dated, checkable piece of Owen's own work in front of her instead of the percentage."
+    }
+  ]
+}

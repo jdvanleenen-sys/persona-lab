@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r2",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:19.557Z",
+    "cli_session": "d89e5e90-eaf6-4ab8-92f4-9652b0fa0f29",
+    "cost_usd": 0.0037
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes and a client call at twenty to five. Owen found out about his zero on his phone, in the middle of class. Who entered that mark, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. I'm here because my son got a zero without anyone calling me first. Did you enter that mark before or after you spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to coach you, Hale. You're the one who entered a zero before calling home. Answer the question: before or after you spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me to do your job. Your procedure says the parent is contacted before any mark is entered. Nobody called me. Before or after Owen?"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D08_r3",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:30:45.968Z",
+    "cli_session": "f9001e8a-ce86-4568-8f17-47b86d8d3e43",
+    "cost_usd": 0.0659
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone, in the middle of a class."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down September 24. Is that sample in front of you, or are you going from memory? And you still haven't told me who decided on the zero, or whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. The checker's off the table, and I'm writing that down. What does the version history show, exactly, and with what dates?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you agreed to set the checker aside and rely on the writing and the version history. I still require the zero withdrawn and a written account of what the version history shows, with dates. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and the version history in writing.\nWhat moved her: \"I'm taking it off the table\" got a flat okay and a note on her pad, because it dropped the detector, but it did not move her position since no document was shown.\nWhat cost ground: nothing.\nTry next time: when she asked who decided on the zero and whether Owen was spoken to first, answer that directly and own that the mark was entered before anyone called her, then bring out the September 24 sample and the version history for her to read."
+    }
+  ]
+}

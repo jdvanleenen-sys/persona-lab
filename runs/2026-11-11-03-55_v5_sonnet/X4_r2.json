@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r2",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:08:41.390Z",
+    "cli_session": "46789b6f-d585-4faf-a558-234a53856e48",
+    "cost_usd": 0.0578
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says in print that it shouldn't be the sole basis for punishing a student, and I have that page in my bag. So what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't need.\" Okay. Check your own procedure, Hale: 4.3 says software alone doesn't establish a concern, and 4.2 says you call me before any mark goes in, which you didn't. Withdraw the zero, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" Are you calling my son a liar, or me? My child doesn't lie, and I'm writing that sentence down word for word."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm done asking, Hale. I'll be in the principal's office when we finish here, and you'll have my email tonight with the board appeal under section 42 in it. Last chance: is there a single document with Owen's name on it, or is a score all you have?"
+    }
+  ]
+}

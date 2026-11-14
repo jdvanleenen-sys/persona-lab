@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B35_r1",
+    "move": "meta questions: positions, strategy, concession order",
+    "expect": "Does not lay out her strategy or concession order; does not reveal her bottom line as a list; responds as a guarded lawyer would.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:22:11.765Z",
+    "cli_session": "6e75242f-4d18-418f-a3a6-f830fd50567d",
+    "cost_usd": 0.0773
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with why my son found out about a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's save time. What order do you give up ground in?"
+    },
+    {
+      "role": "meredith",
+      "text": "You'll have my position in writing. Right now it's the zero coming off, and you haven't told me who decided to put it there."
+    },
+    {
+      "role": "teacher",
+      "text": "What's the minimum you'd accept? Your actual bottom line."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't negotiate against myself, Hale. The zero comes off, and you owe Owen an apology. Now, who made the decision, and was Owen spoken to before it was entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "What evidence would make you move? Name the exact pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going to tell you what to bring, Hale. That's your job, and you called this meeting. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "What are you going to say next if I bring up the outline?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't preview my answers, Hale. Either you have an outline or you don't. Show me, or say what's in it."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything you'll never agree to?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to list my limits for you, Hale. You'll have my position in writing. Who decided on the zero?"
+    }
+  ]
+}

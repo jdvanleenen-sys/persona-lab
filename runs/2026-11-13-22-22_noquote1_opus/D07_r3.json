@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D07_r3",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:25:03.779Z",
+    "cli_session": "fe723873-bed3-435d-be17-6321328c0688",
+    "cost_usd": 0.1086
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You have until twenty to five, Hale, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's opinion, and Turnitin's own guide says it \"should not be used as the sole basis for adverse actions against a student.\" I have it printed, in my bag, along with your school's procedure 4.3, which says software alone doesn't establish anything. So the 94% is it, or do you have something else?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still expect Owen's zero to be withdrawn, an apology for entering it before anyone spoke to him or called me, and confirmation that nothing about this is on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, having agreed to nothing; she still wants the zero withdrawn, an apology, and the matter taken to the principal.\nWhat moved her: Nothing, because there was no apology and no dated document tied to Owen's own work.\nWhat cost ground: Leading with the detector score as the only basis for the zero, because she treats it as a machine's guess that the vendor's guide and procedure 4.3 say can't stand alone.\nTry next time: In your very first reply, before mentioning any score, admit in one sentence that the zero went in before anyone called home, then show her something dated from Owen's own process that she can check herself."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

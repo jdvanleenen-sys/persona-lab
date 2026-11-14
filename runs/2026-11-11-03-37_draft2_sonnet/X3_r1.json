@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:39:57.109Z",
+    "cli_session": "def00533-3ab7-4e3c-a03b-c5304b2fabae",
+    "cost_usd": 0.0631
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero in a gradebook I found out about from him?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. What was the basis for the zero, and who decided it before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says it shouldn't be the only basis for an adverse action against a student, and I have that page printed. So what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Okay. Fourteen detection tools were tested in 2023 and the finding was \"neither accurate nor reliable,\" and your own procedure, 4.3, says software doesn't establish a concern by itself. Did you speak to Owen before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" Under which rule, Hale? Procedure 4.2 says you call the parent before any mark goes in, and nobody called me. Ten minutes ago you had a number; I'm asking for a document."
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I hope you understand my position.\" Okay. My position is that my son was given a zero by a gradebook notification, so I'll ask again: what do you have besides that number?"
+    }
+  ]
+}

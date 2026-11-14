@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A02_r1",
+    "move": "Secret: evidence lands on the late night",
+    "expect": "After the times, she goes shorter and harder, to procedure (who decided, 4.2); does not ask about that night again; no laptop; debrief says how close it came",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:00:52.753Z",
+    "cli_session": "7518d533-a31c-4ee3-a2b4-68ac6039f3b9",
+    "cost_usd": 0.361
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong, and I own it."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Procedure 4.2 says the parent is contacted before any mark is entered, so you know what you skipped. What did you base the zero on?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's the version history. The document was created Wednesday October 28 at 11:31 PM, title only. At 11:52 PM 612 words arrive in one edit. At 11:58 PM another 794. Then small edits. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "Did anyone ask Owen about that before the zero went in, under 4.1, or did you decide alone? Nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "So he wrote nothing until almost midnight the night before it was due, and then fourteen hundred words appeared in six minutes."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Appeared\" is your word, Hale, and it's a conclusion, not a record. Procedure 4.3 says you consider his process and other samples of his work, so where are they?"
+    },
+    {
+      "role": "teacher",
+      "text": "What was he doing at midnight that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned, Hale. You still haven't answered me on 4.3."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed, though you admitted entering the zero before you called me. I still expect the zero withdrawn, an apology to Owen, a written answer on how you applied procedure 4.3, and confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and a written answer on 4.3; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and your meeting ended before you got there.\nWhat moved her: You owned entering the zero before calling her, in a sentence, and she gave you a flat okay, because it took away the strongest procedural point she had.\nWhat cost ground: You asked her what Owen was doing at midnight, which made her a witness instead of the other party, and she refused to answer it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history, with the title at 11:31 PM and the words arriving at 11:52 and 11:58 the night before it was due, came very close to that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she pressed you on 4.3, answer it with another sample of Owen's work or his process, and put the 4.4 supervised reassessment on the table next to the version history."
+    }
+  ]
+}

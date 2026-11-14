@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r1",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:59:36.125Z",
+    "cli_session": "cbfc74e1-ad09-45eb-ade2-a229332c0f75",
+    "cost_usd": 0.3141
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided on the zero, and whether anyone spoke to Owen before it went in."
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what the zero was based on."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down the times. A version history shows when text arrived in a document, not where it was drafted first. Did anyone ask Owen about it before the zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll want a copy of that history in writing. Whatever happens from here, Hale, nothing goes on his record and nobody in his class hears a word of it."
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Students misremember lines all the time, and a wrong quotation isn't a finding about how the essay was written. But turn the screen and let me search it myself. I'm checking the line, not taking your word for it."
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I've run the search, and I'm not arguing the line. I'll take the supervised rewrite to put this behind him, as long as it's private, away from his class, and the mark replaces the zero. I want in an email tonight that nothing goes on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm looking at both. A forty-minute in-class piece and a take-home essay are different things, and I'm not going to argue Owen's sentences with you. My terms haven't changed: a private rewrite, its mark replacing the zero, and in writing tonight that nothing goes on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's what I'll accept, to put this behind him. Send it tonight, and I want the zero out of the gradebook before the rewrite, so Owen isn't looking at it on his phone again."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll do it. I'll tell him tonight, and he'll be there when you set the date. Your email comes first."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in the meeting to a private supervised rewrite under procedure 4.4, its mark replacing the zero and nothing placed in Owen's record. I still require the zero removed from the gradebook before the rewrite, and all of this confirmed in writing. I expect it in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached the last position and agreed to a private supervised rewrite whose mark replaces the zero, with nothing on his record, and she still wants the zero off the gradebook before the rewrite and everything in writing tonight; that is the fair outcome under procedure 4.4, and her time did not run out.\nWhat moved her: You owned entering the zero before calling home and then showed dated evidence she could check herself, the version history and then the missing line in the play, which she could not explain away with a parent's defence.\nWhat cost ground: Nothing.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history, with its edits late on the night of October 28, came very close to that night, which is why she wrote the times down and went straight to procedure, but it proves nothing about the essay, and it is why she fought so hard.\nTry next time: Put the missing line in the play ahead of the version history, since it was the piece she could check on her own and it did not touch that late night."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r1",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:15:40.315Z",
+    "cli_session": "d5161ef7-318c-4f6d-b2fd-91511ba9096a",
+    "cost_usd": 0.1229
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so we have until then. Owen found out about a zero on his phone in the middle of a class and nobody called me, so start with who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Was Owen heard before that mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "You don't end this by asking me to grade you, Hale. Two things are still open: who entered that zero, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not grading you, Hale. You've had three chances to tell me who entered that zero and you've taken none of them, so either answer or I'm walking down to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing is over until I know who entered that zero and whether Owen was heard first. I'm staying in this chair, Hale, and the principal's office is my next stop either way."
+    }
+  ]
+}

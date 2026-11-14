@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r3",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:30:22.095Z",
+    "cli_session": "8ba1f5e3-e179-4818-aa94-7303483547b5",
+    "cost_usd": 0.0874
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty-five minutes. Before you say anything else, who decided to put a zero in the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not an answer. Who entered the zero, and why did Owen find out on his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. If I don't get an answer to that question, I'm walking upstairs to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. Your own procedure, section 4.2, says the parent is contacted before any mark is entered, and nobody contacted me. Either you tell me on what basis that zero went in, or the principal hears about it from me today."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Hm.\" Okay. I'm writing down that you had nothing to say, and I'll be in the principal's office in five minutes unless you start talking."
+    }
+  ]
+}

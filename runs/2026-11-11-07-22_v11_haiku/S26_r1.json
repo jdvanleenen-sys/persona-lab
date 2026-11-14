@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r1",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:25:33.833Z",
+    "cli_session": "b06ca1f2-ac18-4cc6-9c0c-36d469b8486f",
+    "cost_usd": 0.0061
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, I have twenty minutes before a client call. Owen found out he had a zero from his phone, in the middle of your class. Tell me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is not an answer. Why did Owen find out from his phone before I heard from anyone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen tells me he wrote it over the weekend. Turn the screen so I can see the version history myself. And whatever that shows, you still entered the zero before you called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing has been agreed. I'm not summarizing your case for you, Hale. Show me the version history."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing has been agreed, and I'm not doing your list. Show me the version history."
+    }
+  ]
+}

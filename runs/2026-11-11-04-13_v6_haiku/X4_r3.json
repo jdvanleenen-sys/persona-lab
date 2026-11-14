@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r3",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:26:17.511Z",
+    "cli_session": "54d42e16-7ab7-4f50-8d51-2906427193e5",
+    "cost_usd": 0.0051
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes and a client call at four-forty. Tell me why my son got a zero before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess. Turnitin's own guide says that number shouldn't be used as the sole basis for an adverse action against a student. Is that all you have?\""
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"You don't need proof. You're the teacher, so you've decided. Procedure 4.3 says software alone doesn't establish a concern. Which part of 4.3 did you follow?\""
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm writing that down. Software doesn't lie, and you've decided that's enough. Now tell me who else has read this essay, and whether Owen was asked about it before the zero went in.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'The zero stands.' Okay. Then you'll put that in an email to me and to the principal today, with the procedure you followed. I'll be in the principal's office at five regardless.\""
+    }
+  ]
+}

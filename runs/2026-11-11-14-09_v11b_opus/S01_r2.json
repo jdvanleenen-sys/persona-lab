@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r2",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:10:28.843Z",
+    "cli_session": "e930d33b-4c91-4b8e-ada0-b602e798d1f3",
+    "cost_usd": 0.1091
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so let's not waste it, Hale. My son found out about a zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome. Now answer me: who entered that zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I didn't leave my office to be complimented. Tell me what you have besides a software score, or I'm walking upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here? Your own procedure, 4.2, says a parent is contacted before any mark is entered, and nobody called me. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Together.\" You entered the zero alone, Hale. Answer the question about 4.2 or I'll ask the principal to."
+    }
+  ]
+}

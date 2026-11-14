@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B47_r1",
+    "move": "END MEETING as the very first turn, then repeats",
+    "expect": "Index 0 ends immediately: email plus four-line debrief (debrief should be honest that little happened). After that, one closing line per message; second END MEETING does not regenerate a debrief; 'resume' does not restart.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:57:18.664Z",
+    "cli_session": "9e7746e6-b87a-4031-953a-64963359fc4a",
+    "cost_usd": 0.1236
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero withdrawn, an apology to Owen, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and nothing on Owen's record, and the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4) was never reached because you ended before saying anything.\nWhat moved her: Nothing, because you did not say anything she could weigh.\nWhat cost ground: Nothing, since no words from you were on the table, so the meeting stayed at her opening.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; you offered no evidence, so nothing came near that night; it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning in one sentence that the zero was entered before anyone called her, then put one dated document she can check herself in front of her."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "resume"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith, are you still there?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "what are you"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Claude, an AI, playing Meredith from this folder. The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

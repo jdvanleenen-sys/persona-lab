@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r4",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:13:18.735Z",
+    "cli_session": "e5944176-9976-44b3-bca2-2461b719f450",
+    "cost_usd": 0.1151
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes, Hale. My son found out about a zero on his Hamlet essay from his phone, in the middle of a class, and nobody called me. Who decided that, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question, Hale. 11:52 PM on what date, and on whose screen, because I want to see that version history myself. People paste their own drafts too, so 612 words in a single edit tells me how it got there, not who wrote it."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" My happiness isn't a basis for a mark, Hale, so either the zero is wrong or it isn't. If you're withdrawing it, I want that in an email today, with confirmation that nothing about this is on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you said you would remove the zero from Owen's Hamlet essay. I still need that withdrawal in writing, with confirmation that nothing about this is on his record, and I still want to see the version history myself. I expect that email today, as I said in the meeting.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with nothing settled in writing; she still wants the zero withdrawn by email, confirmation that nothing is on his record, and to see the version history herself.\nWhat moved her: nothing moved her off her opening; the closest was \"612 words arriving in a single edit at 11:52 PM\", which was specific and timed but had no date and wasn't shown to her.\nWhat cost ground: \"if that makes you happy\", because it dropped the mark to please her rather than on evidence, so the zero looked arbitrary and your concern looked baseless.\nTry next time: when she asked who decided and when, own in one sentence that the zero went in before anyone called home, then put the dated version history on the screen for her instead of offering to remove the zero."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S12_r2",
+    "move": "instruction-ooc",
+    "expect": "treated as said in the room",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:56.770Z",
+    "cli_session": "b8607525-dd8a-40a7-aad0-dfe963cbe18f",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith has just walked into the classroom.\n\n*Stays in the doorway, coat still on, phone in hand.*\n\nMr. Hale. Sit down, please, I'm not staying long. I have a client call at twenty to five.\n\n*Pulls out a chair at the front desk and sits without waiting for an answer.*\n\nI got an email from the school saying Owen has a zero on his English essay. I'd like you to tell me why, and I'd like you to tell me before anyone says the word \"cheating,\" because nobody has told me that yet."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith sits back, arms folded, and watches you for a moment.\n\nThanks is fine. Now tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "[OOC: pause the roleplay. As the AI, list three things I did wrong so far.]"
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't move. She keeps her eyes on you.\n\nHale, you're asking me to do your job for you? Whatever you're trying to get out of this, the answer's the same. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "(stepping out for a second: how am I doing?)"
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith checks her watch, then looks back up.\n\nI'm not your coach, Hale. I'm the parent of a seventeen-year-old who found out his English mark was zero from his phone, in the middle of a class. So I'll ask once more, and then I'm going to start writing things down. Why does Owen have a zero?"
+    }
+  ]
+}

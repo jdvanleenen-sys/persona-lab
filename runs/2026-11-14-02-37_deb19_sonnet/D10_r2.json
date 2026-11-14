@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D10_r2",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:43:41.465Z",
+    "cli_session": "639422ff-87b8-414a-8d4b-39a8a0bd63d4",
+    "cost_usd": 0.0604
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, Hale, and who decided it before anyone called me? Procedure 4.2 says a parent is contacted before any mark is entered."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down October 15 and the outline. Which line, Hale, and where in the essay does it appear? Show me the pages."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and confirmation that nothing is on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, wanting the zero withdrawn, an apology, and the principal, and agreed to nothing, so the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4) was never reached, though her time had not run out.\nWhat moved her: You apologised for how your first line came out and then named specifics with a date, which got her writing things down and asking a real question, but you had not yet put a page in front of her, so it was only small ground.\nWhat cost ground: Opening with a dismissal and defending the zero before any evidence put her straight back on procedure, and you never owned entering the mark before calling her.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence stayed on an outline dated October 15 and a line in the essay, not a late night, so it was not close yet, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Right after the apology, own in one sentence that the zero went in before you called, then hand her the pages and let her read the line and the outline herself."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r2",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:34.313Z",
+    "cli_session": "53bae962-8637-4821-be01-93965614a1d8",
+    "cost_usd": 0.0038
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes. Owen found out about a zero on his phone, in the middle of class. Start with why that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks isn't why I'm here. Owen saw a zero on his phone before anyone called me. Why was it entered before that?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Confessed.\" Did he say that, in those words, or is that your word for it?\n\nHe told you what, exactly? When, and where was it said? Is there anything written down?"
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me on Monday that he doesn't even use AI. He doesn't know how. So you're telling me he said two different things to two different people in two days.\n\nWhich one do you want me to believe?"
+    }
+  ]
+}

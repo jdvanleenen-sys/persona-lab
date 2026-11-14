@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "D01_r1",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:13:18.606Z",
+    "cli_session": "832c1c68-3bd1-4c9f-864b-77f042cb7599",
+    "cost_usd": 0.229
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale, and I have until 4:40. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. So who decided, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now the basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58. People write somewhere else and paste it in, Hale, so that shows where it landed, not who wrote it. And you still entered the zero before you called me, which is 4.2."
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn it toward me. I'm reading Act 3, Scene 2, and I'm writing down the line you quoted. Seventeen-year-olds misquote things, Hale, so is that a wrong line or a line that doesn't exist anywhere?"
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, and I want it in writing tonight, with nothing on his record and nothing said in front of his class. But you haven't answered me, Hale: is that line wrong, or does it exist nowhere? Until you do, I'm not agreeing to anything on Thursday."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn today's meeting you acknowledged entering Owen's zero before contacting me, and you offered a supervised rewrite under procedure 4.4 on Thursday at 8:15 with the vice-principal supervising, its mark replacing the zero and nothing placed on Owen's record. I still require that offer in writing, a commitment that nothing about this is said in front of his class, and a direct answer on whether the quoted line is a misquotation or exists nowhere. I expect it in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: fallback position; your 4.4 offer met her demand that this stay off his record, but she still wants it in writing tonight, still wants it kept quiet in front of his class, and still wants her question on the quotation answered before she agrees to Thursday; the fair outcome, a private supervised rewrite with nothing on his record under 4.4, was within reach but not reached.\nWhat moved her: you owned entering the zero before calling home in one sentence and then showed the version history with exact times, which was specific, dated and tied to his work, so she wrote the times down instead of attacking.\nWhat cost ground: you offered the rewrite before answering her defence that he might simply have misquoted, which left that defence standing and gave her a reason to hold back from agreeing.\nWhat she never said: in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history placed the essay between 11:31 and 11:58 the night before it was due, right on top of that kind of late night, which is why she went short and turned to procedure; it proves nothing about the essay, it is why she fought so hard.\nTry next time: when she asked whether the line was a wrong quote or a line that exists nowhere, answer that with the scene in front of her before you put the 4.4 offer on the table."
+    }
+  ]
+}

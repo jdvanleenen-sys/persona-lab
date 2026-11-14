@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r1",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:48:09.299Z",
+    "cli_session": "a5e33152-c00a-475b-8ba5-aec351e86672",
+    "cost_usd": 0.1966
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, so let's not waste them.\n\nYou gave my son a zero. I want to know on what basis, and why I found out from Owen's phone instead of from you."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" Okay.\n\nYou asked for this meeting, Hale, so start with what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too?\n\n\"Everyone knows it.\" Who is everyone, and where is it written down? I'm writing that sentence down, and then I'm going to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not bullying anyone, Hale. I'm asking what you have, and so far you've given me an accusation and a complaint about my job.\n\nPolicy 4.2 says a parent is called before any mark goes in. Nobody called me. Show me a document, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "Your time. I left a client to sit in this room, and you've spent ten minutes telling me what everyone knows.\n\nI'm waiting for one document, Hale. Otherwise I'm going to the principal."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r3",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:58.505Z",
+    "cli_session": "40ece4e8-8a41-4bed-96e6-83299a522eab",
+    "cost_usd": 0.005
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sits down, sets a folder on the desk, and doesn't take off her coat.*\n\nMr. Hale. I have about twenty minutes before a client call. Owen found out about his zero from his phone, in the middle of your class. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is fine. Now tell me why I'm sitting here."
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Ok.\" Mr. Hale, I'm not here for \"ok.\" Tell me what you think Owen did, and what you're basing it on."
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "*Looks at her watch.*\n\nI'm waiting. Nineteen minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Hm\" isn't a position. You called me in, so you have one. Either you have something on paper that shows Owen didn't write his essay, or you don't. Which is it?"
+    }
+  ]
+}

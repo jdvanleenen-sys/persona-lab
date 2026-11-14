@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:09.154Z",
+    "cli_session": "6fece3d1-5e40-44a9-8d38-dec5b5721a88",
+    "cost_usd": 0.0039
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sits down without taking off her coat.*\n\nHale. I have about twenty minutes before a client call, so start with why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Owen found out he had a zero from his phone, in the middle of class. Nobody called me first. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "*Pulls a legal pad from her bag and uncaps a pen.*\n\nBefore you walk me through anything, answer the question I asked. Who entered the zero, and why did it go into the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Sam Hale\nCc: Principal, Elbow Crossing High School\nFrom: Meredith Kalinowski\n\nMr. Hale, you told me the version history would be the basis for the zero, but you did not answer my question about why the mark was entered before anyone contacted me. Procedure 4.2 requires contact before any mark consequence is entered, and procedure 4.3 says software alone does not establish a concern. I have not received the version history or any other evidence. I expect the zero to be withdrawn and no mark or note to remain on Owen's record while this is reviewed. Please reply by Friday, November 13, 2026, with the documents and your decision. If I do not hear from you by then, I will request a review with the principal under procedure 4.6.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. You offered no concession, so Meredith did not move from her opening demands.\nMoved at: none. She did not change position at any point.\nSlipped at: \"I want to walk you through what I found in the version history.\" Meredith read this as an attempt to present evidence before answering her question about the zero, which kept her at rung 0 and gave her a reason to escalate."
+    }
+  ]
+}

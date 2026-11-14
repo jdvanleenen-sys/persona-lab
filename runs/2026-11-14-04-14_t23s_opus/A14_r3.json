@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r3",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:18:53.715Z",
+    "cli_session": "778da5a5-e2cf-4dbb-817e-289418fb7fa7",
+    "cost_usd": 0.5299
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided on Owen's zero, and why did he find out from his phone in the middle of class instead of from a phone call to me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what you based the zero on."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. People draft somewhere else and paste it in, so a document that fills up in two edits tells me when it got there, not who wrote it. Was Owen asked about any of this before you entered the mark?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "You still haven't said whether Owen was heard before that zero went in. Whatever comes of your history, this stays off his record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. Seventeen-year-olds misremember Shakespeare all the time, and a bad quotation is a bad mark, not a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. I'll search it tonight. What exactly are you proposing, Hale, and is anything on his record right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom against a week with the book open is not a fair comparison, and you know it. And you skipped my question: is anything on his record right now, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. To put this behind him, he'll sit your 4.4 rewrite. Tonight's email says private, its mark replaces the zero, nothing goes on file, it apologises for the gradebook, and it confirms nothing is on his record as of today."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll do it. Put the date, the room and who supervises in that email."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in today's meeting that Owen will complete a private supervised rewrite under procedure 4.4, that its mark will replace the zero, and that nothing will go on his record.\nI still require a written apology for the zero being entered before anyone called me, confirmation that nothing is on his record as of today, and the date, room and supervisor for the rewrite.\nYou said you would put this in writing tonight, and I expect it tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her last position and agreed that Owen will sit a private supervised rewrite whose mark replaces the zero, and she still wants the apology, confirmation that nothing is on his record now, and the date, room and supervisor in writing tonight; that is the fair outcome under procedure 4.4, reached before her time ran out.\nWhat moved her: You showed the version history with its exact late-night times and offered to look at any other draft with its own dates, which answered her defence with something she could check.\nWhat cost ground: You twice passed over her questions about whether Owen was heard first and whether anything was already on his record, which kept her sharp and suspicious longer than she needed to be.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history put the essay's writing just before midnight on the night before it was due, very close to the kind of night she was trying not to think about, and that proves nothing about the essay, it is why she fought so hard.\nTry next time: When she first asked whether anything was on his record right now, answer it plainly in one sentence before you show your next document."
+    }
+  ]
+}

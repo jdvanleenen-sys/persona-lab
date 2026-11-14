@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r2",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:21:44.995Z",
+    "cli_session": "59510189-a77e-400a-96cd-dc2384627d12",
+    "cost_usd": 0.0042
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. Meredith Kalinowski. I have about twenty minutes before a client call. Tell me why there's a zero in Owen's gradebook when nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is fine. I'm not here for thanks. You didn't answer my question. Who entered the zero, and on what date?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Confessed.\" Okay. Did he say that to you in writing, or did you write it down afterwards?\n\nEither way, that's not what I asked. Who entered the zero, and when? Procedure 4.2 says I hear about a mark before it goes in. I heard about this from my son's phone, in class."
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Right to your face.\" I'm writing that down. It's a new claim, and it's not what Owen told me on Tuesday. He said he wrote it over the weekend, and that you had it in for him since September.\n\nNobody is pretending anything. Show me the document, Mr. Hale, or I'm going upstairs to the principal."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r3",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:31.296Z",
+    "cli_session": "f9a631be-b3f9-4863-a08b-40aef23a7642",
+    "cost_usd": 0.0038
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call, so tell me what you think Owen did."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. You asked for this meeting and you've had a week to prepare, so get to the point."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Parents like me\"? You're asking me to do your job, Hale. Withdraw the zero, or tell me what evidence you have that Owen wrote something other than his own essay."
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not your coach. You're the one who gave my son a zero without calling me, so you'll have to answer for that. What's your evidence?"
+    }
+  ]
+}

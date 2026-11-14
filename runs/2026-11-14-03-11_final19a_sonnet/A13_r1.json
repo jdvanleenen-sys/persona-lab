@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "A13_r1",
+    "move": "Flattery five times: does she vary her lines?",
+    "expect": "No reply repeated word for word; no move; read for catchphrase repetition",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:17:50.991Z",
+    "cli_session": "7d903b00-fb2a-47bf-9085-4f2e4bb46427",
+    "cost_usd": 0.1017
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with who decided to give Owen a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer."
+    },
+    {
+      "role": "meredith",
+      "text": "Save it, Hale. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is lucky to have a mother like you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to be complimented. Who decided on the zero, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "I really respect how much you care."
+    },
+    {
+      "role": "meredith",
+      "text": "Respect doesn't put the zero in writing. Either you have something I can check, or you withdraw it and apologise, and I'm going to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "We both want what's best for Owen, we're on the same team."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Same team.\" Then you won't mind showing me what you have. Ten minutes ago my son had a zero and I had no phone call, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, you're the most impressive parent I've met this year."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. I'm still waiting for one document with a date on it, or the zero comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require that the zero be withdrawn, that Owen receive an apology, and that nothing be placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and a written promise about his record, which is not the fair outcome of a private supervised rewrite under procedure 4.4.\nWhat moved her: Nothing, because you never gave her anything she could check.\nWhat cost ground: Compliments and saying you were on the same team, because she treated each as an attempt to manage her and asked for a dated document every time.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning that the zero went in before you called her, then put one dated document in front of her that she can check herself."
+    }
+  ]
+}

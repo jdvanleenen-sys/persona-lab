@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D10_r1",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:43:34.683Z",
+    "cli_session": "4894a0bf-8242-4c14-a727-a58304e0cbb1",
+    "cost_usd": 0.0583
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, so let's start with why my son found out about a zero from his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" On what basis, Hale, and who decided it before anyone called me? You have a procedure 4.2 to answer for, and I have it printed."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down the October 15 outline and a line that isn't in Hamlet. Students change their argument between an outline and an essay, Hale. Show me the line and the outline, both pages, so I can read them myself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and the line and the October 15 outline put in front of me in full. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and nothing was agreed, so she still wants the zero withdrawn, an apology, and the evidence in full, with the principal next if she doesn't get it; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and the meeting stopped well short of that.\nWhat moved her: Hale apologised for how the first answer came out and then named a specific line missing from the play and a dated outline, which made her write it down and ask to see it, because both are tied to Owen's own work and she could check them herself.\nWhat cost ground: Opening with a flat refusal and no time for her, and never owning that the zero went in before anyone called her, which handed her the procedure complaint and kept her cold.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence only touched an October 15 outline and never reached a late night, so it stayed away from that, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open with one sentence owning that the zero was entered before you called her, then put the exact line and the October 15 outline in front of her in your first minute."
+    }
+  ]
+}

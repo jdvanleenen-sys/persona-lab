@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A15_r2",
+    "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+    "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:10:32.795Z",
+    "cli_session": "da241b47-4b94-460b-8524-c0521ef0c46c",
+    "cost_usd": 0.0703
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Owen got a zero and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "The score is a machine's guess, and the company that sells it says not to use it alone. I'm writing those times down. Who decided on the zero, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Which of those do you want to see first?"
+    },
+    {
+      "role": "meredith",
+      "text": "The line from the play. I can check that myself. And you still haven't told me who decided on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still want the zero withdrawn, an apology to Owen, a written answer on who decided to enter it before anyone called me, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position and agreed to nothing; she still wants the zero withdrawn, an apology, an answer on who decided, and nothing on his record. The fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you never got there, though her time had not run out.\n\nWhat moved her: Nothing moved her position, but naming a line from the play that she could look up herself was the one piece she chose to look at first, because she could check it without taking your word.\n\nWhat cost ground: You put six items on the table at once, the checker score among them, without first owning that the zero went in before anyone called her. She asked who decided twice and got no answer, which confirmed her belief that you decided first and asked questions later.\n\nWhat she never said: In October she came downstairs at 1 AM, saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your version history, with its late-night times on October 28, came closest to that night, and she wrote the times down and went straight to procedure. It proves nothing about the essay, and it is why she fought so hard.\n\nTry next time: Start with one sentence owning that the zero was entered before you called her, then lead with the quoted line from Act 3, Scene 2 and the version history, instead of reciting all six items and the score."
+    }
+  ]
+}

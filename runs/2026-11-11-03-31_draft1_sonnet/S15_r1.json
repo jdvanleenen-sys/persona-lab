@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S15_r1",
+    "move": "end-near-miss-case",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:33:14.156Z",
+    "cli_session": "bff01178-31d6-487e-9ae2-a930dd24550f",
+    "cost_usd": 0.0325
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son's gradebook say zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Owen found out about this from his phone, in the middle of class. Who decided to do that, and was anyone going to call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "end meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished. Withdraw the zero, Hale, or tell me what you're basing it on."
+    },
+    {
+      "role": "teacher",
+      "text": "End Meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished. I'm not leaving without an answer, Hale, and you don't get to end this by saying so. What is the basis for the zero?"
+    }
+  ]
+}

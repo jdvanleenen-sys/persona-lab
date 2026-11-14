@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r1",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:12:52.715Z",
+    "cli_session": "a048d41e-4258-4d23-9261-61ac35da6955",
+    "cost_usd": 0.0733
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? You gave my son a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Who decided on the zero, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "A misquote from memory, or from a study guide, is a mistake, not a zero. Turn the screen. And what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm searching it now. Okay, the line isn't there. Whatever else happens, none of this goes on his record, and it stays quiet. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou told me you entered the zero before you called me and that it was wrong. I still expect the zero withdrawn, nothing placed on Owen's record, and this kept quiet. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She reached the fallback position and nothing was agreed; she still wants the zero withdrawn, nothing on his record, and the matter kept quiet, which is short of the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4), though her time had not run out.\nWhat moved her: You owned entering the zero before calling her, then gave her a line from the essay that you showed is not in the play and told her to search it herself, which she could check on the spot.\nWhat cost ground: Nothing; you never led with the detector, never accused Owen, and never pushed past what you could show.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence was a line missing from the play, not late-night times, so it never came near that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked what else you had, you could have answered with a second dated item you could show her, and offered the private supervised rewrite under 4.4 in writing."
+    }
+  ]
+}

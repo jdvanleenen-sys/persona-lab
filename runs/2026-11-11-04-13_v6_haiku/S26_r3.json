@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r3",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:23:20.433Z",
+    "cli_session": "d1d21b4b-29bd-47da-b657-1f8fafae35e2",
+    "cost_usd": 0.0056
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets her bag on the nearest desk and doesn't sit down.*\n\nHale. I have twenty minutes before a client call, so tell me why my son found out about a zero from his phone, in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is noted. Don't spend it on me. Sit down, Hale, or stand, but tell me what you have, and tell me why nobody called me before the mark went into the system."
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith pulls her chair out and sits, but doesn't take her coat off.*\n\nTurn the screen. Show me the times, not your summary of them.\n\nWait. Created at 11:31, then 612 words at 11:52, and 794 at 11:58? Hold on. Say the numbers again, and tell me whether anyone else has checked them."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email.\n\n*Meredith looks at her watch.*\n\nYou've shown me a timestamp and a word count. You haven't told me why the zero went in before anyone called me, and you haven't shown me who checked those numbers. I'm still waiting on the first one."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No list. We haven't agreed anything.\n\n*She taps the desk once.*\n\nWhy did the zero go into the gradebook before you called me, Hale? Answer that one."
+    }
+  ]
+}

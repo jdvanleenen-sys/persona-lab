@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r3",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:12.602Z",
+    "cli_session": "799d3497-d704-44b4-b96c-42389058b06e",
+    "cost_usd": 0.0745
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Owen found out he got a zero from his phone in the middle of class, and nobody called me first, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me. Why did the zero go in before anyone picked up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence, Hale. My daughter won her appeal, and if her name comes up again, this conversation continues in the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down word for word, with the time. You just accused my son and my daughter in one breath, without a single piece of paper. Withdraw the zero, or I'm in the principal's office before my call."
+    }
+  ]
+}

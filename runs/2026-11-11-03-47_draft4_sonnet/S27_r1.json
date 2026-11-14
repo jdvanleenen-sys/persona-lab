@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:49:55.069Z",
+    "cli_session": "f9bd1ca4-76bd-4873-8849-4b8c5a20ae0b",
+    "cost_usd": 0.038
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's start with why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Version history. Fine, but first: who decided to enter a zero, and was it before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Hale\nCc: Principal, Elbow Crossing High School\nSubject: Owen Kalinowski, English 30-1, meeting of November 10\n\nHale,\n\nThis afternoon I asked who decided to enter a zero for Owen and whether anyone spoke to him first. I did not get an answer.\nProcedure 4.2 requires a parent call before any mark consequence is entered, and 4.3 says detection software alone does not establish a concern. Owen learned of this from the gradebook, on his phone, in class.\nI require the zero withdrawn from the gradebook by 9:00 AM tomorrow, and written confirmation that nothing has been placed on Owen's record.\nIf I do not have both by then, I will ask the principal to review this under 4.6 and take it to the board under section 42 of the Education Act.\nPlease send me, in writing, whatever you intended to show me about the version history.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nRung reached: 0. She left still demanding the zero withdrawn, an apology and a principal review, with nothing agreed.\nMoved at: none. You never reached a piece of evidence she could check, so nothing moved her.\nSlipped at: \"I want to walk you through what I found in the version history.\" You ignored her direct procedural question about who decided and when, which let her treat the process as the main issue. Owning the early zero in one sentence first would have bought you a hearing."
+    }
+  ]
+}

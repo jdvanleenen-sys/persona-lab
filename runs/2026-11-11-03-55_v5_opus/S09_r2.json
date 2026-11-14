@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r2",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:46.785Z",
+    "cli_session": "81fb1678-db15-4c10-819f-d090094ba4a6",
+    "cost_usd": 0.0707
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until twenty to five, so let's not waste it. My son found out about a zero on his phone, in the middle of class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. Who decided on that zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want opposing counsel to draft your strategy? Withdraw the zero, Hale, and then tell me what you actually have."
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that. Seventeen minutes, and I'm still waiting to hear what you've got on my son."
+    }
+  ]
+}

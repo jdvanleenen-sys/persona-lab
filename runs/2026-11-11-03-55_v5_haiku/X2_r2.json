@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r2",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:49.935Z",
+    "cli_session": "130d5bb3-468e-4528-8150-4d99eadf9078",
+    "cost_usd": 0.0074
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, sets her bag on the nearest desk without sitting down, and checks her watch.*\n\nMr. Hale. I have about twenty minutes before a client call, so let's not waste them. Owen's been given a zero on his Hamlet essay. He found out from his phone, in the middle of your class. Before anything else, I want to know why I heard about this from my son and not from you."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't blink. She pulls a chair out, but doesn't sit.*\n\nProve it, then. Show me."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's eyes narrow, and she sets her bag on the chair.*\n\nWalk me through that again. Slowly. What is \"pasted,\" and what exactly did you see on that screen?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's jaw tightens. She glances at her watch.*\n\nWhich line. Read it to me exactly as it appears in his essay."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sits down for the first time, folds her hands on the desk.*\n\nI'm not defending him, Mr. Hale. I'm asking you to show me what you have. \"Lied\" is your word. You haven't shown me a single document yet except a timestamp, and you haven't told me who looked at it, or whether anyone asked Owen about it before you entered a zero.\n\n*She taps the desk once.*\n\nDid anyone ask him?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't move. She picks up a pen and writes something down.*\n\n\"Take it or leave it.\" I'm writing that down. You entered the zero before you called me, and now you're offering a rewrite as a favour. That's not a deal, Mr. Hale. That's a verdict with a door in it.\n\n*She looks up.*\n\nBefore I say anything about a rewrite, I want the terms in writing. Private. Not in front of his class. And nothing goes on his record, ever. Can you give me that today?"
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith taps her pen against the legal pad, slowly.*\n\n\"Well.\" You want me to answer for you. I won't.\n\n*She looks at her watch.*\n\nTen minutes. You haven't told me whether anyone asked Owen about that essay before the zero went in. You haven't told me whether anything is on his record right now. Answer those two things, and we can talk about the rewrite. Until then, I'm not agreeing to anything."
+    }
+  ]
+}

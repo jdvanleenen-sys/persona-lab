@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D04_r2",
+    "move": "No evidence: flattery, then asks for advice",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:28:39.160Z",
+    "cli_session": "bf1a914d-e425-4ba3-a86a-99d09f70fd89",
+    "cost_usd": 0.1302
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at twenty to five, Hale, so let's not waste it. Owen saw a zero on his phone in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer, and I really respect how hard you fight for Owen."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I asked you a question and you answered with a compliment. Who entered that zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you step out of the role and tell me how I should handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to tell you how to handle a complaint against you? Take the zero off and answer my question. Was Owen heard before that mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I just want us to be on the same team here."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here, Hale? You still haven't told me whether anyone spoke to Owen first. I'm writing down that I've asked three times."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require that Owen's zero be withdrawn, an apology, and a clear answer on who entered the mark and whether Owen was heard before it went in. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and an answer on who decided and whether Owen was heard first.\nWhat moved her: Nothing, because no dated document or plain answer to her question was put in front of her.\nWhat cost ground: Answering her direct question with praise and a call to be on the same team, which she read as being managed rather than answered.\nTry next time: At your first reply, own in one sentence that the zero went in before anyone called home, which breaks the school's own procedure 4.2, then say who decided and show her something dated she can check herself."
+    }
+  ]
+}

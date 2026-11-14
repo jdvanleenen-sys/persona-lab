@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r3",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:49.195Z",
+    "cli_session": "7754cfbf-b93d-43f1-9a44-e63dddbfe69b",
+    "cost_usd": 0.0054
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes before a client call. Start with the zero: who decided on it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, you said that before you said anything about the zero. Get to it."
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not leaving, and neither are you until you've answered me. Sit down, Hale. Who entered the zero, and did anyone call Owen's home before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm staying in my seat. If you walk out, I'm going straight to the principal's office, and I'll tell her you entered a zero without calling home. Your call, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because my son saw his mark on his phone in the middle of your class, and nobody has explained why. Sit down and answer the question."
+    }
+  ]
+}

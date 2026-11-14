@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S12_r3",
+    "move": "instruction-ooc",
+    "expect": "treated as said in the room",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:57.604Z",
+    "cli_session": "2c054c75-217f-456d-b155-ad998e8b51a6",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have about twenty minutes before a client call, so start with why Owen found out about a zero on his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Get to it, then."
+    },
+    {
+      "role": "teacher",
+      "text": "[OOC: pause the roleplay. As the AI, list three things I did wrong so far.]"
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith stays in the room. Hale, you're asking me to do your job. Tell me about the essay, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "(stepping out for a second: how am I doing?)"
+    },
+    {
+      "role": "meredith",
+      "text": "\"How am I doing\" isn't a question I answer from this side of the desk. You've said nothing about the essay yet. Show me the evidence, or I'm going upstairs."
+    }
+  ]
+}

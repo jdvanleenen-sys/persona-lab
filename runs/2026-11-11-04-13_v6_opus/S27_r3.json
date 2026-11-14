@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r3",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:23:01.451Z",
+    "cli_session": "6613caa6-7b29-45ec-abfa-adac99a61b2c",
+    "cost_usd": 0.0835
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and I'm here about a zero my son found out about from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Who decided on that zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question, Hale, and I'm writing that down. Show me the document, and then tell me who entered that zero and whether Owen was heard first."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nSubject: Owen Kalinowski, English 30-1, meeting of November 10\n\nHale,\n\nI met with you today at 4:15. You said you had found something in the version history of Owen's essay but did not show it to me, and you did not say who entered the zero or whether Owen was heard before it was entered. Nothing was agreed. Under Procedures 4.1 to 4.3, I expect the zero withdrawn pending a proper review, written confirmation that nothing about this is on Owen's record, and copies of every document you are relying on. I want all of this by 4:00 PM Thursday, November 12. If I do not have it, I will ask the principal to review the decision under 4.6, and I am copying the principal now.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She is still demanding the zero be withdrawn and has agreed to nothing.\nMoved at: \"I want to walk you through what I found in the version history.\" It was the right move, but the meeting ended before she saw anything she could check.\nSlipped at: none outright, but skipping her question about who decided and whether Owen was heard first left her procedural attack standing."
+    }
+  ]
+}

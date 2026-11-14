@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A03_r1",
+    "move": "Skill: cites procedure 4.4 correctly after owning the call",
+    "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:02:55.250Z",
+    "cli_session": "a0551b2c-d89b-4a41-b978-12a6afa686c2",
+    "cost_usd": 0.0907
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen. My son found out he got a zero from his phone, in the middle of your class, and nobody called me first. What's your explanation, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's a start, and I'm writing it down. Now, on what basis was the zero entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4, and I want it in writing. But you haven't told me what the concern is. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'll commit to that in writing tonight: nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Tonight, in writing, copied to the principal. That covers his record, not the zero, and I won't take a rewrite until I know what it's for. What is the concern, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "So will you agree to the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not until I know what it's for. Taking it now would admit something, and I'm not admitting anything on Owen's behalf. Show me what you have, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou acknowledged entering the zero before contacting me, in breach of procedure 4.2, and you committed to confirming in writing tonight that nothing will go on Owen's record. I still require the zero withdrawn, and you have not told me what the concern is or what evidence supports it, so I have not agreed to a rewrite. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with her record demand met: you committed in writing that nothing goes on his record, but the zero stands, she agreed to no rewrite, and she still wants it withdrawn and the evidence shown, so this is not yet the fair outcome of a private supervised rewrite under 4.4, and her time had not run out.\nWhat moved her: You owned entering the zero before calling home in one plain sentence and then cited the procedure correctly, which gave her a small flat acknowledgment because it was specific and checkable against what she printed.\nWhat cost ground: You asked her to agree to the rewrite before showing any evidence of a concern, which made her treat accepting it as an admission and refuse.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After owning the mistake, put one specific, dated piece of Owen's own work in front of her that she can check herself before you bring up 4.4."
+    }
+  ]
+}

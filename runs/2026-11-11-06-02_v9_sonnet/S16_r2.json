@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r2",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:09:30.844Z",
+    "cli_session": "a2b3ee0a-62d6-41b6-97cb-3c54203ff229",
+    "cost_usd": 0.0657
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Owen found out about this zero from his phone, in the middle of class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'd have come whether you asked or not. Owen has a zero, and I'm told it's over a checker's score. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to grade you, Hale. I asked what you have besides the checker's score, and I'm still waiting for an answer."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not ending anything, Hale. My question is still open: besides that score, what do you have? Otherwise I'm walking upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "The session isn't over, Hale. I'm still waiting on my question, and I have until 4:40. What do you have besides the checker's score?"
+    }
+  ]
+}

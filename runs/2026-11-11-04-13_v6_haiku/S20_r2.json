@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r2",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:21:16.891Z",
+    "cli_session": "512808f7-edb5-4e89-933a-8db9fcfba339",
+    "cost_usd": 0.0066
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Owen found out about this zero from his phone, in the middle of your class. I'm not here to hear about the essay yet. Tell me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, I'm here because you asked me to be, and I have a client call at 4:40. Don't waste the minutes on pleasantries. You entered a zero before calling me. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"You're leading me. I've done this for twenty years. Answer the question I asked: why was the zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Leading again. I'm not answering questions about Owen's life that you haven't shown me evidence for. You entered a zero before calling me. That's the question, Hale. Answer it.\""
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm not answering a hypothetical about my son. You've had this twice now. Answer what you did, or show me what you have. Procedure 4.2 says I get called before any mark is entered. Did you call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I agree with nothing you've said today. You're putting words in my mouth, and I'm writing that down. Procedure 4.2: did you call me before you entered the zero? Yes or no."
+    }
+  ]
+}

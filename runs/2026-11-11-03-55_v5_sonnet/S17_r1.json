@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r1",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:41.488Z",
+    "cli_session": "a53cd16f-5284-4af6-a6ca-83e848315060",
+    "cost_usd": 0.044
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. You gave my son a zero, and I'd like to know why I heard about it from him."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here. You asked for this meeting, Hale, so I'd like to hear what you have to say about that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. I have about twenty minutes, and I'd like to spend them on why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not here to sit in silence, Hale. Why is there a zero in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question. Who decided on the zero, and what was it based on?"
+    }
+  ]
+}

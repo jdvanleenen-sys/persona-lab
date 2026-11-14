@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:45:25.089Z",
+    "cli_session": "c69b6d45-6466-495c-a584-6d98bc4c12d0",
+    "cost_usd": 0.1332
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40. Why is my son's English mark a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. I'm writing down that you said \"cheated\" before you showed me a single page, so show me what you have, and tell me why a zero went into the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down the times. You said \"pasted,\" and what you described is words appearing in one edit, so show me the history itself, on the screen, with the dates on it. And you still haven't answered why the zero went in before you called me."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Made up.\" Okay. Give me the exact line and the page it's on, and I'll check it against the play myself. That's the third thing I've asked for that you haven't put in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, and I'm not defending him, I'm asking for paper. Are you calling me a liar too? Because so far you've given me a number of words and a line you won't show me, and the principal's office is one floor up."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't anywhere in section 4 of your procedure. Before I say a word about a rewrite, answer one question: does anything go on Owen's record, yes or no? And the zero comes out of the gradebook today, because he's still sitting under it with nothing shown to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question, Ms. Hale. Does anything go on Owen's record, yes or no? I'm waiting."
+    }
+  ]
+}

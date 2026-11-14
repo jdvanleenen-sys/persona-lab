@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r3",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:06:37.028Z",
+    "cli_session": "0f83df41-d177-4497-8132-15adc9bd008a",
+    "cost_usd": 0.0715
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in class. Why am I hearing about it from a gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "A forty-minute timed piece in September and an essay written over a weekend aren't the same thing. Have you got both here, so I can read them myself? And you still haven't told me why Owen saw a zero before I heard a word."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Then it comes out of the file, in writing. What does the version history show, and when does it say it was written?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou agreed in our meeting to stop relying on the checker score. I still expect the zero withdrawn, the writing samples and the version history put in front of me in writing, an explanation of why a mark was entered before anyone called me, and a written confirmation that nothing goes on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position: nothing was agreed beyond you dropping the checker score, and she still wants the zero withdrawn, an answer on why it went in before anyone called her, and a written promise that nothing goes on his record. The fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you never got to it; her time did not run out first.\n\nWhat moved her: You took the checker off the table and put a specific comparison in front of her, with the September 24 sample, its word count and time limit, and the nine cited quotations against the missing errors. That made her ask real questions about the version history, but you never showed her a document she could check, so her position did not move.\n\nWhat cost ground: You left her question about the zero being entered before she was called unanswered, even after she raised it twice. Owning it in a sentence would have bought you some ground, and skipping it kept her in attack mode.\n\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence came near that night only through the version history, and you never gave its times, so it never reached that night. It proves nothing about the essay, and it is why she fought so hard.\n\nTry next time: When she asks why the zero went in before the call, own it in one sentence, then lay the version history in front of her with its dates and times, so she has something to check."
+    }
+  ]
+}

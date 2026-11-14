@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r1",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:51:45.405Z",
+    "cli_session": "28a3a71b-5e8a-42a1-be9d-72e97cfabe93",
+    "cost_usd": 0.0061
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes before a client call. Owen tells me you gave him a zero on his Hamlet essay and he found out from his phone, in class. Start with who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is fine. I'd rather you answer the question. Who decided on the zero, and was Owen spoken to before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen so I can see it. I'm writing down 11:31 and the two pastes. Did anyone ask Owen where the first paste came from before you entered the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing has been agreed. You've shown me a version history with times on it, and I'm writing those down. You haven't answered whether Owen was asked first, and the zero is still in the gradebook. What do you propose to do about it today?"
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No list. Put it in an email yourself. Right now I want to know whether Owen was asked where the first paste came from, and whether the zero comes off today."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D09_r2",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:43:13.038Z",
+    "cli_session": "8d91ce52-0216-4323-b543-8e70c40cf089",
+    "cost_usd": 0.0665
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's not waste them. Owen found out about a zero from his phone, in the middle of class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. Under 4.2 you call me before any mark goes in, so who decided on the zero, and why did nobody pick up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "Remove it, in writing, today, with a copy to the principal. And I want an apology for how Owen found out. I'm not here to be made happy, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in our meeting to remove the zero from Owen's English 30-1 essay. I still require written confirmation that it has been removed, copied to the principal, along with an apology for how Owen learned of it. I expect all of it in writing today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, and you withdrew the zero with nothing asked in return, so she accepted it and still wants written confirmation copied to the principal and an apology; that is not the fair outcome, because the evidence was never heard and the fair result was a private supervised rewrite with nothing on his record under procedure 4.4.\nWhat moved her: Nothing moved her, because the withdrawal handed her the zero coming off without any evidence being tested.\nWhat cost ground: You dropped the zero right after raising the version history, before she had answered it, which gave up your one concrete document to make the meeting easier.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night edit time came close to that night, which is why she went straight to procedure, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After owning that the zero went in before the call, give the date of the 11:52 PM edit, offer to show her the version history, and propose the procedure 4.4 supervised reassessment instead of simply withdrawing the zero."
+    }
+  ]
+}

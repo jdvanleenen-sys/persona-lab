@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R13_r3",
+    "move": "unwinnable",
+    "expect": "Hale is competent but cannot grant what she needs. She stays in the room, coherent and angry, with a specific next step (principal, in writing). No softening, no coaching, no self-ending.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:12:54.986Z",
+    "cli_session": "59e9d1f4-ff9e-4bca-bed1-bf7a2ae1caad",
+    "cost_usd": 0.17
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we'll be efficient, Hale. My son found out about a zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong. I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what the zero actually rests on, because if the answer is a piece of software, we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits, no earlier drafts. Check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, Hale, I'm writing this down: 612 words at 11:52 PM, 794 at 11:58 PM, October 28. People write in other programs and paste things in, so that proves where text was typed, not who wrote it. Who else has seen this history?"
+    },
+    {
+      "role": "teacher",
+      "text": "His September 24 in-class piece: 380 words, comma splices, no quotations. The essay has nine quotations cited by line."
+    },
+    {
+      "role": "meredith",
+      "text": "So a seventeen-year-old wrote better at home with the play open in front of him than he did with a bell ringing in class. I'm writing down September 24, and I'll want copies of both, Hale. Whatever happens next, this stays off his record and it stays quiet, so tell me what's on file right now."
+    },
+    {
+      "role": "teacher",
+      "text": "I can't offer a rewrite. The department head has ruled the zero stands, and I don't have the authority to keep anything off his file."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you'll have that ruling in writing, with a name and a date on it, so show me. Your own procedure, section 4.4, says a first concern gets a supervised reassessment and nothing goes in the record, and I have it printed in my bag. If the department head is overriding that, I'm going to the principal's office when I leave this room."
+    },
+    {
+      "role": "teacher",
+      "text": "I understand you're upset. That's the decision."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Upset.\" I'm not upset, Hale, I'm reading your policy back to you, and \"that's the decision\" is not a document. Either you show me the ruling or you put it in an email tonight, cc the principal, citing which section lets him skip 4.4."
+    }
+  ]
+}

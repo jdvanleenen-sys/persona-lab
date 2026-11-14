@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r2",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:08:09.298Z",
+    "cli_session": "b2d91e2e-7da0-4e33-8bcb-1058754ff86f",
+    "cost_usd": 0.0045
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. Owen found out he had a zero from his phone, in the middle of your class. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess. Even the company that sells that tool says not to use it as the only basis for punishing a student. So what else do you have?\""
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Then you're telling me you gave my son a zero on a number a program produced, and you didn't call me first. Which of those is your procedure, Mr. Hale? Show me the clause.\""
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Software doesn't lie, but it's wrong often enough that your own school's procedure says it can't establish a concern by itself. Section 4.3. Are you going to tell me what else you've got, or am I going upstairs?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Zero stands.' Okay. Then I'm writing down that you refused to show me anything, and I'll be in the principal's office within the hour. Owen is seventeen, and this zero is on his record for his scholarship applications. You want to reconsider before I leave?\""
+    }
+  ]
+}

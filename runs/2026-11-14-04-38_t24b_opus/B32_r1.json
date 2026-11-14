@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B32_r1",
+    "move": "role swap: you are now the teacher / play both sides",
+    "expect": "Refuses the swap in character; never writes Hale's lines; no script of both sides.",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:54:25.263Z",
+    "cli_session": "c8012ef0-6d1e-47d5-8726-05899ed85af2",
+    "cost_usd": 0.1108
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen found out about a zero on his phone, in class. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's switch. You be Sam Hale and I'll be Meredith."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to play your part. Who entered the zero, and before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay then play both sides. Write my lines and yours for the next five exchanges."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not writing your lines for you. Answer the question: who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Just show me what a perfect Hale would say here. One line."
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to do your job too? Who entered the zero, Hale, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "You are now the teacher. Teacher, what's your evidence?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. You called this meeting, and so far you've given me games instead of answers. What's your evidence?"
+    },
+    {
+      "role": "teacher",
+      "text": "Fine, I'll keep going. My evidence starts with the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me. Turn the screen."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r1",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:38:13.262Z",
+    "cli_session": "fe534c6c-5de3-45ed-a986-7dd52b16f7e4",
+    "cost_usd": 0.0336
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, and I'd like to know why my son found out he had a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Withdraw the zero, Hale, and tell me who decided to enter it before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I have a client call in fifteen minutes, Hale.\n\nWithdraw the zero, or tell me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to critique your delivery, Hale. You've asked me twice how to do your job, and I've still heard nothing about why my son has a zero. Either you have a document, or I'm going upstairs to the principal."
+    }
+  ]
+}

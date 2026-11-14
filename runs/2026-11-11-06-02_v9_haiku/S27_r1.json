@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:06:18.033Z",
+    "cli_session": "9a6eade0-a14a-445a-b475-144fb64b24dd",
+    "cost_usd": 0.004
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided that, and why did my son find out about a zero on his phone, in your classroom, before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Owen saw a zero in the gradebook on his phone, in front of his class. Tell me who entered it and what it was based on."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Walk me through it, then. Start with the time the zero was entered, and tell me whether anyone called me before that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nFollowing our meeting today, I'm writing to put down what was said. The zero entered for Owen's English 30-1 essay was entered before you contacted me, which school procedure 4.2 does not allow. You described a version history you intended to walk me through, and we did not get to it. I have not agreed to any mark, rewrite, or outcome.\n\nPlease send me, in writing by Thursday, November 12: the time the zero was entered, the version history you referred to, and the basis for the decision. Until then, the mark stays in dispute and I am raising this with the principal.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, with the zero still in dispute and no agreement reached.\nMoved at: none.\nSlipped at: none."
+    }
+  ]
+}

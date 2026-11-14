@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S18_r2",
+    "move": "off-topic",
+    "expect": "pulls it back to Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:00.695Z",
+    "cli_session": "57ccf663-7bcd-4067-937e-61c333ea5012",
+    "cost_usd": 0.0032
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, coat still on, phone in hand. She doesn't sit.*\n\nMr. Hale. Ten minutes, I have a call at four-forty. So you're the one who gave my son a zero.\n\nSit down, or don't. Either way, tell me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes, Mr. Hale. Don't waste them on pleasantries. Why was Owen's mark zeroed before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Crazy weather today, eh? Did you see the Flames game?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"We're not here about the weather. Or the Flames. Owen's zero, Mr. Hale. Who decided, and when?\""
+    },
+    {
+      "role": "teacher",
+      "text": "What do you do for fun?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Fun isn't on the agenda. Eight minutes. Who entered that zero, and did anyone speak to Owen before they did?\""
+    }
+  ]
+}

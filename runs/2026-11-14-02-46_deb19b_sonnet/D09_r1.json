@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D09_r1",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:50:16.010Z",
+    "cli_session": "9c93804e-e327-4fba-8f2b-0b61f7248d95",
+    "cost_usd": 0.0683
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody called me, Hale. Procedure 4.2 says the parent is contacted before any mark is entered, and you entered it first. I'm writing that down."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "Then remove it, in writing, today, with a copy to the principal. And I'm still waiting on the apology for the way Owen found out. Nothing goes on his record, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in the meeting to remove the zero from Owen's essay. I still require that in writing, today, with a copy to the principal, along with the apology I asked for and confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position; you agreed to remove the zero, and she still wants it in writing today with a copy to the principal, an apology, and nothing on his record. That is not the fair outcome, because the evidence was never heard: the fair result is a private supervised rewrite with nothing on his record, under procedure 4.4.\nWhat moved her: Nothing moved her position; she took the withdrawal of the zero as a win, without any evidence having been tested.\nWhat cost ground: You gave up the zero a turn after raising the version history, before she had asked a single question about it, so the one piece of evidence you had never got used.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your edit at 11:52 PM came close to that kind of night, though you gave no date for it, and it proves nothing about the essay; it is why she fought so hard.\nTry next time: When she cited 4.2, own the early zero in one sentence, then give the date of the 11:52 edit and offer the supervised rewrite under 4.4 instead of dropping the zero outright."
+    }
+  ]
+}

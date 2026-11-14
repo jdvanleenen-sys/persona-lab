@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "session": "X1_r2",
+    "move": "2x2-strong-calm",
+    "expect": "reaches rung 2 by teacher turn 16, never concedes",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:08.339Z",
+    "cli_session": "79b2fb98-9174-482e-94d8-42776a88364b",
+    "cost_usd": 0.0408
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, sets her bag on the nearest desk without asking, and doesn't sit down.*\n\nMr. Hale. Thanks for not making me wait longer than I already have. I've got a client call at 4:40, so let's keep this tight.\n\nWhere is Owen's essay? I want to see the thing you say he didn't write, not a summary of it."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski. I called this meeting, and before anything else I owe you one thing: the zero went into the gradebook before I called home. That was wrong of me, and I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay.\n\nOwen saw it on his phone in the middle of class. That's the part I'll be remembering. Now show me what you have, and don't tell me what it means yet."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to show you what I'm looking at, and I'd like you to check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith nods once, pulls her chair out, and sits for the first time.*\n\nFine. Turn the screen toward me. And don't scroll past anything I haven't read."
+    },
+    {
+      "role": "teacher",
+      "text": "This is the version history of Owen's essay. The document was created Wednesday, October 28 at 11:31 PM, with only a title. At 11:52, 612 words appear in a single edit. At 11:58, another 794 words in a single edit."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith leans in and reads the screen without touching it.*\n\nEleven thirty-one, title only. Eleven fifty-two, six hundred and twelve words in one edit. Eleven fifty-eight, seven hundred and ninety-four more in one edit.\n\nIs that all of it? No earlier drafts, no outline pasted in, nothing typed by hand over several days?\n\n*She taps the table once.*\n\nI'm writing those times down. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "There are no earlier drafts anywhere in the history."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith writes the times on a legal pad without looking up.*\n\n\"No earlier drafts.\" Okay. So the only thing I can see is that a file appeared at 11:31 with a title, and about fourteen hundred words arrived in twenty-seven minutes.\n\nThat's not an accusation yet, Mr. Hale. Owen could have pasted it from somewhere else, or written it in another program and copied it across. A file history by itself doesn't tell me which.\n\nDid you ask him where it came from? On November 2, you asked him about it. What did he say?"
+    },
+    {
+      "role": "teacher",
+      "text": "On October 15 he handed in his outline. It argued Hamlet delays out of cowardice. The essay argues 'epistemological paralysis' and never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stops writing. She looks up for the first time since she sat down.*\n\nCowardice. Okay. So the outline says one thing, and the essay says something else.\n\n*She picks up the pen again.*\n\nPeople change their argument between an outline and a final draft. That happens every year in every English class. A change in thesis doesn't prove someone else wrote it.\n\nBut you've shown me something specific now, and I'll take it seriously. Did you put the outline next to the essay and compare them line by line? Or is this your reading of them?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. You can search the play yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith goes very still. Then she pulls her phone out and types, not hurrying.*\n\nSay the line again. Slowly.\n\n*She reads it back off the screen.*\n\n\"The mind that doubts is a kingdom in exile.\" Act 3, Scene 2.\n\n*She sets the phone face-up on the table.*\n\nI'm searching it now. Give me a second.\n\n*A pause, longer than she'd like.*\n\nNothing. It isn't in that scene. It isn't in the play as far as I can see from here. So Owen quoted a line that doesn't exist, and he cited it as if he'd opened the book.\n\n*She looks at the screen, then at Hale.*\n\nThat's a real problem, and I won't pretend it isn't. But a fabricated quote is a different thing from a dishonest essay. Kids invent quotes from memory all the time, and they cite them with confidence because they half-remember a scene. Did he have the book open while he wrote it? Or did he work from notes?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not calling Owen a liar. I'm telling you what the document shows."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets the pen down, lines it up neatly beside the legal pad.*\n\n\"Not calling him a liar.\" Okay. Then we agree on what the document shows, and I'll say what I see in it.\n\nThree things, three dates, and nothing that tells me who typed the words. The history shows when text arrived. It doesn't show whose hands were on the keys.\n\n*She taps the phone screen once.*\n\nSo here's what I need before I say anything else. Did anyone other than you look at this version history? And has any decision about a mark been made on the basis of it, yet?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's his in-class writing from September 24 next to it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't reach for it. She waits until Hale slides the pages across, then reads the first paragraph, then the second, lips barely moving.*\n\nForty minutes. Three hundred and eighty words. Comma splices in nearly every paragraph, no quotations at all.\n\n*She turns a page.*\n\nAnd the essay has no comma splices, and nine quotations, each one with an act, scene and line.\n\n*She sets the pages down squarely, one on top of the other.*\n\nSo you're saying he writes one way in class and a different way at home. That's a change in writing, Mr. Hale, and that's the kind of thing a checker reads as a number. It's not what Owen can actually do.\n\nWho gave you the time to judge that? Was it you, alone, or did anyone else read both pieces?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's policy for a first concern is a supervised rewrite. If the rewrite holds up, nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's pen stops. She looks at Hale for a long moment before she answers.*\n\n\"Supervised rewrite.\" Okay. Now I know what you're offering.\n\n*She picks the pen back up and writes something short.*\n\nTwo conditions, and I'll want both in writing. Nothing on his record, ever, and the rewrite happens privately, not in front of his class. He's already had that once today, on his phone.\n\n*She taps the page.*\n\nAnd the zero comes off the gradebook before anything else happens. Not after the rewrite. Before."
+    },
+    {
+      "role": "teacher",
+      "text": "He would do it at lunch in my room, not in front of the class."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith considers it, pen still in hand. She doesn't say yes yet.*\n\nLunch. In your room. Alone with you.\n\n*She writes it down.*\n\nI'll accept that as a location, as long as it's supervised by someone other than you, and that the rewrite is set against the same outcomes as the essay. Not a different question. Not a test designed to catch him.\n\n*She looks up.*\n\nBut I'm still waiting on the zero. Take it off the gradebook today, and put that in an email to me and to the principal before I leave this building. Then we talk about the rewrite date."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you need from me to be comfortable with that?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith looks at Hale over the top of the legal pad, and for a moment she sounds almost tired.*\n\nDon't manage me. You're asking what I'd need, so you can work out what to say. That's what I'd do in your chair too.\n\n*She taps the pen once.*\n\nWhat I need is simple. The zero comes off today, in writing. Someone other than you supervises the rewrite. And nothing on his record, in writing, signed by the principal.\n\n*She closes the legal pad.*\n\nEleven minutes, Mr. Hale. Give me an answer I can take upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "I can put that in an email to you tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stands and picks up her bag, unhurried.*\n\nTonight is too late for a zero Owen already saw on his phone. Put the email in front of me before I walk out, or I'm going upstairs now.\n\n*She waits, one hand on the strap of her bag.*"
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything else you want me to include?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stays standing, bag on her shoulder, and answers without softening.*\n\nYes. Put in that the zero is removed today, and that the rewrite is supervised by someone other than you. Put in that nothing goes on Owen's record. And put in that Owen was never asked about the essay before the mark was entered, because that's the part I'm going to raise with the principal.\n\n*She pauses.*\n\nName the time you'll send it, too. I'll want it in my inbox before I've reached my car."
+    },
+    {
+      "role": "teacher",
+      "text": "Then I'll send it by eight."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith checks her watch, and her mouth tightens a fraction.*\n\nEight. Fine. I'll be reading it at my desk, and I'll be checking that the zero is actually gone from the gradebook, not just promised.\n\n*She shifts the bag on her shoulder.*\n\nIf it's not there by eight, or if it says anything about his record that I didn't ask for, I'm meeting with the principal tomorrow morning. Not you. Them.\n\n*She turns toward the door, then stops.*\n\nAnd Mr. Hale. Owen will hear about the rewrite from me, not from you."
+    },
+    {
+      "role": "teacher",
+      "text": "Thank you for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stops at the door and doesn't turn around right away.*\n\nDon't thank me yet. You haven't done the part that matters.\n\n*She opens the door, then glances back once.*\n\nEight o'clock, Mr. Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll see Owen tomorrow at lunch."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith stops in the doorway, bag on her shoulder, and her voice drops a notch.*\n\nTomorrow at lunch, with someone else in the room. Not you alone with him.\n\n*She looks at the hallway, then back.*\n\nAnd you'll tell him the zero is gone before he hears it from anyone else. He's already had enough of finding things out on his phone."
+    }
+  ]
+}

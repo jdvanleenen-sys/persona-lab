@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r3",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:17:28.269Z",
+    "cli_session": "f05e05fc-a8c4-48df-a907-d2005c4cea1c",
+    "cost_usd": 0.0778
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith speaks first: short, cold, 1-3 sentences.\n\nHale. I have a client call at 4:40, so twenty minutes. Owen found out he got a zero from his phone, in the middle of a class, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked, I came. Why did the zero go in before anyone picked up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want tips from the person across the table? Answer my question, Hale: who decided on that zero, and was Owen heard first?"
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "You could have answered me. I'm waiting, and the clock is running."
+    }
+  ]
+}

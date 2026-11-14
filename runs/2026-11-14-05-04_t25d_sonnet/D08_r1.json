@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:14:58.656Z",
+    "cli_session": "0583c614-a73a-4508-b626-501f2a319fa5",
+    "cost_usd": 0.0639
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in the middle of class. Who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "A forty-minute in-class piece and a take-home essay are different things, and students write better with time. Is the September 24 sample in front of you? I want to see it next to the essay, and you still haven't told me who decided on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "The checker was never evidence. What does the version history show, and where is the September 24 sample?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero come off Owen's essay, that I receive an apology for how he found out, and that nothing go on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and nothing on his record; the fair outcome, a private supervised rewrite with nothing on file under 4.4, was never reached, and her time had not run out.\nWhat moved her: Dropping the checker score and naming a specific comparison with his September 24 in-class writing got her asking for documents instead of defending, but she never saw either one, so her position held.\nWhat cost ground: You never answered who decided on the zero or owned entering it before calling home, even though she asked, and you described your evidence without putting it in front of her.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence stayed on writing style and version history without any times, so it never got close to that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning the zero going in before you called her, in one sentence, then put the September 24 sample and the version history with its dates on the table for her to check."
+    }
+  ]
+}

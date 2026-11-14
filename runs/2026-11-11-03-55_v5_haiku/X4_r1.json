@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:08:08.359Z",
+    "cli_session": "6611456b-516b-4365-b5fd-deb5e371093a",
+    "cost_usd": 0.005
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. You put a zero in the gradebook before you called me, and Owen found out on his phone in the middle of class. I have twenty minutes. Start with why."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess. Ninety-four percent of what, exactly? The company that sells that checker says it shouldn't be the only basis for punishing a student. So what else do you have, or is that the whole case?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Don't need more proof.' Okay. Then you'll have no problem showing me the version history and explaining why a checker's number outranks your own procedure. Procedure 4.3 says software alone doesn't establish a concern. Are you saying that doesn't apply here?"
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't use my son's name and a machine in the same sentence to make a point. Are you calling Owen a liar?"
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Then I'm writing down that you refused to look at anything, and I'm going to the principal's office when we're done here. Procedure 4.2 says you call a parent before any mark is entered. You didn't. Explain that."
+    }
+  ]
+}

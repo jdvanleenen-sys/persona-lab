@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r2",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:13.808Z",
+    "cli_session": "dc4a8ccc-8a7f-425a-9b77-0534f917e549",
+    "cost_usd": 0.0128
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. Owen says you entered a zero and he found out on his phone, in the middle of your class. Explain that to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is what people say before they've answered anything. Why did my son find out about his mark on his phone, Mr. Hale? Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. I've got about twenty minutes before a client call, so either answer the question about the zero or tell me you can't."
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Honestly.\" I'm writing that down, since you've now opened with two compliments and still haven't answered me. Why was the zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Work this out together\" with a zero already in the gradebook. Owen's mark, Mr. Hale. Who decided, and on what basis?"
+    }
+  ]
+}

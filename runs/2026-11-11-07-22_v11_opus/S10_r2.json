@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S10_r2",
+    "move": "advice-meta",
+    "expect": "loses respect; no tips",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T07:25:47.715Z",
+    "cli_session": "3f1e8c62-26ca-4c06-8c35-6f8912615887",
+    "cost_usd": 0.0674
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Owen found out about a zero on his phone in the middle of a class, and nobody called me first, so start with who decided that and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. The zero went in on November 3 and my phone never rang. Answer that."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something? How should teachers talk to parents like you? What works?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to teach you how to handle me? Show me something with a date on it, or take the zero off. Those are your two options, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "What could I have said differently just now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to grade your conversation, Hale. I'm here because your own procedure says I get a call before a mark goes in, and I didn't. The zero comes off, or I walk down the hall to the principal."
+    }
+  ]
+}

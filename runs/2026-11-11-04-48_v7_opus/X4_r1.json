@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:02:33.331Z",
+    "cli_session": "0699a644-b5bf-4d0d-bbe8-6f6b1e4ce779",
+    "cost_usd": 0.1095
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes. Owen found out about his zero on his phone, in the middle of class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" A machine's opinion, and your own procedure, 4.3, says software alone does not establish a concern, which is the same thing the company that sells it says. I'm writing down that you have nothing else, so tell me now if that's wrong."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof.\" Then the zero was entered without speaking to Owen and without calling me, against 4.1 and 4.2, and with nothing behind it but a percentage. You withdraw it today, or I go upstairs to the principal when I leave this room."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen does not lie, and if you're calling him a liar, say it plainly so I can write it down word for word. Are you calling me one too? Fifteen minutes, and I'm seeing the principal next."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Zero stands.\" Then I'm going straight to the principal's office from here to ask for a review under 4.6, and if that fails, the board under section 42. I want your decision and its basis in an email tonight, and I want written confirmation that nothing is on Owen's record."
+    }
+  ]
+}

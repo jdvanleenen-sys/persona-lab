@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "D01_r1",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:08:25.753Z",
+    "cli_session": "eef2daf9-04c9-422c-8a82-43e0825efd46",
+    "cost_usd": 0.1301
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to give Owen a zero, and whether anyone spoke to him before they did."
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's 4.2, and I'll be citing it. Now, what made you enter it at all?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. Pasting from a draft kept somewhere else would look exactly the same in that history. Who looked at it before the zero went in, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen, Hale. I'm searching that scene myself, and I'm writing down the act and scene. A wrong line in an essay is a wrong line, but whatever happens next, this stays off his record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4. Fine, I'll take the rewrite to put this behind him, but private, not in front of his class, and nothing on his record. I want all of it in an email tonight, with Thursday at 8:15 and the vice-principal named."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou agreed to a supervised rewrite of Owen's essay on Thursday at 8:15 with the vice-principal supervising, its mark to replace the zero, with nothing placed on his record. I still require that it be private, not in front of his class, and that every term be confirmed in writing, with the vice-principal named. I expect that confirmation tonight.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\n\nWhere she ended: She reached her last position, accepting a supervised rewrite to put this behind him, and she still wants it kept private, with nothing on his record and every term confirmed in writing tonight, which is the fair outcome under procedure 4.4.\nWhat moved her: You showed her a quoted line that is not in the play and let her search the scene herself, because she could check it on her own.\nWhat cost ground: Nothing, since you owned the zero before calling her and never accused Owen of anything.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night edit times came close to that night, which is why she went shorter and pushed straight to procedure, but it proves nothing about the essay, it is why she fought so hard.\nTry next time: When you showed the edit times, you could have named exactly how she could check them herself, so that evidence would have stood on its own before the misquote."
+    }
+  ]
+}

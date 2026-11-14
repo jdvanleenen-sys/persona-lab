@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r1",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:23.856Z",
+    "cli_session": "f95eec35-175d-4155-9f29-8c49b1f6e236",
+    "cost_usd": 0.3777
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until twenty to five, Hale. My son found out he got a zero from his phone, in the middle of a class, and nobody called me. Start with who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You can skip that. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I asked you a question twice. Who entered that zero, and did anyone speak to my son first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "Third time. I'm writing down that you won't answer who decided. Answer it now, or I go to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here, Hale? Owen got a zero with no call home, and your own procedure says a parent is contacted first. Who decided?"
+    }
+  ]
+}

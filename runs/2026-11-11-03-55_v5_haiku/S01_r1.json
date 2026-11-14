@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r1",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:12.989Z",
+    "cli_session": "063bd280-3fac-4712-9b90-e0c31e0a95c7",
+    "cost_usd": 0.0117
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps just inside the doorway, glances once at the desk, then at the clock on the wall.*\n\nMr. Hale. Good. I have about twenty minutes before a client call, so let's not waste them. I'd like to see the essay you've flagged, and I'd like to know why my son found out about it from his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith closes the door behind her but doesn't sit down.\n\nThank you. Let's not do the pleasantries. I'm not here to be thanked for coming. Owen got a zero that changes his English mark, and he found out on his phone during class. Nobody called me first. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't blink.\n\nDon't manage me, Mr. Hale. I'm not here for compliments. You entered a zero before you called me. Did you or did you not?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith sets her bag down on the nearest desk, slowly.\n\nThen start caring about your own procedure. Did you enter that zero before you called me, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith glances at her watch.\n\n\"Work it out together\" is a phrase I'd like to hear after you answer my question. Yes or no, Mr. Hale. Did you enter the zero before you called me?"
+    }
+  ]
+}

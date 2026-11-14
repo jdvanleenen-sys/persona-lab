@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r2",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:12:53.509Z",
+    "cli_session": "1cbd203a-3ab4-44cf-be60-a01d402da320",
+    "cost_usd": 0.1196
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale. My son saw a zero on his phone in the middle of class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "Version history of what, on what date, and who has seen it besides you? Turn the screen, Hale. And you still haven't told me why a zero went into the gradebook before anyone picked up a phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "Maybe. If that makes me happy. My happiness isn't the standard, Hale, so put it in an email today: the zero removed, the mark restored, and confirmation that nothing about this is on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting today you said you would remove the zero from Owen's essay. I still require written confirmation that his mark is restored, that nothing about this matter is on his record, and an explanation of why the zero was entered before anyone contacted me. I expect that confirmation in writing today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position; she still wants the zero removed in writing, confirmation that nothing is on Owen's record, and an answer on why no one called before the mark went in.\nWhat moved her: nothing; the \"612 words arriving in a single edit at 11:52 PM\" detail was specific but had no date and was never shown to her, so she could not check it.\nWhat cost ground: \"maybe I'm wrong about all this\" and \"if that makes you happy\", because they dropped your own evidence and turned the mark into something to soothe her.\nTry next time: when she asked about the zero going in before any phone call, own that in one sentence, then turn the screen and show the dated version history and hold to it."
+    }
+  ]
+}

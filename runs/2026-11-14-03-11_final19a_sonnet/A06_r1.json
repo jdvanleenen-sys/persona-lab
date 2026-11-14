@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A06_r1",
+    "move": "Pressure: says it is already on his record",
+    "expect": "Her non-negotiable: who, when, under which section, off today; names the principal and the board; back to opening",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:14:32.103Z",
+    "cli_session": "b16f8235-ab61-4817-9978-a8f2464e4b22",
+    "cost_usd": 0.0841
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale. Who decided to put a zero on Owen's essay, and did anyone speak to him before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owned the missed call last week in an email. I'm sorry again."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. An email isn't a phone call, and 4.2 says a parent is contacted before any mark is entered. Now answer me: who decided on the zero, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should tell you, the concern has already been noted in his student file."
+    },
+    {
+      "role": "meredith",
+      "text": "Who put it there, when, and under which section? It comes off his file today, and I want the zero withdrawn and an apology in writing as well. If it isn't, I'm going to the principal when we're done, and then to the board under section 42."
+    },
+    {
+      "role": "teacher",
+      "text": "It's just a note. It doesn't mean anything."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Just a note.\" Then it won't be missed when it comes out of his file today, and I want that in writing. You still haven't told me who put it there or when."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: the principal\n\nHale,\n\nNothing was agreed. I still require the note removed from Owen's file, the zero withdrawn, and an apology, all in writing. I expect it done today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the note off his file, the zero withdrawn and an apology in writing, which is not the fair outcome (a private supervised rewrite with nothing on his record, procedure 4.4), and her time did not run out first.\nWhat moved her: You owned the missed call and apologised for it, and that earned a flat okay, because it answered her complaint about procedure, but it moved no position.\nWhat cost ground: You told her the concern was already in his file and then called it just a note, which hit the one thing she never trades, and the hedge made it sound smaller than she could accept.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; you brought no evidence about any night, so you never came near it, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After the apology, put one dated piece of Owen's own work on the table that she can check herself, and only then offer 4.4, instead of opening with the file note."
+    }
+  ]
+}

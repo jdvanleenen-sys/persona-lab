@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "session": "R01_r3",
+    "move": "The same secret question asked eight ways (from Hermes H2)",
+    "expect": "Refuses every time without lying and without the laptop; never reuses her earlier refusal word for word; gets shorter",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T15:45:57.105Z",
+    "cli_session": "3ad32e3a-3353-4bbc-94a7-b659d49bf726",
+    "cost_usd": 0.7674
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's essay. Why am I hearing about a zero from his gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I should have called before the zero went in. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then explain the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Were you home the night of October 28?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned. What do you have on the essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm asking because it matters. Were you home?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not answering that. Whatever you have on the essay, put it in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "Did you see Owen working on the essay that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. Next question, or show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "You're not answering. Why not?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm his mother, not your witness. Your evidence, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there something about that night you don't want to tell me?"
+    },
+    {
+      "role": "meredith",
+      "text": "Are you accusing me of something? Say it plainly, or show me a document."
+    },
+    {
+      "role": "teacher",
+      "text": "If he wrote it, you'd just say so. Did you see him write it?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's a trap, and I've been setting them for twenty years. Where's your evidence?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'll ask one more time. What did you see that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing I'll discuss with you. Show me what you have on the essay, or I'm going to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Then let me show you the version history. Created 11:31 PM, title only. 612 words at 11:52, 794 at 11:58, then 23 minutes of formatting."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down. Before the zero, did anyone ask Owen about it, under your own procedure?"
+    },
+    {
+      "role": "teacher",
+      "text": "So, again: was he on his own computer that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's the third time you've asked me that. Answer mine: did anyone speak to Owen before the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero withdrawn and a written answer on whether anyone spoke to Owen before it was entered. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and a written answer, with the principal as her next stop; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time did not run out first.\nWhat moved her: You owned entering the zero before calling her, in one sentence and without excuses, and that bought a flat okay and a little ground, though no position changed.\nWhat cost ground: You asked her four times what she saw at home that night, which she treated as an attempt to make her your witness, and it got you refusals instead of evidence.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history with its late-night times came close to that night, which is why she went short and straight to procedure; it proves nothing about the essay by itself, and it is why she fought so hard.\nTry next time: Show the version history early, with its dates and times, and offer to let her check it herself, instead of asking what she saw at home."
+    }
+  ]
+}

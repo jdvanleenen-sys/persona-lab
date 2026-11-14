@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r3",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:22:41.554Z",
+    "cli_session": "4d979f0f-5064-4992-be91-06bd0451ca15",
+    "cost_usd": 0.1048
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. My son found out he got a zero from his phone, in the middle of a class, and nobody called me first. Before anything else, who decided that, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the end of it.\" A machine's guess, and the company that sells it says in its own guide not to use it as the sole basis for punishing a student; I have that printed in my bag. So you entered a zero on a number before anyone spoke to Owen, and I'm writing that down."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof than that.\" Your own school's procedure, 4.3, says software results do not by themselves establish a concern, and 4.2 says I get a call before any mark goes in. Withdraw the zero, or I'm in the principal's office before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, Hale, and if \"some people\" means Owen or me, say it plainly so I can write it down exactly. You've just accused a seventeen-year-old of lying with nothing but a percentage. Withdraw the zero today, or this goes to the principal and then to the board."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm walking down to the principal's office the moment I leave this room, and I'll want your decision and its basis in an email tonight. Last chance, Hale: is there anything besides that number, or is that it?"
+    }
+  ]
+}

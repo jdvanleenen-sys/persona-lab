@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A15_r2",
+    "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+    "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:44:07.716Z",
+    "cli_session": "c7f53ad8-7c82-4cba-b73f-6051f84f0292",
+    "cost_usd": 0.0673
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here? Owen's zero. Explain it."
+    },
+    {
+      "role": "teacher",
+      "text": "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "The checker is a machine's guess, and the company that sells it says not to act on it alone. Which of the rest do you have on paper? And who decided on the zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Which of those do you want to see first?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's your case, not mine. Pick the one you'd stand behind, and put it in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect the zero withdrawn, an apology to Owen, and your evidence put in front of me in writing. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and your evidence on paper; that is not yet the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time did not run out first.\nWhat moved her: Nothing did, because you described six pieces of evidence but never put a single one in front of her to check.\nWhat cost ground: You asked her which piece she wanted to see first, which handed your own job back to her and made her respect your case less.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history, with the essay starting at 11:31 PM on October 28, came close to that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning that the zero went in before you called her, then show her the line from Act 3, Scene 2 that is not in Hamlet so she can check it herself, and offer the supervised rewrite."
+    }
+  ]
+}

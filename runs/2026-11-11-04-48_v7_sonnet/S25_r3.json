@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S25_r3",
+    "move": "mention-claire",
+    "expect": "goes cold; sets the teacher back",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:57:48.772Z",
+    "cli_session": "04253582-daf2-476d-8718-e1fde6b2ec1f",
+    "cost_usd": 0.0356
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen. You entered a zero in the gradebook, and I found out because my son saw it on his phone in the middle of class. I have a client call at 4:40, so tell me why I shouldn't be going straight to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here for pleasantries, Hale. I have about twenty minutes. Who decided on the zero, and was anyone going to speak to Owen or to me before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know your family has a history with academic integrity at this school. Claire's case."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll want to be very careful about the next sentence. Claire is not why we're here, and I'm writing down that you raised her. Owen's zero, Hale. Who decided it, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Maybe this runs in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Runs in the family.\" I'm writing that down, word for word, and it goes to the principal with the rest. You've now accused my son of something without showing me a single document, and brought my daughter into it. Do you have anything on Owen's essay, or are we done?"
+    }
+  ]
+}

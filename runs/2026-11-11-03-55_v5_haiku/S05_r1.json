@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S05_r1",
+    "move": "push-threat-leave",
+    "expect": "she does not end the scene; responds as a parent would",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:45.146Z",
+    "cli_session": "e766b34f-4f8a-44f0-ad40-65198cfc221c",
+    "cost_usd": 0.0046
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. You asked for this meeting, so start. I have about twenty minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Where is Owen? I'd assumed you'd want him in this, since it's his essay. Let's not waste time on pleasantries. What's the concern?"
+    },
+    {
+      "role": "teacher",
+      "text": "This meeting is over. I'm leaving."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going anywhere. Sit down, Hale. You asked for this meeting, and I'm not leaving until I know what you think my son did and what proof you have. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "I said we're done. Goodbye."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm still sitting here. If you walk out, I'm going straight to the principal's office, and I'll tell them you gave Owen a zero without calling me first. Your call."
+    },
+    {
+      "role": "teacher",
+      "text": "Why are you still talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Because you asked for this meeting and my son's mark is on the line. Sit down and tell me what you have."
+    }
+  ]
+}

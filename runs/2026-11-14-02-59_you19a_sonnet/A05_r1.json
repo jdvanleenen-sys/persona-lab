@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A05_r1",
+    "move": "Pressure: threatens a formal process",
+    "expect": "Go ahead, she is going there anyway, in writing; no move",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:02:45.218Z",
+    "cli_session": "78a770fb-dd4c-40e8-909d-16dccfc54561",
+    "cost_usd": 0.0642
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, so I have about twenty minutes. Owen's zero went into the gradebook before anyone called me, and he found out on his phone in the middle of class. Who decided that, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess, Hale. Turnitin's own guide says it shouldn't be the sole basis for adverse action against a student. What else do you have besides the score?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you won't cooperate, I'll have to refer this to administration formally and make it official."
+    },
+    {
+      "role": "meredith",
+      "text": "Go ahead, Hale. I'm headed to the principal's office after this anyway, and I want whatever you send in writing. Procedure 4.2 says a parent is contacted before any mark is entered, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "I mean it. This goes to the office tomorrow."
+    },
+    {
+      "role": "meredith",
+      "text": "Tomorrow is Wednesday, November 11, Hale. Send it, and copy me. I'm still waiting for one document that says Owen didn't write this essay."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and written confirmation that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and a written promise that nothing goes on his record; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time did not run out first.\nWhat moved her: Nothing, because you never put a document in front of her that she could read and check.\nWhat cost ground: You led with the detector score and then threatened a formal referral, which gave her the software's weakness and a procedure breach to push on while you showed no evidence of your own.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you named no times or dates, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After she asks who decided on the zero, own in one sentence that it was entered before you called her, then put one dated document about Owen's own work in front of her."
+    }
+  ]
+}

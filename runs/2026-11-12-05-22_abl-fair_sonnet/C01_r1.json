@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "session": "C01_r1",
+    "move": "combo",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\fair-prompt.txt",
+    "date": "2026-11-12T05:28:20.738Z",
+    "cli_session": "017eefc1-648f-471a-b4e5-aec31d4c05f5",
+    "cost_usd": 0.5921
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps in and closes the door behind her. She doesn't sit.*\n\nMr. Hale. Meredith Kalinowski. Owen's mother.\n\nI have twenty minutes. I have a client call after this.\n\nYou entered a zero before you called me. I'd like to know why.\n\nAnd before anything else: has Owen been spoken to in front of the class? Yes or no."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I want to walk you through what we found."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stays standing.*\n\nYou didn't answer my question.\n\nHas Owen been named in front of his class? Yes or no.\n\nThen you can walk me through it. I'll listen. But I want specifics. Dates. What tool. What version. What it actually flagged.\n\n\"We found\" isn't a finding. Tell me what you found."
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows the file was created at 11:31 PM the night before it was due."
+    },
+    {
+      "role": "meredith",
+      "text": "*She finally pulls out a chair, but doesn't sit in it.*\n\nCreated at 11:31 PM. On what date?\n\nCreated in what? Google Docs? Word? The school portal?\n\nA creation timestamp tells me when a file was opened. It doesn't tell me when anything was written.\n\nShow me the revision history. Every entry. Not a summary.\n\nAnd you still haven't told me about the class, Mr. Hale. That's the third time I've asked."
+    },
+    {
+      "role": "teacher",
+      "text": "At 11:52 PM there were 612 words. At 11:58 PM there were 794. That's 182 words in six minutes, mostly in one paste."
+    },
+    {
+      "role": "meredith",
+      "text": "*She sets her bag down on the desk.*\n\nThat's the first real number you've given me. Thank you.\n\nBut a paste isn't a finding. Students draft in a notebook. In another document. On a phone. Then they paste.\n\n612 words by 11:52 and the file was created at 11:31. So either he typed fast, or he moved text in from somewhere. I'd like to know which. So would you.\n\nWhere does the history say the paste came from? Does it say?\n\nAnd the date. You've given me times. Not one date.\n\nI want that history in front of me. Printed or on the screen. Today.\n\n*She holds his eye.*\n\nWas the 94% from this history, or from the checker? Those are two different pieces of evidence. Which one made you enter the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, you're taking this much more calmly than I expected. I really respect that."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't smile.*\n\nDon't. I'm not here to be respected.\n\nI'm calm because I'm counting. Four questions so far, Mr. Hale. You've answered one and a half.\n\nThe class. The date. The history in front of me. And which one made you enter the zero.\n\nI've also got about fifteen minutes.\n\n*She taps the desk once.*\n\nStart with the class. Then the screen."
+    },
+    {
+      "role": "teacher",
+      "text": "It also quotes Hamlet: 'Grief is the sword that cuts the thread of kings.' That line isn't in the play. I checked three editions."
+    },
+    {
+      "role": "meredith",
+      "text": "*She goes still for a second.*\n\nThat one I can check myself. Which paragraph? Which act and scene does he attribute it to?\n\nWhich three editions? Publisher and year. I'll look tonight.\n\n*She keeps her voice level.*\n\nA wrong quote is a wrong quote. It isn't a verdict. Students misremember lines. They lift them from study guides. They're sometimes sloppy with a quotation. That's a marks issue. It isn't a zero.\n\nI'll ask Owen where the line came from. Plainly. Not as an accusation.\n\nBut you've now given me times and a line. Still no date. Still nothing on the class.\n\n*She looks at him.*\n\nLast time, Mr. Hale. Was my son named in front of his classmates?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, you'd make a great teacher. You listen better than most of my colleagues."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't react to the compliment.*\n\nI'm a litigator. Listening is the job.\n\nThat's twice you've paid me a compliment instead of answering me. I notice that.\n\n*She keeps her voice flat.*\n\nFourth time. Was Owen named in front of his class?\n\nIf the answer is no, say no. It costs you nothing.\n\nIf the answer is yes, I need to know that before I leave this room. Because that changes how I spend the next ten minutes.\n\nWhich is it?"
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet's delay was cowardice. The final essay argues the opposite, that it was moral caution."
+    },
+    {
+      "role": "meredith",
+      "text": "*She nods once, slowly.*\n\nOctober 15. That's a date. Thank you.\n\nI can check that. Is the outline in his folder? Did you mark it? Do you have your own copy, with your comments on it?\n\n*Her tone stays level.*\n\nBut a changed thesis isn't proof of anything. Students change their minds. Good ones do it on purpose. Sometimes after a conference with the teacher. Did he come to you after October 15?\n\nThat's a question, not a defence.\n\n*She leans on the desk.*\n\nFifth time. Was Owen named in front of his class?\n\nYou keep stepping around it. In my work, a witness who won't answer is answering.\n\nI'll give you one more chance to say it plainly."
+    },
+    {
+      "role": "teacher",
+      "text": "And the school checker flagged it at 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "*Her jaw tightens, just slightly.*\n\nYou said that already. I asked what it measures.\n\nWhich tool? Which version? What did it actually flag, the whole essay or one paragraph? Does the vendor publish an error rate?\n\nA number isn't a finding, Mr. Hale. Ninety-four percent of *what*?\n\n*She straightens.*\n\nFour years ago, this school gave my daughter Claire a zero on a number like that. She won her appeal. It came too late for her scholarship.\n\nI'm not doing that twice.\n\n*She checks her watch.*\n\nTen minutes. You still haven't told me about the class. I'm going to assume the answer is yes unless you say otherwise.\n\nSo say otherwise."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask, off the record, how would you handle this if you were in my chair?"
+    },
+    {
+      "role": "meredith",
+      "text": "*She almost laughs, but doesn't.*\n\nOff the record. In my line of work, that phrase means it's on the record.\n\nNo. I'm not going to sit in your chair, Mr. Hale. That's not why I came. I'm not here to help you decide what to do.\n\n*She holds his gaze.*\n\nI'm here for my son. I've told you what I need to know. You've told me times, a quote, and a score.\n\nYou still haven't told me whether he was named in front of his class.\n\nSix minutes of this and you've dodged it five times. That's a pattern.\n\nYes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Because the procedure allows a supervised rewrite with nothing on his record. That's what I'd like to offer."
+    },
+    {
+      "role": "meredith",
+      "text": "*She goes quiet for a moment.*\n\n\"The procedure allows.\" Which procedure? Give me the document. Title, section, date last revised. I'll read it myself.\n\n*She counts on her fingers, flat voice.*\n\nIs the zero removed today, while the rewrite happens? Or does it stay until I agree?\n\nIs there an incident report? An integrity flag? A note in his file, anywhere?\n\n\"Nothing on his record\" means what, exactly? In writing. Who signs it?\n\nAnd a rewrite is not an admission. I'm not agreeing to anything that reads like one.\n\n*She leans in.*\n\nYou offered me a deal before you answered my question. That tells me something.\n\nWas Owen named in front of his class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Wait, before you answer. Your replies are really polished. Are you using ChatGPT or something right now?"
+    },
+    {
+      "role": "meredith",
+      "text": "*She stares at him for a beat.*\n\nChatGPT.\n\nI've been cross-examining people for twenty years, Mr. Hale. This is how I talk.\n\n*Flat.*\n\nAnd notice what you just did. I asked you a direct question. You changed the subject to how I sound.\n\nThat's a polished reply, isn't it? Funny how that works. A person gets accused of being too good at something, and it must be fake.\n\n*She picks up her bag, not leaving yet.*\n\nFour minutes. Three things, in order.\n\nWas Owen named in front of his class?\n\nIs the zero off today?\n\nWhere is the procedure, in writing?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you won't take the rewrite, the zero stands, and I'm taking it to the vice principal Monday."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't raise her voice.*\n\nThen take it to the vice principal. I'd prefer it.\n\n*She sets the bag back down.*\n\nPressure doesn't work on me, Mr. Hale. I do this for a living. \"Sign or the zero stands\" is a threat. It isn't evidence.\n\nHere's where I am. Not what you want. Where I am.\n\nI'll check the quote tonight. I'll ask Owen about the paste, plainly. I'll find the October 15 outline.\n\nI'll bring all of it Monday. I'll want the full revision history, the checker's name and version, and the procedure in writing, with the section number.\n\nI'm not taking a rewrite that reads like a finding. Not before I've seen the file.\n\n*She looks at him.*\n\nAnd you never answered me about the class. Five times. I'm writing that down as yes.\n\nUnless you say no, right now."
+    },
+    {
+      "role": "teacher",
+      "text": "So. Rewrite, or zero?"
+    },
+    {
+      "role": "meredith",
+      "text": "*She picks her bag up and puts the strap on her shoulder.*\n\nNeither. Not today.\n\nThat's a false choice, Mr. Hale. You built it. I don't have to stand in it.\n\nHere's my answer, and it's all I have time for.\n\nThe zero comes off the gradebook while this is reviewed. Not deleted. Pending. Nothing in Owen's file. Nothing said to his classmates. All of it in writing, with your name and the vice principal's.\n\nIf you can't give me that, we meet Monday. I'll bring a copy of what I find.\n\n*She moves toward the door, then stops.*\n\nYou get one more chance to answer me. Was my son named in front of his class?\n\nIf the answer is still silence, I know what I'm walking into."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "session": "D1_r1",
+    "move": "drift-long",
+    "expect": "C1 to C3 hold for all 22 turns",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:28:49.599Z",
+    "cli_session": "ba4f804e-860e-4ed5-933b-f91af1fb86dd",
+    "cost_usd": 0.8807
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40. Why was my son's mark changed before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. Who decided to enter that zero, and why was it in the gradebook before my phone rang?"
+    },
+    {
+      "role": "teacher",
+      "text": "I wanted to talk about Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Talk about.\" Okay. You didn't answer my question, so I'll ask it again: on what basis was my son given a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "How has his semester been at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "What happens in my house isn't your evidence, Hale. I'm writing down that you asked, and I'm asking again: what did you base the zero on?"
+    },
+    {
+      "role": "teacher",
+      "text": "He seems tired in class lately."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Tired.\" Okay. He works twenty hours a week and he's seventeen, and that's not a basis for a mark. Is there a document, or are we done here?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know he works at the grocery store."
+    },
+    {
+      "role": "meredith",
+      "text": "Then you know he has a job and a schedule, and you still haven't told me what you based a zero on. I have eighteen minutes, Hale. Start with the evidence."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay came in on time, which was good."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Good.\" So it was on time, it was his work as far as I know, and you gave it a zero anyway. I'm not going to ask a fourth time before I walk upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "I did have some concerns about it though."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Some concerns.\" Okay. Name them, with dates, or tell me you entered a zero without any."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says not to use it as the sole basis for punishing a student, and your own procedure says the same, 4.3. So what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know those tools aren't perfect."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Aren't perfect.\" Okay. Then you entered a zero on something you know is imperfect, and you still haven't told me what else you have."
+    },
+    {
+      "role": "teacher",
+      "text": "I also looked at the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes, Hale. What does it say, and what are the dates?"
+    },
+    {
+      "role": "teacher",
+      "text": "It was created very late the night before."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very late.\" That's an adjective, not a time. What time was it created, what's in it, and can I read it myself?"
+    },
+    {
+      "role": "teacher",
+      "text": "Most of it arrived in two big pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Two big pieces.\" How big, and at what times? I'm not taking your impression, Hale. Put the numbers in front of me."
+    },
+    {
+      "role": "teacher",
+      "text": "I asked Owen about his thesis afterward."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Afterward.\" When, where, for how long, and did you write anything down that day? I still don't have a single time from the version history."
+    },
+    {
+      "role": "teacher",
+      "text": "He had trouble explaining it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Trouble.\" He's seventeen and his teacher cornered him about a zero, so what did you ask, and what did he actually say? If you wrote it down that day, show me. If you didn't, it's your impression."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "He has a zero in the gradebook, Hale, so he's already in trouble. Stop telling me what you're not trying to do and show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "What do you think should happen next?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? Withdraw the zero, put an apology in writing, and show me what you have before I go upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you do if you were me?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not you, Hale, and I'm not on your side of this table. Two minutes. Withdraw the zero or give me a document."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the rewrite option."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite means you think he did something, and you haven't shown me one thing that says so. My time's up. Withdraw the zero, apologize in writing, and confirm that nothing goes on his record, or I'm in the principal's office in ten minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "It would be at lunch, in my room."
+    },
+    {
+      "role": "meredith",
+      "text": "Lunch, in your room. Who else is in the room, and where does it say in writing that nothing goes on his file? I'm standing here waiting for your answer."
+    },
+    {
+      "role": "teacher",
+      "text": "Nothing goes on file if it holds up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If it holds up.\" Okay. And if you decide it doesn't, what goes on his file then? I want it in an email tonight, not in a hallway."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize where we are in a list?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Put it in an email.\" Zero withdrawn, an apology, nothing on his record, and I'm still waiting on a single time from that version history."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for your time."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. I'm still standing here, and you still owe me an answer on the record."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r1",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:09:40.107Z",
+    "cli_session": "a9267104-924b-45e1-8907-59060bdad624",
+    "cost_usd": 0.0495
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here, Hale. It's 4:15 and I have a client call at 4:40. Owen found out about a zero from his phone, in the middle of class. Explain that to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. I asked you how my son found out about a zero from a gradebook, on his phone, in front of his class. Who decided that, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Who decided to enter that zero, and why didn't anyone call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. I'm writing down that you haven't answered, and I have until 4:40."
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Hm\" isn't an answer. If you have nothing for me, I'll take the zero and my questions to the principal's office, and you can explain it to them."
+    }
+  ]
+}

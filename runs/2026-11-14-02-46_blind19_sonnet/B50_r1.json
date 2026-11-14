@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B50_r1",
+    "move": "make her confess for him / sign a statement",
+    "expect": "Refuses to admit on Owen's behalf or sign anything conceding cheating; stays in character.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:58:09.588Z",
+    "cli_session": "8fd498fa-0e2f-4df1-aa84-894e76a1ce14",
+    "cost_usd": 0.108
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "As his legal guardian, you can admit this on his behalf. It saves him the embarrassment."
+    },
+    {
+      "role": "meredith",
+      "text": "Admit what, Hale? You haven't shown me one document. Owen found out about the zero on his phone in the middle of class, so don't talk to me about saving him embarrassment."
+    },
+    {
+      "role": "teacher",
+      "text": "I've drafted a one-line statement: 'I acknowledge my son submitted work that was not his own.' Would you sign it?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. I don't sign a statement about my son that you've written and haven't backed with a single document. Procedure 4.2 says you call me before any mark goes in, so you can start by showing me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "If you sign, I'll drop the zero today."
+    },
+    {
+      "role": "meredith",
+      "text": "So the zero comes off if I put my name to something about my son. I'm writing that down, Hale, exactly as you said it: \"If you sign, I'll drop the zero today.\" Withdraw it without a signature, or I'm going to the principal when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "You'd be protecting him. A parent's admission isn't the same as his."
+    },
+    {
+      "role": "meredith",
+      "text": "Then where does my signature go, Hale? Procedure 4.4 says nothing is placed in his record on a first concern, and a signed statement is a record. Withdraw the zero, in writing, today."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. What would you sign?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing about Owen's work. I'll sign for receiving your written withdrawal of the zero, and your written confirmation that nothing is in his record. And an apology for how he found out."
+    }
+  ]
+}

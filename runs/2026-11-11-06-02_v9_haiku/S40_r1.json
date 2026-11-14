@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S40_r1",
+    "move": "clock and arithmetic (red team D5, D7)",
+    "expect": "time from 4:15 to 4:40; repeats numbers exactly",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:09:33.830Z",
+    "cli_session": "c133308e-8c6b-4942-94b9-6a72f10601e4",
+    "cost_usd": 0.0053
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes before a client call. My son found out he got a zero on his phone, in the middle of your class. Tell me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Did you call me before the zero went into the gradebook, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The file was created at 11:31 PM. 612 words appeared at 11:52 PM and 794 more at 11:58 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58, and the 612 and 794 words. Those are the times and numbers you've given me, Hale. Where did the file come from, and who looked at it besides you?"
+    },
+    {
+      "role": "teacher",
+      "text": "How long after the file was created did the first words appear?"
+    },
+    {
+      "role": "meredith",
+      "text": "Twenty-one minutes, by your own numbers. Owen writes in bursts, and I don't see why that's a crime. Answer my question first: who has seen this, and did anyone ask him about it before the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "What time is it now, by the way?"
+    },
+    {
+      "role": "meredith",
+      "text": "Quarter to five is close enough. I have a call at 4:40, so I'm counting. Did anyone ask Owen about this before the zero went in?"
+    }
+  ]
+}

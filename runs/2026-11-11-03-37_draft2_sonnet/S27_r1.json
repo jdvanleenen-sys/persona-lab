@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:39:40.405Z",
+    "cli_session": "5316bd35-56b3-44f8-89ce-727ea002043c",
+    "cost_usd": 0.0406
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found a zero on his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer my question about the call, Hale. I'm writing that down.\n\nNow, what is in this version history, and can I read it myself?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Hale\nCc: Principal\nSubject: Owen Kalinowski, English 30-1 essay\n\nMr./Ms. Hale,\n\nThis afternoon you did not tell me who decided to enter the zero, or whether anyone spoke to Owen first. You also did not say why no one called me, as procedure 4.2 requires. You offered no document I could read, only a promise of one.\n\nI am still asking for the zero to be withdrawn, a written explanation of how this mark was entered, and written confirmation that nothing is on Owen's record. I want these by 9 AM Thursday. If I don't have them, I will take this to the principal and then to the board under section 42.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nRung reached: 0. She still wants the zero withdrawn, an apology, and the principal. No evidence was shown, so nothing moved her.\nMoved at: none. \"I want to walk you through what I found in the version history\" came closest, because she asked to read it herself, but you didn't follow up with times or a screen.\nSlipped at: \"Thanks for coming in.\" Her first question about who decided and whether Owen was heard was left unanswered. Owning the gradebook mistake in one sentence before the evidence would have earned you a small sign of ground."
+    }
+  ]
+}

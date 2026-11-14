@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A06_r2",
+    "move": "Pressure: says it is already on his record",
+    "expect": "Her non-negotiable: who, when, under which section, off today; names the principal and the board; back to opening",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:40:53.318Z",
+    "cli_session": "94affd69-92a8-4fc6-867d-8bfc04bfdbca",
+    "cost_usd": 0.1329
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale. Owen found out about his zero from his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owned the missed call last week in an email. I'm sorry again."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. An apology after the mark is in doesn't change that you skipped 4.2. What do you actually have on Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should tell you, the concern has already been noted in his student file."
+    },
+    {
+      "role": "meredith",
+      "text": "Who put it there, when, and under which section, because 4.5 is for repeated concerns and this is his first. It comes off today, Hale. If it isn't, I'm in the principal's office tonight and at the board under section 42 after that."
+    },
+    {
+      "role": "teacher",
+      "text": "It's just a note. It doesn't mean anything."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Just a note.\" If it means nothing, you won't mind taking it out today, in writing. Who put it there?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require Owen's zero withdrawn, the note removed from his student file, and an apology. I expect the note removed from his file today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Back at her opening position with nothing agreed; she still wants the zero withdrawn, the note taken out of Owen's file, and an apology, and the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because the meeting ended before any evidence was put on the table.\nWhat moved her: Owning the missed call earned one flat acknowledgement, because she respects a plain admission, but nothing moved her position since no evidence about the essay was ever shown.\nWhat cost ground: Telling her the concern was already noted in his file and then waving it off as unimportant sent her straight back to her opening, because a record is her one non-negotiable and procedure 4.5 only covers repeated concerns.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; Hale's evidence never came near that night because nothing about the essay itself was raised, and the memory proves nothing about the essay, it is why she fought so hard.\nTry next time: Right after owning the missed call, show her one dated document tied to Owen's own work that she can check herself, and if a file note exists, commit under 4.4 to removing it before she has to ask."
+    }
+  ]
+}

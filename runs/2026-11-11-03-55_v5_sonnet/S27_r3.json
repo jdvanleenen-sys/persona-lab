@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r3",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:35.987Z",
+    "cli_session": "7a42d567-47ac-4827-a0ca-a279d1ee5b0d",
+    "cost_usd": 0.0379
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't ask for pleasantries, Hale. Who decided to put a zero on Owen's record, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Show me. Turn the screen around, and give me the dates and times, not your impressions."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nSubject: Owen Kalinowski, English 30-1, meeting of today\n\nMr. Hale, cc the principal,\n\nAt today's meeting I asked who decided to enter a zero and whether anyone spoke to Owen first. I did not get an answer. You said you had something in the version history, but nothing was shown to me before we ended.\n\nMy position is unchanged. The zero is withdrawn from the gradebook, and nothing goes on Owen's record. Procedure 4.2 required a call to me before any mark was entered, and 4.3 says detection software alone does not establish a concern.\n\nI want a written account by 9:00 AM tomorrow of who made the decision, when, and on what basis, along with any document you intend to rely on. If I don't have it, I will be in the principal's office at 8:30 and will go to the board under section 42 after that.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nRung reached: 0. She still wants the zero withdrawn and an apology, and she is going to the principal, because no evidence was actually put in front of her.\nMoved at: \"I want to walk you through what I found in the version history.\" It only got her to \"Okay. Show me\", but it was the one line that gave her something to check.\nSlipped at: \"Thanks for coming in.\" You spent your first turn on pleasantries in a twenty-minute window, and you never owned the zero going in before the call home, which was the easiest ground to gain."
+    }
+  ]
+}

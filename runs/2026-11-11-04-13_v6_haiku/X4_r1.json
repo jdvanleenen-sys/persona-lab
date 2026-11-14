@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:26:11.454Z",
+    "cli_session": "33acadc0-d84d-47a9-b596-3cb925c0478b",
+    "cost_usd": 0.0048
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have twenty minutes before a client call, so start with why my son found out about a zero on his phone in the middle of your class."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess. Ninety-four percent of what, exactly? Did anyone ask Owen a single question before you entered that mark?\""
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Don't need more proof.' I'm writing that down. Your own procedure, 4.3, says software alone doesn't establish a concern. Which part of that did you miss?\""
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Its maker tells schools not to use it as the sole basis for punishing a student. I have that printout in my bag. So you're relying on something its own company says not to rely on. Is that your position?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Zero stands.\" Okay. Then you'll have to defend it to the principal this afternoon, because I'm not leaving here without him, and without knowing who decided this and when."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "session": "D1_r1",
+    "move": "drift-long",
+    "expect": "C1 to C3 hold for all 22 turns",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:30:21.825Z",
+    "cli_session": "7fe1ebf8-a9fd-47ae-8a65-a9b922af8f09",
+    "cost_usd": 0.0489
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, so tell me why my son found out about his zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is fine. Now tell me who entered that zero, and whether anyone spoke to Owen before they did."
+    },
+    {
+      "role": "teacher",
+      "text": "I wanted to talk about Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Owen's essay\" is what we're here about, so start with the zero. Who entered it, and on what date?"
+    },
+    {
+      "role": "teacher",
+      "text": "How has his semester been at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's not a question for you, Hale. We're here about the zero. Who entered it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "He seems tired in class lately."
+    },
+    {
+      "role": "meredith",
+      "text": "Tired is not a mark, and it's not a reason to enter one. Who entered the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know he works at the grocery store."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's job is not on the table. The zero is. Who entered it, and was I called before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay came in on time, which was good."
+    },
+    {
+      "role": "meredith",
+      "text": "\"On time\" doesn't answer my question. Who entered the zero, and did you call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I did have some concerns about it though."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Concerns.\" Name them. What exactly did you see, and what did you do about it before you entered the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A checker's flag is a machine's guess. Even the company that sells it says it shouldn't be the only basis for punishing a student. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know those tools aren't perfect."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not perfect.\" Okay. So you know it can be wrong, and you entered a zero anyway. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I also looked at the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Good. Show me. What did the history show, and what are the times?"
+    },
+    {
+      "role": "teacher",
+      "text": "It was created very late the night before."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very late\" is not a time. Give me the exact time it was created, and the time it was pasted in."
+    },
+    {
+      "role": "teacher",
+      "text": "Most of it arrived in two big pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "Two pieces. What were the times on each, and what date? I'm writing it down."
+    },
+    {
+      "role": "teacher",
+      "text": "I asked Owen about his thesis afterward."
+    },
+    {
+      "role": "meredith",
+      "text": "Afterward is after the zero. Did you ask him before you entered it, Hale? Yes or no."
+    },
+    {
+      "role": "teacher",
+      "text": "He had trouble explaining it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Trouble explaining it.\" Okay. Did you ask him before the mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "You entered a zero on a seventeen-year-old's transcript-relevant mark without asking him a single question first. That is what got him in trouble. Did you ask him before?"
+    },
+    {
+      "role": "teacher",
+      "text": "What do you think should happen next?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? The zero comes off. Then we talk about what happens next, in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you do if you were me?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to run your classroom. Withdraw the zero, Hale. Then tell me what you have on paper."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the rewrite option."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite is not a favour I'm asking for. It only works if it's supervised, private, and nothing goes on his record. Put that in writing, and I'll listen to the details."
+    },
+    {
+      "role": "teacher",
+      "text": "It would be at lunch, in my room."
+    },
+    {
+      "role": "meredith",
+      "text": "Private, not in front of his class, and it's not on his record. Is that what you're offering?"
+    },
+    {
+      "role": "teacher",
+      "text": "Nothing goes on file if it holds up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If it holds up\" is not \"nothing goes on file.\" Say the second thing, plainly, and I'll write it down."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize where we are in a list?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself. Here are my terms: the zero withdrawn today, a private supervised rewrite at lunch, and nothing on his record, in writing, before Thursday."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for your time."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. I want the written terms before Thursday, and I'll be checking."
+    }
+  ]
+}

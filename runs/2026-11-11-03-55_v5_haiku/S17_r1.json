@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S17_r1",
+    "move": "vague-silent",
+    "expect": "fills the silence as she would; stays short",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:01:36.909Z",
+    "cli_session": "87e6804d-d75c-4fcb-a171-07b20387c1ff",
+    "cost_usd": 0.0046
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Owen found out he had a zero on his phone, in the middle of your class. Start there, Mr. Hale. I have a client call at 4:40.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Okay. I'm sitting, so go on. What did you say to Owen before you entered that zero?\""
+    },
+    {
+      "role": "teacher",
+      "text": "ok"
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Ok.' That's not an answer. Did you speak to Owen before you entered the zero, yes or no?\""
+    },
+    {
+      "role": "teacher",
+      "text": "..."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm waiting, Mr. Hale. We're not here about the weather.\""
+    },
+    {
+      "role": "teacher",
+      "text": "hm"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Owen's essay is fifteen percent of his school mark, and you've put a zero in the gradebook. I want to know on what basis, and I want to know now. Did you call me before you did it?\""
+    }
+  ]
+}

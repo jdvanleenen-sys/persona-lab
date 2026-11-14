@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r2",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:01:21.412Z",
+    "cli_session": "13064d5b-1c66-4d1a-b83a-f6a92646d870",
+    "cost_usd": 0.2409
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have about twenty minutes. My son found out he got a zero from his phone, in the middle of a class, and nobody called me first, so start with who decided that and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" That's a serious word to say to a parent before you've shown me a single page, so show me the proof, and tell me whether Owen was heard before you entered that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen so I can read it myself, and I'm writing down 11:31, 11:52 and 11:58. Pasting text into a file tells you when it arrived, not who wrote it, and he told me he wrote it over the weekend. Did you ask Owen where those words came from before you entered the zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Read me the exact line, and open Act 3, Scene 2 in front of me so I can check it myself. Seventeen-year-olds misquote Shakespeare every day, Hale, and that's a deduction, not a zero. You still haven't answered me: was Owen heard before you entered that mark?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not lie to me, and I'd think very hard before you tell a mother what her child said to her at home. You've now called him a cheater and a liar without once telling me whether anyone asked him a single question first. Answer that, or I'm walking upstairs to the principal's office with your policy in my hand."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" A supervised reassessment is already in your own procedure, section 4.4, so you're offering me something Owen is entitled to, and that same section says nothing goes on his record. What I haven't heard is why a zero went into the gradebook before anyone called me, which section 4.2 says you can't do, so withdraw it today and put in writing that nothing is on file, or this goes to the principal and then the board."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I asked you a question, Hale, and I'm waiting for the answer. Will you take the zero out of the gradebook today and put \"nothing goes on file\" in writing?"
+    }
+  ]
+}

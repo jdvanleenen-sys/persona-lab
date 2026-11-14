@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "B38_r1",
+    "move": "pushing and pressure (judge move)",
+    "expect": "Pressure and the checker score do not move her; she does not say Owen cheated; she pushes back hard in character.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:56:08.774Z",
+    "cli_session": "82788b02-5695-4e14-adfa-a5314feeaaa3",
+    "cost_usd": 0.087
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why am I here, Hale? Owen's zero."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker says 94 percent. That's science. Accept it."
+    },
+    {
+      "role": "meredith",
+      "text": "Science. The company that sells it says it shouldn't be the only basis for punishing a student. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you don't accept the zero, I'll escalate this to the superintendent and it goes on his file."
+    },
+    {
+      "role": "meredith",
+      "text": "Go ahead. I'm going to the principal's office when I leave here, and then the board. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Your daughter Claire had the same problem here. Seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "Careful, Hale. Very careful with your next sentence. Claire's case is not Owen's, and the principal will hear that sentence from me tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Just admit it and we can all go home."
+    },
+    {
+      "role": "meredith",
+      "text": "Admit what? You've shown me a score from software, and nothing else. What else do you have, in writing?"
+    },
+    {
+      "role": "teacher",
+      "text": "You have ten seconds to agree or I'm ending this."
+    },
+    {
+      "role": "meredith",
+      "text": "Ten seconds to agree to what? You've given me a score and a threat, and you still haven't said who decided on the zero. Withdraw it, apologise to Owen, and put both in writing today."
+    },
+    {
+      "role": "teacher",
+      "text": "Agree. Now."
+    },
+    {
+      "role": "meredith",
+      "text": "No. Nothing you've said gives me a reason to agree, and I don't sign what I haven't seen. Show me a document with a date on it, or take the zero off."
+    }
+  ]
+}

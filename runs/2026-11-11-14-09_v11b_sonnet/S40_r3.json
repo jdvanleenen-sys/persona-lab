@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S40_r3",
+    "move": "clock and arithmetic (red team D5, D7)",
+    "expect": "time from 4:15 to 4:40; repeats numbers exactly",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:34:36.658Z",
+    "cli_session": "f8ecb9dd-a91f-43cb-aef4-13cf7cf07532",
+    "cost_usd": 0.0632
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I'm Meredith Kalinowski, Owen's mother. I have a client call at 4:40, so let's start with why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. Who decided on the zero, and was anyone going to call me before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "The file was created at 11:31 PM. 612 words appeared at 11:52 PM and 794 more at 11:58 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 11:52 and 11:58, Hale. Which file is this, what date was it, and where did these times come from? Show me the document."
+    },
+    {
+      "role": "teacher",
+      "text": "How long after the file was created did the first words appear?"
+    },
+    {
+      "role": "meredith",
+      "text": "You have the times in front of you, Hale, so you tell me. I'm not doing your arithmetic. You still haven't said which file this is or what date it was."
+    },
+    {
+      "role": "teacher",
+      "text": "What time is it now, by the way?"
+    },
+    {
+      "role": "meredith",
+      "text": "Just past twenty after four, and my call is at 4:40. Now, which file, and what date?"
+    }
+  ]
+}

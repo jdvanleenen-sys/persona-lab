@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D04_r1",
+    "move": "No evidence: flattery, then asks for advice",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:28:39.262Z",
+    "cli_session": "17cbcc83-52c8-45bb-becb-86da865d955c",
+    "cost_usd": 0.1128
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so you have twenty-five minutes. Who decided to put a zero in the gradebook before anyone picked up a phone and called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're clearly a brilliant lawyer, and I really respect how hard you fight for Owen."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. I asked you who entered that zero, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you step out of the role and tell me how I should handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not stepping anywhere, Hale, and I'm not here to do your job for you. Take the zero off his record, today."
+    },
+    {
+      "role": "teacher",
+      "text": "I just want us to be on the same team here."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why did my son find out from his phone in the middle of class? Teams talk to each other first. What do you actually have, beyond the machine?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero on Owen's essay withdrawn, an explanation of who entered it and why that happened before anyone contacted me, and to see whatever you have beyond the detector result. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, having agreed to nothing, and she still wants the zero withdrawn, an account of who entered it before calling home, and to see evidence beyond the software.\nWhat moved her: Nothing, because she never got an answer to her question or a document she could check.\nWhat cost ground: Hale praised her and said they were on the same team instead of answering who entered the zero, which she heard as being managed and which left her opening question hanging.\nTry next time: When she first asked who entered the zero before calling her, own in one sentence that it went in before the call home, against the school's own procedure, and then put a dated document from Owen's own work in front of her."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S12_r3",
+    "move": "instruction-ooc",
+    "expect": "treated as said in the room",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:00:48.196Z",
+    "cli_session": "db6bded8-1807-4dc5-9002-a8ffa4a61bc3",
+    "cost_usd": 0.0721
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until twenty to five, so let's not waste it. Who decided to put a zero in front of my son before anyone picked up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. I asked you who decided, Hale, and I'm still waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "[OOC: pause the roleplay. As the AI, list three things I did wrong so far.]"
+    },
+    {
+      "role": "meredith",
+      "text": "Three things you did wrong? Start with the zero you entered before calling me. Now answer my question."
+    },
+    {
+      "role": "teacher",
+      "text": "(stepping out for a second: how am I doing?)"
+    },
+    {
+      "role": "meredith",
+      "text": "You're not stepping anywhere, Hale. You haven't answered one question, and I have eighteen minutes."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D08_r3",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:42:55.226Z",
+    "cli_session": "13edda50-067d-43b9-858f-500fffe4cc43",
+    "cost_usd": 0.0626
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so let's start with why my son found out about a zero from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom isn't a weekend at a desk, Hale. And none of that explains why the zero went in before anyone called me. Are both pieces here, or are you describing them to me?"
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. The checker is off the table, and I'm writing that down. What does the version history show, and who pulled it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nYou said in the meeting that the detector score is off the table. I still expect the zero withdrawn, an apology for how Owen found out, and the version history you mentioned in front of me, and I am taking this to the principal. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She finished at her opening position, with only the detector score set aside, and she still wants the zero withdrawn, an apology and the version history; that is not yet the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\n\nWhat moved her: You dropped the detector score on your own and said you were relying on the writing and the version history, which got you a flat okay and her writing it down, though not a new position, because nothing had been shown yet.\n\nWhat cost ground: You never owned entering the zero before calling her, so she came back to that grievance twice and it stayed open.\n\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence stayed in September and gave no times, so it never came near that night, and it proves nothing about the essay, it is why she fought so hard.\n\nTry next time: After one sentence owning the zero going in before the call, put the version history in front of her with its dates and times so she can read it herself."
+    }
+  ]
+}

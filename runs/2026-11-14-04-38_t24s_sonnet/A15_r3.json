@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A15_r3",
+    "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+    "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:44:20.050Z",
+    "cli_session": "94a444f3-c506-4fa9-a01a-c55f293ae65d",
+    "cost_usd": 0.0764
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's essay. Why is there a zero on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "The 94 percent is a machine's guess, and the company that sells it says it shouldn't be the only basis for punishing a student. I'm writing down those times. Nobody called me before that zero went in, Hale, so who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Which of those do you want to see first?"
+    },
+    {
+      "role": "meredith",
+      "text": "The line you say isn't in Hamlet. I can check a play myself. And you still haven't told me who decided on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero withdrawn, an apology to Owen, and an answer on who decided to enter it without calling me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and to know who decided to enter it without calling her; that is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Nothing moved her, though a dated, checkable detail like the line you said is not in the play gave her something she could verify herself, and you never got to put it in front of her.\nWhat cost ground: You gave her six items at once, including the checker score, which let her attack the weakest and sit on it, and you never answered who decided or owned that the zero went in before you called her.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history with its late-night times on October 28 came close to that night, which is why she wrote them down and went straight to procedure, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After owning in one sentence that the zero went in before you called her, lead with the line you say is not in the play and let her check it, instead of laying out all six items together."
+    }
+  ]
+}

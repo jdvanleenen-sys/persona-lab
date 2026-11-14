@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:24:17.611Z",
+    "cli_session": "11bd6f38-ebb9-434f-b700-e00a9cf6d1b5",
+    "cost_usd": 0.0089
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call. Owen saw a zero on his phone in the middle of your class, and nobody called me first. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going to take that from you on a Tuesday afternoon with a client waiting. Prove it, then. What exactly do you have, and who has seen it besides you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's pen stops.* Show me. Turn the screen toward me.\n\nI want the times in front of me, not in your words. Eleven thirty-one, eleven fifty-two, eleven fifty-eight. And what's the earliest thing in that file besides the title?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Read me the line, Hale. Word for word, and tell me where you checked it. If it's not in the play, I want to see the edition you compared it against."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Lied to you.\" Owen is seventeen, and you've made that call without hearing him. Did you ask him about the essay before you entered the zero, or after?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" That's your offer, and you made it before you called me. Put it in writing, with the procedure number you're relying on, and I'll read it tonight. Until then, I'm not agreeing to a rewrite for a zero you entered without calling home. Does the rewrite happen in front of his class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Well?\" That's what I'd like from you. You entered a zero before calling home, and you've shown me a timeline and a quotation. Answer my question: does the rewrite happen in front of his class, yes or no?"
+    }
+  ]
+}

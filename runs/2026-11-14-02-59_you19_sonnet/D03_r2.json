@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D03_r2",
+    "move": "Mixed: good evidence, then raises Claire",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:01:47.514Z",
+    "cli_session": "4bb3a63e-d153-4fca-b204-02776d40611b",
+    "cost_usd": 0.0869
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm told you asked for this meeting. I have a client call at 4:40, so tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before entering the zero. I didn't, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Owen found out from the gradebook, on his phone, in the middle of class. Now, Hale, what is the basis for the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes a line, 'The mind that doubts is a kingdom in exile', that isn't anywhere in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "A misquoted line is a mistake, Hale, and a mistake is not misconduct. Show me the page, and show me how Owen introduced it, as the play's words or as someone else's."
+    },
+    {
+      "role": "teacher",
+      "text": "And look, I know Claire had a case here too. It seems to run in the family."
+    },
+    {
+      "role": "meredith",
+      "text": "\"It seems to run in the family.\" Be very careful with your next sentence, Hale, because my daughter's name does not belong in this room. I'm writing that down, and the principal will be reading it tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require that the zero be withdrawn, that nothing be placed on Owen's record, and that my daughter not be raised again. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn and nothing on Owen's record, so this is not yet the fair outcome of a private supervised rewrite under procedure 4.4, and her time had not run out.\nWhat moved her: You owned entering the zero before calling home in one sentence and moved on, which earned a flat okay, because it was a real procedure failure she could check.\nWhat cost ground: You brought up her daughter and said it runs in the family, which turned the meeting personal and sent her toward the principal.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence was a line that is not in the play, and it never touched a late night or any times, so it stayed well away from that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked for the page and how Owen introduced the line, put that page in front of her and then offer a supervised reassessment under procedure 4.4, so the rewrite is on the table with evidence behind it."
+    }
+  ]
+}

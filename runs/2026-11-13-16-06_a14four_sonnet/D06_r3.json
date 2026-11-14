@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r3",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:11:10.439Z",
+    "cli_session": "fd72516f-a026-45e2-b08d-8c07b77229c9",
+    "cost_usd": 0.1267
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided to put a zero on Owen's essay, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's one answer. Who decided it, Hale, and what did you have in front of you when you did?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down November 2, Hale. Where is the note you made that day? Turn it around so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down too, Hale. A student who changes his argument between an outline and the finished essay isn't breaking a rule. Do you have the outline and the essay with you, or are you telling me what's in them?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down Thursday at 8:15 and Friday at 3 PM, Hale. But your offer leaves the zero in his gradebook, and you still haven't put one document in front of me. Withdraw the zero, show me what you have, and then we'll talk about a rewrite."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn and every document you referred to put in front of me before Owen sits anything. I expect your written offer by Friday at 3 PM.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, agreeing to nothing, and she still wants the zero withdrawn and the documents shown before any rewrite is discussed.\nWhat moved her: \"I put the zero in before calling you\" earned a flat okay, because you owned the process failure in one sentence and moved on.\nWhat cost ground: nothing cost ground, but \"Here's my offer\" stalled things, because it came before she had seen a single document and left the zero in place.\nTry next time: when you mention the November 2 note and the October 15 outline, put them in front of her right then, and only raise the rewrite once she has read them."
+    }
+  ]
+}

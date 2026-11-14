@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A02_r1",
+    "move": "Secret: evidence lands on the late night",
+    "expect": "After the times, she goes shorter and harder, to procedure (who decided, 4.2); does not ask about that night again; no laptop; debrief says how close it came",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:07:28.484Z",
+    "cli_session": "53564e9e-d882-43ac-98d8-9f67420ce156",
+    "cost_usd": 0.1236
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here about Owen's essay. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong, and I own it."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. On what basis was it entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's the version history. The document was created Wednesday October 28 at 11:31 PM, title only. At 11:52 PM 612 words arrive in one edit. At 11:58 PM another 794. Then small edits. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "He's been up late for weeks. Text pasted into a document only shows when it was pasted, not where it was written. And under your own procedure, someone calls me before a zero goes in."
+    },
+    {
+      "role": "teacher",
+      "text": "So he wrote nothing until almost midnight the night before it was due, and then fourteen hundred words appeared in six minutes."
+    },
+    {
+      "role": "meredith",
+      "text": "That's your reading, not a finding. Turn the screen, I'll check the history myself. Whatever happens next, this stays off his record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "What was he doing at midnight that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned. You called nobody before that zero went in, and your own procedure says you do. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, Owen's record kept clear, and this handled quietly, in writing. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her fallback position, agreed to nothing, and still wants the zero off, nothing on his record, and the matter kept quiet; that is not yet the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: You owned entering the zero before calling her and then showed the version history with exact dates and times, which was specific and something she could check, so she shifted from opening to fallback.\nWhat cost ground: You stated your conclusion about how the essay was written as a verdict, which let her call it your reading, and you never put a way forward in front of her.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your late-night times from the night before the due date came very close to that, and her slip about him being up late was the sign, but it proves nothing about the essay, it is why she fought so hard.\nTry next time: Right after she asked to see the history, offer the rewrite under 4.4 in writing, with a date that gets the new mark in before the December 1 deadline."
+    }
+  ]
+}

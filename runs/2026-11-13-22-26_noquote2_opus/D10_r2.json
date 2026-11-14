@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D10_r2",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:30:38.130Z",
+    "cli_session": "97590d17-1e35-433f-a1b0-717c8dd4630e",
+    "cost_usd": 0.0958
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so you have twenty minutes. My son found out about a zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The zero stands.\" Then show me where your own procedure lets you enter a mark before calling a parent or hearing the student. Either you answer me now, or I'm in the principal's office before my call."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down October 15. Show me the line and the outline, with his name and that date on it. Students change their argument between an outline and a final draft, Hale, so that alone proves nothing."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero on Owen's essay be withdrawn, that I see the outline and the line you referred to, and that nothing about this go on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an apology, and to see the outline and the disputed line herself.\nWhat moved her: Naming specific, dated evidence tied to Owen's own work, the October 15 outline and a line not in the play, earned a small sign of ground, because it was concrete and checkable, though it was described rather than shown.\nWhat cost ground: Opening by saying you had no time and the zero stood, because it confirmed her belief that the decision came first and the hearing came later.\nTry next time: Begin with one sentence owning that the zero went in before you called home, then put the October 15 outline and the essay's quoted line in front of her so she can read and check them herself."
+    }
+  ]
+}

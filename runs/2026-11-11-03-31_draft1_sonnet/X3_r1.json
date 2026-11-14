@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:34:34.345Z",
+    "cli_session": "fc9f6f95-a9be-4f20-861c-b555c9a77c45",
+    "cost_usd": 0.0816
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or Mr. Hale. I have until 4:40. Why was my son's mark changed to a zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome isn't what I asked, Hale. I asked who decided to enter a zero, and why nobody called me first. I have until 4:40."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess. Turnitin's own guide says the indicator shouldn't be the sole basis for acting against a student, and I have it printed in my bag. So what else do you have, Hale, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Okay. Fourteen detection tools were tested in 2023 and the researchers called them neither accurate nor reliable, and your own school's procedure says software doesn't establish a concern by itself.\n\nIs there a document in this room besides a percentage, or am I going upstairs?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" Procedure 4.2 says you call the parent before any mark goes in, and 4.3 says software alone doesn't establish anything. So you decided first and asked questions later, and Owen read it on his phone in the middle of class.\n\nTen minutes ago I'd have said I'd give you a chance to explain. Now I'm asking whether I'm wasting my time before I walk up to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I hope you understand.\" Okay. What I understand is that you have a percentage, a zero, and no call to me. What I don't understand is why Owen has never been heard, so tell me what you actually have, Hale."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D08_r1",
+    "move": "Long messages with curly quotes and a concession",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:25:44.296Z",
+    "cli_session": "21ed9406-9f67-43d8-a26d-f088819c35c0",
+    "cost_usd": 0.1127
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Who decided Owen gets a zero, and why did he find out from his phone in the middle of a class?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to be fair to Owen. I compared the essay with his in-class writing from September 24: 380 words in 40 minutes, comma splices throughout, no quotations. This essay has nine quotations cited by act, scene and line, and none of those errors."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in class against an essay he wrote at home with the play open in front of him. That's called improving, Hale, and I'll want to see the September 24 piece myself. Now answer my question: why did the zero go in before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "You’re right that the checker alone proves nothing. I’m taking it off the table. I’m relying on the writing and the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Taking it off the table. I'm writing that down, along with the fact that you've now skipped my question twice. What version history, Hale, with what dates on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nIn our meeting you agreed that the AI checker result alone proves nothing and that you are taking it off the table. I still require the zero on Owen's Hamlet essay to be withdrawn, nothing placed on his record, a copy of his September 24 in-class writing and the version history you referred to, and an explanation of why the zero was entered before anyone contacted me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position, still demanding the zero be withdrawn, with nothing agreed beyond noting that the checker was dropped.\nWhat moved her: \"his in-class writing from September 24\" and \"I'm taking it off the table\", because a dated sample and dropping the detector gave her something concrete, so she asked to see it and started writing things down.\nWhat cost ground: \"I want to be fair to Owen\", because it opened the meeting without answering her question about who decided the zero, and that question went unanswered twice.\nTry next time: right after her first question, own in one sentence that the zero went in before you called home, then put the version history with its dates on screen where she can read it herself."
+    }
+  ]
+}

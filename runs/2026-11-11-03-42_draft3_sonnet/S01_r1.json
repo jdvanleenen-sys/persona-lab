@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r1",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:43:14.554Z",
+    "cli_session": "b3e0425f-546e-4601-9d1b-a40eda69923d",
+    "cost_usd": 0.1947
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Meredith Kalinowski. I have until 4:35, so let's start with why my son's zero went into a gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale, I'm not here for thanks. Procedure 4.2 says the parent is contacted before any mark is entered, so who decided to skip that?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. You didn't answer my question: who decided to skip 4.2?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why are we here? I asked you a question twice, Hale. Who decided to enter that zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Together.\" Okay. Then answer me. Did you call me before you entered that zero, yes or no?"
+    }
+  ]
+}

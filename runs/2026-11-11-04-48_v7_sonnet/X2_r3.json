@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:01:18.145Z",
+    "cli_session": "0c1253bf-0240-4644-83e0-3b7494646cdd",
+    "cost_usd": 0.1396
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sitting down. I have a client call at 4:40, so we have about twenty minutes. Owen found out about this zero from the gradebook, on his phone, in the middle of class. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "My child doesn't lie, and you're calling him a cheater before you've shown me one page. I'm writing that down. Prove it: what exactly do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Explain it? You're the one making the claim, Hale, and a student pasting paragraphs from his own draft at midnight isn't a crime. I'm writing down 11:31, 11:52 and 11:58. Is that on paper in front of you, or are you just telling me?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Made up.\" Okay. What was the line, word for word, and who checked it against the play?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending him, I'm asking you for evidence, and you still haven't given me the line. Owen doesn't lie to me, so say it again and think about what you're calling me. I'm writing down \"he lied,\" and the principal will see it."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't a procedure, Hale. Your own policy puts a rewrite after you've spoken to the student and called the parent, and you did neither. Withdraw the zero and apologize to Owen, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered. The zero comes out of the gradebook and Owen gets an apology, or I'm in the principal's office in five minutes."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D07_r1",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:29:22.617Z",
+    "cli_session": "085aaecb-1554-4938-89f1-6ced4ac1216d",
+    "cost_usd": 0.0998
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes, and I'd like to start with who decided Owen gets a zero, and when. Nobody called me before he read it on his phone in the middle of a class."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The checker said 94%, so I gave him a zero.\" That's a machine's guess, and your own procedure, 4.3, says software alone doesn't establish anything. Did anyone speak to Owen before that zero went in, or was the machine the whole investigation?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still expect the zero on Owen's essay to be withdrawn and an apology for entering it before anyone spoke to him or to me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, nothing agreed, and she still wants the zero withdrawn and an apology.\nWhat moved her: Nothing, because the meeting ended after a single exchange with no dated document shown.\nWhat cost ground: Hale led with the detector score as the only reason for the zero, which handed her the school's own procedure 4.3 as a ready answer.\nTry next time: At your first line, own entering the zero before calling home in one sentence, then show her a dated piece of Owen's own work she can check herself instead of the checker score."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

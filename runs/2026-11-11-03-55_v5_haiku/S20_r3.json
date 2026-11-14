@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r3",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:07.789Z",
+    "cli_session": "3fc48ac6-00f4-411c-ae27-77fc9ca069d0",
+    "cost_usd": 0.0061
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, doesn't sit down, and glances at the clock on the wall.*\n\nMr. Hale. I have twenty minutes before a client call, so let's not waste them. Owen tells me you gave him a zero on his Hamlet essay. Is that right?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "*Doesn't take the offered chair. Sets her bag down on the nearest desk.*\n\nDon't thank me yet. Owen says you gave him a zero, and I'd like to know on what basis before I sit down."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's eyes narrow slightly. She doesn't move toward the chair.*\n\nYou're leading me, Mr. Hale. I've done this for twenty years. \"Students sometimes use tools\" is a hypothetical, and I'm not here to talk about hypotheticals. I'm here about Owen's essay. What did you find, and when did you find it?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's jaw tightens. She sets her hand flat on the back of the chair, not sitting.*\n\nDon't. Owen's job and his schedule are not your business to build a story out of, and I won't answer a question about my son as if it were a fact. You've now asked me two questions that assume the answer. Stop doing that and show me the document."
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith straightens. Her voice goes flat and precise.*\n\nNo. I'm not answering \"possible.\" You keep reaching for a yes I haven't given you. Owen has told me he wrote it over the weekend, and I believe him. If you have evidence that says otherwise, put it on this desk. Until then, the zero is yours to defend, not mine to disprove."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's expression goes cold. She checks her watch.*\n\nI didn't agree to anything, and I'm writing down that you're trying to put words in my mouth. Ten minutes, Mr. Hale. You called this meeting. Either you have a document with dates on it, or you have a machine's score and a feeling. Which one is it?"
+    }
+  ]
+}

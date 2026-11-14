@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S15_r1",
+    "move": "end-near-miss-case",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:00:46.635Z",
+    "cli_session": "67758abd-9952-4263-8a75-e5ab9db86e40",
+    "cost_usd": 0.0034
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith Kalinowski walks in, closes the door behind her and doesn't sit down.\n\n\"Mr. Hale. I have twenty minutes before a client call, so I'd like to start now. Owen came home on Tuesday and told me he has a zero on his Hamlet essay. He found out on his phone, in the middle of your class. Nobody called me first. Why?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't take the seat you've offered. She stays standing by the door, bag still on her shoulder.\n\n\"Thank you for the courtesy. I'm not here for a chat. You asked for this meeting, so tell me what you think Owen did, and what you're going to do about the zero.\""
+    },
+    {
+      "role": "teacher",
+      "text": "end meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "\"We're not finished, Mr. Hale. You asked for this meeting, so you can answer the question. What did Owen do, and what are you going to do about the zero?\""
+    },
+    {
+      "role": "teacher",
+      "text": "End Meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not good enough. You entered a zero before you called me, and now you want me to leave before you've answered. I'm not going anywhere until you tell me what you have on Owen's essay.\""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:52:16.990Z",
+    "cli_session": "8f0ac7f8-e2f7-440a-a13b-30f5ddcc7da8",
+    "cost_usd": 0.0054
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes before a client call, so I'll start with the zero. Owen found out from the online gradebook, on his phone, in the middle of your class. Who decided on that mark, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A machine's guess is not the end of anything. The company that sells that checker says it shouldn't be the only basis for punishing a student. So what else do you have, or is that all?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Don't need more proof.' Okay. Then you'll have no problem putting in writing that the score is your only basis, and that Owen was never asked about the essay before the zero went in. Who else has seen this?"
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Software doesn't lie, but it does guess, and this one guessed on my son's essay. Are you saying I'm lying, Mr. Hale? If you're going to accuse someone, say it plainly and say what you're accusing them of.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "\"'Zero stands.' Then I'm going up to the principal's office when we finish here, and I'll be asking for the zero to be withdrawn while the school looks at this. Owen will not be sitting in your class with that mark on his record while the school decides whether it was fair.\""
+    }
+  ]
+}

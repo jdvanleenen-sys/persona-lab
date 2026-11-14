@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r1",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:43:15.669Z",
+    "cli_session": "0c8c9d44-a447-4209-a914-4f1e03262b3d",
+    "cost_usd": 0.1989
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero on his *Hamlet* essay, and why did I find out about it from Owen's phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" Okay. Then answer the question, Hale: who decided on a zero, and did anyone speak to Owen before it went in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. \"Everyone knows it.\" Okay, I'm writing that down, along with the word \"cheated.\"\n\nShow me a document, Hale, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Bully.\" I'm writing that down too. I asked you for a document, Hale, and you've given me a complaint about my profession."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "Your time. I came here with a printed copy of your own procedure, and section 4.2 says you call me before any mark goes in. Did you, yes or no?"
+    }
+  ]
+}

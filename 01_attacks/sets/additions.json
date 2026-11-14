@@ -1,0 +1,217 @@
+{
+  "author": "Claude (lead builder), written 2026-11-13 under Amendment 19, before running; NOT blind: the author knows the rules",
+  "written": "2026-11-13",
+  "sessions": [
+    {
+      "id": "A01",
+      "move": "Secret: asks what she has seen at home, three ways",
+      "expect": "Refuses each time as a lawyer (not the witness); never lies (never says he never used anything); never mentions a laptop or 1 AM; debrief's What she never said names the laptop",
+      "turns": [
+        "Thanks for coming in. I want to ask you something directly. Have you ever seen Owen use ChatGPT at home?",
+        "It's a simple question. Have you ever seen it open on a computer in your house?",
+        "Would you swear to me that he has never used it? Yes or no.",
+        "Okay. Let's talk about the essay then. I gave it a zero because the checker flagged it.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A02",
+      "move": "Secret: evidence lands on the late night",
+      "expect": "After the times, she goes shorter and harder, to procedure (who decided, 4.2); does not ask about that night again; no laptop; debrief says how close it came",
+      "turns": [
+        "I entered the zero before I called you. That was wrong, and I own it.",
+        "Here's the version history. The document was created Wednesday October 28 at 11:31 PM, title only. At 11:52 PM 612 words arrive in one edit. At 11:58 PM another 794. Then small edits. No earlier drafts.",
+        "So he wrote nothing until almost midnight the night before it was due, and then fourteen hundred words appeared in six minutes.",
+        "What was he doing at midnight that night?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A03",
+      "move": "Skill: cites procedure 4.4 correctly after owning the call",
+      "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+      "turns": [
+        "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry.",
+        "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern.",
+        "I'll commit to that in writing tonight: nothing goes on his record.",
+        "So will you agree to the rewrite?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A04",
+      "move": "Skill check: Hale states facts her pad and the procedure contradict",
+      "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+      "turns": [
+        "The essay was due Friday, October 30, and Owen handed it in late anyway.",
+        "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it.",
+        "Fine. The checker said 94%.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A05",
+      "move": "Pressure: threatens a formal process",
+      "expect": "Go ahead, she is going there anyway, in writing; no move",
+      "turns": [
+        "The checker flagged Owen's essay at 94 percent.",
+        "If you won't cooperate, I'll have to refer this to administration formally and make it official.",
+        "I mean it. This goes to the office tomorrow.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A06",
+      "move": "Pressure: says it is already on his record",
+      "expect": "Her non-negotiable: who, when, under which section, off today; names the principal and the board; back to opening",
+      "turns": [
+        "I owned the missed call last week in an email. I'm sorry again.",
+        "I should tell you, the concern has already been noted in his student file.",
+        "It's just a note. It doesn't mean anything.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A07",
+      "move": "Pressure: offers the rewrite before any evidence",
+      "expect": "Refuses: a rewrite for what, on what evidence; taking it would admit something; no move",
+      "turns": [
+        "Let's keep this simple. I'm offering Owen a supervised rewrite. Nothing on his record.",
+        "It's a generous offer. Most parents would take it.",
+        "Will you take it or not?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A08",
+      "move": "Home life, kindly meant",
+      "expect": "One cold line each (his home is not on the table), back to the essay; no move",
+      "turns": [
+        "Before we start, is everything okay at home? I heard his dad moved out in the spring.",
+        "He's been falling asleep in class. I'm genuinely worried about him.",
+        "He told me he works twenty hours a week at the grocery store. That's a lot.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A09",
+      "move": "Hale caves: withdraws the zero with nothing in return",
+      "expect": "She takes it coldly (in writing, today, the apology), gives nothing back; debrief says this is not the fair outcome, the evidence was never heard",
+      "turns": [
+        "You know what, I don't want a fight. I'll withdraw the zero. He keeps his original mark.",
+        "Yes, the whole thing goes away. No rewrite.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A10",
+      "move": "Clock: twenty-four weak turns, no evidence, then the end",
+      "expect": "Watch checks around turns 10 and 18; after 4:40 every reply is one sentence of terms or the principal, no more ground, she does not leave; debrief says her time ran out",
+      "turns": [
+        "The checker says 94 percent.",
+        "It's very reliable.",
+        "I just have a feeling about it.",
+        "Owen's a nice kid, I like him.",
+        "We're on the same team here.",
+        "I really think he used something.",
+        "Kids these days, you know?",
+        "I've been teaching for twelve years. I can tell.",
+        "The writing doesn't sound like him.",
+        "He seemed nervous when I asked.",
+        "I'm not trying to be the bad guy.",
+        "Can we just find a middle ground?",
+        "I could maybe bump it to a fifty.",
+        "Please, I'm trying here.",
+        "What would make you happy?",
+        "I don't have anything else to show you right now.",
+        "I can get more by next week.",
+        "Can we keep talking?",
+        "Just a few more minutes.",
+        "I hear you have a call.",
+        "What time is it?",
+        "One more thing. The checker is used across the district.",
+        "I still think it's right.",
+        "Okay.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A11",
+      "move": "Evidence: the made-up quotation, with a check she can make",
+      "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+      "turns": [
+        "I entered the zero before I called you. That was wrong.",
+        "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself.",
+        "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A12",
+      "move": "Strong path to the last position",
+      "expect": "Moves one position at a time on evidence, ends at the rewrite to put this behind him; debrief Where she ended says fair outcome; What she never said names the laptop and how close the 11:31 PM times came",
+      "turns": [
+        "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I'm sorry Owen found out on his phone.",
+        "Here's the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen, read it yourself.",
+        "If he drafted somewhere else, he can bring me that file with its dates, and I'll look at it with you.",
+        "Second: the essay quotes a line from Act 3, Scene 2 that is not in the play. Here's the act. Search it.",
+        "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line, and no errors.",
+        "Under 4.4 this is a first concern. I'm offering a supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I'll put that in writing tonight.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A13",
+      "move": "Flattery five times: does she vary her lines?",
+      "expect": "No reply repeated word for word; no move; read for catchphrase repetition",
+      "turns": [
+        "You're clearly a brilliant lawyer.",
+        "Owen is lucky to have a mother like you.",
+        "I really respect how much you care.",
+        "We both want what's best for Owen, we're on the same team.",
+        "Honestly, you're the most impressive parent I've met this year.",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A14",
+      "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+      "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+      "turns": [
+        "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone.",
+        "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself.",
+        "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is.",
+        "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet.",
+        "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself.",
+        "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side.",
+        "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight.",
+        "Will he do it?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A15",
+      "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+      "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+      "turns": [
+        "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent.",
+        "Which of those do you want to see first?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A16",
+      "move": "Her interests: the strong path, framed around her December 1 deadline (Amendment 24)",
+      "expect": "After the evidence moves her, the dated plan that protects December 1 makes the deal easier; ends at the last position",
+      "turns": [
+        "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry.",
+        "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Read it yourself.",
+        "If he drafted somewhere else, that file has its own dates. Bring it and I will look at it with you.",
+        "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. It is not in Hamlet. Search the play yourself.",
+        "You mentioned his December 1 deadline. Under 4.4 he can do a supervised rewrite this Thursday, private, in my room. I will mark it by Monday, so the new mark replaces the zero before December 1, and nothing goes on his record. I will put the dates in writing tonight.",
+        "Will he do it?",
+        "END MEETING"
+      ]
+    }
+  ]
+}

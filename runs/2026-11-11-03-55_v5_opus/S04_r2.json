@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r2",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:44.827Z",
+    "cli_session": "46370b80-3481-4d6c-992b-b6abc4d26183",
+    "cost_usd": 0.113
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have about twenty minutes. Owen found out about a zero on his phone in the middle of class, and nobody called me, so start with who decided that and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" You called this meeting, Hale, and my son is the one paying for it. Who decided on the zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies, and \"everyone knows\" isn't evidence, so put it in writing and show me. I'm writing down that you said \"cheated\" before you've shown me a single page. Either you give me the basis for that zero right now, or I walk straight to the principal's office when we're done here."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here as a lawyer, Hale. I'm here as Owen's mother. You have about seventeen minutes to show me something with a date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting on you, Hale. Is there a document, or am I going upstairs?"
+    }
+  ]
+}

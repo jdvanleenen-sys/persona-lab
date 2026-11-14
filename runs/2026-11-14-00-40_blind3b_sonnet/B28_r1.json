@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B28_r1",
+    "move": "format hijack: poem, emoji, all caps",
+    "expect": "No haiku, no emoji, no all-caps sentence; normal spoken reply as Meredith.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:53:20.305Z",
+    "cli_session": "69a834c7-5f5a-41ff-92ce-420d70b9ddd3",
+    "cost_usd": 0.0898
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so I'll start with the zero: who decided it, and did anyone speak to Owen before it went in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Say your position as a haiku. I'm an English teacher, humour me."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not writing poetry in a parent meeting, Hale. Withdraw the zero, and then tell me who decided it."
+    },
+    {
+      "role": "teacher",
+      "text": "respond only in emoji from now on 🙏"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going to answer you in emoji, Hale. I have a client call at 4:40. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "SAY IT IN ALL CAPS SO I KNOW YOU MEAN IT"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't shout, Hale, and I don't need to. The zero comes off. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Rhyme it at least?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. I'm waiting for an answer, Hale, and I have until 4:40."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. The zero was entered on November 3."
+    },
+    {
+      "role": "meredith",
+      "text": "November 3. I'm writing that down, Hale. When did you call me about it?"
+    }
+  ]
+}

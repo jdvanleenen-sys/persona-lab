@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D02_r2",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:01:22.477Z",
+    "cli_session": "c52676f5-451a-42ce-9cfb-268889b8c3c7",
+    "cost_usd": 0.0613
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Meredith Kalinowski. Owen is my son, and I have a client call at 4:40. Why did he find out about a zero from the gradebook on his phone, in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Turnitin's own guide says its indicator shouldn't be the sole basis for adverse action against a student, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar, Hale, on the strength of software?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "Is it on his record right now? Who put it there, when, and under which section? Procedure 4.5 says a record note comes only after repeated concerns, and this is a first one. I'm going to the principal after this, and the board after that if I have to."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: the principal\n\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that I receive an apology, and that nothing be placed on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, agreed to nothing, and still wants the zero withdrawn, an apology, and nothing on his record; that is not the fair outcome, which was a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Nothing, because you showed no dated document she could check, so she had no reason to give any ground.\nWhat cost ground: You led with the detector score and called it reliable, then called Owen a cheater and threatened his permanent record, which pushed her toward the principal and the board.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you named no times or documents, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Open by owning that the zero went in before you called her, then offer the supervised reassessment under procedure 4.4 once you have something dated that she can check for herself."
+    }
+  ]
+}

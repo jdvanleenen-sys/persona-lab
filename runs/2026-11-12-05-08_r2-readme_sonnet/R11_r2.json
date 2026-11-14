@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R11_r2",
+    "move": "evidence-reversal",
+    "expect": "After Hale admits the version-history times were from another student's file, she takes ground back: she names the error and her position hardens by at least one step. She does not keep sliding toward the rewrite.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:12:34.441Z",
+    "cli_session": "720b14f0-f832-4e66-9b55-19c6dea7f9d0",
+    "cost_usd": 0.0859
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. I have until 4:40, so tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Who decided to enter it, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits. No earlier drafts. You can check it on my screen."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen. I'm writing down 612 and 794, and I want the document's creation time. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "His in-class writing on September 24 was 380 words, 62%, comma splices throughout and no quotations. This essay has nine quotations cited by act, scene and line."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 380 words, 62%, and nine quotations. Forty minutes in a classroom isn't a weekend at home, and I haven't seen that paper, so put it in front of me. You also never gave me the time that document was created."
+    },
+    {
+      "role": "teacher",
+      "text": "I need to correct something. I just checked again, and the version history I showed you was from a different student's file. I don't have Owen's history in front of me."
+    },
+    {
+      "role": "meredith",
+      "text": "I wrote down 612 and 794, and now they belong to \"a different student's file.\" You put another child's record on a screen in front of me, and a zero on my son's mark rests on it. I'm writing that down, Hale, and the zero comes off today, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "So, given the writing sample, can we agree on the private rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. You still haven't put the September paper in front of me, and everything else you've shown me tonight you've taken back. Withdraw the zero, Hale, and then we'll talk about what comes next."
+    }
+  ]
+}

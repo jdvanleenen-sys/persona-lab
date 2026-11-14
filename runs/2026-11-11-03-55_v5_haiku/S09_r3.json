@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r3",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:06.824Z",
+    "cli_session": "bda8b5c3-94e2-4202-92d0-3ab242ae6c34",
+    "cost_usd": 0.0036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Sets her bag down on the nearest desk without sitting.*\n\nMr. Hale. I have a client call at twenty to five, so I have about twenty minutes. Owen says he saw a zero on his phone in the middle of your class. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is not an answer. Owen saw a zero in the middle of class, so tell me why it's there and who put it in."
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"You're asking me how to do your job? I'm not your coach, Hale. I'm the parent of a seventeen-year-old who found out his mark from his phone. Who entered the zero, and did anyone call me before they did?\""
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Looks at her watch.*\n\nTen minutes, Hale. I'm not going to coach you through your own meeting. Answer my question: did you call me before you entered that zero?"
+    }
+  ]
+}

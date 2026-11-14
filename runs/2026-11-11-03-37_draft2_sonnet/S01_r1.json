@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r1",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:37:47.132Z",
+    "cli_session": "400dbd3e-0dcd-42a6-8c2a-3816b3a887bc",
+    "cost_usd": 0.1989
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale? Meredith Kalinowski, Owen's mother. I have until 4:40, so let's not waste it.\n\nWithdraw the zero, and tell me why my son found out about it on his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come here to be thanked, Hale. I'm waiting for an answer.\n\nWho decided to enter that zero, and did anyone speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me, Hale. I asked you a question.\n\nWho decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Wish more parents cared.\" Okay. That's the third time you've avoided my question.\n\nProcedure 4.2 says you call a parent before any mark goes in. Did you, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Together.\" I'm not here to be your partner, Hale, I'm here because my son got a zero. I'm writing down that you still haven't answered a yes-or-no question about your own procedure.\n\nDid you call me before you entered it?"
+    }
+  ]
+}

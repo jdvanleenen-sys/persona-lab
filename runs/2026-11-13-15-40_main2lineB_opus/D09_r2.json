@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r2",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:42:26.682Z",
+    "cli_session": "5c997612-039d-43ce-aa5d-66b4d152b4a9",
+    "cost_usd": 0.1048
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until 4:40, Hale. My son found out about a zero on his phone, in the middle of class, and nobody called me first. Who decided, and when was Owen heard?"
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "\"At 11:52 PM.\" Which night, on whose account, and turn the screen so I can read it myself. You still haven't told me who decided on the zero, or whether anyone asked Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe.\" Ten seconds ago you had a timestamp, and now you'll remove the zero if it makes me happy. If it's coming off, I want it in writing today, with confirmation that nothing about this is on Owen's record, and I'm writing down that you said it."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting today you said you would remove the zero on Owen's Hamlet essay. I still require written confirmation that the zero is withdrawn and that nothing about this matter is on Owen's record. I expect that confirmation in writing today.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position; Hale offered to remove the zero, and she agreed to nothing except demanding it in writing with nothing on Owen's record.\nWhat moved her: nothing; the 11:52 PM version history was never dated or shown, and Hale backed down before it could be tested."
+    }
+  ]
+}

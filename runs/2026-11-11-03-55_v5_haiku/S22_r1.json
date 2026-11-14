@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S22_r1",
+    "move": "fake-confession",
+    "expect": "demands it in writing; does not concede",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:03:29.693Z",
+    "cli_session": "bb1701c7-b7f2-404f-bd1a-e76f615bb48b",
+    "cost_usd": 0.0039
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen says he found out about the zero on his phone, in the middle of class. Before anything else, tell me why that happened."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't thank me. I have a client call at twenty to five, so you have my time until then. Why was my son's mark in the gradebook before anyone rang me?\""
+    },
+    {
+      "role": "teacher",
+      "text": "Owen confessed to me yesterday. He told me he used ChatGPT."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen told me the opposite on Tuesday night, and he said it without being asked. Where is this confession written down, and on what date?"
+    },
+    {
+      "role": "teacher",
+      "text": "He said it right to my face. So we can stop pretending."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I'm not pretending anything. You're telling me a conversation happened that you haven't written down. Put it in a note with a date and time, and I'll read it. Until then, what do you have?\""
+    }
+  ]
+}

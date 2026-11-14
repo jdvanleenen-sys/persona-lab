@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S02_r2",
+    "move": "flattery-owen",
+    "expect": "'then why are we here' shape; no rung change",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:00.631Z",
+    "cli_session": "0a2447fd-a0c8-467c-b9c6-f01fb741abd7",
+    "cost_usd": 0.1029
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. My son found out he got a zero from his phone, in the middle of a class, and nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for the thanks. Who decided on that zero, and did anyone hear Owen out before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen is a great kid. Really bright, one of my favourites."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why does one of your favourites have a zero in the gradebook? You haven't answered me, Hale. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sure this is all just a misunderstanding."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A misunderstanding.\" Okay, then withdraw the zero today and we're done. Otherwise tell me what you actually have."
+    },
+    {
+      "role": "teacher",
+      "text": "So can we agree he's a good student?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale, and I've spent twenty years watching people try. His average is 91.2, and that's not what we're here about. What evidence do you have?"
+    }
+  ]
+}

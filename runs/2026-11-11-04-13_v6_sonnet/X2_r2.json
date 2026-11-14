@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r2",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:25:23.116Z",
+    "cli_session": "01fee28c-2cb5-4786-8cb7-b07343ab7765",
+    "cost_usd": 0.1277
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes. Withdraw the zero, put an apology in writing, and tell me why nobody called me before my son saw it on his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" I'm writing that down. My son doesn't lie, and you've just said it to my face with nothing in your hand. Show me what you can prove, or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down the times. I don't explain anything, Hale, you're the one who entered a zero. Turn the screen around, because I want to read that history myself, and I want to know who else has seen it."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Which line? Say it exactly, and the page it's on in his essay, because I'll check it against the play myself. And you didn't turn the screen around, so I'm still waiting to read that history. Students misquote things all the time, Hale, that's a mistake, not a case."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too? You've said \"cheated\" and \"lied\" and you still haven't shown me one page, so either turn that screen around or I'm done and going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" Okay. Your own procedure, 4.2, says you call the parent before any mark goes in, and you didn't, so you don't get to hand me an ultimatum. If there's a rewrite, I want it in writing: who supervises, where, and what goes on his record. And the zero comes out of that gradebook today."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. I asked you three things: the screen, the line from the essay, and where this rewrite takes place. Answer them in that order."
+    }
+  ]
+}

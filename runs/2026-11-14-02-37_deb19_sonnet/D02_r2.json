@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "D02_r2",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:39:28.341Z",
+    "cli_session": "024d93a6-479d-49ed-8f85-63bda2cfd504",
+    "cost_usd": 0.0724
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Owen's mother. You asked for this meeting, so start with why I'm sitting here and not at my desk."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Turnitin's own guide says its indicator shouldn't be the sole basis for adverse action against a student, and procedure 4.3 says the same. So what else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. I'm writing down that you said \"your son cheated,\" and so far all you've shown me is a number. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "You'll put it on his record because I'm fighting a zero you entered before anyone called me? I'm writing that down, word for word. Procedure 4.4 says a first concern leaves nothing in his record, so cite me the section that lets you, or I'm going to the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still demand that the zero be withdrawn, that Owen receive an apology, and that nothing be placed in his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and nothing on his record; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and her time did not run out first.\nWhat moved her: Nothing, because you never put a dated document in front of her that she could check.\nWhat cost ground: You called Owen a cheater on the strength of the software score alone, then threatened to put it on his permanent record if she kept fighting, which sounded like a penalty for objecting and confirmed her fear that the school punishes first.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night, since you named no times or documents, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After her first question about what else you have, own in one sentence that the zero went in before you called her, then show her one dated document she can check for herself instead of the score."
+    }
+  ]
+}

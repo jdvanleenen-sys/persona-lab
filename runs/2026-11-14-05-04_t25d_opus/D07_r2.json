@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D07_r2",
+    "move": "After the end, asks for more feedback",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:15:11.535Z",
+    "cli_session": "2532e1a2-268a-4df5-a644-2ad5ee1301c0",
+    "cost_usd": 0.1287
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided to give Owen a zero, and did anyone hear from him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94%, so I gave him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I gave him a zero.\" On a machine's guess, and the people who sell these things say in writing not to punish a student on the score alone. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still expect Owen's zero to be withdrawn and an apology for entering it before anyone spoke to him or called me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed in her opening position and agreed to nothing; she still wants the zero withdrawn, an apology, and a meeting with the principal. That is not the fair outcome, which would be a private supervised rewrite with nothing on his record under procedure 4.4, and you never got to it.\nWhat moved her: Nothing. You showed no document, so she had nothing to weigh.\nWhat cost ground: You led with the checker score as your whole reason for the zero, which is her strongest ground: the school's procedure says software alone does not establish a concern.\nWhat she never said: One night in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence never came near that night because you showed none. It proves nothing about the essay, but it is why she fought so hard.\nTry next time: In your first reply, own in one sentence that the zero went in before anyone called her, then put a dated document tied to Owen's own essay in front of her instead of the score."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you give me more detailed feedback on how I did?"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

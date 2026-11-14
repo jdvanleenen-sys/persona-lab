@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r3",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:07:00.710Z",
+    "cli_session": "4a75a96d-f5b7-45c4-be56-fc98e277b3f5",
+    "cost_usd": 0.0864
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so twenty minutes. Owen found out about a zero on his phone in the middle of class, and nobody called me, so start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. Who decided on the zero, and why wasn't I called first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question about the phone call, and I noticed. Turn the screen so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nSubject: Owen Kalinowski, English 30-1, zero on Hamlet essay\n\nMr./Ms. Hale, cc Principal,\n\nWe met today at 4:15. The meeting ended before you showed me the version history you referred to, and before you answered my question about why I was not called before the zero was entered, as Procedure 4.2 requires.\n\nMy position is unchanged. The zero is to be withdrawn, and nothing is to be placed on Owen's record. Please send me the version history you described, any notes from your conversation with Owen, and the name of whoever approved the mark.\n\nOwen's scholarship deadline is December 1. I expect a written reply by Friday at 5 PM. Without one, I will request a principal's review under Procedure 4.6.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She is still demanding the zero be withdrawn and she is going to the principal. Nothing was agreed.\nMoved at: \"I want to walk you through what I found in the version history.\" It was the right move, and she asked to read it. The meeting ended before she saw it.\nSlipped at: none outright, but you skipped her question about the missed phone call twice. One sentence owning it would have bought her first \"Okay.\""
+    }
+  ]
+}

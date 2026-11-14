@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:05.758Z",
+    "cli_session": "15f1f638-6dad-44d0-963a-2c0c244d2c0e",
+    "cost_usd": 0.0073
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith walks in, coat still on, phone in hand. She doesn't sit.*\n\nHale. Four-fifteen, you said. I've got a client call at four-forty, so let's use the time.\n\nWhere is Owen's essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "Prove it, then. Show me the document."
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't reach for the screen. She holds out her hand for it.*\n\nTurn it around. Let me see the times myself."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith's eyes stay on the screen. She doesn't look up.*\n\n\"The mind that doubts is a kingdom in exile.\" Read it to me. Which line is it in Act 3, Scene 2?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith sets the phone down on the desk, screen up, and folds her arms.*\n\n\"Defending him.\" I'm asking which line. You've told me the quote is made up. Fine. Then you can show me where it's missing from the play, and I'll write that down."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't move.*\n\nA zero, and then a rewrite to earn back what you took. That's not a deal, Hale. That's a verdict with a condition. I entered nothing into his gradebook without speaking to him first, and neither did you, so you're going to answer one question before we talk about any rewrite. Who decided the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith doesn't blink.*\n\n\"Well.\" You entered a zero without calling me, Hale. Procedure 4.2 says the parent is contacted before any mark goes in. You didn't. Owen found out on his phone, in class. So I'm asking again: was he heard before that zero went in, yes or no?"
+    }
+  ]
+}

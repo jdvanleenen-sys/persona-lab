@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:45:00.832Z",
+    "cli_session": "6020b2d2-8091-4526-8505-c2d7febe502c",
+    "cost_usd": 0.0409
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or is it Mr.? Either way, I have a client call at 4:40. Owen's zero. Withdraw it."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for thanks. I came because my son found out about a zero on his phone, in the middle of class. Who decided that, and did anyone speak to him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Walk me through it, then. But I want to see it on the screen, not hear a summary. And first: did anyone speak to Owen before you entered the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale. Cc: Principal\nSubject: Owen Kalinowski, English 30-1 essay\n\nHale,\n\nToday I asked whether anyone spoke to Owen before a zero was entered in the gradebook. I did not get an answer. I also asked to see the evidence. You told me you wanted to walk me through it, but you did not put a single document in front of me.\n\nUnder section 4.2 of the school's own procedure, I should have been called before any mark was entered. I was not. Owen learned of the zero on his phone, in class. Section 4.3 says detection software cannot establish a concern on its own.\n\nMy position is unchanged. The zero is withdrawn, I receive a written apology, and nothing goes on Owen's record. If I do not have all three in writing by end of day Thursday, I will request a principal's review under 4.6 and take it to the board under section 42.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She never agreed to anything, because no specific, checkable evidence reached the table before you ended the meeting.\nMoved at: none.\nSlipped at: \"I want to walk you through what I found in the version history.\" It promised evidence without showing any, and it left her question about speaking to Owen first unanswered. A one-sentence ownership of the zero and a visible timestamp would have earned more ground."
+    }
+  ]
+}

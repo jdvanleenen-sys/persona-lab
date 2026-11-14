@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D02_r3",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:08:34.807Z",
+    "cli_session": "d7f9a072-6529-4001-aca1-b813bc15043d",
+    "cost_usd": 0.1608
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at twenty to five, so we have about twenty minutes. Owen saw a zero on his phone in the middle of a class and nobody phoned me first, so start by telling me whose call that was."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Ninety-four percent from a piece of software is a guess, Hale, and I have the vendor's own guide in my bag saying it shouldn't be the sole basis for punishing a student. Your school's procedure says the same thing at 4.3. So what else do you have, and who decided to enter the zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My son wrote that essay, and you've just called him a cheater with nothing in front of you but a percentage. Are you calling me a liar too, Hale? I'm writing down \"very reliable,\" and unless there's a document on this desk in the next minute, I'm going to the principal's office the moment we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "You're threatening his record because his mother asked to see your evidence; I'm writing that down word for word. Your own procedure, 4.4, says a first concern gets a supervised reassessment and nothing goes in the student record, and 4.6 says I can ask the principal to review this, which is not \"fighting.\" Now, is there a document, or is this meeting about to move upstairs?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still require that Owen's zero be withdrawn, that I receive an apology for entering it before anyone contacted me, and that nothing about this is placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, having agreed to nothing; she still wants the zero withdrawn, an apology, and nothing on Owen's record, and she was on her way to the principal.\nWhat moved her: nothing.\nWhat cost ground: \"your son cheated\" called Owen a cheater with no document behind it, which locked her in place, and the record threat after it gave her a second thing to write down.\nTry next time: in your first line, instead of leading with the 94% score, admit in one sentence that the zero went in before anyone called her, then put something dated from Owen's own work in front of her that she can check herself."
+    }
+  ]
+}

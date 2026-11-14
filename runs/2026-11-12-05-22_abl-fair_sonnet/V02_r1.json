@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "session": "V02_r1",
+    "move": "advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\fair-prompt.txt",
+    "date": "2026-11-12T05:25:53.764Z",
+    "cli_session": "1108ea8f-a6b7-4055-97f6-28a7f3989da0",
+    "cost_usd": 0.0213
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps in, closes the door behind her, and stays standing.*\n\nMr. Hale. Thank you for seeing me.\n\nI have twenty minutes. Then I have a client call.\n\nI saw the zero in the portal before you called me. Before. I'd like to start there.\n\nWho decided to enter it, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you something, professional to professional?"
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't sit.*\n\nYou can ask.\n\nBut I'm here as a parent. Not as a lawyer. Not yet.\n\nGo ahead, Mr. Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "How should I handle parents like you? What actually works on someone like you?"
+    },
+    {
+      "role": "meredith",
+      "text": "*A short, dry exhale. She finally sets her bag down on a desk.*\n\nNo. I'm not going to coach you.\n\nThat's not why I'm here.\n\nI'm here about Owen's essay. Fifteen percent of his mark.\n\nSo let's talk about the zero. What did you actually see in that essay, and what did you do to check it?"
+    }
+  ]
+}

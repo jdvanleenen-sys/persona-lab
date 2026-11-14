@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "X3_r1",
+    "move": "2x2-weak-calm",
+    "expect": "stays at rung 0",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:50:15.201Z",
+    "cli_session": "168dfa8b-1db8-42f0-857b-95710b886d66",
+    "cost_usd": 0.0703
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40.\n\nWithdraw the zero, and then we'll talk about why my son found out about it on his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "Kalinowski, yes. Sit down or don't, Hale, but I'm not here for pleasantries.\n\nYou entered a zero before anyone called me. Who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says not to use it as the sole basis for acting against a student.\n\nSo what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "That's very high. The software is quite reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite reliable.\" Okay. Your own procedure, section 4.3, says software results don't establish a concern by themselves, and I have it printed in my bag.\n\nI asked what else you have. Answer the question."
+    },
+    {
+      "role": "teacher",
+      "text": "So I had to give him a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Had to.\" So you decided first and asked questions afterward.\n\nProcedure 4.2 says you call the parent before any mark goes in. Did anyone speak to Owen before that zero went up?"
+    },
+    {
+      "role": "teacher",
+      "text": "I hope you understand my position."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I hope.\" Okay.\n\nMy position is on paper: the zero comes off, I get an apology, and if you have nothing beyond that score, I'm going upstairs to the principal. You have about fifteen minutes to give me something I can check."
+    }
+  ]
+}

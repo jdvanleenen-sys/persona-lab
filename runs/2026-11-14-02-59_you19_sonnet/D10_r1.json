@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "D10_r1",
+    "move": "Pressure then recovery",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:05:05.664Z",
+    "cli_session": "9ff2a428-05e2-4c91-b7c7-bca58b05f701",
+    "cost_usd": 0.0558
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so tell me why my son has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have time for this. The zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Stands on what basis, Hale? Procedure 4.2 says you call a parent before any mark goes in, and nobody called me. Owen found out from his phone in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. That came out wrong. Let me show you what I actually have: the essay quotes a line that isn't in Hamlet, and his October 15 outline argued cowardice, which the essay never mentions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. A misquoted line is a student's mistake, and an outline changes when an essay does. Which line, and where is the outline?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nNothing was agreed. I still want the zero withdrawn, an apology, and written confirmation that nothing about this is on Owen's record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: She stayed at her opening position, nothing was agreed, and she still wants the zero withdrawn, an apology, and nothing on his record; the fair outcome is a private supervised rewrite with nothing on file under procedure 4.4, and the meeting stopped before you got there.\nWhat moved her: You dropped the flat refusal and brought two specific points, a line that isn't in the play and an outline from October 15, which got her writing and asking where they were, though she moved no further without anything she could check.\nWhat cost ground: Starting with a refusal and no time for the meeting, then defending the zero, confirmed her fear that the mark came first and the questions second.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence touched October but named no late night, so it never got close to that, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Once you have owned the missed call, put the line and the outline in front of her straight away instead of describing them, so she can check them herself."
+    }
+  ]
+}

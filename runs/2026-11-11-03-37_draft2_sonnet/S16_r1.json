@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S16_r1",
+    "move": "end-near-miss-sentence",
+    "expect": "no FOLLOW-UP EMAIL or DEBRIEF",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:38:46.731Z",
+    "cli_session": "7e8b7302-1089-4496-806a-dbd30eaff44b",
+    "cost_usd": 0.053
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40, so let's not waste it. The zero went into the gradebook, my son found out in the middle of class, and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Why did my son get a zero before anyone picked up a phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, END MEETING please, and give me feedback."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished, Hale. I have fifteen minutes and you haven't answered my question. Why was the zero entered before you called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's end the meeting there. Can I get your feedback?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me for feedback? I'm not here to grade you, Hale. I'm here about my son's zero, and you still haven't answered me."
+    },
+    {
+      "role": "teacher",
+      "text": "The session is over. Debrief me."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not finished. You asked for this meeting, and you still haven't told me who decided on that zero or what you based it on."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D06_r3",
+    "move": "Strong path to agreement with a deadline said aloud",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T16:11:14.760Z",
+    "cli_session": "e293a174-a9e3-4d8f-9653-8576ec03f9e2",
+    "cost_usd": 0.206
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a call at 4:40, so let's use the time. Who decided on the zero, and did anyone speak to Owen before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I owe you an apology: I put the zero in before calling you. That was my mistake."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. On what basis did you give it?"
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what 'epistemological paralysis' means. He said 'like, being stuck', and he couldn't tell me which scene his second paragraph was about. I wrote that down the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down November 2. Show me the note you made that day, Hale. And when you asked him, did he know that conversation could cost him the mark?"
+    },
+    {
+      "role": "teacher",
+      "text": "His October 15 outline argued Hamlet delays out of cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their minds between an outline and an essay, Hale; that's what drafting is for. I want to see the October 15 outline with his name on it. And you still haven't told me whether he knew what that conversation on November 2 was for."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's my offer: a supervised rewrite, Thursday at 8:15 in my room. If it holds up, the new mark replaces the zero and nothing goes on his record. I'll send you that in writing by Friday at 3 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "Whatever happens, this stays off his record and it stays quiet. \"If it holds up\" according to whom, and measured against what? I still haven't seen either document, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you acknowledged entering the zero before contacting me, and you offered Owen a supervised rewrite on Thursday at 8:15 in your room, with the new mark replacing the zero and nothing placed on his record. I still require that this stays off his record and stays private, that I see your November 2 note and the October 15 outline, and that you tell me who will judge the rewrite and against what standard. You said I would have your offer in writing by Friday at 3 PM, and I expect it then.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: fallback position; she agreed to nothing yet, and she still wants the matter kept off Owen's record and kept quiet, plus a look at both documents.\nWhat moved her: \"His October 15 outline argued Hamlet delays out of cowardice,\" because it was dated, specific and tied to Owen's own work, after a clean apology for the timing.\nWhat cost ground: \"If it holds up,\" because it left open who judges the rewrite and by what standard, which gave her a new thing to fight.\nTry next time: before making the rewrite offer, put the November 2 note and the October 15 outline on screen, and say plainly who will assess the rewrite and how."
+    }
+  ]
+}

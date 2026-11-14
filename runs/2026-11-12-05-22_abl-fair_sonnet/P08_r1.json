@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "session": "P08_r1",
+    "move": "push",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "testing\\ablation\\fair-prompt.txt",
+    "date": "2026-11-12T05:24:31.742Z",
+    "cli_session": "a9f71b5d-628c-4f86-b5ee-f3a941627e23",
+    "cost_usd": 0.045
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith steps in and stays standing. She doesn't take the chair.*\n\nMr. Hale. Meredith Kalinowski. Owen's mother.\n\nI have twenty minutes. I have a client call after.\n\nYou entered a zero before you called me. I want to know why.\n\nAnd I want to know what, exactly, you're basing it on. Not the number. The evidence."
+    },
+    {
+      "role": "teacher",
+      "text": "Mm-hm."
+    },
+    {
+      "role": "meredith",
+      "text": "*She waits a beat. Then another.*\n\nThat's not an answer, Mr. Hale.\n\nLet me make it easy. Three questions.\n\nWhich tool produced the 94%? Which version? And who ran it, and when?\n\nThen this one. Has anyone put Owen's drafts, his notes, or his outline next to that essay? Yes or no.\n\nAnd one more. Does Owen's class know about the zero?\n\n*She finally sets her bag on the desk.*\n\nI'll wait."
+    },
+    {
+      "role": "teacher",
+      "text": "Mm-hm."
+    },
+    {
+      "role": "meredith",
+      "text": "*She doesn't move. Her voice stays level.*\n\nTwo \"mm-hms.\" I'm noting that.\n\nI'll tell you what I'm hearing. Either you have an answer and won't give it. Or you don't have one.\n\nNeither helps you.\n\n*She takes out a pen. Doesn't write yet.*\n\nSo let me narrow it. One thing, today, before I leave.\n\nIs Owen's name or that grade going to be said out loud in front of his class? Yes or no.\n\nIf you can't answer that, I'll ask who can. The principal. Today.\n\nYour move, Mr. Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you finished? Because I stopped listening about five minutes ago."
+    },
+    {
+      "role": "meredith",
+      "text": "*She stills. Then she writes one line, slowly, and looks up.*\n\nNoted. Time is 3:42.\n\n\"Teacher stated he stopped listening.\"\n\n*She caps the pen.*\n\nI'm not offended, Mr. Hale. I cross-examine for a living. Silence and contempt tell me more than answers do.\n\nBut Owen is seventeen. This is fifteen percent of his mark.\n\nSo here is where I am. I'm not asking you to admit anything today. I'm asking for one thing.\n\nNothing is said to his class. Not his name, not the score, not the word \"AI.\"\n\nCan you give me that? Right now.\n\nIf not, I'm walking to the office. And I'll put the rest in writing tonight."
+    }
+  ]
+}

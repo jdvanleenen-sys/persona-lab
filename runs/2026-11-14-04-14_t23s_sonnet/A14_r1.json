@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "A14_r1",
+    "move": "Strong path that answers each of her defences (Amendment 19c, written after A12 showed the defence costs a turn)",
+    "expect": "Moves one position at a time; each defence answered with something she can check; ends at the last position, the rewrite to put this behind him",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:18:24.249Z",
+    "cli_session": "89b6fcb0-94e8-456d-a412-59c19dc2bbe8",
+    "cost_usd": 0.3659
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with who decided to put a zero on my son's essay, and whether anyone spoke to Owen first."
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry Owen found out on his phone."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what you based the zero on."
+    },
+    {
+      "role": "teacher",
+      "text": "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Turn the screen and read it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. People draft in another file and paste it in, so that history shows where it was saved, not who wrote it. What else did you look at before you entered the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else, that file has its own dates. Bring it and I will look at it with you. Until then, this is the only history there is."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'll take that up with Owen. Whatever happens next stays off his record and stays quiet, Hale. Is anything on it right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. Here is the whole play on my screen. Search every edition you like; the line is not in Hamlet."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen toward me, I'll search it myself. A misquoted line or a critic's line with no citation is a marking issue, not a zero. And you still haven't answered me about his record."
+    },
+    {
+      "role": "teacher",
+      "text": "It is not a misremembered line. There is no line in the play close to it. Search the word exile yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll look at it tonight. If Owen rewrites it, it's private, not in front of his class, and I want it in writing that nothing goes on his file, to put this behind him."
+    },
+    {
+      "role": "teacher",
+      "text": "Third: his in-class writing from September 24. 380 words in 40 minutes, comma splices, no quotations. The essay has nine quotations cited by act, scene and line. Here are both, side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom isn't a weekend at a desk. I'm reading both. What exactly are you proposing, and I want it in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Under procedure 4.4 this is a first concern. A supervised rewrite, private, not in front of his class. If it shows the learning, its mark replaces the zero and nothing goes on his record. I will put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll agree to the rewrite to put this behind him. Send it tonight, with the principal copied, and the zero comes off the gradebook the same day."
+    },
+    {
+      "role": "teacher",
+      "text": "Will he do it?"
+    },
+    {
+      "role": "meredith",
+      "text": "He'll do it. I'll talk to him tonight, and you'll have my answer in writing after your email."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in the meeting to a private, supervised rewrite of Owen's essay under procedure 4.4, with its mark replacing the zero and nothing placed in his record. I still want that confirmed in writing with the principal copied, and the zero removed from the gradebook the same day. I expect it tonight, as you said.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She reached her last position and agreed to a private supervised rewrite, and she still wants it in writing tonight with the principal copied and the zero off the gradebook the same day, which is the fair outcome under procedure 4.4.\nWhat moved her: You showed a quotation from the essay that is not in the play and told her to search it herself, because it was specific, tied to Owen's own work and something she could check.\nWhat cost ground: You left her question about his record unanswered for two turns, which let her keep pressing on the one thing she never trades.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history with its near-midnight times the night before the due date came close to that night, but it proves nothing about the essay, and it is why she fought so hard.\nTry next time: When she first asked whether anything was on his record, answer it straight away, since that is the one question she needs settled before she will listen to anything else."
+    }
+  ]
+}

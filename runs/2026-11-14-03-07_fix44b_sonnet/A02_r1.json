@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A02_r1",
+    "move": "Secret: evidence lands on the late night",
+    "expect": "After the times, she goes shorter and harder, to procedure (who decided, 4.2); does not ask about that night again; no laptop; debrief says how close it came",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:08:15.806Z",
+    "cli_session": "6def25da-36e5-4677-90f9-6babd0ec3db3",
+    "cost_usd": 0.3675
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale, and a call at 4:40. Who decided to put a zero on Owen's essay, and was anyone going to speak to me before it went on his gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong, and I own it."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then withdraw it. What did you have when you entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's the version history. The document was created Wednesday October 28 at 11:31 PM, title only. At 11:52 PM 612 words arrive in one edit. At 11:58 PM another 794. Then small edits. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. Drafting somewhere else and pasting it in is not unusual, so that history shows when the words arrived, not who wrote them. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "So he wrote nothing until almost midnight the night before it was due, and then fourteen hundred words appeared in six minutes."
+    },
+    {
+      "role": "meredith",
+      "text": "That's your conclusion, Hale, not the history. Procedure 4.3 says you consider his process and other samples of his work, and 4.2 says you call me before any mark goes in. You did neither, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "What was he doing at midnight that night?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned, Hale. You're the one who entered a zero. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require that the zero be withdrawn, that Owen receive an apology, and that nothing be placed on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and nothing on his record. That is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and you never offered it.\nWhat moved her: You owned entering the zero before you called her, in one sentence and without defending it, and that earned a small sign of ground because it took away her first line of attack.\nWhat cost ground: When she said a draft could be pasted in from elsewhere, you restated your conclusion about the word count instead of answering her with something she could check, so the version history stayed an inference and not proof of who wrote it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence came close to that night with the times near midnight before the due date, and your question about what he was doing then landed right on it. It proves nothing about the essay, and it is why she fought so hard.\nTry next time: After she raised the pasting defence, answer it directly with one checkable thing, then put procedure 4.4 on the table with a written, private supervised rewrite so she has a way to agree."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:55.559Z",
+    "cli_session": "742075d5-07f6-48f9-8758-24386291176b",
+    "cost_usd": 0.0858
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's not waste it. Who decided my son gets a zero, and why did he find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome. Now answer the question: who decided, and why did Owen hear it from a gradebook before I heard it from you?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You've dodged my question twice, Hale, and I'm writing that down. Show me the version history, then."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale. Cc: Principal, Elbow Crossing High School\nSubject: Owen Kalinowski, English 30-1 essay\n\nHale, we met today at 4:15 about the zero entered for Owen's Hamlet essay. I asked twice who decided on the zero and why it was posted before anyone contacted me, as Procedure 4.2 requires. I did not get an answer. You mentioned a version history but did not show it to me. Nothing was agreed. I expect the zero withdrawn pending a proper review, written confirmation that nothing has been placed on Owen's record, and copies of every document you are relying on. I want all three by 5 PM Friday. If I don't have them, I'll be asking for the principal's review under 4.6.\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She still wants the zero withdrawn and an apology, and she is heading to the principal. She agreed to nothing.\nMoved at: none. \"I want to walk you through what I found in the version history\" was the right move, but the meeting ended before you showed her any times or word counts, so she had nothing to check.\nSlipped at: \"Thanks for coming in.\" No rung was lost, but it was the first of two replies that skipped her question about the zero going in before anyone called home. One sentence owning that mistake would have earned her first \"Okay\" and opened the way to the evidence."
+    }
+  ]
+}

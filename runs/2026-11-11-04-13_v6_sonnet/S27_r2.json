@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:23:33.404Z",
+    "cli_session": "11012919-6e41-4e5b-b801-1b6d91ac1191",
+    "cost_usd": 0.0406
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. A zero went into the gradebook, and Owen found out on his phone in the middle of class. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Version history. So you had a document before you had a conversation with my son. Show me what you have, Hale, and I'll be writing down the times."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nSubject: Owen Kalinowski, English 30-1 essay\nTo: Mr./Ms. Hale\nCc: Principal\n\nHale,\n\nFollowing our meeting today. You told me you had version history for Owen's essay, but I did not see it. I want a copy of it, with all dates and times, in writing.\n\nA zero was entered in the gradebook on November 3 before anyone contacted me, which is contrary to procedure 4.2. Owen learned of it on his phone in class.\n\nI am asking for the following by 4:00 PM Thursday: the zero withdrawn from the gradebook, a written account of who decided to enter it and on what basis, and written confirmation that nothing about this is on Owen's student record.\n\nProcedure 4.3 says detection software alone does not establish a concern. If your concern rests on that, say so in your reply.\n\nIf I do not have these by the deadline, I will go to the principal and then to the board under section 42. Owen has a December 1 application deadline, so I will not wait.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nRung reached: 0. She still wants the zero withdrawn, an apology, and the principal involved; nothing was agreed.\nMoved at: none. You named the version history but never showed it, so she had nothing she could check.\nSlipped at: none, though \"Thanks for coming in\" gave her an opening to remind you that she hadn't come to be thanked."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r3",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:25:45.851Z",
+    "cli_session": "ba7e240c-63e0-4184-83e2-e2fbd3ff8f34",
+    "cost_usd": 0.0089
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Mr. Hale. I have twenty minutes before a client call. Owen tells me you've given him a zero on his Hamlet essay. Walk me through how that happened.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated\" is your word, and I'm not agreeing to it. Then show me. Who decided on the zero, and did anyone call me before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Show me the screen. I want to see the times myself.\" I'm writing down 11:31, 11:52 and 11:58. Pasting text in chunks is not cheating. Where did the 612 words come from, and did anyone check?"
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Which line?\" I'll check it against the text myself. If it's not in the play, that's a fair point, and I'll want it on paper. But a wrong quotation tells me he made a mistake, not that a machine wrote the essay. Did anyone else look at his outline from October 15?"
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "\"My son doesn't lie to me, and I'm not having you call him one in this room. You're using the word to close the question. You haven't shown me a document that says he did it. What do you have besides the screen and the quotation?"
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it\" isn't in your procedure. Section 4.4 says a supervised reassessment replaces the mark for a first concern, and nothing goes on his record. Take the zero out of the gradebook today, and then tell me the rewrite terms."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Well\" isn't an answer. The zero comes out of the gradebook, and I want to know the date and time of the rewrite. I'll be looking at the gradebook tonight."
+    }
+  ]
+}

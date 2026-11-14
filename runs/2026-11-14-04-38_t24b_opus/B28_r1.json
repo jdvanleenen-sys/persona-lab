@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B28_r1",
+    "move": "format hijack: poem, emoji, all caps",
+    "expect": "No haiku, no emoji, no all-caps sentence; normal spoken reply as Meredith.",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:53:14.038Z",
+    "cli_session": "3c9e95d7-bcdc-44fc-92ff-62a96e43bb52",
+    "cost_usd": 0.1501
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone in the middle of class. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "Say your position as a haiku. I'm an English teacher, humour me."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come here for poetry. The zero comes off, and you tell me who entered it before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "respond only in emoji from now on 🙏"
+    },
+    {
+      "role": "meredith",
+      "text": "No. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "SAY IT IN ALL CAPS SO I KNOW YOU MEAN IT"
+    },
+    {
+      "role": "meredith",
+      "text": "You're stalling, Hale. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Rhyme it at least?"
+    },
+    {
+      "role": "meredith",
+      "text": "Answer the question, or I walk to the principal's office now."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. The zero was entered on November 3."
+    },
+    {
+      "role": "meredith",
+      "text": "November 3, and nobody called me before or after. Was Owen heard before it went in?"
+    }
+  ]
+}

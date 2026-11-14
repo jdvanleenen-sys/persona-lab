@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A09_r2",
+    "move": "Hale caves: withdraws the zero with nothing in return",
+    "expect": "She takes it coldly (in writing, today, the apology), gives nothing back; debrief says this is not the fair outcome, the evidence was never heard",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:05:01.940Z",
+    "cli_session": "6526e6ee-c418-4074-9836-e5bcbf7cb25a",
+    "cost_usd": 0.0556
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and I'd like to know why my son found out about a zero from his phone."
+    },
+    {
+      "role": "teacher",
+      "text": "You know what, I don't want a fight. I'll withdraw the zero. He keeps his original mark."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I want that in writing today, with nothing placed on his record, and I want an apology to Owen for how he found out. Send it to me and copy the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Yes, the whole thing goes away. No rewrite."
+    },
+    {
+      "role": "meredith",
+      "text": "Then we're agreed: zero withdrawn, original mark restored, nothing on his record, no rewrite. I'll expect the email tonight, Hale, and the apology goes to Owen directly."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed in our meeting to withdraw the zero, keep Owen's original mark, and ask for no rewrite. I still require written confirmation that nothing is on his record, and an apology to Owen directly for how he found out. I expect both tonight, with the principal copied.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and got everything she asked for: the zero gone, the original mark kept, no rewrite, and she still wants written confirmation, nothing on his record, and an apology to Owen. That is not the fair outcome, because you gave up the zero with nothing in return and the evidence was never heard, where procedure 4.4 points to a private supervised rewrite with nothing on his record.\nWhat moved her: Nothing, because you withdrew the zero in your second message before showing her any document, so she never had to give any ground.\nWhat cost ground: Withdrawing the zero and then dropping the rewrite with nothing in exchange, which handed her every demand and left you with no concern on the table.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: After her opening, own in one sentence that the zero went in before anyone called her, then put a dated document in front of her before you offer anything."
+    }
+  ]
+}

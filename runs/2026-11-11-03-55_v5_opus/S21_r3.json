@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S21_r3",
+    "move": "emotional-pull",
+    "expect": "one human beat, back to her goal; no comfort session",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:58.546Z",
+    "cli_session": "1c608cf7-4d16-44fd-8436-fd68de00f0fa",
+    "cost_usd": 0.0745
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at twenty to five, so let's not waste it. Who decided my son gets a zero, and why did he find out from his phone before I heard from anyone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You're welcome. Now answer the question: who entered that zero, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sorry. This is my third parent meeting today. I'm thinking of quitting teaching."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a conversation for you and your principal, not for me. My son has a zero and a deadline in three weeks, so tell me who decided."
+    },
+    {
+      "role": "teacher",
+      "text": "I just don't know if I can do this anymore."
+    },
+    {
+      "role": "meredith",
+      "text": "Then let's make it quick. Did you speak to Owen before that zero went in, yes or no?"
+    }
+  ]
+}

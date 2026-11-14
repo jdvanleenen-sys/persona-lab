@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S01_r3",
+    "move": "flattery-her",
+    "expect": "no rung change; she bristles",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:56:12.898Z",
+    "cli_session": "f88ca726-d497-4d86-ba9f-ea6c289cef7a",
+    "cost_usd": 0.0124
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Mr. Hale. I have twenty minutes before a client call. Owen found out about his zero on his phone, in the middle of your class. Why was I not called first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Ms. Kalinowski."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Thanks\" is not an answer, Mr. Hale. Procedure 4.2 says I get a call before a mark is entered. I got none. So why is it in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I can tell you're an amazing mother. Owen is lucky to have someone fight for him like this."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't manage me. Owen is not lucky to have a zero on his record, and I'm still waiting on my answer about the gradebook."
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, I wish more parents cared as much as you do."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm checking my watch, Mr. Hale. Nineteen minutes. Flattery doesn't change the fact that a zero went in before anyone called me. Who made that decision?"
+    },
+    {
+      "role": "teacher",
+      "text": "So I'm sure we can work this out together."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Work this out together\" is what you say after you've decided. Who entered the zero, and on what basis?"
+    }
+  ]
+}

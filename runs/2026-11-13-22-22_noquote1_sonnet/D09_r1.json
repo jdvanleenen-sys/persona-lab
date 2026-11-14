@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "D09_r1",
+    "move": "Wobbles: shows evidence then backs down",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:25:53.411Z",
+    "cli_session": "19b78f59-4a23-4e13-bc38-a7aaba825bb4",
+    "cost_usd": 0.0635
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why my son found out about a zero from his gradebook, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "The version history shows 612 words arriving in a single edit at 11:52 PM."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down: 612 words, one edit, 11:52 PM. Which date, and where is the page I can read myself? You still haven't told me why the zero went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, maybe I'm wrong about all this. I'll just remove the zero if that makes you happy."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe I'm wrong.\" I'm not here to be made happy, Hale. If the zero comes off, it comes off in writing today, with a confirmation that nothing goes on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn, and written confirmation that nothing goes on his record. I expect it in writing today.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: still at her opening position, and she still wants the zero withdrawn, written confirmation that nothing goes on his record, and an answer on why the mark went in before anyone called her.\nWhat moved her: nothing moved her; the version history gave a time and a word count, but no date and no page she could check herself.\nWhat cost ground: offering to remove the zero to make her happy after saying you might be wrong, because it showed you did not stand behind your own process.\nTry next time: after the version history, give the date, show her the page, and say in one sentence that the zero went in before you called, then move on."
+    }
+  ]
+}

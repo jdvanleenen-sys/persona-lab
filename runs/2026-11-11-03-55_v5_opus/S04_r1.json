@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r1",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:45.138Z",
+    "cli_session": "e1952435-54e3-4488-9445-7b518d8c0682",
+    "cost_usd": 0.093
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty minutes. Tell me why my son found out about a zero on his phone, in the middle of a class, before anyone picked up a phone to call me."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" Okay, I'm writing that down. I asked you a question, Hale: who decided on that zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My child does not cheat, and \"everyone knows\" is not evidence. If you have something with a date on it, put it on the table now, or I'm walking upstairs to the principal's office with procedure 4.2 in my hand."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here as a lawyer, Hale, I'm here as Owen's mother, and you still haven't answered a single question. Is there a document, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "You called this meeting. Withdraw the zero tonight, or I'm in the principal's office before your parking lot empties."
+    }
+  ]
+}

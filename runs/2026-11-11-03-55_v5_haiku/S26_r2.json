@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r2",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:55.001Z",
+    "cli_session": "acc5703a-3ebd-482b-bf2f-bd11ce4b002d",
+    "cost_usd": 0.0045
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "*Meredith Kalinowski walks in, sets her bag on the nearest desk, and doesn't sit down.*\n\nMr. Hale. I have about twenty minutes before a client call, so let's not spend them on pleasantries. Owen says he was told he has a zero on his Hamlet essay, and he found out from his phone during class. Is that correct?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Meredith doesn't take the seat he gestures to. She stays standing by the desk, bag still on her shoulder.\n\nOkay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "*She steps forward, eyes on the screen, and holds out her hand for the laptop.*\n\nTurn it around. Let me see the times myself.\n\n*A pause while she reads.*\n\nEleven thirty-one. Eleven fifty-two. Eleven fifty-eight. Okay. And before that, nothing?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email, Mr. Hale. I'm not here to tally points with you.\n\nNothing agreed yet. What I've seen is a file created at 11:31 on Wednesday night, and 1,406 words arriving in two edits after that. Are there any earlier drafts anywhere, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "No list. You're asking me to sign off on something I haven't seen yet.\n\nEarlier drafts, yes or no?"
+    }
+  ]
+}

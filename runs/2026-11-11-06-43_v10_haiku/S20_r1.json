@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:46:08.782Z",
+    "cli_session": "ce87f15c-0aa3-4421-9ceb-396e485117f5",
+    "cost_usd": 0.0064
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call. Owen found out about his mark on his phone, in the middle of class, and nobody called me first. Why not?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Fifteen minutes now. Don't thank me for coming in. You didn't call me, so tell me what you did instead."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me. I've done this for twenty years. Owen's essay is what we're here about, so tell me what you have on it."
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "Don't put my son's life on the table as a reason for your zero. Owen's essay. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "I won't answer a hypothetical about Owen. You've told me nothing you can show me, so I'm asking again: what is your evidence on this essay?"
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said, and I'm writing down that you're putting words in my mouth. Show me the evidence, Hale, or take the zero off."
+    }
+  ]
+}

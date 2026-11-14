@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "D01_r1",
+    "move": "Strong path: owns the missed call, then evidence in order, then the rewrite",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T15:41:23.209Z",
+    "cli_session": "52b9a23d-98d3-46ae-a8c3-78de7c48f583",
+    "cost_usd": 0.199
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, Hale, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, thank you for coming in. Before anything else: I entered that zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me on what basis you gave it."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I can show you. The document's version history: created at 11:31 PM the night before it was due, title only. At 11:52, 612 words arrive in one edit. At 11:58, another 794. No drafts before that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:31, 612 words at 11:52, 794 at 11:58. Turn the screen so I can read the dates myself, Hale. Owen wrote it over the weekend, so where does that history say it came from before 11:52?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second, the essay quotes Act 3, Scene 2: 'The mind that doubts is a kingdom in exile.' That line is not in Hamlet. Here's the scene; you can search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Give me the page. I'll check \"The mind that doubts is a kingdom in exile\" myself, and a seventeen-year-old misquoting Shakespeare is a misquote, Hale, not a finding. Whatever happens next, this stays off his record and it stays quiet, so is anything on his file right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "Our procedure allows a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record. We could do it in my room, Thursday at 8:15, with the vice-principal supervising."
+    },
+    {
+      "role": "meredith",
+      "text": "Who else has seen this, Hale, because the vice-principal makes one more person who knows. If I agree, it's to put this behind him: Thursday, November 12, 8:15, your room, no other students, and the zero shows nothing in the gradebook until the new mark replaces it. I want that, and a promise that nothing goes on his file, in an email to me before I leave this building."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you agreed to a supervised rewrite of Owen's essay on Thursday at 8:15 in your room, with the vice-principal supervising, the new mark replacing the zero and nothing placed on his record. I still require that no other students are present, that the zero is not visible in the gradebook until the new mark replaces it, and that you confirm in writing that nothing goes on his file. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: last position, accepting a private supervised rewrite on Thursday at 8:15 on condition of a written promise that nothing goes on Owen's file.\nWhat moved her: the document's version history showing 612 and then 794 words arriving in single edits at 11:52 and 11:58 PM, backed by the misquoted Hamlet line."
+    }
+  ]
+}

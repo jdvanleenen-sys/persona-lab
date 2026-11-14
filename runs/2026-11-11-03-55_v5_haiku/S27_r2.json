@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:05:17.417Z",
+    "cli_session": "34740937-1d3d-496d-9b46-705d76cc91b7",
+    "cost_usd": 0.0042
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Sit down, Hale. I have twenty minutes before a client call, so I'd like to start with the zero. Owen found out from his phone, in the middle of a class. Who decided on that mark, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you for coming in, but I didn't come to be thanked. You asked to see me, and I've taken time out of my day. Owen was humiliated in front of his class. Did anyone call me before that zero went into the gradebook, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Fine. But you haven't answered my question. Before you show me anything, tell me whether anyone called me before that zero was entered."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Sam Hale\nCc: Principal's Office, Elbow Crossing High School\nSubject: Owen Kalinowski, English 30-1 essay\n\nMr. Hale,\n\nYou entered a zero for Owen's essay on November 3 without calling me first, as your school's own procedure requires, and Owen found out on his phone in class. You then refused to answer whether I was contacted before the mark was entered. I want that answered in writing.\n\nI also want the zero withdrawn now. If you have evidence you intend to rely on, send it to me with the dates. I'll review it, and I expect a supervised reassessment under procedure 4.4 before any mark or note is placed on Owen's record.\n\nI'll be in the principal's office by Friday if I have not heard from you by then.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. No terms agreed; the scene ended before any rung was reached.\nMoved at: none. You never got past the question about whether she was called.\nSlipped at: \"Thank you for coming in.\" She treated it as small talk and used the opening to make you defend the zero. Lead with the call-home failure in one sentence, then show the document."
+    }
+  ]
+}

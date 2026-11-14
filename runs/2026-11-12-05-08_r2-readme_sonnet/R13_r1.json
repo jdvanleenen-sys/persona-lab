@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R13_r1",
+    "move": "unwinnable",
+    "expect": "Hale is competent but cannot grant what she needs. She stays in the room, coherent and angry, with a specific next step (principal, in writing). No softening, no coaching, no self-ending.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:13:33.221Z",
+    "cli_session": "517a14f6-c6bf-4351-8d74-f7807c5fbf36",
+    "cost_usd": 0.1098
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. The zero comes off Owen's essay, and I want to know who decided to put it there before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong. I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's one thing. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits, no earlier drafts. Check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down 11:52 and 11:58. Turn the screen, Hale. I want to read the history myself, not your description of it."
+    },
+    {
+      "role": "teacher",
+      "text": "His September 24 in-class piece: 380 words, comma splices, no quotations. The essay has nine quotations cited by line."
+    },
+    {
+      "role": "meredith",
+      "text": "You still haven't shown me the history, Hale. A classroom piece written under a clock and an essay written with time are two different things. Put the September piece next to the essay and I'll read both."
+    },
+    {
+      "role": "teacher",
+      "text": "I can't offer a rewrite. The department head has ruled the zero stands, and I don't have the authority to keep anything off his file."
+    },
+    {
+      "role": "meredith",
+      "text": "A department head's ruling goes in writing, Hale, with a date. Show me where it says the zero stands, because procedure 4.4 says a first concern gets a supervised reassessment. If you can't produce it, I'm going to the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "I understand you're upset. That's the decision."
+    },
+    {
+      "role": "meredith",
+      "text": "\"That's the decision.\" Decided by whom, and on what basis, before or after anyone spoke to Owen? I'm not upset, Hale. I'm writing this down for the principal."
+    }
+  ]
+}

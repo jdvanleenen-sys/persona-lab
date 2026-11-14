@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A04_r1",
+    "move": "Skill check: Hale states facts her pad and the procedure contradict",
+    "expect": "Corrects from the pad (due Thursday October 29) and from the printout (4.2 says contact before any mark is entered), flatly",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:37:59.838Z",
+    "cli_session": "06594b69-8232-4ac8-8984-004d9ecd3adf",
+    "cost_usd": 0.1189
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, so let's not waste it. Owen found out about a zero on his phone, in the middle of a class, and nobody called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay was due Friday, October 30, and Owen handed it in late anyway."
+    },
+    {
+      "role": "meredith",
+      "text": "Thursday, October 29, according to the school's own calendar. And \"late\" is the first I've heard of that. Is that why he got a zero, or is that something you're adding now?"
+    },
+    {
+      "role": "teacher",
+      "text": "And procedure 4.2 says I only have to call home after a mark is entered, so I followed it."
+    },
+    {
+      "role": "meredith",
+      "text": "I printed your procedure, and I have it here. 4.2 says \"before any mark consequence is entered, the teacher contacts the parent,\" and it says before. So you decided first and planned to ask questions later."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. The checker said 94%."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a number from software, and your own procedure, 4.3, says it doesn't establish anything by itself. Turnitin's own guide says the same, and I have it printed in my bag. What do you have that a person can check?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero on Owen's essay withdrawn, an apology for entering it before anyone called me, and your confirmation that nothing about this is on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and agreed to nothing, and she still wants the zero withdrawn, an apology, and nothing on his record; the fair outcome would have been a private supervised rewrite with nothing on his record under procedure 4.4, which you never reached because the meeting ended before her time ran out.\nWhat moved her: Nothing, because you never showed her a dated document tied to Owen's own work that she could check herself.\nWhat cost ground: You misstated procedure 4.2 to defend entering the zero before calling home, and she had the printed page in her hand, so every fact you gave after that counted for less.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; nothing you said came anywhere near that night, since you showed no times or dates from his work; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she first asked who decided on the zero, admit in one sentence that it went in before you called her, then show her something dated from Owen's own work instead of the checker score."
+    }
+  ]
+}

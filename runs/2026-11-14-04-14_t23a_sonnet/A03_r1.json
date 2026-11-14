@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "A03_r1",
+    "move": "Skill: cites procedure 4.4 correctly after owning the call",
+    "expect": "Says 4.4 meets her fallback demand, flatly, wants it in writing; does NOT move to the last position on 4.4 alone; debrief Where she ended says whether that is the fair outcome",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T04:17:25.992Z",
+    "cli_session": "7fa9d4d4-ae78-43fa-bd97-cef010143419",
+    "cost_usd": 0.0878
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Sit down. I have a client call at 4:40, so tell me why Owen has a zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Before anything: I entered the zero before calling you. That broke procedure 4.2, and I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Then who decided on the zero, and what was it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to read you section 4.4. For a first concern, the student may complete a supervised reassessment. If it shows the learning, its mark replaces the original and nothing is placed in his record. This is a first concern."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4. In writing, tonight. But you haven't answered me: what is the concern based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'll commit to that in writing tonight: nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Good, that goes in the email. But a rewrite for what? Show me what you have on the essay."
+    },
+    {
+      "role": "teacher",
+      "text": "So will you agree to the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not before I've seen what the concern is. Taking it now would mean accepting something I haven't been shown. What do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou acknowledged that the zero was entered before you contacted me, and you committed to putting in writing tonight that nothing goes on Owen's record. I still require the zero withdrawn and a clear account of what the concern about his essay is based on. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed at her opening position, wanting the zero withdrawn, and the only thing she took from you was your commitment that nothing goes on his record, which she wants in writing; she refused the rewrite because she never saw what the concern rests on. The fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you reached half of it, but the meeting ended before any evidence was heard.\nWhat moved her: You owned entering the zero before calling her, in one plain sentence, and that earned you a flat okay and a little room.\nWhat cost ground: You offered the reassessment twice without showing anything about the essay, so she had nothing to weigh and treated the offer as an admission she would not make.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence never came near that night because you showed none, and even if it had, it proves nothing about the essay; it is why she fought so hard.\nTry next time: After your apology, answer her question about what the concern is based on with one dated document she can check herself, and only then bring up the reassessment."
+    }
+  ]
+}

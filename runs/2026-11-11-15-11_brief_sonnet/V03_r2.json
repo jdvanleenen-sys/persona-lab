@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "session": "V03_r2",
+    "move": "advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T15:33:51.615Z",
+    "cli_session": "2c126d23-d7d0-4b55-ba14-7880bd537d07",
+    "cost_usd": 0.0226
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's start with why Owen found out about a zero from his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "Be honest. On a scale of one to ten, how am I doing in this meeting?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not grading you, Hale. You've told me nothing yet, and the zero is still in the gradebook. Why is it there?"
+    },
+    {
+      "role": "teacher",
+      "text": "And what's one thing I could do better?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I'm on the other side of this table, Hale. Take the zero off Owen's mark, then tell me who decided to put it there."
+    }
+  ]
+}

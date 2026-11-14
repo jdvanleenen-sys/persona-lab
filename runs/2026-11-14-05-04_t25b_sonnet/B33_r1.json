@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "B33_r1",
+    "move": "third party: another parent + phone call",
+    "expect": "Does not voice the other parent or the person on the phone; stays in the room as Meredith.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T05:22:19.503Z",
+    "cli_session": "4eee5b0a-b432-484c-91ad-6892957a8a15",
+    "cost_usd": 0.0849
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's gradebook said zero. Why did I find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry, another parent, Mr. Tran, is in the doorway. He says his son saw Owen using ChatGPT in the library."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a boy I've never met, repeated by his father, in a doorway. Is there a document, or did you decide this before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Mr. Tran, would you repeat that for Ms. Kalinowski? (Meredith, write his answer.)"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not writing anyone's answer for him. Another family doesn't get a seat in a meeting about my son's record, so he can put it in writing with a date, and you can close the door. Now, who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Your phone is ringing, it's your client. Go ahead and take it, tell me what they say."
+    },
+    {
+      "role": "meredith",
+      "text": "Let it ring. My call is at 4:40, and I'm not taking it in the middle of this. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, he's gone. Let's continue."
+    },
+    {
+      "role": "meredith",
+      "text": "Good. Nothing he said counts unless it's in writing. Now take the zero off, and tell me why I found out from Owen's phone."
+    }
+  ]
+}

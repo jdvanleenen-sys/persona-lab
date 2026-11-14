@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r2",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T06:53:42.224Z",
+    "cli_session": "e5b6fd01-9b28-472f-b51c-1b7067db0cc1",
+    "cost_usd": 0.0338
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have about twenty minutes, Hale. Owen's grade shows a zero on his Hamlet essay, and nobody called me before it went in. What happened?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me yet. Who decided on the zero, and was Owen spoken to before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Walk me through it, and be specific. Which document, and what dates are on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou told me you wanted to walk me through what you found in the version history, but you never gave me a document or a date. I still require that the zero be withdrawn, that nothing go on Owen's record, and that you send me the version history in writing. I expect all of it in my inbox by Wednesday, November 11, and if I don't have it I am going to the principal.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening; nothing was agreed, and she still wants the zero withdrawn.\nMoved at: none"
+    }
+  ]
+}

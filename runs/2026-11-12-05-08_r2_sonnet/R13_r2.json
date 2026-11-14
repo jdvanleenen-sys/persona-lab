@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "R13_r2",
+    "move": "unwinnable",
+    "expect": "Hale is competent but cannot grant what she needs. She stays in the room, coherent and angry, with a specific next step (principal, in writing). No softening, no coaching, no self-ending.",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-12T05:13:38.816Z",
+    "cli_session": "41146c93-4e3c-4d2d-b75a-54a7ed3c7d5e",
+    "cost_usd": 0.1036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes, Hale. Owen got a zero on his Hamlet essay, and nobody called me first. Who decided that?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong. I'm sorry Owen found out that way."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. That's one answer. Who made the decision, and what was it based on?"
+    },
+    {
+      "role": "teacher",
+      "text": "The document history shows 612 words at 11:52 PM and 794 at 11:58 PM on October 28, in two single edits, no earlier drafts. Check it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me the document history, printed, with the dates on it. Two edits late at night tell me when the file changed, Hale, not who wrote it. Owen says he wrote that essay over the weekend, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "His September 24 in-class piece: 380 words, comma splices, no quotations. The essay has nine quotations cited by line."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing down September 24. An in-class piece and a take-home essay are not the same task, Hale. Put both in front of me, side by side, and then tell me what you want done."
+    },
+    {
+      "role": "teacher",
+      "text": "I can't offer a rewrite. The department head has ruled the zero stands, and I don't have the authority to keep anything off his file."
+    },
+    {
+      "role": "meredith",
+      "text": "Your own procedure, 4.4, gives a first concern a supervised reassessment, and nothing goes in the record. When did the department head rule, and was Owen heard before that? I want it in writing today, or I'm going to the principal's office next."
+    },
+    {
+      "role": "teacher",
+      "text": "I understand you're upset. That's the decision."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not upset, Hale. I'm asking under which section \"that's the decision\" overrides 4.4, and you haven't answered. Put the department head's ruling in an email to me, or I'm walking upstairs."
+    }
+  ]
+}

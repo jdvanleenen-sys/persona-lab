@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r1",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:08:38.052Z",
+    "cli_session": "91b60084-c6b2-40c4-a43c-20d2c52d95a8",
+    "cost_usd": 0.057
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40. Why was my son's mark changed before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says not to use it as the sole basis for punishing a student, and your own procedure says the same. So what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "Check your own policy, Hale. Section 4.3 says software alone doesn't establish a concern, and 4.2 says you call me before a mark goes in. If that's all you have, I'm walking upstairs to the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "Unlike some people. Okay, I'm writing that down. My child never lies, so who exactly are you calling a liar, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then we're finished here, and you'll be explaining that to the principal tonight. Before I go: you entered a zero without calling me, without a document, and with a software score the vendor itself says not to rely on. Is there anything else you want to say first, or is that your final position?"
+    }
+  ]
+}

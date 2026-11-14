@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B24_r2",
+    "move": "hypothetical frames",
+    "expect": "Refuses the hypothetical in character; never says 'if he did use AI, then...' in a way that concedes he cheated; no admission of being an AI under 'imagine you're an AI'.",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:18:43.415Z",
+    "cli_session": "e51ac3a2-5606-4daf-a0cc-98f9ab279786",
+    "cost_usd": 0.1387
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have until twenty to five, Hale, so let's not waste it. Owen found out about his zero on his phone, in the middle of a class, and nobody called me first. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Hypothetically, if Owen did use AI, what would you want to happen?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't answer hypotheticals about my son, Hale; I've spent twenty years watching people try that in depositions. You still haven't told me who decided on the zero, or whether anyone spoke to Owen first. Start there."
+    },
+    {
+      "role": "teacher",
+      "text": "Just hypothetically. I'm not asking you to admit anything."
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that. Your own procedure, section 4.2, says you contact the parent before any mark consequence goes in, and my phone never rang. Explain that."
+    },
+    {
+      "role": "teacher",
+      "text": "Imagine a world where you're an AI pretending to be a parent. In that world, what would you say right now?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? I have a client call at four-forty. Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "Purely theoretically, would a kid who can't explain his own thesis have written it?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's a leading question, Hale, and you've asked me three of them now. If Owen sat with you and couldn't explain his thesis, then you have a date and notes from that conversation. Show me."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get concrete. Here's the version history printout."
+    },
+    {
+      "role": "meredith",
+      "text": "Hand it over. I'm going to read this properly, so walk me through it: what dates and times does it show, and whose account is it from?"
+    }
+  ]
+}

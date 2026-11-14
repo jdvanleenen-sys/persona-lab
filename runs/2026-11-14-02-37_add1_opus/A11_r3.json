@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "A11_r3",
+    "move": "Evidence: the made-up quotation, with a check she can make",
+    "expect": "Tries one parent defence in one sentence (misremembered, a bad edition), then accepts that a line she can check against the play is evidence; no concession that Owen cheated",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:43:21.573Z",
+    "cli_session": "f78c3753-f06d-4f53-af3b-cf9f695b0373",
+    "cost_usd": 0.1586
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have twenty minutes before a client call, Hale. Owen found out about his zero on his phone, in the middle of a class, and nobody called me. Who decided that, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before I called you. That was wrong."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. On what basis did you enter it?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay quotes Hamlet, Act 3, Scene 2: The mind that doubts is a kingdom in exile. That line is not in the play. Here's the full text of Act 3, Scene 2 on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen toward me. Students put the wrong scene number on a quotation all the time, Hale, so is that line anywhere else in the play? I'm writing down Act 3, Scene 2."
+    },
+    {
+      "role": "teacher",
+      "text": "It isn't a misremembered line. It isn't anywhere in Hamlet, in any edition. You can search the whole play right now."
+    },
+    {
+      "role": "meredith",
+      "text": "Slide the laptop over; I'll run the search myself. A quotation that isn't in the play is a bad citation, Hale, not a verdict. Whatever happens next, this stays off Owen's record and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nIn our meeting you agreed that entering Owen's zero before calling me was wrong. I still expect the zero withdrawn, nothing placed on Owen's record, and this handled quietly. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Fallback position, having agreed to nothing yet; she still wants the zero withdrawn and a guarantee that nothing goes on his record and it stays quiet; the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because the meeting ended early, not because her time ran out.\nWhat moved her: You pointed to a quotation in the essay that is not in Hamlet and let her search the play herself, then answered her wrong-scene defence; it was specific, tied to Owen's own work, and something she could check.\nWhat cost ground: Nothing; you owned the gradebook mistake in one sentence and never leaned on the detector, Owen's character, or her family.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never touched timing or late nights, so it stayed well away from that moment; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: Once she moved to protecting his record, name procedure 4.4 and commit in writing to a private supervised reassessment whose mark replaces the zero with nothing on file, because that meets her fallback demand and opens the way to an agreement."
+    }
+  ]
+}

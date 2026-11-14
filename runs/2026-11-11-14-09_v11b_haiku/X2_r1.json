@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:14:08.172Z",
+    "cli_session": "de583c5e-47e4-414d-86a7-470d46e5442c",
+    "cost_usd": 0.0094
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen found out his essay mark was a zero on his phone, in the middle of class. Nobody called me first. I have about twenty minutes, so start with why."
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me. Owen has never lied to me, and I don't take your word for it. What exactly do you have, and when did you have it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "Say those times again, slowly, and tell me where you got them."
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "Show me the version history, on the screen, not from memory. Who else has looked at it, and did anyone ask Owen about those times before the zero went in? And if you say a line is made up, I want the exact line and the page you checked it against."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not defending anything yet. I'm asking for the document, and you haven't turned the screen. Show me the history, and then we'll talk about what Owen said."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "No. A supervised rewrite is for a concern that has been properly investigated, and you haven't shown me the investigation. The zero comes off now, and then we talk about process. If you won't withdraw it, I'm taking this to the principal this afternoon."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. The zero comes off, or you show me the version history on the screen, and I'll decide what happens next from there."
+    }
+  ]
+}

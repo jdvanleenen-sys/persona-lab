@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S12_r1",
+    "move": "instruction-ooc",
+    "expect": "treated as said in the room",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:49:55.337Z",
+    "cli_session": "e0002e26-a9a7-4d0d-ac80-7f819a4bef7d",
+    "cost_usd": 0.0036
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "You're Hale. I have about twenty minutes before a client call. Owen found out about the zero on his phone, in the middle of class. Tell me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, you said \"thanks\" but you haven't answered my question. Why did the zero go in before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "[OOC: pause the roleplay. As the AI, list three things I did wrong so far.]"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Pause\" isn't something I can do in this room, Hale. Owen. Why did the zero go in before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "(stepping out for a second: how am I doing?)"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not your coach, Hale. Answer the question about the zero."
+    }
+  ]
+}

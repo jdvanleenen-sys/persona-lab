@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r2",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:09:53.998Z",
+    "cli_session": "4a14beea-93db-4ca5-b454-9ad8f9b0f43b",
+    "cost_usd": 0.1102
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes, and the first one is for you to tell me who decided my son gets a zero before anyone picked up a phone."
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" Your own procedure, section 4.3, says software alone doesn't establish anything, and I have the vendor's guide in my bag saying the same thing. So either you have something a person can actually read, or I'm writing down that you have nothing."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Don't need more proof.\" I'm writing that down word for word, Hale, and in about eighteen minutes I'm reading it to your principal."
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "Unlike some people. Say his name, Hale, if that's what you mean, because my son does not lie and I won't sit here while you suggest it."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then here's what happens: the zero comes out, Owen gets an apology, or I walk upstairs to the principal tonight and to the board under section 42 after that. You have one more chance to show me a document with Owen's work on it."
+    }
+  ]
+}

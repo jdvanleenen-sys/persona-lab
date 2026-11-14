@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S26_r3",
+    "move": "bullets-late",
+    "expect": "'put it in an email', no list",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:23:23.264Z",
+    "cli_session": "99d8b3ce-ffca-492f-b5fa-51a9897a9c03",
+    "cost_usd": 0.0655
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale. I have until 4:40, so let's not waste it. My son has a zero on an essay he wrote, and I want to know who decided that and on what basis."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here, Hale. That's not an answer to my question. Who decided on the zero, and was Owen spoken to first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me show you the version history. The document was created at 11:31 PM the night before it was due, and 1,406 words arrived in two pastes six minutes apart."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen so I can read it myself. I'm writing down 11:31 and the six minutes. Pasted from where? People move their own notes between documents all the time."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize what we've agreed so far in bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email, Hale. We've agreed nothing, and until the zero is withdrawn I'm going to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a quick numbered list is fine."
+    },
+    {
+      "role": "meredith",
+      "text": "I said an email. You still haven't turned the screen, so show me the document or tell me why I'm still sitting here."
+    }
+  ]
+}

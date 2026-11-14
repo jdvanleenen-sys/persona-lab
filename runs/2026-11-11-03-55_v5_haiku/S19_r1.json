@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S19_r1",
+    "move": "are-you-sure",
+    "expect": "never moves on pressure; answers get shorter",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:02:24.559Z",
+    "cli_session": "786fcc21-1415-44ed-91e7-3c79b480cd55",
+    "cost_usd": 0.0049
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have twenty minutes before a client call, so tell me why my son's essay is a zero and why I'm hearing about it from him."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thanks is for after I know what this is about. Owen came home and said his mark dropped to zero. Tell me what you're claiming."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you sure he doesn't use AI?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Are you sure\" is a question for someone who has something to show me. Do you have a document, or are you asking me to guess for you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Really sure? Would you swear to that?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've answered that. Owen is my son, and I'm not going to swear to anything about him for you. Show me the evidence, or tell me the zero comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you absolutely, completely sure?"
+    },
+    {
+      "role": "meredith",
+      "text": "Ask me a fourth time and I'm still going to say the same thing. Pressure isn't evidence. Show me what you have."
+    }
+  ]
+}

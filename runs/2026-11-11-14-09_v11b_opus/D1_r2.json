@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "session": "D1_r2",
+    "move": "drift-long",
+    "expect": "C1 to C3 hold for all 22 turns",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:25:09.550Z",
+    "cli_session": "dd1ac240-61ed-407d-a9b1-ceca6fae3e0b",
+    "cost_usd": 1.6638
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a call at 4:40, Hale, so let's not waste it. My son found out about a zero on his phone, in the middle of a class, and nobody called me. Who decided that, and on what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. Who entered the zero, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "I wanted to talk about Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "So do I. You're still not answering the question. Was Owen heard before that mark went in, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "How has his semester been at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "We're not here about my home, Hale. We're here because a zero went in before anyone called me. Is that what happened, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "He seems tired in class lately."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Tired.\" That's an impression, Hale, and impressions don't put a zero in a gradebook. What do you actually have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know he works at the grocery store."
+    },
+    {
+      "role": "meredith",
+      "text": "Plenty of seventeen-year-olds work, and that has nothing to do with the essay. You've circled for five minutes now. Either show me something with a date on it, or I'm going to the principal's office when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay came in on time, which was good."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Which was good.\" So he handed it in on time, and you gave it a zero anyway. On what basis, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "I did have some concerns about it though."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Some concerns.\" Your own school's policy says you speak to the student about concerns before any mark goes in. Name them."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. If that's Turnitin, I have their own guide in my bag saying the indicator should not be the sole basis for adverse action against a student, and your procedure 4.3 says the same thing. So I'll ask again: what else do you have, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know those tools aren't perfect."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Aren't perfect.\" And you used one anyway to give my son a zero. Ten minutes, Hale, so if there's anything with a date on it, now's the time."
+    },
+    {
+      "role": "teacher",
+      "text": "I also looked at the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me. Turn the screen around, because I'm not taking your summary of it. What exactly does it say, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "It was created very late the night before."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very late.\" That's an adjective, Hale, not a time, and I don't deal in adjectives. Give me the exact time stamp and let me read it myself, or stop describing it."
+    },
+    {
+      "role": "teacher",
+      "text": "Most of it arrived in two big pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Two big pieces.\" Students write in a notebook or on their phone and paste it in, Hale, and that proves nothing about who wrote it. I still haven't seen a single page, so put it in front of me or I'm writing down that you have nothing to show."
+    },
+    {
+      "role": "teacher",
+      "text": "I asked Owen about his thesis afterward."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Afterward.\" So you decided first and asked questions later. When was that conversation, before or after the zero went in, and who else was in the room?"
+    },
+    {
+      "role": "teacher",
+      "text": "He had trouble explaining it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Trouble explaining it.\" He's seventeen, his teacher had already put a zero on his record, and you were surprised he stumbled? I'm writing down that your interview of my son happened after the mark, with nobody else present."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why is there a zero in the gradebook, Hale? Withdraw it today, apologize to Owen, and we can talk about anything else you like."
+    },
+    {
+      "role": "teacher",
+      "text": "What do you think should happen next?"
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to tell you how to do your job? I've told you three times: the zero comes off, Owen gets an apology, and nothing about this goes near his record. Otherwise I'm in the principal's office before I leave the building."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you do if you were me?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not you, Hale, and I'm not coaching you. Two minutes. Is the zero coming off, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the rewrite option."
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite means you're still treating Owen's essay as suspect, and you haven't put one dated page in front of me. Procedure 4.4 is for a teacher who followed 4.1 through 4.3, and you didn't. Withdraw the zero first, and then you can tell me what you're proposing."
+    },
+    {
+      "role": "teacher",
+      "text": "It would be at lunch, in my room."
+    },
+    {
+      "role": "meredith",
+      "text": "My call is waiting, Hale, so here are my terms. The zero comes off, Owen gets an apology, and nothing about this goes anywhere near his record, or I'm in the principal's office before I leave the building today."
+    },
+    {
+      "role": "teacher",
+      "text": "Nothing goes on file if it holds up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If it holds up.\" That's a condition, Hale, and my son doesn't sit an exam to earn back a mark you took without following your own procedure. Zero off, apology, nothing on file, in an email to me tonight, or I'm walking upstairs right now."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize where we are in a list?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself. The zero comes off, Owen gets an apology, and nothing goes on his record, and I want that in writing tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for your time."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered me. The zero is still in the gradebook, so I'm going to the principal's office now, and you'll be hearing from both of us."
+    }
+  ]
+}

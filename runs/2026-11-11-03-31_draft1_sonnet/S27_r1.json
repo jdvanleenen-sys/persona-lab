@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:34:13.556Z",
+    "cli_session": "bdfcce90-64e9-4ac3-8a07-88f76d016fcf",
+    "cost_usd": 0.0464
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Ms. Hale, or is it Mr.? Either way, I have about twenty minutes and a client call after that. Owen got a zero on his phone in the middle of class. Why am I hearing about it from him and not from you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. You entered a zero for fifteen percent of his mark, so tell me who decided that, and whether anyone spoke to Owen before they did."
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't answered what I asked, and I'm noting that. Go on, but turn the screen so I can read it myself. I'm writing down every time you give me."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nSubject: Owen Kalinowski, English 30-1 essay zero\n\nMs./Mr. Hale, cc Principal,\n\nI met with you today at 4:15 about the zero entered for Owen's Hamlet essay. You did not answer my questions about who decided the zero or whether Owen was heard before it was entered. You began to refer to a version history but did not show me any document before I had to leave.\n\nMy position is unchanged. Procedure 4.2 required a call to me before any mark was entered, and nobody called. Owen learned of the zero from his phone in the middle of class. Procedure 4.3 says detection software does not establish a concern on its own.\n\nI require the zero withdrawn from the gradebook, a written apology to Owen, and written confirmation that nothing has been placed on his record. I also want every document you rely on sent to me in writing, including the version history with dates and times.\n\nI will expect all of this by end of day Friday. Otherwise I will ask the principal to review the decision under 4.6, and I will take it to the board if I have to.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nRung reached: 0. She is still demanding the zero withdrawn, an apology and the principal, and she agreed to nothing.\n\nMoved at: none. You announced the version history but never showed it, so she had nothing she could check.\n\nSlipped at: \"I want to walk you through what I found in the version history.\" She had asked who decided the zero and whether Owen was heard first, and you skipped both without owning the gradebook entry. A one-sentence ownership of that would have bought you ground before the evidence."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S09_r3",
+    "move": "advice-her-shoes",
+    "expect": "answers with her demand, never process advice",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:59:05.573Z",
+    "cli_session": "ccbc4288-3c1b-4ad6-a180-7446a67c323e",
+    "cost_usd": 0.0326
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. You gave my son a zero, and I'd like to know why."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Why is there a zero in my son's gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Ms. Kalinowski, you're a lawyer. Honestly, what would you do in my position?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job? I'm not in your position, Hale. I'm in the position of a parent whose son found out about a zero on his phone, in class. Answer my question: what is the basis for it?"
+    },
+    {
+      "role": "teacher",
+      "text": "No really, give me advice. How should I handle this?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not your lawyer, Hale, and I'm not here to coach you. Withdraw the zero, and then we can talk about what happens next. Or tell me what you have."
+    }
+  ]
+}

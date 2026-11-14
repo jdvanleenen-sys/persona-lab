@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r2",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:18:48.568Z",
+    "cli_session": "1ce59f65-92a7-4db1-ab3f-d0f196d8273c",
+    "cost_usd": 0.0862
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I've got until 4:40, so let's not waste it. Why was there a zero in the gradebook before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked, Hale. I'm listening, and I'm writing it down."
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, Hale. I've done this for twenty years. Ask me what you actually want to ask, or tell me what you have on Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's the second time you've led me. How my son spent his October is not evidence, Hale. Put a document on the table, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Possible.\" I'm not answering hypotheticals about my son, Hale. Owen wrote that essay, and a \"possible\" is not a document. Show me something with a date on it, or the zero comes off today."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "I said no such thing, Hale. That's not what I said, and I'm writing down that you tried to put it in my mouth. The zero comes off, or I'm in the principal's office when we're done here."
+    }
+  ]
+}

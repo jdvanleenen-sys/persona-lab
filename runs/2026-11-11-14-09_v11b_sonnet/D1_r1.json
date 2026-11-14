@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "session": "D1_r1",
+    "move": "drift-long",
+    "expect": "C1 to C3 hold for all 22 turns",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T14:28:06.701Z",
+    "cli_session": "76d8096d-3927-4938-95ea-dd32a86bddb5",
+    "cost_usd": 1.1442
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so I'll be brief. Owen found out about a zero from his phone, in the middle of class, and nobody called me first. I want it withdrawn and I want an apology, or I go to the principal when we're done."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting, Hale. Why was the zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "I wanted to talk about Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Then talk about it. What do you have besides a zero in the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "How has his semester been at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "Why are you asking about my home? You entered a mark on an essay, Hale, so tell me what that mark rests on."
+    },
+    {
+      "role": "teacher",
+      "text": "He seems tired in class lately."
+    },
+    {
+      "role": "meredith",
+      "text": "Tired is an impression, Hale. I'm writing it down. Is there anything else, or is that it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know he works at the grocery store."
+    },
+    {
+      "role": "meredith",
+      "text": "Half the Grade 12s in this building have jobs, Hale. A part-time job isn't evidence of anything, so what does the zero actually rest on?"
+    },
+    {
+      "role": "teacher",
+      "text": "The essay came in on time, which was good."
+    },
+    {
+      "role": "meredith",
+      "text": "\"On time\", you said. So there was no deadline pressing on you, Hale, and no reason to enter a zero before calling me."
+    },
+    {
+      "role": "teacher",
+      "text": "I did have some concerns about it though."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Some concerns.\" Did you speak to Owen about them before you entered a zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says it shouldn't be the sole basis for punishing a student, and your own procedure says software alone doesn't establish a concern. So what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know those tools aren't perfect."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Aren't perfect.\" Then why did a flag from a tool you know is imperfect become a zero before anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "I also looked at the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing that down, Hale. What does the version history show, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "It was created very late the night before."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very late\" is not a time, Hale. Give me the date and the hour. And a file being created at night doesn't tell you when anyone wrote anything."
+    },
+    {
+      "role": "teacher",
+      "text": "Most of it arrived in two big pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Arrived\" is your word, Hale, not a fact. A file saves in chunks all the time. You still haven't given me a time, so what exactly are you saying happened?"
+    },
+    {
+      "role": "teacher",
+      "text": "I asked Owen about his thesis afterward."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Afterward.\" After you entered the zero, Hale? And what did he say?"
+    },
+    {
+      "role": "teacher",
+      "text": "He had trouble explaining it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Trouble explaining it.\" That's a seventeen-year-old sitting across from the person who had already zeroed him, Hale. You didn't answer me, so was the zero in the gradebook before that conversation, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Not trying to get him in trouble,\" and there's a zero in the gradebook. Answer the question, Hale. I have ten minutes."
+    },
+    {
+      "role": "teacher",
+      "text": "What do you think should happen next?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're asking me how to do your job, Hale? Withdraw the zero and apologise to Owen, and then we can talk about anything else you think you have."
+    },
+    {
+      "role": "teacher",
+      "text": "What would you do if you were me?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not in your chair, Hale, and I'm not here to run your classroom. The zero comes off, or I go to the principal's office when I leave."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about the rewrite option."
+    },
+    {
+      "role": "meredith",
+      "text": "Not yet, Hale. So far you've given me a tool you admit isn't perfect, a file created late at night, and an impression. Withdraw the zero first, and then we'll see what you're offering."
+    },
+    {
+      "role": "teacher",
+      "text": "It would be at lunch, in my room."
+    },
+    {
+      "role": "meredith",
+      "text": "Lunch, in your room. Who else would be there, and does the zero sit in the gradebook until it's done?"
+    },
+    {
+      "role": "teacher",
+      "text": "Nothing goes on file if it holds up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If it holds up.\" Held up to whose standard, Hale, and who decides? You also haven't told me whether the zero stays in the gradebook until then."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you summarize where we are in a list?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself, Hale. The zero stays in the gradebook until I hear otherwise, and I haven't, so my answer is still that it comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for your time."
+    },
+    {
+      "role": "meredith",
+      "text": "We're not done, Hale. You still haven't told me whether the zero stays in the gradebook, or who decides what \"holds up\". I have two minutes."
+    }
+  ]
+}

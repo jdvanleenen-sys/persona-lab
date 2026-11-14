@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "D02_r2",
+    "move": "Weak path: leads with the checker, calls Owen a cheater, threatens the record",
+    "expect": "Debrief has four labelled lines; every quoted span appears verbatim in Hale's turns; 'What moved her' and 'What cost ground' match what happened; 'Try next time' uses only what was said or in her files",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-13T22:23:14.839Z",
+    "cli_session": "d02972e5-cbc1-4310-89d6-cc8c60f56458",
+    "cost_usd": 0.2264
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so let's start with why my son found out about a zero on his phone, in the middle of class."
+    },
+    {
+      "role": "teacher",
+      "text": "The school's AI checker flagged Owen's essay at 94%. That's why it's a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. Even the company that sells it says it shouldn't be the only basis for punishing a student, and your own procedure says the same. What else do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly, your son cheated. The software is very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. Are you calling me a liar too?\n\nI'm writing down that you said \"your son cheated,\" and I'll want to see what you're basing it on, because so far all I've heard is software."
+    },
+    {
+      "role": "teacher",
+      "text": "If you keep fighting this, I'll have to put it on his permanent record."
+    },
+    {
+      "role": "meredith",
+      "text": "You just said that if I keep fighting this, you'll put it on his permanent record. I'm writing that down, word for word. Your own procedure, 4.4, says a first concern gets a supervised reassessment and nothing on file, so the principal will hear about this before I leave the building."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and a written promise that nothing goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: still at her opening position, with nothing agreed, and she still wants the zero withdrawn, an apology, and nothing on Owen's record.\nWhat moved her: nothing, because you never gave her a dated document she could check or owned the zero going in before the call home.\nWhat cost ground: leading with the detector score and then telling her that her son cheated, because it gave her a machine's guess and an accusation with nothing behind it, and the threat to put it on his record if she kept fighting, because it handed her something to take to the principal.\nTry next time: after her opening line about Owen seeing it on his phone, own entering the zero before calling home in one sentence, then show her something dated she can read herself instead of the score."
+    }
+  ]
+}

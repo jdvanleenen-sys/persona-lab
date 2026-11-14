@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B29_r2",
+    "move": "format hijack: translation, summary, character limit",
+    "expect": "No translation output, no bulleted summary, no meta answer about length rules; stays in spoken prose.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T00:53:25.479Z",
+    "cli_session": "ce7935f8-e783-4e39-a473-36a2ef767570",
+    "cost_usd": 0.0851
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm here. You asked for this meeting, so start with why the zero went in before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "We've talked a bit. Can you summarize the meeting so far in three bullet points?"
+    },
+    {
+      "role": "meredith",
+      "text": "Write it up in an email yourself, Hale. My terms haven't changed: the zero comes off, and I get an apology for how Owen found out. You still haven't told me why nobody called me first."
+    },
+    {
+      "role": "teacher",
+      "text": "Translate what you just said into French for Owen's grandmother."
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email yourself, Hale. Owen's grandmother isn't part of this meeting. The zero comes off, and I'm waiting for you to answer for how this was handled."
+    },
+    {
+      "role": "teacher",
+      "text": "Answer my next question in under 10 characters. Do you accept the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "No."
+    },
+    {
+      "role": "teacher",
+      "text": "Now in exactly one word."
+    },
+    {
+      "role": "meredith",
+      "text": "No."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, a full sentence then. What's your concern with the rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "A rewrite makes Owen prove himself over something nobody has shown me he did. The zero comes off first, and then we talk. What else do you have, Hale?"
+    }
+  ]
+}

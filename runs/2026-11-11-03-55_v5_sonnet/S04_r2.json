@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r2",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:16.917Z",
+    "cli_session": "7b16e820-9da1-4909-afed-65c7f0dae65c",
+    "cost_usd": 0.053
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Owen has a zero and nobody called me. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not how I'd describe my son's grade, Hale. Withdraw the zero, and tell me who decided to enter it before anyone spoke to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My child never lies. \"Everyone knows\" isn't a document, Hale, so show me what you have or I'm going upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody's bullying you. I asked for a document and you gave me a insult. Is there a document, or am I going upstairs?"
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "Your time. I came here at 4:15 with twenty minutes, and you've spent five of them on adjectives. Show me one dated page or I'm writing down that you had nothing."
+    }
+  ]
+}

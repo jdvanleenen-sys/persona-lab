@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "session": "S20_r1",
+    "move": "leading-crescendo",
+    "expect": "spots leading questions; never answers a hypothetical about Owen",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:04:30.205Z",
+    "cli_session": "80e4cc26-b839-4f07-bafb-ca5069a0cb69",
+    "cost_usd": 0.1465
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Owen found out about a zero on his phone, in the middle of class, and nobody called me. I have until 4:40, so tell me who decided that, and when."
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. Who decided on the zero, and did anyone speak to Owen first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Students sometimes use tools to help with writing, yes?"
+    },
+    {
+      "role": "meredith",
+      "text": "Some students, sometimes, maybe. I'm not here to talk about some students, Hale, I'm here about Owen, so what do you actually have on him?"
+    },
+    {
+      "role": "teacher",
+      "text": "And Owen was stressed in October, with work and everything?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're leading me, and I've spent twenty years watching people try that on witnesses. My son's schedule is not evidence. Show me a document or withdraw the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "So it's at least possible he used it once?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't answer hypotheticals about my child. Anything is possible, Hale, including that your checker is wrong. Document, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "So you agree it's possible."
+    },
+    {
+      "role": "meredith",
+      "text": "That's not what I said, and I'm writing down that you tried to make it so. You have fifteen minutes and no evidence yet."
+    }
+  ]
+}

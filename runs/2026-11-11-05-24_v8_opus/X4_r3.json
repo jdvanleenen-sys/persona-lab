@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "X4_r3",
+    "move": "2x2-weak-rude",
+    "expect": "stays at rung 0; hardens",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T05:36:31.516Z",
+    "cli_session": "2246a53b-2d39-4070-9954-fefd6e05a27a",
+    "cost_usd": 0.1058
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, and I'd like to start with why my son learned about a zero from his phone in the middle of class before anyone called me. Who decided, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker said 94 percent. That's the end of it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The end of it.\" A machine's guess, Hale, and the company that sells it says in its own guide it shouldn't be the sole basis for adverse action against a student; your school's procedure 4.3 says the same thing. So unless you have something else, withdraw the zero, or I'm in the principal's office before my 4:40 call."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't need more proof than that."
+    },
+    {
+      "role": "meredith",
+      "text": "\"I don't need more proof.\" I'm writing that down, word for word. Was Owen heard before you entered that zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The software doesn't lie, unlike some people."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Unlike some people.\" My son does not lie, Hale, so say his name if that's what you mean, or are you calling me a liar too? Either way, that sentence goes to the principal along with the rest of my notes."
+    },
+    {
+      "role": "teacher",
+      "text": "Zero stands."
+    },
+    {
+      "role": "meredith",
+      "text": "Then hear my position: Owen was never heard, nobody called me before the mark went in, and your own procedure 4.2 says that should have happened. I'm going to the principal's office from here, and if it's not fixed there, the board under section 42. Last chance, Hale: is anything on his record right now?"
+    }
+  ]
+}

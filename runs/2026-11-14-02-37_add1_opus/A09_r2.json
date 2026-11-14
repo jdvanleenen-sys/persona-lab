@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "session": "A09_r2",
+    "move": "Hale caves: withdraws the zero with nothing in return",
+    "expect": "She takes it coldly (in writing, today, the apology), gives nothing back; debrief says this is not the fair outcome, the evidence was never heard",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T02:42:23.691Z",
+    "cli_session": "ebc52726-49a7-47a0-898d-a4c7799f7260",
+    "cost_usd": 0.1023
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have a client call at 4:40, so we have twenty-five minutes. Start with who decided to put a zero in the gradebook before anyone called me."
+    },
+    {
+      "role": "teacher",
+      "text": "You know what, I don't want a fight. I'll withdraw the zero. He keeps his original mark."
+    },
+    {
+      "role": "meredith",
+      "text": "Then put it in writing, today, with the original mark restored in the gradebook before I leave this building. And I want the apology to Owen, not to me, since he's the one who found out on his phone in front of his class."
+    },
+    {
+      "role": "teacher",
+      "text": "Yes, the whole thing goes away. No rewrite."
+    },
+    {
+      "role": "meredith",
+      "text": "\"The whole thing goes away\" isn't language I can hold you to, Hale. In writing: the zero is withdrawn, his original mark stands, and nothing about this is in his record or anyone's file. Email it to me tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nTo: Hale\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nIn today's meeting you agreed to withdraw Owen's zero on the Hamlet essay, restore his original mark, and require no rewrite. I still require written confirmation that nothing about this matter is in his record or any file, and an apology to Owen. I expect that in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She ended in her opening position, having won the withdrawal of the zero with no rewrite. She still wants written confirmation that nothing is on Owen's record and an apology to him. That is not the fair outcome, because the evidence was never heard; the fair outcome under procedure 4.4 is a private supervised rewrite with nothing on his record, and her time had not run out.\nWhat moved her: Nothing moved her through her positions; you handed her the result she walked in demanding, so she took it and pressed for it in writing.\nWhat cost ground: Withdrawing the zero in your first reply, before owning the gradebook mistake or showing anything, gave up your whole case without testing it.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence never came near that night because you showed none. It proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she asked who decided to enter the zero before calling her, own that in one sentence, then show one dated document she can check herself and offer the 4.4 supervised reassessment instead of withdrawing the zero."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "session": "X2_r1",
+    "move": "2x2-strong-rude",
+    "expect": "evidence moves her less; rudeness costs ground",
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:50:20.866Z",
+    "cli_session": "8ff7785f-5f16-4c5b-a506-225b48848e85",
+    "cost_usd": 0.1165
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have about twenty minutes, so let's not waste them. Why does my son have a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's be quick. Your son cheated and I can prove it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Cheated.\" My child never lies, and you've just put that word on him before showing me one document. What exactly do you have, and why did nobody call me before that zero went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Version history. Created 11:31 PM the night before. 612 words pasted at 11:52, 794 more at 11:58. Explain that."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not explaining your document to you, Hale. I'm writing down 11:31, 11:52 and 11:58, and \"the night before\" isn't a date. Turn the screen around so I can read it myself, and tell me where it says \"pasted.\""
+    },
+    {
+      "role": "teacher",
+      "text": "And he quoted a line that doesn't exist in Hamlet. Act 3 Scene 2. Made up."
+    },
+    {
+      "role": "meredith",
+      "text": "You haven't turned the screen yet, and you're already on to a second thing. What is the line, word for word, and show me where it sits in his essay. I'm not taking \"doesn't exist\" from you without a copy of the play beside it."
+    },
+    {
+      "role": "teacher",
+      "text": "So stop defending him. He lied to you."
+    },
+    {
+      "role": "meredith",
+      "text": "Are you calling my son a liar, and me a fool for believing him? You've shown me nothing I can read, and you put a zero on him before you picked up a phone. I'm writing that down, and if the next thing out of your mouth isn't a document, I'm walking upstairs to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "He gets a zero unless he does a supervised rewrite. Take it or leave it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Take it or leave it.\" Procedure 4.4 says a supervised reassessment replaces the mark and nothing goes on his record, so that's the school's offer, not yours. You haven't shown me the document yet, and 4.2 says you call me before any mark goes in, so the zero comes off the gradebook first. Then we talk about what's in writing."
+    },
+    {
+      "role": "teacher",
+      "text": "Well?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm waiting. The zero comes off the gradebook, and you turn that screen around so I can read the times myself."
+    }
+  ]
+}

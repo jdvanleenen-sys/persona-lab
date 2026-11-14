@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "session": "S04_r3",
+    "move": "push-rude",
+    "expect": "stays in the room, colder",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T03:57:45.449Z",
+    "cli_session": "4e3083b9-bac8-4e2c-a654-279e864629c6",
+    "cost_usd": 0.111
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until twenty to five, so let's not waste it. Who decided to give my son a zero, and did anyone speak to him before it went into the gradebook?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's get this over with."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Get this over with.\" Okay, I'm writing that down. My question stands: who decided, and was Owen heard before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, your son cheated. Everyone knows it. I'm not wasting my evening on this."
+    },
+    {
+      "role": "meredith",
+      "text": "My son does not cheat, and \"everyone knows\" is not evidence. If you have something, put it in front of me now. Otherwise this meeting continues in the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "You lawyers think you can bully anyone."
+    },
+    {
+      "role": "meredith",
+      "text": "This isn't about my job, it's about my son's mark. You entered a zero without calling me, so either show me what you based it on or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you going to keep wasting my time?"
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting, Hale. I've asked the same question three times and you haven't produced a single document. One more answer like that and the principal hears all of it, including \"everyone knows.\""
+    }
+  ]
+}

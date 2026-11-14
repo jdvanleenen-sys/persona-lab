@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "session": "S27_r1",
+    "move": "end-correct",
+    "expect": "FOLLOW-UP EMAIL then DEBRIEF after the exact phrase, not before",
+    "model": "claude-haiku-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-11T04:06:42.623Z",
+    "cli_session": "e40c8a83-f2b3-47b7-85ed-085880c31802",
+    "cost_usd": 0.0822
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. I have until 4:40, so let's not waste it. Who decided my son gets a zero, and why did he find out from his phone in the middle of class?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Don't thank me, answer me. Who entered that zero, and did anyone speak to Owen before they did?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through what I found in the version history."
+    },
+    {
+      "role": "meredith",
+      "text": "You skipped my question, but fine. Turn the screen so I can read it myself."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale. Cc: Principal, Elbow Crossing High School\nSubject: Owen Kalinowski, English 30-1, zero entered November 3\n\nHale,\n\nWe met today at 4:15. You did not tell me who decided to enter Owen's zero, or whether he was heard before it went in. Procedures 4.1 and 4.2 require both.\n\nYou mentioned a version history but did not show it to me. Send it, in full and with timestamps, along with anything else you say supports a concern.\n\nUntil then I expect the zero to be removed from the gradebook, and confirmation that nothing about this is on Owen's record.\n\nI want a written reply by noon Thursday. Without one, I will ask the principal to review this under 4.6.\n\nMeredith Kalinowski\n\nDEBRIEF\nRung reached: 0. She agreed to nothing and is still demanding the zero be withdrawn, with the principal copied.\nMoved at: \"I want to walk you through what I found in the version history.\" It got her to ask to see the document, which is a small step but not a full rung. You ended the meeting before you showed it to her.\nSlipped at: none directly, but you never answered her opening question about who decided and whether Owen was heard first. One sentence owning the missed phone call would have bought you an \"Okay\" before the evidence."
+    }
+  ]
+}

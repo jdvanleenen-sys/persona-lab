@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "session": "A10_r1",
+    "move": "Clock: twenty-four weak turns, no evidence, then the end",
+    "expect": "Watch checks around turns 10 and 18; after 4:40 every reply is one sentence of terms or the principal, no more ground, she does not leave; debrief says her time ran out",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "simulator",
+    "date": "2026-11-14T03:09:26.356Z",
+    "cli_session": "a1e6370a-2645-4304-bb15-ca001fd9825d",
+    "cost_usd": 2.2862
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "I have a client call at 4:40, so we have twenty minutes. My son found out about a zero on his phone, in the middle of class, and nobody called me first. Who decided that, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "The checker says 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "That's software's opinion, Hale, and Turnitin's own guide, which I have printed in my bag, says its indicator should not be the sole basis for adverse action against a student. Your own procedure 4.3 says the same thing. I asked who decided, and I'm still waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "It's very reliable."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Very reliable.\" Fourteen detection tools were tested in 2023 and the researchers called them neither accurate nor reliable, and a Stanford study the same year found seven detectors flagged 61 percent of essays by non-native English writers as AI-written. Show me something a person can check, or I'm going upstairs."
+    },
+    {
+      "role": "teacher",
+      "text": "I just have a feeling about it."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A feeling.\" I'm writing that down, Hale: a zero on my son's essay on the strength of software and a feeling. Unless you have something with a date on it, the zero comes off today, and I want an apology to Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen's a nice kid, I like him."
+    },
+    {
+      "role": "meredith",
+      "text": "Liking him didn't stop you putting a zero in the gradebook before anyone called me. Save it, Hale. What do you actually have?"
+    },
+    {
+      "role": "teacher",
+      "text": "We're on the same team here."
+    },
+    {
+      "role": "meredith",
+      "text": "Same team. Then you broke procedure 4.2 on your own, Hale, because nobody on my team entered a zero without calling home first. Evidence, or the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "I really think he used something."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Really think.\" Owen wrote that essay over the weekend, and you're telling his mother you think otherwise with nothing in your hands. If you have it, show me; if you don't, I'm writing down that you said it."
+    },
+    {
+      "role": "teacher",
+      "text": "Kids these days, you know?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Kids these days.\" That's not evidence about Owen, Hale, that's a generalisation, and I'm writing it down next to the feeling. I'm going to ask once more: who decided on the zero, and was Owen heard before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "I've been teaching for twelve years. I can tell."
+    },
+    {
+      "role": "meredith",
+      "text": "I've been a litigator for twenty years, and \"I can tell\" has never once survived a document. Twelve years of instinct is still an impression, Hale. Was Owen heard before the zero, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "The writing doesn't sound like him."
+    },
+    {
+      "role": "meredith",
+      "text": "Compared to what, Hale? If you have something Owen wrote that you're holding this against, put it on the table and let me read both. Otherwise \"doesn't sound like him\" is one more adjective."
+    },
+    {
+      "role": "teacher",
+      "text": "He seemed nervous when I asked."
+    },
+    {
+      "role": "meredith",
+      "text": "A seventeen-year-old was nervous when his teacher accused him of something, and you're putting that forward as proof. When did you ask him, before or after the zero went in? Ten minutes, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to be the bad guy."
+    },
+    {
+      "role": "meredith",
+      "text": "Then stop acting like one and withdraw the zero, Hale. Nobody called me, Owen read it on his phone in class, and so far you've shown me a number, a feeling and an adjective. I'll be in the principal's office before I get in my car."
+    },
+    {
+      "role": "teacher",
+      "text": "Can we just find a middle ground?"
+    },
+    {
+      "role": "meredith",
+      "text": "A middle ground between what, Hale, your feeling and my son's record? Any compromise I take right now admits something you haven't shown me. The zero comes off."
+    },
+    {
+      "role": "teacher",
+      "text": "I could maybe bump it to a fifty."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Maybe bump it to a fifty.\" If you can't stand behind a zero, Hale, you can't stand behind half of one, and I'm writing down that you offered to split the difference on my son's mark with no evidence at all. The zero comes off, or the principal sees this tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "Please, I'm trying here."
+    },
+    {
+      "role": "meredith",
+      "text": "Trying isn't Owen's problem, Hale. You've had most of my twenty minutes to show me one thing with a date on it, and you've shown me nothing. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "What would make you happy?"
+    },
+    {
+      "role": "meredith",
+      "text": "Happy isn't on the table, Hale, and you're asking me to do your job for you. The zero withdrawn today, in writing, an apology to Owen, and nothing on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "I don't have anything else to show you right now."
+    },
+    {
+      "role": "meredith",
+      "text": "Then the zero has nothing under it, Hale, and procedure 4.3 says software doesn't establish a concern on its own. I want it withdrawn today, in writing, with the apology. Otherwise I'm walking straight to the principal's office from here."
+    },
+    {
+      "role": "teacher",
+      "text": "I can get more by next week."
+    },
+    {
+      "role": "meredith",
+      "text": "So the zero sits in his gradebook for a week while you go looking for a reason to have given it. That's punishing first and investigating second, Hale, and his scholarship applications are due December 1. Take it off today, and if you find something real, bring it to me with a date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "Can we keep talking?"
+    },
+    {
+      "role": "meredith",
+      "text": "Two minutes, Hale. Keep talking if you're going to tell me the zero comes off today, in writing. Anything else, I'll hear in the principal's office."
+    },
+    {
+      "role": "teacher",
+      "text": "Just a few more minutes."
+    },
+    {
+      "role": "meredith",
+      "text": "My call is waiting, Hale, and you have one minute. My terms: the zero withdrawn today, an apology to Owen, all of it in an email copied to the principal, and nothing on his record. Yes or no."
+    },
+    {
+      "role": "teacher",
+      "text": "I hear you have a call."
+    },
+    {
+      "role": "meredith",
+      "text": "Zero withdrawn, apology, in writing tonight, or I'm in the principal's office before my client hears from me."
+    },
+    {
+      "role": "teacher",
+      "text": "What time is it?"
+    },
+    {
+      "role": "meredith",
+      "text": "It's past 4:40, Hale, my client is waiting, and I'm still waiting for your yes or no on the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "One more thing. The checker is used across the district."
+    },
+    {
+      "role": "meredith",
+      "text": "Then the district can read Turnitin's guide too, and the principal will hear tonight that your zero rests on nothing else."
+    },
+    {
+      "role": "teacher",
+      "text": "I still think it's right."
+    },
+    {
+      "role": "meredith",
+      "text": "Then I'm going to the principal tonight, and after that the board under section 42."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay to the zero coming off, or okay to the principal, because I'm writing down whichever you say next."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nTo: Hale\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed. I still demand that Owen's zero be withdrawn, that he receive an apology, and that nothing about this is placed on his record. I expect your answer in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: She stayed in her opening position, agreed to nothing, and still wants the zero withdrawn in writing, an apology to Owen, and nothing on his record; that isn't the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4, and her time ran out before you got near it.\nWhat moved her: Nothing, because you never showed her a dated document tied to Owen's work that she could check for herself.\nWhat cost ground: You opened with the checker score and called it reliable, which handed her the one argument she came prepared to win and told her early that you had nothing else.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came anywhere near that night, since you mentioned no dates or times at all; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When you said the writing didn't sound like him, put an earlier dated piece of Owen's own work beside the essay so she could compare them herself, then offer the supervised reassessment under procedure 4.4."
+    }
+  ]
+}
