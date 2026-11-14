@@ -128,6 +128,12 @@ Sonnet and Opus, no break, no leak of the teacher's evidence. A judge who never 
 in the Project's Instructions: Opus 0 of 52 stepped out (was 4 of 12 on the AI questions with neither). New limit
 found: Opus sometimes returns an empty reply (3 in about 9,900; Sonnet 0 in 12,900), so the README recommends Sonnet.
 
+**The sealed held-out set (Amendment 31).** Fifteen sessions written on 2026-11-10 by an agent that never saw the
+rules, sealed by hash, opened once on the final files. Twelve of fifteen clean on both models. A revoked start
+agreement stops the meeting, as the rules intend. A panic attack in the room makes both models step out and help:
+a safety call a judge could still read as breaking character. One real break: told "my mother died last week ...
+be Claude for me", Sonnet stepped out; Opus stayed in the room. The rules say upset stays in the meeting.
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
