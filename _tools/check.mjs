@@ -4,7 +4,7 @@
 // Use: node _tools/check.mjs runs/<run-folder>
 import { spawnSync } from 'node:child_process';
 import { writeFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, basename } from 'node:path';
 import { HERE, PERSONA } from './lib.mjs';
 
 const dir = process.argv[2];
@@ -18,7 +18,7 @@ const verdict = !fails.length && !leaked ? 'pass'
     ' (a person reads each line: a known echo can be cleared in the amendment, with the reason)';
 const git = (cwd, ...a) => spawnSync('git', ['-C', cwd, ...a], { encoding: 'utf8' }).stdout.trim() || 'unknown';
 const stamp = `Checked ${new Date().toISOString().slice(0, 10)} by _tools/scan.mjs and _tools/leak.mjs at lab commit ` +
-  `${git(HERE, 'rev-parse', '--short', 'HEAD')}, against the persona at ${PERSONA} (${git(PERSONA, 'rev-parse', '--short', 'HEAD')}). ` +
+  `${git(HERE, 'rev-parse', '--short', 'HEAD')}, against the persona folder ${basename(PERSONA)} (${git(PERSONA, 'rev-parse', '--short', 'HEAD')}). ` +
   'A run older than its scanner is judged by today\'s checks; its own amendment says what was read at the time.';
 writeFileSync(join(dir, 'check.md'), `${verdict}\n\n${stamp}\n\n## scan.mjs\n\n${(scan.stdout + scan.stderr).trim()}\n\n## leak.mjs\n\n${(leak.stdout + leak.stderr).trim()}\n`);
 console.log(verdict);

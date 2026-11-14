@@ -48,5 +48,6 @@ writeFileSync(join(R, '_index.md'), [
   '2026-11-14, most older fails are one of three kinds: checks stricter than when the run happened (the debrief',
   'format changed several times, so C10 fails), runs built to fail (the weak persona, Haiku, the control prompts,',
   'the early drafts), or sessions where stepping out is right (a child, real distress, a withdrawn consent).', '',
+  'Model is as each run recorded it; some early runs recorded the Haiku side call instead (fixed by Amendment 26b).', '',
   '| Run | Model | Sessions | Gate | Cleared |', '|---|---|---|---|---|', ...rows, ''].join('\n'));
 console.log(`amendments: ${recs.length} records, ${old.length} in the frozen record; runs: ${rows.length}`);

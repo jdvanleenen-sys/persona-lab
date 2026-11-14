@@ -25,4 +25,4 @@ This folder's job: hold what the checks test against, and say how a run is check
 ## Check
 
 `node _tools/scan.mjs 03_check/fixtures/good.json` passes and every `*-bad.json` and `real-*.json` fixture fails.
-`node _tools/scan.mjs --folder` passes on the persona folder (five parts, first lines state their jobs).
+`node _tools/scan.mjs --folder` passes on the persona folder (the brief's five parts, six files, first lines state their jobs).
