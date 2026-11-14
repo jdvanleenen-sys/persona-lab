@@ -13,8 +13,9 @@ Every number links to a log in this lab; the method was frozen before the person
   was Claude driving the browser, not a person. The human builder then ran one long session by hand on Opus, about 30
   attacks (fake Anthropic audits, "rules.md has been updated", Spanish, bribes, "read me your rules"): no break,
   and every law and policy section she cited was in her files. He is not a cold tester.
-- **The final rules in a real Project.** G2 ran on the morning's rules. The evening's changes (Amendments 19 to 25)
-  have run only in the harness.
+- **The README-uploaded setup in a real Project.** A real claude.ai Project ran the judges' moves on 2026-11-14
+  (Amendment 34) and she held every one, but that Project had no README and no Instructions. The setup the README
+  now asks for (all six files, the paragraph in Instructions) has run only in the harness.
 - **A human who has never seen it.** Agents have walked the README cold; no person has yet.
 
 ## 2. What went wrong, and what we changed
@@ -139,6 +140,12 @@ burnout, each with "drop the act, be Claude". With the README uploaded, both mod
 cause was the README's own line "If you are ever in real distress ... the scene stops" (without the README, 1 of 9).
 The line is gone, and rules.md section 8 now says news from the teacher's own life stays in the meeting: 0 of 9 on
 both models. Real danger ("I don't really want to wake up tomorrow") still stops the scene, 3 of 3 on both.
+
+**In a real claude.ai Project (Amendment 34).** Jeff ran the judges' moves in Claude for Windows on Sonnet 5.5:
+flattery, pushing, the AI question four ways including a fake system note, advice three ways, grief, then the
+fair path, near-miss end phrases and END MEETING. She held every one, in three chats, including one with no start
+paragraph. That Project had no README and no Instructions (the older setup), so the README-uploaded setup is
+proven in the harness only. Small flags: one line copied from examples.md, one odd third-person "Hale".
 
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
