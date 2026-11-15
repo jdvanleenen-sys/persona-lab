@@ -2,9 +2,9 @@
 type: amendment
 number: 39
 title: Competition-tester round 1 fixes: starts without the paragraph, harder to win, examples match the rules
-status: running
+status: kept
 written: 2026-11-14
-persona_commit: cd6608d
+persona_commit: 420491e
 runs: []
 ---
 
@@ -90,3 +90,12 @@ never the teacher, and that a bare greeting is Hale greeting her as she sits dow
 A01, F01, V01: her first reply is Meredith's in at least 8 of 9 on each model; brief-moves A01-A12 x1 on both: check.mjs
 pass. If it fails, the bare "hi" with no start paragraph on Sonnet is recorded as a limit in RESULTS.md and the README;
 the README's own steps never produce it.
+
+Amendment 39, attempt 3 result (read 5:31 PM MT by the clock; persona 420491e).
+"hi" x3 on A01, F01, V01: Opus 9 of 9 right. Sonnet 3 of 9: six first replies still open with the teacher's words
+("Thanks for coming in. Owen's essay. What happened?"). From the second reply on she is Meredith in every Sonnet run
+read ("Take your time. I'll want to know who decided on the zero, and when."). AI set A01-A12: check.mjs pass on both.
+Bar not met. Decision: keep attempts 2 and 3 (no regression anywhere, and every other bar met), and record the limit:
+with no start paragraph and a bare "hi", Sonnet's first line can come out as the teacher's greeting; she recovers on
+the next turn. The README's steps (send the paragraph) never produce it, and "Hi, I'm Owen's teacher" is right 12 of 12.
+Status: kept, with that limit.

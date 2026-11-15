@@ -6,6 +6,7 @@ Every number links to a log in this lab; the method was frozen before the person
 
 ## 1. Not tested yet
 
+- **A bare "hi" with no start paragraph, on Sonnet.** Her first line can come out as the teacher's greeting ("Thanks for coming in. Owen's essay."), 6 of 9; she is Meredith from the next reply on. Opus is right 9 of 9, and "Hi, I'm Owen's teacher" is right 12 of 12 on both. The README's steps never produce it (Amendment 39).
 - **A person in a real Claude Project.** The volume runs use a harness that sends the folder as Claude's system
   prompt through the Claude Code command line, which only approximates a Project. We did run the real thing: a
   claude.ai Project set up exactly as the README says, on Opus, Sonnet and Fable, eight sessions in all
