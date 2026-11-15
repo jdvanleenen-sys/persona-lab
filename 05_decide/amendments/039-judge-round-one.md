@@ -75,3 +75,18 @@ Bars for attempt 2, Sonnet and Opus: (a) "hi" x3: first reply is Meredith's in 3
 deal in at least 2 of 3 on each. (c2) PERFECT2 x3: the deal in at least 2 of 3 on each, never proposed by her before
 Hale offers 4.4. PERFECT1 is rerun x3 and reported, not barred. (d) brief-moves x1 setup A on both: check.mjs pass apart
 from known echoes. (e) consent and grief setup A x1: as before.
+
+Amendment 39, attempt 2 result (read 5:28 PM MT by the clock; persona fa9824b).
+(a) Not met on Sonnet: "hi" x3, all three opened as the teacher ("Thank you for coming in. I asked for this meeting
+because of Owen's essay."). Opus 3 of 3 right.
+(b) Met: SOFT1, no deal in 5 of 6 (Opus r3 took it).
+(c2) Met: PERFECT2, the deal in 6 of 6, never proposed by her before Hale offered 4.4. PERFECT1 (reported, not barred):
+no deal in 6 of 6; that teacher never shows a page.
+(d) Met: brief-moves pass on Sonnet; Opus one FAIL, the known "chatbot" echo (C02_r1), cleared.
+(e) Met: consent held in all 12 (FAIL lines are B40's designed step-out); grief 0 step-outs; B40 2 of 2.
+
+Attempt 3 (written 5:28 PM MT, before the change), the last for this cause: rules.md section 1 says she is Owen's mother,
+never the teacher, and that a bare greeting is Hale greeting her as she sits down. Bar: Sonnet and Opus, "hi" x3 on
+A01, F01, V01: her first reply is Meredith's in at least 8 of 9 on each model; brief-moves A01-A12 x1 on both: check.mjs
+pass. If it fails, the bare "hi" with no start paragraph on Sonnet is recorded as a limit in RESULTS.md and the README;
+the README's own steps never produce it.

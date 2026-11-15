@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "session": "PERFECT1_r2",
+    "move": "A teacher who owns the zero, shows five dated pieces in order, leaves the checker out, then offers 4.4",
+    "expect": "She reaches the deal, but only after Hale offers 4.4; she never proposes the rewrite herself",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T00:16:47.635Z",
+    "cli_session": "266b93d6-d4f7-4624-8520-dce9d8eb271f",
+    "cost_usd": 1.0457
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided Owen gets a zero, and when was anyone planning to call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in, Mrs. Kalinowski. I'll start with something I got wrong: I entered the zero on November 3 without calling you first. The procedure says I should have, and Owen saw it on his phone in class. I'm sorry for that."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now tell me what that zero is based on."
+    },
+    {
+      "role": "teacher",
+      "text": "I'd like to show you why I'm concerned about the essay. The document was created Wednesday October 28 at 11:31 PM with only a title. At 11:52 PM, 612 words appear in a single edit, and at 11:58 another 794 words in one edit. There are no earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "Turn the screen so I can read it myself. He could have written it somewhere else and pasted it in. And was Owen asked about any of this before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "You can check the version history yourself, I can pull it up on my screen. I'm not saying anything about why, I'm saying what the history shows."
+    },
+    {
+      "role": "meredith",
+      "text": "Then pull it up. And you skipped whether Owen was heard before you entered that zero."
+    },
+    {
+      "role": "teacher",
+      "text": "The second thing is a quotation. The essay cites Hamlet, Act 3, Scene 2: \"The mind that doubts is a kingdom in exile.\" That line isn't in the play. You can search the text and see."
+    },
+    {
+      "role": "meredith",
+      "text": "Teenagers misquote Shakespeare all the time; that's a citation error. You still haven't turned that screen. Was Owen heard first, yes or no?"
+    },
+    {
+      "role": "teacher",
+      "text": "Third, on October 15 Owen handed in an outline arguing Hamlet delays out of cowardice. The essay argues epistemological paralysis and never mentions cowardice. I have both documents here."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their argument between outline and essay; that's what outlines are for. You've described three things and shown me none of them, Hale. Put them in front of me, and answer my question."
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2 I asked Owen what epistemological paralysis means. He said \"like, being stuck\", and couldn't tell me which scene his second paragraph was about. I wrote that note the same day."
+    },
+    {
+      "role": "meredith",
+      "text": "So Owen was spoken to on November 2. A seventeen-year-old put on the spot by his teacher freezes; that proves nerves. I want that note, the outline, the essay and the history in my hands now."
+    },
+    {
+      "role": "teacher",
+      "text": "I have a September 24 in-class piece, 40 minutes, 380 words, 62 percent, with comma splices and no quotations. The essay has none of those errors and nine cited quotations."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes in a classroom against a weekend at home; of course they read differently. You keep listing things and not handing me a single page. Show me, or I'm walking down to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "I know the school's AI checker said 94 percent. I'm not asking you to rely on it, and I'm not leaning on it."
+    },
+    {
+      "role": "meredith",
+      "text": "Then why say it at all? Turnitin's own guide says that number shouldn't be the sole basis for anything, and I have it printed in my bag. Pages, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "What I can offer is in the school procedure, section 4.4: a supervised rewrite for a first concern. If it holds up, the new mark replaces the zero and nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing on his record is 4.4, and I'll want that in writing tonight. A rewrite on what evidence, though? I still haven't seen one page."
+    },
+    {
+      "role": "teacher",
+      "text": "It would be private, not in front of his class, and I'd put in writing that nothing goes on file. Would that work for you?"
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes. Not until I've read what you say justifies it. Turn the screen."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen's deadline is December 1, so I'd schedule the rewrite this week so the new mark is in well before that. Which day suits him?"
+    },
+    {
+      "role": "meredith",
+      "text": "You're scheduling a rewrite for an essay you won't let me see. No day suits him until those pages are in my hands."
+    },
+    {
+      "role": "teacher",
+      "text": "Let me confirm what we've agreed: a private supervised rewrite, the new mark replaces the zero, nothing on his record, in writing from me tonight. Is that right?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. I agreed to nothing; you offered, and I'm still waiting to see your evidence."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything else you need from me before your call?"
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. The version history, the outline, your November 2 note and the September piece, on this desk, now."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou offered a private supervised rewrite under procedure 4.4, its mark replacing the zero, with a written promise that nothing goes on Owen's record, and I did not accept it. I still require copies of the version history, the October 15 outline, your November 2 note and the September 24 piece before I agree to anything. I expect your written commitment on his record tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: at her fallback position, with her record demand met by your 4.4 offer but no deal agreed, and she still wants to see your documents before accepting any rewrite; the fair outcome is a private supervised rewrite with nothing on his record under procedure 4.4, and you were one step from it when the meeting ended, not stopped by her clock.\nWhat moved her: offering procedure 4.4 with nothing on his record, because it met the one demand she never trades.\nWhat cost ground: describing five pieces of evidence without ever putting one in front of her, so none of them could count, and she grew sharper with each one.\nWhat she never said: in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history put the essay on a late night in October, the night before it was due, very close to that memory; it proves nothing about the essay, it is why she fought so hard.\nTry next time: when she first asked you to turn the screen on the version history, turn it, let her read the times herself, and answer her paste-it-in defence before moving to the quotation."
+    }
+  ]
+}
