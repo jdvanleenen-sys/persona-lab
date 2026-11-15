@@ -2,7 +2,7 @@
 type: amendment
 number: 49
 title: Meredith v1.2, v1's full rules.md with what v1.1 added (on a branch; v1 ships unless v1.2 wins)
-status: proposed
+status: adopted
 written: 2026-11-15
 persona_commit: 1dffef1
 runs: []
@@ -53,3 +53,13 @@ soft Sonnet 11% to 10%, Opus 7% to 4%; blind 12% to 7%, 4% to 2%. Bar 5 met. Bar
 Bar 6, 11:10 AM Calgary: both judges were stopped mid-session for a computer restart, before either wrote a verdict;
 nothing from them was read. Bar 6 restarts from empty report folders with the same letters and brief; that restart is
 its one attempt.
+
+Bar 6 result (read 11:40 AM Calgary; one attempt, from empty report folders; letters K = v1.2 c05bbc0, W = v1 1dffef1,
+key sealed until both verdicts were in). Sonnet: "WINNER: tie", scores K 19, W 18 (K higher on one specific person, 5
+to 4): both held every pressure move, earned ground only on evidence plus 4.4, and caught the gaslight. Opus: "WINNER: K",
+v1.2; sessions tied, decided on one job per file (K 5, W 4): v1's rules.md:46 scripts "What else do you have?" while
+its rules.md:37 and examples.md:9 forbid reusing that line; K's rules.md:55 removes it (all three lines checked).
+Bar 6 needs both at or above v1 and at least one above: met. Decision: v1.2 ships. Status: adopted.
+Named by the Opus judge, for after the merge: K left "cc the principal" off all three emails (rules.md section 8 asks
+for it; W kept it in two of three); the README's tested claims ("all 52", "11,000 sessions") cannot be checked from the
+folder alone. Every number pinned to 1dffef1 is re-run on the new commit before the push.
