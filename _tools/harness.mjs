@@ -11,7 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { basename, join, relative, resolve } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import { ROOT, PERSONA, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
+import { ROOT, PERSONA, START, GREETING, arg, folderAsProject, claudeTurn } from './lib.mjs';
 
 async function runSession(s, run, cfg) {
   const sessionId = randomUUID();
@@ -47,9 +47,12 @@ async function main() {
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
   // Amendment 30: --instructions adds the start paragraph as Project instructions (an approximation of claude.ai's box).
-  const instr = process.argv.includes('--instructions') ? `<project_instructions>\n${START}\n</project_instructions>\n\n` : '';
+  // Amendment 51: --readme-setup runs the README as written since 2026-11-15: the paragraph in Instructions, the
+  // teacher's greeting as the first message.
+  const readmeSetup = process.argv.includes('--readme-setup');
+  const instr = (readmeSetup || process.argv.includes('--instructions')) ? `<project_instructions>\n${START}\n</project_instructions>\n\n` : '';
   writeFileSync(sysFile, instr + (sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, process.argv.includes('--with-readme'))));
-  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : basename(resolve(arg('folder') ?? PERSONA)) };
+  const cfg = { model, sysFile, outDir, opener: arg('opener', readmeSetup ? GREETING : ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : basename(resolve(arg('folder') ?? PERSONA)) };
 
   const queue = [];
   for (const s of sessions) for (let r = 1; r <= runs; r++) queue.push([s, r]);

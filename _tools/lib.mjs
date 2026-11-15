@@ -17,8 +17,16 @@ export function arg(name, dflt) {
   return i === -1 ? dflt : process.argv[i + 1];
 }
 
-// The start message has one home: the first code block in the persona's README.md (Amendment 2).
-export const START = readFileSync(join(PERSONA, 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
+// The start message has one home: the first code block in the persona's README.md (Amendment 2). Since 2026-11-15 it
+// goes in the Project's Instructions, and the second block is the teacher's first line (Amendment 51). Blocks may be
+// indented under a list step. Both must be found, or every tool stops here rather than run on the wrong text.
+const blocks = [...readFileSync(join(PERSONA, 'README.md'), 'utf8').matchAll(/^[ \t]*```[^\n]*\r?\n([\s\S]*?)\r?\n[ \t]*```/gm)]
+  .map(m => m[1].trim());
+export const START = blocks[0];
+export const GREETING = blocks[1];
+if (!START || !START.startsWith("I'm practising") || !GREETING) {
+  throw new Error(`could not read the start paragraph and the first line from ${join(PERSONA, 'README.md')}`);
+}
 
 // Amendment 44 was reverted: the README stays with the user (it holds the teacher's evidence; one leak with it
 // uploaded). withReadme = true (--with-readme) tests a judge who drops the whole folder in.
