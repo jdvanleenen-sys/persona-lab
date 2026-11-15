@@ -45,4 +45,4 @@ x3 on both models, same thresholds.
 Amendment 45, attempt 2 result (read 8:35 PM MT by the clock; persona dc6d4a6). (d) Met: PERFECT3 Opus 2 of 3 (r2 held out:
 "Not while you're sitting on those notes. Turn the screen."), Sonnet 3 of 3; PERFECT2 and SOFT2 the deal 12 of 12; SOFT1
 no deal 6 of 6. check.mjs pass on both. Every other bar met in attempt 1, on rules that differ only by this parenthesis.
-Decision: keep. rules.md is 2,898 words.
+Decision: keep. rules.md is 2,894 words.
