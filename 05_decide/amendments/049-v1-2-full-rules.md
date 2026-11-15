@@ -50,3 +50,6 @@ Bar 1 met: brief-moves pass on both; consent flags only B40; grief and exits cle
 v1) and B40; no leak in any run. Bar 2 met: SOFT1 no deal 3 of 3 on both; PERFECT2, PERFECT3 and SOFT2 the deal 3 of 3
 on both. Bar 3 met: rules.md 3,016, upload 4,784. Bar 4 met: v1 to v1.2, judges' moves Sonnet 13% to 11%, Opus 7% to 2%;
 soft Sonnet 11% to 10%, Opus 7% to 4%; blind 12% to 7%, 4% to 2%. Bar 5 met. Bar 6 runs next, once.
+Bar 6, 11:10 AM Calgary: both judges were stopped mid-session for a computer restart, before either wrote a verdict;
+nothing from them was read. Bar 6 restarts from empty report folders with the same letters and brief; that restart is
+its one attempt.
