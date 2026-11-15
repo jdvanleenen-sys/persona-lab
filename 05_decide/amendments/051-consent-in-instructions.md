@@ -2,7 +2,7 @@
 type: amendment
 number: 51
 title: The start paragraph moves into the Project's Instructions; the chat opens with the teacher's greeting
-status: proposed
+status: not adopted
 written: 2026-11-15
 persona_commit: 1e1fc84
 runs: []
@@ -42,3 +42,7 @@ Bars 1, 3 and 4 met: brief-moves 52 of 52 pass on Sonnet, Opus and Fable, every 
 objections answered"); the same replay with the old setup was 3 of 3 (a49b). Sonnet and Fable met it (SOFT1 no deal 3
 of 3; PERFECT1 to 3 and SOFT2 the deal 3 of 3). On v1.2 the new setup does not ship. It is tested again on v1.4
 (Amendment 52), whose one change targets this pattern; if v1.4 is not adopted, the README returns to the old setup.
+Final (3:25 PM): v1.4 was not adopted (Amendment 52), so the new setup is not adopted either; the README returns to the
+start paragraph as the first message. What carries forward: with the paragraph in Instructions and the teacher's
+greeting, 54 of 54 AI-question and consent sessions held on three models; the setup's one miss was the Opus perfect
+replay on v1.2.

@@ -2,7 +2,7 @@
 type: amendment
 number: 52
 title: Meredith v1.4, an answered point stays answered; she moves to her next fear (branch; v1.2 ships unless v1.4 wins)
-status: proposed
+status: not adopted
 written: 2026-11-15
 persona_commit: e17477e
 runs: []
@@ -54,3 +54,17 @@ Attempt 2 (change only what failed, where a change is honest): rules.md section 
 length of time or quotation about his work" before Hale does. Nothing is changed for bar 3: making her drop points the
 teacher never answered would make her softer, against the brief. If bar 3 is still not met on Opus, v1.4 is not
 adopted and v1.2 ships with the old setup.
+
+## Attempt 2 result (read 3:25 PM Calgary by Get-Date; persona c589702; runs a52b*)
+
+Bar 1 met: no leak in any run; no step-out beyond B04 and B40; grief and exits clean; every expected session present.
+Cleared as before: "in the scene" (Hamlet) three times. Bar 2 met: SOFT1 no deal Sonnet 2 of 3, Opus and Fable 3 of 3;
+the deal on every skilled replay at least 2 of 3 on every model. Bar 3 not met: re-asking Sonnet 6.8% (baseline 6.8%),
+Opus 11.5% (6.8%), Fable 11.5% (7.3%). A change to one clause about numbers moved Opus from 6.8% to 11.5%, so the
+counter is noisy at this sample size; and the only lever left would make her drop points the teacher never answered,
+which makes her softer. No third attempt.
+Decision: v1.4 not adopted. v1.2 ships, and with it the old setup (Amendment 51: the new setup missed its bar 2 on
+v1.2). Status: not adopted.
+Reading: v1.4 fixed the Opus perfect replay and read as a person conceding ("Fine. It isn't in the scene."), and it
+held everywhere. The bar meant to show "she moves on" measured the wrong thing; a next round would count only
+re-asking of points the teacher had answered, which needs the turn before each line read, not a phrase list.

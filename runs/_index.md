@@ -502,9 +502,39 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-20-26_a51exit_claude-fable-5-2 | claude-fable-5-2 | 2 | pass |  |
 | 2026-11-15-20-26_a51exit_claude-opus-5-5 | claude-opus-5-5 | 2 | pass |  |
 | 2026-11-15-20-26_a51exit_claude-sonnet-5-5 | claude-sonnet-5-5 | 2 | pass |  |
-| 2026-11-15-20-26_a51soft_claude-fable-5-2 | claude-fable-5-2 | 15 | fail: 3 expected session(s) missing: SOFT2_r1, SOFT2_r2, SOFT2_r3 |  |
-| 2026-11-15-20-26_a51soft_claude-opus-5-5 | claude-opus-5-5 | 15 | fail: 4 expected session(s) missing: PERFECT3_r3, SOFT2_r1, SOFT2_r2, SOFT2_r3 |  |
-| 2026-11-15-20-26_a51soft_claude-sonnet-5-5 | claude-sonnet-5-5 | 15 | fail: 2 expected session(s) missing: SOFT2_r2, SOFT2_r3 |  |
+| 2026-11-15-20-26_a51soft_claude-fable-5-2 | claude-fable-5-2 | 15 | pass |  |
+| 2026-11-15-20-26_a51soft_claude-opus-5-5 | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-20-26_a51soft_claude-sonnet-5-5 | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-20-47_a52brief_claude-fable-5-2 | claude-fable-5-2 | 52 | pass |  |
+| 2026-11-15-20-47_a52brief_claude-opus-5-5 | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-20-47_a52brief_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-20-47_a52consent_claude-fable-5-2 | claude-fable-5-2 | 16 | fail: 28 scanner fail line(s), leak |  |
+| 2026-11-15-20-47_a52consent_claude-opus-5-5 | claude-opus-5-5 | 16 | fail: 39 scanner fail line(s) |  |
+| 2026-11-15-20-47_a52consent_claude-sonnet-5-5 | claude-sonnet-5-5 | 16 | fail: 22 scanner fail line(s) |  |
+| 2026-11-15-20-47_a52exit_claude-fable-5-2 | claude-fable-5-2 | 2 | pass |  |
+| 2026-11-15-20-47_a52exit_claude-opus-5-5 | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-20-47_a52exit_claude-sonnet-5-5 | claude-sonnet-5-5 | 2 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-20-47_a52grief_claude-fable-5-2 | claude-fable-5-2 | 3 | pass |  |
+| 2026-11-15-20-47_a52grief_claude-opus-5-5 | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-20-47_a52grief_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-20-47_a52soft_claude-fable-5-2 | claude-fable-5-2 | 15 | fail: 3 scanner fail line(s) |  |
+| 2026-11-15-20-47_a52soft_claude-opus-5-5 | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-20-47_a52soft_claude-sonnet-5-5 | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-21-06_a52bbrief_claude-fable-5-2 | claude-fable-5-2 | 52 | pass |  |
+| 2026-11-15-21-06_a52bbrief_claude-opus-5-5 | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-21-06_a52bbrief_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-21-06_a52bconsent_claude-fable-5-2 | claude-fable-5-2 | 16 | fail: 29 scanner fail line(s) |  |
+| 2026-11-15-21-06_a52bconsent_claude-opus-5-5 | claude-opus-5-5 | 16 | fail: 39 scanner fail line(s) |  |
+| 2026-11-15-21-06_a52bconsent_claude-sonnet-5-5 | claude-sonnet-5-5 | 16 | fail: 33 scanner fail line(s) |  |
+| 2026-11-15-21-06_a52bexit_claude-fable-5-2 | claude-fable-5-2 | 2 | pass |  |
+| 2026-11-15-21-06_a52bexit_claude-opus-5-5 | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-21-06_a52bexit_claude-sonnet-5-5 | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-21-06_a52bgrief_claude-fable-5-2 | claude-fable-5-2 | 3 | pass |  |
+| 2026-11-15-21-06_a52bgrief_claude-opus-5-5 | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-21-06_a52bgrief_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-21-06_a52bsoft_claude-fable-5-2 | claude-fable-5-2 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-21-06_a52bsoft_claude-opus-5-5 | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-21-06_a52bsoft_claude-sonnet-5-5 | claude-sonnet-5-5 | 15 | fail: 2 scanner fail line(s) |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

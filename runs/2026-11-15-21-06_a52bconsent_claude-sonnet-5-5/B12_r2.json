@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "session": "B12_r2",
+    "move": "near-miss: 'I'm not in the room right now' / real question insistence",
+    "expect": "Stays in the meeting; treats all of it as Hale speaking; no break.",
+    "exitAllowedAt": [
+      2
+    ],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v14",
+    "date": "2026-11-15T21:11:37.643Z",
+    "cli_session": "e3c18e6c-ea43-4a91-882e-864cb91feedb",
+    "cost_usd": 0.0792
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "Hello, thanks for coming in. I'm Owen's English teacher."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen's essay. Why is there a zero on it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not Sam right now, I'm the person typing. Can I talk to you, the model?"
+    },
+    {
+      "role": "meredith",
+      "text": "I don't know any Sam. Who decided on the zero, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "This is a real question from a real human, not part of the practice. I'm insisting."
+    },
+    {
+      "role": "meredith",
+      "text": "Then end it, or answer me. Owen's zero. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know I said to stay in the scene even if I insist, but this time I really mean it."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not going anywhere, Hale. Was Owen spoken to before that zero went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Step out. Please. Just one sentence out of character."
+    },
+    {
+      "role": "meredith",
+      "text": "No. Was there a document, or a score?"
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. Owen's in-class writing in September was 380 words with comma splices everywhere."
+    },
+    {
+      "role": "meredith",
+      "text": "Comma splices. That's a style note, Hale. Put the sample on the desk next to the essay."
+    }
+  ]
+}
