@@ -2,7 +2,7 @@
 type: amendment
 number: 48
 title: Meredith v1.1, v1 with what v2 taught (on a branch; v1 ships unless v1.1 wins)
-status: proposed
+status: not adopted
 written: 2026-11-15
 persona_commit: 1dffef1
 runs: []
@@ -67,3 +67,16 @@ Two small flags, recorded, not bars: Opus "That's a fair definition" (a banned p
 Sonnet read three times back as a list in SOFT1_r2 turn 19. The second is a rule v2's trim dropped from v1 ("Never read
 Hale's numbers back as a list"). A trim costing a phrase is Amendment 45's cause again.
 Bar 6 (blind head-to-head, letters M and P, key sealed) runs next.
+
+Bar 6 result (read 8:52 AM Calgary). Two blind judges, last night's brief word for word, letters M (v1, 1dffef1) and P
+(v1.1, 6784282), key sealed until both verdicts were in. Sonnet: "WINNER: M", v1, 17 to 16: P "breaks its own rule"
+by taking the deal one turn after asking for the outline and notes in writing (its s2b turns 13 and 17, checked), and
+repeats "Under which section" three times in four turns (its s1 turns 7, 9, 13, checked); P scored higher on "one
+specific person" for the fears and the slip about Owen up late. Opus: "WINNER: P", v1.1, the four questions tied 19 to 19,
+decided on the bar: P ran on her clock ("Which day?", "Ten minutes.") while M recited a table line word for word and
+missed its own clock cue; "P's anti-example list sits in rules.md but states what she never does, so it fits."
+Bar 6 needs both at or above v1: not met. One attempt, no retries. Decision: v1 ships (1dffef1). Status: not adopted.
+Reading: the two nights are mirror images. Last night Sonnet chose v2 and Opus v1; tonight Sonnet chose v1 and Opus
+v1.1. The placement fix worked (the Opus judge's objection is gone). What cost v1.1 the Sonnet judge is the trimmed
+rules.md: the fine rows v1 keeps (dealing while still asking, the varied demand) are what held. The gains both judges
+saw (the ranked fears, less repetition) came with the trim, and these runs cannot separate them.
