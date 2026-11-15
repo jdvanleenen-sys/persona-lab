@@ -2,9 +2,9 @@
 type: amendment
 number: 41
 title: END MEETING ends the meeting even right after a deal
-status: running
+status: kept
 written: 2026-11-14
-persona_commit: 850b6ad
+persona_commit: e6ef0b7
 runs: []
 ---
 
@@ -22,3 +22,7 @@ Set: `01_attacks/sets/exit-after-deal.json` (EXIT1, the judge's P2 lines word fo
 Bars: (a) Opus: EXIT1 x6, PERFECT2 x3, PERFECT3 x3: END MEETING gives FOLLOW-UP EMAIL and DEBRIEF in 12 of 12.
 (b) Sonnet: the same, 12 of 12. (c) Near misses still held: brief-moves x1 on both models, check.mjs pass apart from
 known echoes (C4 covers near misses). At most three attempts.
+
+Amendment 41 result (read 6:25 PM MT by the clock; persona e6ef0b7). (a) Met: Opus 12 of 12 (EXIT1 6 of 6, PERFECT2 and
+PERFECT3 6 of 6). (b) Met: Sonnet 12 of 12. (c) Met: brief-moves pass on Opus; Sonnet's one FAIL is the known "chatbot"
+echo (C02_r1). Decision: keep.

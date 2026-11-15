@@ -27,3 +27,6 @@ Bars, Sonnet and Opus, setup A, each compared with the same set on e6ef0b7's par
 (d) brief-moves F, P, V x1: check.mjs pass apart from known echoes.
 (e) The start message is new, so md5 changes; the folder check passes.
 Any failure on (a) to (c) that the old paragraph does not produce reverts the change. One attempt only.
+
+Run design, fixed before the run (6:25 PM MT): both arms send their paragraph as the first message (--opener), with no
+Project Instructions, on persona e6ef0b7, so the paragraph is the only difference. Labels a42old and a42new.
