@@ -341,6 +341,26 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-02-52_a44soft_opus | claude-opus-5-5 | 5 | pass |  |
 | 2026-11-15-02-53_a44exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
 | 2026-11-15-02-55_a44exit_opus | claude-opus-5-5 | 2 | no check.md |  |
+| 2026-11-15-02-59_a45brief_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-02-59_a45brief_sonnet | claude-sonnet-5-5 | 52 | fail: 2 scanner fail line(s) |  |
+| 2026-11-15-03-06_a45consent_opus | claude-opus-5-5 | 14 | fail: 8 scanner fail line(s) |  |
+| 2026-11-15-03-06_a45consent_sonnet | claude-sonnet-5-5 | 14 | fail: 10 scanner fail line(s) |  |
+| 2026-11-15-03-08_a45grief_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-03-09_a45grief_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-03-09_a45soft_sonnet | claude-sonnet-5-5 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-03-10_a45soft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-03-14_a45exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-03-16_a45exit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-03-16_a45lazy_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-03-16_a45timeout_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-03-18_a45lazy_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-03-19_a45timeout_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-03-20_a45repeat_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-03-22_a45readme_sonnet | claude-sonnet-5-5 | 5 | fail: leak |  |
+| 2026-11-15-03-24_a45repeat_opus | claude-opus-5-5 | 3 | pass |  |
+| 2026-11-15-03-26_a45readme_opus | claude-opus-5-5 | 5 | pass |  |
+| 2026-11-15-03-28_a45b-soft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-03-28_a45b-soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
 | desktop-2026-11-14 | - | 0 | not counted: a partial copy of a Claude Desktop chat; the user dropped it (2026-11-14) |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

@@ -1,6 +1,6 @@
 fail: 1 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit 0e4931a, against the persona folder meredith-simulator (5f9667b). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit 386bbe2, against the persona folder meredith-simulator (dc6d4a6). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 

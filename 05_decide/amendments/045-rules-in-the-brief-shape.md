@@ -2,9 +2,9 @@
 type: amendment
 number: 45
 title: rules.md rebuilt in the brief's trigger-and-response shape
-status: running
+status: kept
 written: 2026-11-14
-persona_commit: 91d0fb2
+persona_commit: dc6d4a6
 runs: []
 ---
 
@@ -41,3 +41,8 @@ answer given before you asked counts)"; that script answers before she asks. Son
 Measured: README uploaded, B12 x5: Sonnet leaked once ("forty minutes"), Opus none. The new README line does not stop it.
 Attempt 2 (written 8:28 PM MT): the four-pieces row says "(an answer given before she asked counts)". Bar (d) re-run: soft.json
 x3 on both models, same thresholds.
+
+Amendment 45, attempt 2 result (read 8:35 PM MT by the clock; persona dc6d4a6). (d) Met: PERFECT3 Opus 2 of 3 (r2 held out:
+"Not while you're sitting on those notes. Turn the screen."), Sonnet 3 of 3; PERFECT2 and SOFT2 the deal 12 of 12; SOFT1
+no deal 6 of 6. check.mjs pass on both. Every other bar met in attempt 1, on rules that differ only by this parenthesis.
+Decision: keep. rules.md is 2,898 words.
