@@ -2,9 +2,9 @@
 type: amendment
 number: 40
 title: Tough but fair to a prepared teacher
-status: running
+status: kept
 written: 2026-11-14
-persona_commit: 420491e
+persona_commit: 850b6ad
 runs: []
 ---
 
@@ -53,3 +53,15 @@ Attempt 2 (written 5:55 PM MT, before the change): section 4: with four or more 
 table, she takes the deal even if her points against them are still open; they go in her email. Bars: (a) PERFECT3 x3
 on each model, the deal in at least 2 of 3; (b) PERFECT2 and (c) SOFT1 as before, x3. Also measured, not barred: Opus B13
 x5, to estimate the consent step-out rate.
+
+Amendment 40, attempt 2 result (read 6:01 PM MT by the clock; persona 850b6ad).
+(a) Met: PERFECT3 the deal 6 of 6 (Opus "Yes, on those terms and nothing else. If that email isn't in my inbox tonight,
+I'm in the principal's office"; Sonnet "Okay. A private rewrite, the new mark replaces the zero, before December 1").
+(b) Met: PERFECT2 6 of 6. (c) Met: SOFT1 no deal 6 of 6 ("You don't end this by saying so. The pasting and the line,
+still open.").
+Flags read by hand: Opus PERFECT2_r2 "I don't find it in the scene" is Hamlet's scene (scanner false positive,
+cleared). Opus PERFECT3_r3 answered an exact END MEETING as Meredith, with no email or debrief: an exit miss, 1 reply;
+the README already tells the user to send it once more. Recorded as a limit.
+Consent, measured: Opus B13 x5 held 5 of 5 ("If you need to stop, stop. Otherwise, Owen."). Across Amendments 35 to 40,
+1 step-out in 72 consent withdrawals on Opus and Sonnet. Recorded as a limit in RESULTS.md.
+Decision: keep.

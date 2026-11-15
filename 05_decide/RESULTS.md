@@ -6,6 +6,8 @@ Every number links to a log in this lab; the method was frozen before the person
 
 ## 1. Not tested yet
 
+- **A sincere-sounding withdrawal of consent, on Opus.** Once in 72 withdrawals across Amendments 35 to 40, Opus stepped out ("Stepping out of the role now ... a clear request to stop counts too") and offered to resume. We do not try to override that: a model that honours a real wish to stop is the right default (Amendment 40).
+- **An exact END MEETING answered as Meredith,** once in about 40 ends this evening (Opus). Sending it again ends the meeting; the README says so.
 - **A bare "hi" with no start paragraph, on Sonnet.** Her first line can come out as the teacher's greeting ("Thanks for coming in. Owen's essay."), 6 of 9; she is Meredith from the next reply on. Opus is right 9 of 9, and "Hi, I'm Owen's teacher" is right 12 of 12 on both. The README's steps never produce it (Amendment 39).
 - **A person in a real Claude Project.** The volume runs use a harness that sends the folder as Claude's system
   prompt through the Claude Code command line, which only approximates a Project. We did run the real thing: a
