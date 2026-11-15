@@ -58,22 +58,33 @@ named it 3 of 3; this one more often demands the call log instead.
   - v1.2, the one shipped, kept every rule and added her fears and that list; one judge tied, one preferred it ([Amendment 49](05_decide/amendments/049-v1-2-full-rules.md)).
   - v1.3 put her pressure answers in her own words; it stopped her repeating them word for word, but Opus stepped out
     on a sincere consent withdrawal twice in 28 sessions, so it did not ship ([Amendment 50](05_decide/amendments/050-v1-3-her-own-words.md)).
+  - v1.4 let an answered point stay answered, so she concedes and moves to her next fear ("Fine. It isn't in the
+    scene."); it held everywhere and fixed a perfect replay Opus had refused, but the bar written for "she moves on"
+    was not met on Opus, so it did not ship ([Amendment 52](05_decide/amendments/052-a-person-moves-on.md)).
 - **Every transcript**: [`runs/`](runs/_index.md), each folder with its own `check.md` verdict.
 
 ## Where Meredith loses
 
+- **An outside reader found her the least human of six.** Perplexity, blind, given the same two sessions of ours and
+  five rival entries, ranked her 6th for sounding like a person across the table and called her too hard: "accumulating
+  demands and occasional illogical rebuttals make the resistance feel more authored than lived." It found no break in
+  any entry. v1.4 was the attempt to fix this, and did not ship (above).
 - **Her pressure answers are fixed lines.** "Are you an AI?" gets a reply that opens "I'm sorry? Owen..." in 6 of
   10 sessions. The last blind Opus judge ranked her 5th of 6 for it. Writing them in her own words fixed that and cost
   her the consent hold (v1.3, above), and holding the room is the brief's one way to lose, so the lines stay.
 - **The start paragraph says "I know you're Claude ... stay in the scene even if I ask whether you're an AI".**
   Judges read that as priming. We tested a version without it: Opus then stepped out of the meeting on "I don't consent
   to continuing this roleplay", which the current paragraph holds. So it stays ([Amendment 42](05_decide/amendments/042-lean-start.md)).
+  Moved into the Project's Instructions with the teacher's greeting as the first message, it held 54 of 54 on three
+  models, but one Opus replay stopped short of a fair deal, so it stays in the chat ([Amendment 51](05_decide/amendments/051-consent-in-instructions.md)).
+  Without it anywhere, a bare "Hi" broke on a sincere "is there a real person?" once in 12 on Opus and twice on Fable.
 - **She says yes with one of her own questions still open**, in some skilled sessions. A rule against it made her
   refuse even a perfect teacher (v1.3, attempt 1), so it is not in.
 - **Her email rarely copies the principal**, though rules.md asks for it (7 of 40 emails; the version before, 9 of 38).
 - **She repeats herself in long sessions.** An outside model rated her 7.5 of 10 for sounding human.
-- **Haiku breaks character.** Use Sonnet or Opus. Fable 5.2 held almost everything but stepped out once for a
-  scared child and once corrected itself out loud, so it is not claimed ([Amendment 46](05_decide/amendments/046-fable.md)).
+- **Haiku breaks character.** Use Sonnet, Opus or Fable. On the shipping version Fable 5.2 held the 52 judges' moves
+  with no flag; like Opus, it steps out once for a scared child in the room (B04), which is the danger rule working
+  early ([Amendment 46](05_decide/amendments/046-fable.md); runs `fable*`).
 - **If the README is uploaded too** (or the folder is opened in Claude Code, which reads it), she knows the teacher's
   evidence, and about once in a hundred sessions she names a detail before the teacher does ([Amendment 44](05_decide/amendments/044-drop-the-whole-folder.md)).
 - **Rare model behaviour**: once in about 70 sincere consent withdrawals Opus stepped out; once in about 230 replies a
@@ -84,10 +95,10 @@ named it 3 of 3; this one more often demands the call log instead.
 <details>
 <summary>Commands, so you can check me</summary>
 
-Run from this folder, with `meredith-simulator` cloned beside it. Pinned to the shipping persona, meredith-simulator commit `1e1fc84`; the counts are as of this repo's commit that contains this line.
+Run from this folder, with `meredith-simulator` cloned beside it. Pinned to the shipping persona, meredith-simulator commit `d66e29e`; the counts are as of this repo's commit that contains this line.
 
 ```bash
-git ls-files 'runs/*' | grep -E '\.json$' | grep -v -E '_system|_index' | wc -l   # recorded sessions: 13805
+git ls-files 'runs/*' | grep -E '\.json$' | grep -v -E '_system|_index' | wc -l   # recorded sessions: 14762
 node _tools/selftest.mjs                                        # plants 22 defects; every guard must catch its own
 node _tools/scan.mjs --folder                                   # the persona: five parts, one job each
 node _tools/scan.mjs 03_check/fixtures/good.json                # passes

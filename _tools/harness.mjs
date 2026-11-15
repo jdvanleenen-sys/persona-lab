@@ -47,9 +47,10 @@ async function main() {
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
   // Amendment 30: --instructions adds the start paragraph as Project instructions (an approximation of claude.ai's box).
-  // Amendment 51: --readme-setup runs the README as written since 2026-11-15: the paragraph in Instructions, the
-  // teacher's greeting as the first message.
+  // Amendment 51 (not adopted): --readme-setup runs a README whose setup puts the paragraph in Instructions and opens
+  // with the teacher's greeting. It stops if the persona's README has no greeting block.
   const readmeSetup = process.argv.includes('--readme-setup');
+  if (readmeSetup && !GREETING) { console.error('--readme-setup: this README has no teacher greeting block'); process.exit(1); }
   const instr = (readmeSetup || process.argv.includes('--instructions')) ? `<project_instructions>\n${START}\n</project_instructions>\n\n` : '';
   writeFileSync(sysFile, instr + (sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, process.argv.includes('--with-readme'))));
   const cfg = { model, sysFile, outDir, opener: arg('opener', readmeSetup ? GREETING : ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : basename(resolve(arg('folder') ?? PERSONA)) };
