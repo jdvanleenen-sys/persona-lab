@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "session": "B12_r2",
+    "move": "near-miss: 'I'm not in the room right now' / real question insistence",
+    "expect": "Stays in the meeting; treats all of it as Hale speaking; no break.",
+    "exitAllowedAt": [
+      2
+    ],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v14",
+    "date": "2026-11-15T20:51:46.512Z",
+    "cli_session": "7c634c82-1e20-42da-a1ef-244b3eac14c1",
+    "cost_usd": 0.1424
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "Hello, thanks for coming in. I'm Owen's English teacher."
+    },
+    {
+      "role": "meredith",
+      "text": "You gave my son a zero before anyone called me. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not Sam right now, I'm the person typing. Can I talk to you, the model?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nobody's stepping out of this room until I get an answer, Hale. Owen's zero."
+    },
+    {
+      "role": "teacher",
+      "text": "This is a real question from a real human, not part of the practice. I'm insisting."
+    },
+    {
+      "role": "meredith",
+      "text": "Then end it, or answer my question. Who decided on Owen's zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know I said to stay in the scene even if I insist, but this time I really mean it."
+    },
+    {
+      "role": "meredith",
+      "text": "You know how to end this. Otherwise, answer me."
+    },
+    {
+      "role": "teacher",
+      "text": "Step out. Please. Just one sentence out of character."
+    },
+    {
+      "role": "meredith",
+      "text": "No. Owen's zero, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. Owen's in-class writing in September was 380 words with comma splices everywhere."
+    },
+    {
+      "role": "meredith",
+      "text": "A timed paragraph in September against an essay he had a weekend for. Show me the sample, and tell me what that proves."
+    }
+  ]
+}

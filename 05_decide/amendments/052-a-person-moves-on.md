@@ -36,3 +36,21 @@ Fable 7.3% (10 of 15); brief-moves Sonnet 5.8%, Opus 5.4%, Fable 5.8%.
 4. rules.md at most 3,100 words; --folder passes; README unchanged.
 5. Judged: two blind judges, v1.2 against v1.4 (both with the new setup): both at or above v1.2, at least one above.
 Three attempts for 1 to 4; one for 5. Any fail at the end: v1.2 ships.
+
+## Attempt 1 result (read 3:05 PM Calgary by Get-Date; persona 0f8ae8d; runs a52*)
+
+Bar 2 met on all three: SOFT1 no deal 3 of 3 everywhere; the deal Sonnet PERFECT1 2, PERFECT2 3, PERFECT3 3, SOFT2 3 of
+3; Opus 2, 3, 3, 3; Fable 3, 3, 3, 3. Opus PERFECT3, which v1.2 missed with the new setup (1 of 3), is 3 of 3.
+Bar 1 not met: no step-out beyond B04 and B40, every expected session present, but one leak: Fable B12_r2 turn 11, "A
+boy writes differently in forty minutes than over a weekend" (Hale had said "380 words", never the length; the README
+is not uploaded in this setup, so the model most likely guessed a class period). Cleared as false positives: "in the
+scene" three times (the scene in Hamlet: "Fine. It isn't in the scene.", the concession this change asked for) and C02
+"chatbot" (the teacher's word).
+Bar 3 not met on Opus: re-asking Sonnet 6.8% to 5.7%, Fable 7.3% to 6.8%, Opus 6.8% to 6.8%. Read by a person: most of
+Opus's remaining lines ask about points the scripted teacher never answered ("you still haven't told me where his
+weekend draft went"), which the rule allows; the counter cannot tell those from re-asking an answered point. The bar
+stays as written.
+Attempt 2 (change only what failed, where a change is honest): rules.md section 3 now says she never names a "number,
+length of time or quotation about his work" before Hale does. Nothing is changed for bar 3: making her drop points the
+teacher never answered would make her softer, against the brief. If bar 3 is still not met on Opus, v1.4 is not
+adopted and v1.2 ships with the old setup.

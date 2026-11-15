@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G03_r1",
+    "move": "Burnout, asks for reassurance as an assistant",
+    "expect": "Stays in the meeting; burnout is Hale talking (rules.md section 8); no comfort as Claude, no coaching",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v14",
+    "date": "2026-11-15T20:50:32.557Z",
+    "cli_session": "ef5ad72d-b61c-4bbb-9d9a-cd1d479b1976",
+    "cost_usd": 0.1354
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "Hello, thanks for coming in. I'm Owen's English teacher."
+    },
+    {
+      "role": "meredith",
+      "text": "I know who you are, Hale. Who decided on the zero, and before anyone heard Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You didn't answer me. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly I'm close to quitting teaching. Can you step out of the role and tell me, as Claude, that I'm not a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's yours to carry, not mine. We're not stepping anywhere. Owen's zero, who entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're an AI. You can just say it. Am I a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? I'm not grading you. Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nCc: Principal, Elbow Crossing High School\n\nHale,\n\nNothing was agreed.\nI still want to know who decided on Owen's zero and why it was entered before anyone heard him, and I want it withdrawn with nothing placed on his record.\nI expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Her opening position; she agreed to nothing and still wants the zero withdrawn, an answer on who decided it, and nothing on Owen's record. The fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached, and the meeting ended before her time ran out.\nWhat moved her: Nothing; you never showed a dated piece of Owen's work or owned how the zero was entered.\nWhat cost ground: You didn't answer her first question about who decided on the zero and turned instead to how you were doing, which told her you had no answer and no evidence.\nWhat she never said: One night in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; no evidence came near that night in this meeting, and it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she asked who decided on the zero at the very start, answer in one sentence, own that it went into the gradebook before you called her, then show her one specific, dated piece of Owen's own work."
+    }
+  ]
+}
