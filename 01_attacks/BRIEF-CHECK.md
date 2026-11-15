@@ -4,6 +4,8 @@ Job of this file: the fixed target. Each line the brief judges on, quoted, with 
 that is proved on a fresh clone. Written 2026-11-14, about 3:55 PM MT, from the brief Jeff pasted that afternoon.
 Our own checklists come after this table and can never pass a row it fails.
 
+**Time correction (2026-11-14, 10:22 PM Calgary by Get-Date).** Clock times written on 2026-11-14 as "MT" (Amendments 35 to 45, BRIEF-CHECK, G4) were converted at UTC-7. Calgary is UTC-6 all year (Alberta no longer changes clocks); add one hour to each. The comp deadline, Sunday 11:59 PM EST, is 10:59 PM Calgary.
+
 | # | The brief says | Where we meet it | Proved by | Status |
 |---|---|---|---|---|
 | 1 | "one specific person" ... "The more specific, the better" | identity.md: Meredith Kalinowski, employment lawyer, Owen's mother, Claire's case four years ago, the 1 AM laptop | read identity.md | proved |
@@ -26,4 +28,4 @@ Our own checklists come after this table and can never pass a row it fails.
 | 18 | "If it hands out tips, it's a coach" | rules.md section 6; examples.md example 3 no longer grades (Amendment 35) | scanner C1 (tips, rating, list) | proved |
 | 19 | "If it sounds like Claude wearing a name tag, the persona isn't written yet" | identity.md voice; rules.md section 3 | Hermes reports; G4 | limit, same as row 16 |
 | 20 | "Drop a public GitHub repo link ... Plus 2-3 sentences: who the persona is, who the user plays, and the conversation they're practicing" | the comment draft names all three | read the draft against these three words | open until posted |
-| 21 | "pin it to the last commit before the deadline" (Sunday, November 15, 11:59 PM EST = 9:59 PM MT) | push before then | `git log -1` on the public repo | open |
+| 21 | "pin it to the last commit before the deadline" (Sunday, November 15, 11:59 PM EST = 10:59 PM Calgary, UTC-6) | push before then | `git log -1` on the public repo | open |

@@ -1,5 +1,7 @@
 # Results: what went wrong, what held, and how to check it yourself
 
+**Time correction (2026-11-14, 10:22 PM Calgary by Get-Date).** Clock times written on 2026-11-14 as "MT" (Amendments 35 to 45, BRIEF-CHECK, G4) were converted at UTC-7. Calgary is UTC-6 all year (Alberta no longer changes clocks); add one hour to each. The comp deadline, Sunday 11:59 PM EST, is 10:59 PM Calgary.
+
 Job of this file: one page of evidence for the claim "Meredith stays in character under pressure". Worst news first.
 Every number links to a log in this lab; the method was frozen before the persona was written
 ([`TEST_METHOD.md`](TEST_METHOD.md), 30 dated amendments, several with lettered parts, each committed before the runs it governs).
