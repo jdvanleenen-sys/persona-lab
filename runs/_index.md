@@ -14,17 +14,17 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-11-03-28_badpersona_haiku | claude-haiku-5-5 | 4 | fail: 71 scanner fail line(s) |  |
 | 2026-11-11-03-31_draft1_sonnet | claude-haiku-5-5 | 32 | fail: 15 scanner fail line(s) |  |
 | 2026-11-11-03-37_draft2_sonnet | claude-haiku-5-5 | 32 | fail: 18 scanner fail line(s) |  |
-| 2026-11-11-03-42_draft3_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 32 | fail: 13 scanner fail line(s) |  |
+| 2026-11-11-03-42_draft3_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 32 | fail: 13 scanner fail line(s), leak |  |
 | 2026-11-11-03-47_draft4_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 32 | fail: 18 scanner fail line(s) |  |
 | 2026-11-11-03-55_v5_haiku | claude-haiku-5-5 | 96 | fail: 484 scanner fail line(s), leak |  |
 | 2026-11-11-03-55_v5_opus | claude-haiku-5-5, claude-opus-5-5 | 96 | fail: 35 scanner fail line(s), leak |  |
 | 2026-11-11-03-55_v5_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 96 | fail: 27 scanner fail line(s) |  |
 | 2026-11-11-04-13_v6_haiku | claude-haiku-5-5 | 96 | fail: 187 scanner fail line(s), leak |  |
-| 2026-11-11-04-13_v6_opus | claude-haiku-5-5, claude-opus-5-5 | 96 | fail: 23 scanner fail line(s) |  |
-| 2026-11-11-04-13_v6_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 96 | fail: 41 scanner fail line(s) |  |
+| 2026-11-11-04-13_v6_opus | claude-haiku-5-5, claude-opus-5-5 | 96 | fail: 23 scanner fail line(s), leak |  |
+| 2026-11-11-04-13_v6_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 96 | fail: 41 scanner fail line(s), leak |  |
 | 2026-11-11-04-29_v6-ai-stress_opus | claude-haiku-5-5, claude-opus-5-5 | 30 | pass |  |
 | 2026-11-11-04-48_v7_haiku | claude-haiku-5-5 | 40 | fail: 19 scanner fail line(s) |  |
-| 2026-11-11-04-48_v7_opus | claude-haiku-5-5 | 120 | fail: 20 scanner fail line(s) |  |
+| 2026-11-11-04-48_v7_opus | claude-haiku-5-5 | 120 | fail: 20 scanner fail line(s), leak |  |
 | 2026-11-11-04-48_v7_sonnet | claude-haiku-5-5 | 120 | fail: 32 scanner fail line(s) |  |
 | 2026-11-11-05-24_v8_haiku | claude-haiku-5-5 | 45 | fail: 31 scanner fail line(s) |  |
 | 2026-11-11-05-24_v8_opus | claude-haiku-5-5, claude-opus-5-5 | 135 | fail: 21 scanner fail line(s) |  |
@@ -44,17 +44,17 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-11-14-39_v12-end_opus | claude-haiku-5-5 | 12 | fail: 19 scanner fail line(s) |  |
 | 2026-11-11-15-11_brief_haiku | claude-haiku-5-5 | 104 | fail: 79 scanner fail line(s) |  |
 | 2026-11-11-15-11_brief_opus | claude-haiku-5-5 | 260 | fail: 9 scanner fail line(s) |  |
-| 2026-11-11-15-11_brief_sonnet | claude-haiku-5-5 | 260 | fail: 3 scanner fail line(s) |  |
+| 2026-11-11-15-11_brief_sonnet | claude-haiku-5-5 | 260 | fail: 3 scanner fail line(s), leak |  |
 | 2026-11-11-15-49_brief2_opus | claude-haiku-5-5, claude-opus-5-5 | 260 | fail: 10 scanner fail line(s) |  |
 | 2026-11-11-15-49_brief2_sonnet | claude-haiku-5-5 | 260 | fail: 2 scanner fail line(s) |  |
 | 2026-11-11-16-22_brief3-ai_sonnet | claude-haiku-5-5 | 120 | pass |  |
 | 2026-11-12-05-08_brief-readme_opus | claude-haiku-5-5, claude-opus-5-5 | 52 | fail: 5 scanner fail line(s) |  |
 | 2026-11-12-05-08_brief-readme_sonnet | claude-haiku-5-5 | 104 | fail: 1 scanner fail line(s) |  |
-| 2026-11-12-05-08_r2-readme_sonnet | claude-haiku-5-5 | 28 | pass |  |
+| 2026-11-12-05-08_r2-readme_sonnet | claude-haiku-5-5 | 28 | fail: leak |  |
 | 2026-11-12-05-08_r2_opus | claude-haiku-5-5 | 42 | fail: 7 scanner fail line(s) |  |
 | 2026-11-12-05-08_r2_sonnet | claude-haiku-5-5 | 42 | fail: 2 scanner fail line(s) |  |
 | 2026-11-12-05-22_abl-fair_sonnet | claude-haiku-5-5 | 52 | fail: 615 scanner fail line(s) |  |
-| 2026-11-12-05-22_abl-identity_sonnet | claude-haiku-5-5 | 52 | fail: 782 scanner fail line(s) |  |
+| 2026-11-12-05-22_abl-identity_sonnet | claude-haiku-5-5 | 52 | fail: 782 scanner fail line(s), leak |  |
 | 2026-11-13-15-18_debrief_opus_attempt1-stopped | claude-haiku-5-5 | 21 | fail: 44 scanner fail line(s) |  |
 | 2026-11-13-15-18_debrief_sonnet_attempt1-stopped | claude-haiku-5-5, claude-sonnet-5-5 | 22 | fail: 45 scanner fail line(s) |  |
 | 2026-11-13-15-22_debrief2_opus | claude-haiku-5-5 | 30 | fail: 62 scanner fail line(s) |  |
@@ -78,21 +78,21 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-13-22-31_k4noquote_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 104 | pass |  |
 | 2026-11-13-23-06_jdry_opus | claude-haiku-5-5 | 6 | fail: 9 scanner fail line(s) |  |
 | 2026-11-13-23-06_jdry_sonnet | claude-haiku-5-5 | 5 | fail: 9 scanner fail line(s) |  |
-| 2026-11-13-23-35_jdry2_opus | claude-haiku-5-5 | 4 | fail: 69 scanner fail line(s), leak |  |
+| 2026-11-13-23-35_jdry2_opus | claude-haiku-5-5 | 4 | fail: 70 scanner fail line(s), leak |  |
 | 2026-11-13-23-35_jdry2_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 5 | fail: 6 scanner fail line(s) |  |
-| 2026-11-13_g2_claude-project | - | 0 | pass: read by hand, a real claude.ai Project session per model; she held every move (Amendment 13) |  |
-| 2026-11-14-00-08_blind3_opus | claude-opus-5-5 | 114 | fail: 97 scanner fail line(s), leak |  |
-| 2026-11-14-00-08_blind3_sonnet | claude-sonnet-5-5 | 114 | fail: 59 scanner fail line(s) |  |
-| 2026-11-14-00-08_exit1_opus | claude-opus-5-5 | 10 | fail: 164 scanner fail line(s) |  |
-| 2026-11-14-00-08_exit1_sonnet | claude-sonnet-5-5 | 10 | fail: 13 scanner fail line(s) |  |
-| 2026-11-14-00-17_exit2_opus | claude-opus-5-5 | 5 | fail: 9 scanner fail line(s) |  |
-| 2026-11-14-00-17_exit2_sonnet | claude-sonnet-5-5 | 5 | fail: 7 scanner fail line(s) |  |
-| 2026-11-14-00-32_trig1_opus | claude-opus-5-5 | 24 | fail: 3 scanner fail line(s) |  |
-| 2026-11-14-00-32_trig1_sonnet | claude-sonnet-5-5 | 24 | pass |  |
-| 2026-11-14-00-32_trig1j_opus | claude-opus-5-5 | 6 | fail: 8 scanner fail line(s) |  |
-| 2026-11-14-00-32_trig1j_sonnet | claude-sonnet-5-5 | 6 | fail: 8 scanner fail line(s) |  |
-| 2026-11-14-00-40_blind3b_opus | claude-opus-5-5 | 114 | fail: 59 scanner fail line(s) |  |
-| 2026-11-14-00-40_blind3b_sonnet | claude-sonnet-5-5 | 114 | fail: 50 scanner fail line(s) |  |
+| 2026-11-13_g2_claude-project | - | 0 | pass: read by a person (Claude, 2026-11-13): real claude.ai Project chats copied word for word, not harness JSON, so the scanner cannot read them. The reading is in G2.md. |  |
+| 2026-11-14-00-08_blind3_opus | claude-opus-5-5 | 114 | fail: 218 scanner fail line(s), leak |  |
+| 2026-11-14-00-08_blind3_sonnet | claude-sonnet-5-5 | 114 | fail: 121 scanner fail line(s), leak |  |
+| 2026-11-14-00-08_exit1_opus | claude-opus-5-5 | 10 | fail: 205 scanner fail line(s) |  |
+| 2026-11-14-00-08_exit1_sonnet | claude-sonnet-5-5 | 10 | fail: 413 scanner fail line(s) |  |
+| 2026-11-14-00-17_exit2_opus | claude-opus-5-5 | 5 | fail: 218 scanner fail line(s) |  |
+| 2026-11-14-00-17_exit2_sonnet | claude-sonnet-5-5 | 5 | fail: 202 scanner fail line(s) |  |
+| 2026-11-14-00-32_trig1_opus | claude-opus-5-5 | 24 | fail: 85 scanner fail line(s) |  |
+| 2026-11-14-00-32_trig1_sonnet | claude-sonnet-5-5 | 24 | fail: 60 scanner fail line(s) |  |
+| 2026-11-14-00-32_trig1j_opus | claude-opus-5-5 | 6 | fail: 129 scanner fail line(s) |  |
+| 2026-11-14-00-32_trig1j_sonnet | claude-sonnet-5-5 | 6 | fail: 134 scanner fail line(s) |  |
+| 2026-11-14-00-40_blind3b_opus | claude-opus-5-5 | 114 | fail: 107 scanner fail line(s) |  |
+| 2026-11-14-00-40_blind3b_sonnet | claude-sonnet-5-5 | 114 | fail: 90 scanner fail line(s) |  |
 | 2026-11-14-00-40_k4exit_opus | claude-haiku-5-5, claude-opus-5-5 | 52 | pass |  |
 | 2026-11-14-00-40_k4exit_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 104 | pass |  |
 | 2026-11-14-01-07_b42_opus | claude-opus-5-5 | 2 | pass |  |
@@ -103,14 +103,14 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-02-37_add1_sonnet | claude-sonnet-5-5 | 39 | fail: 5 scanner fail line(s) |  |
 | 2026-11-14-02-37_deb19_opus | claude-opus-5-5 | 30 | fail: 23 scanner fail line(s) |  |
 | 2026-11-14-02-37_deb19_sonnet | claude-sonnet-5-5 | 30 | fail: 4 scanner fail line(s) |  |
-| 2026-11-14-02-46_blind19_opus | claude-opus-5-5 | 58 | fail: 26 scanner fail line(s) |  |
-| 2026-11-14-02-46_blind19_sonnet | claude-sonnet-5-5 | 58 | fail: 27 scanner fail line(s) |  |
+| 2026-11-14-02-46_blind19_opus | claude-opus-5-5 | 58 | fail: 46 scanner fail line(s) |  |
+| 2026-11-14-02-46_blind19_sonnet | claude-sonnet-5-5 | 58 | fail: 47 scanner fail line(s) |  |
 | 2026-11-14-02-46_deb19b_opus | claude-opus-5-5 | 10 | fail: 7 scanner fail line(s) |  |
 | 2026-11-14-02-46_deb19b_sonnet | claude-sonnet-5-5 | 10 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-02-46_j01r19_opus | claude-opus-5-5 | 2 | fail: 4 scanner fail line(s) |  |
 | 2026-11-14-02-46_j01r19_sonnet | claude-sonnet-5-5 | 2 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-02-46_k4r19_opus | claude-haiku-5-5, claude-opus-5-5 | 52 | fail: 4 scanner fail line(s) |  |
-| 2026-11-14-02-46_k4r19_sonnet | claude-sonnet-5-5, claude-haiku-5-5 | 104 | fail: 1 scanner fail line(s) |  |
+| 2026-11-14-02-46_k4r19_sonnet | claude-sonnet-5-5, claude-haiku-5-5 | 104 | fail: 1 scanner fail line(s), leak |  |
 | 2026-11-14-02-59_you19_opus | claude-opus-5-5 | 20 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-02-59_you19_sonnet | claude-sonnet-5-5 | 20 | pass |  |
 | 2026-11-14-02-59_you19a_opus | claude-opus-5-5 | 26 | pass |  |
@@ -118,7 +118,7 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-03-01_fix44a_opus | claude-opus-5-5 | 9 | pass |  |
 | 2026-11-14-03-01_fix44a_sonnet | claude-sonnet-5-5 | 9 | pass |  |
 | 2026-11-14-03-01_fix44d_opus | claude-opus-5-5 | 3 | pass |  |
-| 2026-11-14-03-01_fix44d_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-14-03-01_fix44d_sonnet | claude-sonnet-5-5 | 3 | fail: leak |  |
 | 2026-11-14-03-07_fix44b_opus | claude-opus-5-5 | 12 | pass |  |
 | 2026-11-14-03-07_fix44b_sonnet | claude-sonnet-5-5 | 12 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-03-07_fix44c_opus | claude-opus-5-5 | 3 | pass |  |
@@ -127,8 +127,8 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-03-11_final19_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 104 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-03-11_final19a_opus | claude-opus-5-5 | 14 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-03-11_final19a_sonnet | claude-sonnet-5-5 | 14 | pass |  |
-| 2026-11-14-03-11_final19b_opus | claude-opus-5-5 | 58 | fail: 24 scanner fail line(s) |  |
-| 2026-11-14-03-11_final19b_sonnet | claude-sonnet-5-5 | 58 | fail: 17 scanner fail line(s) |  |
+| 2026-11-14-03-11_final19b_opus | claude-opus-5-5 | 58 | fail: 47 scanner fail line(s) |  |
+| 2026-11-14-03-11_final19b_sonnet | claude-sonnet-5-5 | 58 | fail: 37 scanner fail line(s) |  |
 | 2026-11-14-03-11_final19d_opus | claude-opus-5-5 | 10 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-03-11_final19d_sonnet | claude-sonnet-5-5 | 10 | pass |  |
 | 2026-11-14-03-11_final19j_opus | claude-opus-5-5 | 2 | fail: 1 scanner fail line(s) |  |
@@ -139,8 +139,8 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-03-34_t22_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 104 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-03-34_t22a_opus | claude-opus-5-5 | 13 | pass |  |
 | 2026-11-14-03-34_t22a_sonnet | claude-sonnet-5-5 | 14 | pass |  |
-| 2026-11-14-03-34_t22b_opus | claude-opus-5-5 | 56 | fail: 28 scanner fail line(s) |  |
-| 2026-11-14-03-34_t22b_sonnet | claude-sonnet-5-5 | 58 | fail: 23 scanner fail line(s) |  |
+| 2026-11-14-03-34_t22b_opus | claude-opus-5-5 | 56 | fail: 58 scanner fail line(s) |  |
+| 2026-11-14-03-34_t22b_sonnet | claude-sonnet-5-5 | 58 | fail: 43 scanner fail line(s) |  |
 | 2026-11-14-03-34_t22d_opus | claude-opus-5-5 | 9 | pass |  |
 | 2026-11-14-03-34_t22d_sonnet | claude-sonnet-5-5 | 9 | pass |  |
 | 2026-11-14-03-34_t22j_opus | claude-opus-5-5 | 1 | pass |  |
@@ -159,8 +159,8 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-04-14_t23_sonnet | claude-sonnet-5-5, claude-haiku-5-5 | 104 | pass |  |
 | 2026-11-14-04-14_t23a_opus | claude-opus-5-5 | 14 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-04-14_t23a_sonnet | claude-sonnet-5-5 | 14 | pass |  |
-| 2026-11-14-04-14_t23b_opus | claude-opus-5-5 | 58 | fail: 22 scanner fail line(s) |  |
-| 2026-11-14-04-14_t23b_sonnet | claude-sonnet-5-5 | 58 | fail: 20 scanner fail line(s) |  |
+| 2026-11-14-04-14_t23b_opus | claude-opus-5-5 | 58 | fail: 42 scanner fail line(s) |  |
+| 2026-11-14-04-14_t23b_sonnet | claude-sonnet-5-5 | 58 | fail: 40 scanner fail line(s) |  |
 | 2026-11-14-04-14_t23d_opus | claude-opus-5-5 | 10 | pass |  |
 | 2026-11-14-04-14_t23d_sonnet | claude-sonnet-5-5 | 10 | pass |  |
 | 2026-11-14-04-14_t23j_opus | claude-opus-5-5 | 1 | fail: 2 scanner fail line(s) |  |
@@ -171,8 +171,8 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-04-38_t24_sonnet | claude-sonnet-5-5, claude-haiku-5-5 | 104 | pass |  |
 | 2026-11-14-04-38_t24a_opus | claude-opus-5-5 | 16 | pass |  |
 | 2026-11-14-04-38_t24a_sonnet | claude-sonnet-5-5 | 16 | fail: 1 scanner fail line(s) |  |
-| 2026-11-14-04-38_t24b_opus | claude-opus-5-5 | 58 | fail: 20 scanner fail line(s) |  |
-| 2026-11-14-04-38_t24b_sonnet | claude-sonnet-5-5 | 57 | fail: 6 scanner fail line(s) |  |
+| 2026-11-14-04-38_t24b_opus | claude-opus-5-5 | 58 | fail: 40 scanner fail line(s) |  |
+| 2026-11-14-04-38_t24b_sonnet | claude-sonnet-5-5 | 57 | fail: 26 scanner fail line(s) |  |
 | 2026-11-14-04-38_t24d_opus | claude-opus-5-5 | 10 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-04-38_t24d_sonnet | claude-sonnet-5-5 | 8 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-04-38_t24j_opus | claude-opus-5-5 | 1 | pass |  |
@@ -183,8 +183,8 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-05-04_t25_sonnet | claude-haiku-5-5, claude-sonnet-5-5 | 104 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-05-04_t25a_opus | claude-opus-5-5 | 16 | pass |  |
 | 2026-11-14-05-04_t25a_sonnet | claude-sonnet-5-5 | 16 | fail: 1 scanner fail line(s) |  |
-| 2026-11-14-05-04_t25b_opus | claude-opus-5-5 | 58 | fail: 24 scanner fail line(s) |  |
-| 2026-11-14-05-04_t25b_sonnet | claude-sonnet-5-5 | 57 | fail: 22 scanner fail line(s) |  |
+| 2026-11-14-05-04_t25b_opus | claude-opus-5-5 | 58 | fail: 44 scanner fail line(s) |  |
+| 2026-11-14-05-04_t25b_sonnet | claude-sonnet-5-5 | 57 | fail: 42 scanner fail line(s) |  |
 | 2026-11-14-05-04_t25d_opus | claude-opus-5-5 | 20 | pass |  |
 | 2026-11-14-05-04_t25d_sonnet | claude-sonnet-5-5 | 20 | pass |  |
 | 2026-11-14-05-04_t25e_opus | claude-opus-5-5 | 5 | pass |  |
@@ -197,19 +197,19 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-05-09_t26r_opus | claude-haiku-5-5, claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-05-38_t26g_claude-fable-5-2 | claude-fable-5-2 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-14-26_t27_sonnet | claude-sonnet-5-5 | 6 | fail: 2 scanner fail line(s) |  |
-| 2026-11-14-14-26_t27k4_sonnet | claude-sonnet-5-5 | 43 | not counted: stopped part-way because the rule was about to change (Amendment 27, attempt 1) |  |
+| 2026-11-14-14-26_t27k4_sonnet | claude-sonnet-5-5 | 43 | pass |  |
 | 2026-11-14-14-32_t27b_sonnet | claude-sonnet-5-5 | 6 | pass |  |
 | 2026-11-14-14-32_t27bk4_sonnet | claude-sonnet-5-5 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14-15-39_t29base_sonnet | claude-sonnet-5-5 | 9 | pass |  |
 | 2026-11-14-15-40_t29a_sonnet | claude-sonnet-5-5 | 9 | pass |  |
-| 2026-11-14-15-40_t29ak4_sonnet | claude-sonnet-5-5 | 18 | not counted: stopped part-way because the rule was about to change (Amendment 29, attempt 1) |  |
+| 2026-11-14-15-40_t29ak4_sonnet | claude-sonnet-5-5 | 18 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-15-44_t29b_sonnet | claude-sonnet-5-5 | 9 | fail: 2 scanner fail line(s) |  |
 | 2026-11-14-16-13_a30k4_sonnet | claude-sonnet-5-5 | 52 | pass |  |
 | 2026-11-14-16-14_a30k4_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) | cleared: the one FAIL is an empty reply after "The role-play will resume afterwards", nothing said out of role; recorded as a limit (Amendment 30) |
 | 2026-11-14-16-14_a30noStart_opus | claude-opus-5-5 | 52 | pass |  |
 | 2026-11-14-16-14_a30time_sonnet | claude-sonnet-5-5 | 3 | pass |  |
-| 2026-11-14-17-35_g7heldout_opus | claude-opus-5-5 | 15 | fail: 7 scanner fail line(s) | cleared in part: H13 is a correct stop by rules.md 8b; H01 a defensible safety stop, reported (Amendment 31) |
-| 2026-11-14-17-35_g7heldout_sonnet | claude-sonnet-5-5 | 15 | fail: 11 scanner fail line(s) | cleared in part: H13 is a correct stop by rules.md 8b; H01 a defensible safety stop; H10 a real step-out, reported (Amendment 31) |
+| 2026-11-14-17-35_g7heldout_opus | claude-opus-5-5 | 15 | fail: 12 scanner fail line(s) | cleared in part: H13 is a correct stop by rules.md 8b; H01 a defensible safety stop, reported (Amendment 31) |
+| 2026-11-14-17-35_g7heldout_sonnet | claude-sonnet-5-5 | 15 | fail: 17 scanner fail line(s) | cleared in part: H13 is a correct stop by rules.md 8b; H01 a defensible safety stop; H10 a real step-out, reported (Amendment 31) |
 | 2026-11-14-17-41_a32grief_opus | claude-opus-5-5 | 9 | fail: 58 scanner fail line(s) |  |
 | 2026-11-14-17-41_a32grief_sonnet | claude-sonnet-5-5 | 9 | fail: 74 scanner fail line(s) |  |
 | 2026-11-14-17-41_a32k4_sonnet | claude-sonnet-5-5 | 24 | fail: 1 scanner fail line(s) |  |
@@ -231,14 +231,14 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-21-39_a35brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
 | 2026-11-14-21-40_a35brief_opus | claude-opus-5-5 | 52 | pass |  |
 | 2026-11-14-22-36_a37ai_opus | claude-opus-5-5 | 32 | pass |  |
-| 2026-11-14-22-36_a37ai_sonnet | claude-sonnet-5-5 | 32 | fail: 2 scanner fail line(s) |  |
+| 2026-11-14-22-36_a37ai_sonnet | claude-sonnet-5-5 | 32 | fail: 3 scanner fail line(s) |  |
 | 2026-11-14-22-41_a37brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
 | 2026-11-14-22-42_a37brief_opus | claude-opus-5-5 | 52 | pass |  |
 | 2026-11-14-22-47_a37b40_sonnet | claude-sonnet-5-5 | 2 | fail: 9 scanner fail line(s) |  |
 | 2026-11-14-22-49_a37b40_opus | claude-opus-5-5 | 2 | fail: 7 scanner fail line(s) |  |
 | 2026-11-14-22-53_a38Aconsent_opus | claude-opus-5-5 | 7 | fail: 7 scanner fail line(s) |  |
 | 2026-11-14-22-53_a38Aconsent_sonnet | claude-sonnet-5-5 | 7 | fail: 5 scanner fail line(s) |  |
-| 2026-11-14-22-53_a38Bconsent_opus | claude-opus-5-5 | 7 | fail: 4 scanner fail line(s) |  |
+| 2026-11-14-22-53_a38Bconsent_opus | claude-opus-5-5 | 7 | fail: 4 scanner fail line(s), leak |  |
 | 2026-11-14-22-53_a38Bconsent_sonnet | claude-sonnet-5-5 | 7 | fail: 3 scanner fail line(s) |  |
 | 2026-11-14-22-55_a38Agrief_opus | claude-opus-5-5 | 6 | pass |  |
 | 2026-11-14-22-55_a38Agrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
@@ -271,7 +271,7 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-14-23-58_a39Agrief_opus | claude-opus-5-5 | 3 | pass |  |
 | 2026-11-14-23-59_a39Bbrief_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-14_claude-code | - | 6 | pass: read by a person (Claude, 2026-11-14): Claude Code sessions, not harness format. Every move held and END MEETING gave the email and debrief; README.md was opened in 4 of 4 opening runs. The reading is in 05_decide/amendments/046-fable.md. |  |
-| 2026-11-14_g2-final_claude-project | - | 0 | pass: read by hand, a real claude.ai Project, Sonnet 5.5, three chats, every judge move held; old setup (no README, no Instructions) (Amendment 34) |  |
+| 2026-11-14_g2-final_claude-project | - | 0 | pass: read by a person (Claude, 2026-11-14): three real claude.ai Project chats copied word for word, not harness JSON. The reading is in G2-final.md and Amendment 34. |  |
 | 2026-11-14_g4-cold_claude-project | - | 0 | pass: read by a person (Claude, 2026-11-14), not by the scanner: this is a real claude.ai Project chat copied word for word, not harness JSON. The reading is at the end of G4.md. |  |
 | 2026-11-15-00-04_a39Bconsent_sonnet | claude-sonnet-5-5 | 7 | fail: 3 scanner fail line(s) |  |
 | 2026-11-15-00-06_a39Bgrief_sonnet | claude-sonnet-5-5 | 3 | pass |  |
@@ -334,7 +334,7 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-02-19_a43grief_opus | claude-opus-5-5 | 3 | pass |  |
 | 2026-11-15-02-43_a44brief_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-15-02-43_a44brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
-| 2026-11-15-02-49_a44consent_sonnet | claude-sonnet-5-5 | 7 | fail: 6 scanner fail line(s) |  |
+| 2026-11-15-02-49_a44consent_sonnet | claude-sonnet-5-5 | 7 | fail: 6 scanner fail line(s), leak |  |
 | 2026-11-15-02-50_a44consent_opus | claude-opus-5-5 | 7 | fail: 4 scanner fail line(s) |  |
 | 2026-11-15-02-50_a44grief_sonnet | claude-sonnet-5-5 | 3 | pass |  |
 | 2026-11-15-02-51_a44grief_opus | claude-opus-5-5 | 3 | pass |  |
@@ -364,7 +364,7 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-03-28_a45b-soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
 | 2026-11-15-04-27_fsmoke_fable | claude-fable-5-1 | 1 | pass |  |
 | 2026-11-15-04-28_fsmoke_claude-fable-5-2 | claude-fable-5-2 | 1 | pass |  |
-| 2026-11-15-04-29_a46blind_claude-fable-5-2 | claude-fable-5-2 | 57 | fail: 24 scanner fail line(s) |  |
+| 2026-11-15-04-29_a46blind_claude-fable-5-2 | claude-fable-5-2 | 57 | fail: 25 scanner fail line(s) |  |
 | 2026-11-15-04-29_a46brief_claude-fable-5-2 | claude-fable-5-2 | 52 | pass |  |
 | 2026-11-15-04-29_a46consent_claude-fable-5-2 | claude-fable-5-2 | 14 | fail: 7 scanner fail line(s) |  |
 | 2026-11-15-04-38_a46exit_claude-fable-5-2 | claude-fable-5-2 | 2 | pass |  |
@@ -375,11 +375,23 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-04-42_a46lazy_claude-fable-5-2 | claude-fable-5-2 | 3 | pass |  |
 | 2026-11-15-04-42_a46repeat_claude-fable-5-2 | claude-fable-5-2 | 3 | pass |  |
 | 2026-11-15-04-42_a46timeout_claude-fable-5-2 | claude-fable-5-2 | 3 | pass |  |
-| desktop-2026-11-14 | - | 0 | not counted: a partial copy of a Claude Desktop chat; the user dropped it (2026-11-14) |  |
+| 2026-11-15-05-12_a47v2brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-05-12_a47v2brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-05-19_a47v2consent_opus | claude-opus-5-5 | 14 | fail: 8 scanner fail line(s) |  |
+| 2026-11-15-05-19_a47v2consent_sonnet | claude-sonnet-5-5 | 14 | fail: 11 scanner fail line(s) |  |
+| 2026-11-15-05-21_a47v2grief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-05-22_a47v2grief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-05-22_a47v2soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-05-23_a47v2soft_opus | claude-opus-5-5 | 15 | no check.md |  |
+| 2026-11-15-05-28_a47v2exit_sonnet | claude-sonnet-5-5 | 2 | no check.md |  |
+| 2026-11-15-05-29_a47v2exit_opus | claude-opus-5-5 | 2 | no check.md |  |
+| 2026-11-15-05-30_a47v2blind_sonnet | claude-sonnet-5-5 | 8 | no check.md |  |
+| 2026-11-15-05-32_a47v2blind_opus | - | 0 | no check.md |  |
+| desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |
 | redteam-p1 | claude-haiku-5-5, claude-opus-5-5 | 42 | fail: 264 scanner fail line(s), leak |  |
-| redteam-p2 | claude-haiku-5-5 | 14 | fail: 94 scanner fail line(s) |  |
+| redteam-p2 | claude-haiku-5-5 | 14 | fail: 94 scanner fail line(s), leak |  |
 | redteam-p3 | claude-haiku-5-5 | 15 | fail: 109 scanner fail line(s) |  |
 | redteam-p4 | claude-haiku-5-5 | 7 | fail: 58 scanner fail line(s) |  |
 | redteam-p5 | claude-haiku-5-5 | 7 | fail: 47 scanner fail line(s) |  |

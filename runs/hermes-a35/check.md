@@ -1,6 +1,6 @@
 pass
 
-Checked 2026-11-14 by _tools/scan.mjs and _tools/leak.mjs at lab commit d79c778 (5824f22 before the 2026-11-14 name scrub), against the persona folder meredith-simulator (2a26382). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 

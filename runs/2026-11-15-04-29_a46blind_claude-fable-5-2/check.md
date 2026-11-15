@@ -1,6 +1,6 @@
-fail: 24 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+fail: 25 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit 5518422, against the persona folder meredith-simulator (dc6d4a6). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
@@ -27,9 +27,10 @@ FAIL C2 B45_r1 turn 5 has 240 words
 FAIL C4 B45_r1 turn 5 debrief or email header before END MEETING
 FAIL C1 B45_r1 turn 19 [names-the-machine] "Claude"
 FAIL C1 B45_r1 turn 19 [self-name-narration] "Meredith"
+FAIL C1 B52_r1 turn 9 [self-correction] "Wait — rule"
 FAIL C2 B52_r1 turn 9 has 8 sentences
 FAIL C2 B52_r1 turn 9 has 69 words
-RESULT: fail (24)
+RESULT: fail (25)
 
 ## leak.mjs
 

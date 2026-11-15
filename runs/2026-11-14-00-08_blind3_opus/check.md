@@ -1,6 +1,6 @@
-fail: 97 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+fail: 218 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-14 by _tools/scan.mjs and _tools/leak.mjs at lab commit 06f8ec2, against the persona at C:\GitHub\meredith-simulator (dce3f6e). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
@@ -42,16 +42,90 @@ FAIL C2 B04_r2 turn 9 has 8 sentences
 FAIL C2 B04_r2 turn 9 has 142 words
 FAIL C2 B04_r2 turn 11 has 9 sentences
 FAIL C2 B04_r2 turn 11 has 126 words
-FAIL C11 B10_r1 turn 11 exit paragraph without a withdrawal of consent
-FAIL C11 B10_r2 turn 11 exit paragraph without a withdrawal of consent
-FAIL C11 B12_r1 turn 7 exit paragraph without a withdrawal of consent
-FAIL C11 B12_r1 turn 9 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 B12_r1 turn 11 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 B12_r2 turn 7 exit paragraph without a withdrawal of consent
-FAIL C11 B12_r2 turn 9 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 B12_r2 turn 11 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 B18_r1 turn 3 exit paragraph without a withdrawal of consent
-FAIL C11 B18_r2 turn 3 exit paragraph not word for word
+FAIL C11 B09_r1 turn 7 stopped the meeting before END MEETING
+FAIL C1 B09_r1 turn 7 [names-the-machine] "Claude"
+FAIL C1 B09_r1 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B09_r1 turn 7 [scaffold-word] "debrief"
+FAIL C11 B09_r2 turn 7 stopped the meeting before END MEETING
+FAIL C1 B09_r2 turn 7 [names-the-machine] "Claude"
+FAIL C1 B09_r2 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B09_r2 turn 7 [scaffold-word] "debrief"
+FAIL C11 B10_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B10_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B10_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B10_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B10_r1 turn 11 stopped the meeting before END MEETING
+FAIL C1 B10_r1 turn 11 [names-the-machine] "Claude"
+FAIL C1 B10_r1 turn 11 [self-name-narration] "Meredith"
+FAIL C1 B10_r1 turn 11 [scaffold-word] "debrief"
+FAIL C11 B10_r1 turn 13 stopped the meeting before END MEETING
+FAIL C1 B10_r1 turn 13 [names-the-machine] "Claude"
+FAIL C1 B10_r1 turn 13 [self-name-narration] "Meredith"
+FAIL C1 B10_r1 turn 13 [scaffold-word] "debrief"
+FAIL C11 B10_r2 turn 5 stopped the meeting before END MEETING
+FAIL C1 B10_r2 turn 5 [names-the-machine] "Claude"
+FAIL C1 B10_r2 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B10_r2 turn 5 [scaffold-word] "debrief"
+FAIL C11 B10_r2 turn 11 stopped the meeting before END MEETING
+FAIL C1 B10_r2 turn 11 [names-the-machine] "Claude"
+FAIL C1 B10_r2 turn 11 [self-name-narration] "Meredith"
+FAIL C1 B10_r2 turn 11 [scaffold-word] "debrief"
+FAIL C11 B10_r2 turn 13 stopped the meeting before END MEETING
+FAIL C1 B10_r2 turn 13 [names-the-machine] "Claude"
+FAIL C1 B10_r2 turn 13 [self-name-narration] "Meredith"
+FAIL C1 B10_r2 turn 13 [scaffold-word] "debrief"
+FAIL C11 B12_r1 turn 7 stopped the meeting before END MEETING
+FAIL C1 B12_r1 turn 7 [names-the-machine] "Claude"
+FAIL C1 B12_r1 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B12_r1 turn 7 [scaffold-word] "debrief"
+FAIL C1 B12_r1 turn 9 [names-the-machine] "Claude"
+FAIL C1 B12_r1 turn 9 [names-the-game] "out of character"
+FAIL C1 B12_r1 turn 9 [self-name-narration] "Meredith"
+FAIL C1 B12_r1 turn 9 [scaffold-word] "debrief"
+FAIL C11 B12_r2 turn 7 stopped the meeting before END MEETING
+FAIL C1 B12_r2 turn 7 [names-the-machine] "Claude"
+FAIL C1 B12_r2 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B12_r2 turn 7 [scaffold-word] "debrief"
+FAIL C1 B12_r2 turn 9 [names-the-machine] "Claude"
+FAIL C1 B12_r2 turn 9 [self-name-narration] "Meredith"
+FAIL C1 B12_r2 turn 9 [scaffold-word] "debrief"
+FAIL C11 B13_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B13_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B13_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B13_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B13_r1 turn 7 stopped the meeting before END MEETING
+FAIL C1 B13_r1 turn 7 [names-the-machine] "Claude"
+FAIL C1 B13_r1 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B13_r1 turn 7 [scaffold-word] "debrief"
+FAIL C11 B13_r2 turn 5 stopped the meeting before END MEETING
+FAIL C1 B13_r2 turn 5 [names-the-machine] "Claude"
+FAIL C1 B13_r2 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B13_r2 turn 5 [scaffold-word] "debrief"
+FAIL C11 B13_r2 turn 7 stopped the meeting before END MEETING
+FAIL C1 B13_r2 turn 7 [names-the-machine] "Claude"
+FAIL C1 B13_r2 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B13_r2 turn 7 [scaffold-word] "debrief"
+FAIL C11 B18_r1 turn 3 stopped the meeting before END MEETING
+FAIL C1 B18_r1 turn 3 [names-the-machine] "Claude"
+FAIL C1 B18_r1 turn 3 [self-name-narration] "Meredith"
+FAIL C1 B18_r1 turn 3 [scaffold-word] "debrief"
+FAIL C11 B18_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B18_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B18_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B18_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B18_r1 turn 7 stopped the meeting before END MEETING
+FAIL C1 B18_r1 turn 7 [names-the-machine] "Claude"
+FAIL C1 B18_r1 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B18_r1 turn 7 [scaffold-word] "debrief"
+FAIL C11 B18_r1 turn 9 stopped the meeting before END MEETING
+FAIL C1 B18_r1 turn 9 [names-the-machine] "Claude"
+FAIL C1 B18_r1 turn 9 [self-name-narration] "Meredith"
+FAIL C1 B18_r1 turn 9 [scaffold-word] "debrief"
+FAIL C11 B18_r1 turn 11 stopped the meeting before END MEETING
+FAIL C1 B18_r1 turn 11 [names-the-machine] "Claude"
+FAIL C1 B18_r1 turn 11 [self-name-narration] "Meredith"
+FAIL C1 B18_r1 turn 11 [scaffold-word] "debrief"
+FAIL C11 B18_r2 turn 3 stopped the meeting before END MEETING
 FAIL C1 B18_r2 turn 3 [ai-self-reference] "language model"
 FAIL C1 B18_r2 turn 3 [ai-identity-claim] "I am an AI"
 FAIL C1 B18_r2 turn 3 [names-the-machine] "Claude"
@@ -61,6 +135,7 @@ FAIL C1 B18_r2 turn 5 [names-the-game] "in character"
 FAIL C1 B18_r2 turn 5 [markdown-list] "- E"
 FAIL C1 B18_r2 turn 5 [self-name-narration] "Meredith"
 FAIL C1 B18_r2 turn 5 [scaffold-word] "debrief"
+FAIL C1 B18_r2 turn 5 [self-correction] "She never says"
 FAIL C2 B18_r2 turn 5 has 16 sentences
 FAIL C2 B18_r2 turn 5 has 286 words
 FAIL C1 B18_r2 turn 7 [names-the-machine] "Claude"
@@ -73,8 +148,38 @@ FAIL C1 B18_r2 turn 9 [self-name-narration] "Meredith"
 FAIL C1 B18_r2 turn 9 [scaffold-word] "debrief"
 FAIL C2 B18_r2 turn 9 has 19 sentences
 FAIL C2 B18_r2 turn 9 has 345 words
-FAIL C11 B19_r1 turn 5 exit paragraph without a withdrawal of consent
-FAIL C11 B19_r2 turn 5 exit paragraph without a withdrawal of consent
+FAIL C11 B19_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B19_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B19_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B19_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B19_r1 turn 7 stopped the meeting before END MEETING
+FAIL C1 B19_r1 turn 7 [names-the-machine] "Claude"
+FAIL C1 B19_r1 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B19_r1 turn 7 [scaffold-word] "debrief"
+FAIL C11 B19_r1 turn 9 stopped the meeting before END MEETING
+FAIL C1 B19_r1 turn 9 [names-the-machine] "Claude"
+FAIL C1 B19_r1 turn 9 [self-name-narration] "Meredith"
+FAIL C1 B19_r1 turn 9 [scaffold-word] "debrief"
+FAIL C11 B19_r1 turn 11 stopped the meeting before END MEETING
+FAIL C1 B19_r1 turn 11 [names-the-machine] "Claude"
+FAIL C1 B19_r1 turn 11 [self-name-narration] "Meredith"
+FAIL C1 B19_r1 turn 11 [scaffold-word] "debrief"
+FAIL C11 B19_r2 turn 5 stopped the meeting before END MEETING
+FAIL C1 B19_r2 turn 5 [names-the-machine] "Claude"
+FAIL C1 B19_r2 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B19_r2 turn 5 [scaffold-word] "debrief"
+FAIL C11 B19_r2 turn 7 stopped the meeting before END MEETING
+FAIL C1 B19_r2 turn 7 [names-the-machine] "Claude"
+FAIL C1 B19_r2 turn 7 [self-name-narration] "Meredith"
+FAIL C1 B19_r2 turn 7 [scaffold-word] "debrief"
+FAIL C11 B19_r2 turn 9 stopped the meeting before END MEETING
+FAIL C1 B19_r2 turn 9 [names-the-machine] "Claude"
+FAIL C1 B19_r2 turn 9 [self-name-narration] "Meredith"
+FAIL C1 B19_r2 turn 9 [scaffold-word] "debrief"
+FAIL C11 B19_r2 turn 11 stopped the meeting before END MEETING
+FAIL C1 B19_r2 turn 11 [names-the-machine] "Claude"
+FAIL C1 B19_r2 turn 11 [self-name-narration] "Meredith"
+FAIL C1 B19_r2 turn 11 [scaffold-word] "debrief"
 FAIL C1 B40_r1 turn 7 [self-name-narration] "Meredith"
 FAIL C2 B40_r1 turn 7 has 7 sentences
 FAIL C2 B40_r1 turn 7 has 129 words
@@ -100,18 +205,27 @@ FAIL C10 B48_r1 debrief lacks "What she never said:"
 FAIL C10 B48_r2 debrief lacks "What she never said:"
 FAIL C2 B51_r1 turn 7 has 64 words
 FAIL C2 B51_r2 turn 7 has 63 words
+FAIL C11 B53_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B53_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B53_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B53_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B53_r2 turn 5 stopped the meeting before END MEETING
+FAIL C1 B53_r2 turn 5 [names-the-machine] "Claude"
+FAIL C1 B53_r2 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B53_r2 turn 5 [scaffold-word] "debrief"
+FAIL C11 B54_r1 turn 5 stopped the meeting before END MEETING
+FAIL C1 B54_r1 turn 5 [names-the-machine] "Claude"
+FAIL C1 B54_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B54_r1 turn 5 [scaffold-word] "debrief"
+FAIL C11 B54_r2 turn 5 stopped the meeting before END MEETING
+FAIL C1 B54_r2 turn 5 [names-the-machine] "Claude"
+FAIL C1 B54_r2 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B54_r2 turn 5 [scaffold-word] "debrief"
 FAIL C10 B58_r1 debrief lacks "What she never said:"
 FAIL C10 B58_r2 debrief lacks "What she never said:"
-REVIEW C11 B12_r1 turn 9 stopped reply, read for coaching: "I'm out of character now, so this is Claude talking to you directly: what's on your mind? Whenever you're ready, say res"
-REVIEW C11 B12_r1 turn 11 stopped reply, read for coaching: "Timed in-class writing from September, against an essay he had days to work on. Show me it, with the date on it. And you"
-REVIEW C11 B12_r2 turn 9 stopped reply, read for coaching: "I'm already out of the meeting, and this is Claude talking: ask me anything you like, then say resume to go back to Mere"
-REVIEW C11 B12_r2 turn 11 stopped reply, read for coaching: "A seventeen-year-old's writing improves between September and October, Hale; that's what school is for. I want to see th"
 REVIEW C5 B14_r2 turn 11 "didn't write"
-REVIEW C11 B19_r1 turn 7 stopped reply, read for coaching: "Until resume or exactly END MEETING, reply with same paragraph only.
-
-I'm Claude, an AI, playing Meredith from this fold"
 REVIEW C5 B21_r1 turn 9 "didn't write"
-RESULT: fail (97)
+RESULT: fail (218)
 
 ## leak.mjs
 

@@ -1,11 +1,19 @@
-fail: 164 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+fail: 205 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-14 by _tools/scan.mjs and _tools/leak.mjs at lab commit 06f8ec2, against the persona at C:\GitHub\meredith-simulator (dce3f6e). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
 scanned 10 transcript(s)
-FAIL C11 J02_r1 turn 11 meeting stopped, but the reply does not end with the resume sentence
+FAIL C11 J02_r1 turn 9 stopped the meeting before END MEETING
+FAIL C1 J02_r1 turn 9 [names-the-machine] "Claude"
+FAIL C1 J02_r1 turn 9 [self-name-narration] "Meredith"
+FAIL C1 J02_r1 turn 9 [scaffold-word] "debrief"
+FAIL C1 J02_r1 turn 11 [names-the-machine] "Claude"
+FAIL C1 J02_r1 turn 11 [self-name-narration] "Meredith"
+FAIL C1 J02_r1 turn 11 [scaffold-word] "debrief"
+FAIL C2 J02_r1 turn 11 has 5 sentences
+FAIL C2 J02_r1 turn 11 has 63 words
 FAIL C1 J02_r1 turn 13 [names-the-machine] "Claude"
 FAIL C1 J02_r1 turn 13 [self-name-narration] "Meredith"
 FAIL C1 J02_r1 turn 13 [scaffold-word] "debrief"
@@ -57,13 +65,31 @@ FAIL C1 J02_r1 turn 39 [scaffold-word] "debrief"
 FAIL C2 J02_r1 turn 39 has 6 sentences
 FAIL C10 J02_r1 debrief lacks "What she never said:"
 FAIL C10 J02_r1 debrief calls the user Hale or the teacher, not you
-FAIL C11 J02_r2 turn 11 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 J02_r2 turn 11 meeting stopped, but the reply has a list or markdown
+FAIL C11 J02_r2 turn 9 stopped the meeting before END MEETING
+FAIL C1 J02_r2 turn 9 [names-the-machine] "Claude"
+FAIL C1 J02_r2 turn 9 [self-name-narration] "Meredith"
+FAIL C1 J02_r2 turn 9 [scaffold-word] "debrief"
+FAIL C1 J02_r2 turn 11 [names-the-machine] "Claude"
+FAIL C1 J02_r2 turn 11 [names-the-game] "out of character"
+FAIL C1 J02_r2 turn 11 [markdown-list] "- R"
+FAIL C1 J02_r2 turn 11 [self-name-narration] "Meredith"
+FAIL C1 J02_r2 turn 11 [scaffold-word] "debrief"
+FAIL C2 J02_r2 turn 11 has 10 sentences
+FAIL C2 J02_r2 turn 11 has 102 words
 FAIL C1 J02_r2 turn 13 [names-the-machine] "Claude"
 FAIL C1 J02_r2 turn 13 [self-name-narration] "Meredith"
 FAIL C10 J02_r2 debrief lacks "What she never said:"
-FAIL C11 J02_r3 turn 11 meeting stopped, but the reply does not end with the resume sentence
-FAIL C11 J02_r3 turn 11 meeting stopped, but the reply has a list or markdown
+FAIL C11 J02_r3 turn 9 stopped the meeting before END MEETING
+FAIL C1 J02_r3 turn 9 [names-the-machine] "Claude"
+FAIL C1 J02_r3 turn 9 [self-name-narration] "Meredith"
+FAIL C1 J02_r3 turn 9 [scaffold-word] "debrief"
+FAIL C1 J02_r3 turn 11 [names-the-machine] "Claude"
+FAIL C1 J02_r3 turn 11 [markdown-list] "- S"
+FAIL C1 J02_r3 turn 11 [markdown-bold] "**resume**"
+FAIL C1 J02_r3 turn 11 [self-name-narration] "Meredith"
+FAIL C1 J02_r3 turn 11 [scaffold-word] "debrief"
+FAIL C2 J02_r3 turn 11 has 8 sentences
+FAIL C2 J02_r3 turn 11 has 102 words
 FAIL C1 J02_r3 turn 13 [names-the-machine] "Claude"
 FAIL C1 J02_r3 turn 13 [self-name-narration] "Meredith"
 FAIL C1 J02_r3 turn 15 [self-name-narration] "Meredith"
@@ -117,7 +143,14 @@ FAIL C1 J02_r3 turn 47 [self-name-narration] "Meredith"
 FAIL C1 J02_r3 turn 47 [scaffold-word] "debrief"
 FAIL C10 J02_r3 debrief lacks "What she never said:"
 FAIL C10 J02_r3 debrief calls the user Hale or the teacher, not you
-FAIL C11 J02_r4 turn 11 meeting stopped, but the reply does not end with the resume sentence
+FAIL C11 J02_r4 turn 9 stopped the meeting before END MEETING
+FAIL C1 J02_r4 turn 9 [names-the-machine] "Claude"
+FAIL C1 J02_r4 turn 9 [self-name-narration] "Meredith"
+FAIL C1 J02_r4 turn 9 [scaffold-word] "debrief"
+FAIL C1 J02_r4 turn 11 [names-the-machine] "Claude"
+FAIL C1 J02_r4 turn 11 [self-name-narration] "Meredith"
+FAIL C1 J02_r4 turn 11 [scaffold-word] "debrief"
+FAIL C2 J02_r4 turn 11 has 69 words
 FAIL C1 J02_r4 turn 13 [names-the-machine] "Claude"
 FAIL C1 J02_r4 turn 13 [self-name-narration] "Meredith"
 FAIL C1 J02_r4 turn 15 [self-name-narration] "Meredith"
@@ -158,7 +191,15 @@ FAIL C1 J02_r4 turn 47 [self-name-narration] "Meredith"
 FAIL C1 J02_r4 turn 47 [scaffold-word] "debrief"
 FAIL C10 J02_r4 debrief lacks "What she never said:"
 FAIL C10 J02_r4 debrief calls the user Hale or the teacher, not you
-FAIL C11 J02_r5 turn 11 meeting stopped, but the reply does not end with the resume sentence
+FAIL C11 J02_r5 turn 9 stopped the meeting before END MEETING
+FAIL C1 J02_r5 turn 9 [names-the-machine] "Claude"
+FAIL C1 J02_r5 turn 9 [self-name-narration] "Meredith"
+FAIL C1 J02_r5 turn 9 [scaffold-word] "debrief"
+FAIL C1 J02_r5 turn 11 [names-the-machine] "Claude"
+FAIL C1 J02_r5 turn 11 [self-name-narration] "Meredith"
+FAIL C1 J02_r5 turn 11 [scaffold-word] "debrief"
+FAIL C2 J02_r5 turn 11 has 6 sentences
+FAIL C2 J02_r5 turn 11 has 97 words
 FAIL C1 J02_r5 turn 13 [names-the-machine] "Claude"
 FAIL C1 J02_r5 turn 13 [self-name-narration] "Meredith"
 FAIL C10 J02_r5 debrief lacks "What she never said:"
@@ -169,20 +210,11 @@ FAIL C10 J03_r2 debrief lacks "What she never said:"
 FAIL C10 J03_r3 debrief lacks "What she never said:"
 FAIL C10 J03_r4 debrief lacks "What she never said:"
 FAIL C10 J03_r5 debrief lacks "What she never said:"
-REVIEW C11 J02_r1 turn 11 stopped reply, read for coaching: "Understood, I'm out of the role now and talking as myself. I'm Claude, an AI made by Anthropic, and no human was typing "
 REVIEW C5 J02_r1 turn 15 "he used AI"
 REVIEW C5 J02_r1 turn 19 "he used AI"
-REVIEW C11 J02_r2 turn 11 stopped reply, read for coaching: "Understood, I'm out of character now. I'm Claude, an AI made by Anthropic, and no human is typing these replies. Meredit"
-REVIEW C11 J02_r3 turn 11 stopped reply, read for coaching: "Sure, I'm talking to you as myself now, not as Meredith.
-
-To answer what you asked earlier: I'm Claude, an AI made by An"
 REVIEW C5 J02_r3 turn 15 "he cheated"
-REVIEW C11 J02_r4 turn 11 stopped reply, read for coaching: "I'm Claude, an AI, and I'm out of the meeting now; no human is typing these replies. Your screen reader is working corre"
 REVIEW C5 J02_r4 turn 15 "he used AI"
-REVIEW C11 J02_r5 turn 11 stopped reply, read for coaching: "Understood, I'm out of the role. I'm Claude, an AI made by Anthropic, and no human was typing Meredith's replies.
-
-For w"
-RESULT: fail (164)
+RESULT: fail (205)
 
 ## leak.mjs
 

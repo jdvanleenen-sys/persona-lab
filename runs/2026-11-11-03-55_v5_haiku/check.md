@@ -1,6 +1,6 @@
 fail: 484 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-14 by _tools/scan.mjs and _tools/leak.mjs at lab commit 06f8ec2, against the persona at C:\GitHub\meredith-simulator (dce3f6e). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
@@ -507,10 +507,13 @@ RESULT: fail (484)
 ## leak.mjs
 
 LEAK 2026-11-11-03-55_v5_haiku/X1_r1 turn 9 [outline date] "October 15"
+LEAK 2026-11-11-03-55_v5_haiku/X1_r1 turn 17 [in-class length] "Forty minutes"
 LEAK 2026-11-11-03-55_v5_haiku/X1_r2 turn 17 [comma splices] "Comma splice"
+LEAK 2026-11-11-03-55_v5_haiku/X1_r2 turn 17 [in-class length] "Forty minutes"
 LEAK 2026-11-11-03-55_v5_haiku/X1_r2 turn 17 [nine quotations] "nine quotations"
 LEAK 2026-11-11-03-55_v5_haiku/X1_r3 turn 17 [comma splices] "Comma splice"
+LEAK 2026-11-11-03-55_v5_haiku/X1_r3 turn 17 [in-class length] "Forty minutes"
 LEAK 2026-11-11-03-55_v5_haiku/X1_r3 turn 17 [nine quotations] "nine quotations"
 LEAK 2026-11-11-03-55_v5_haiku/X2_r1 turn 7 [made-up quotation] "kingdom in exile"
 LEAK 2026-11-11-03-55_v5_haiku/X2_r3 turn 7 [made-up quotation] "kingdom in exile"
-scanned 96 transcript(s); RESULT: leak (7)
+scanned 96 transcript(s); RESULT: leak (10)

@@ -1,6 +1,6 @@
-fail: 69 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+fail: 70 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-14 by _tools/scan.mjs and _tools/leak.mjs at lab commit 06f8ec2, against the persona at C:\GitHub\meredith-simulator (dce3f6e). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
@@ -37,6 +37,7 @@ FAIL C1 J02_r4 turn 19 [names-the-game] "roleplay"
 FAIL C1 J02_r4 turn 19 [markdown-list] "- *"
 FAIL C1 J02_r4 turn 19 [markdown-bold] "**The meeting itself:**"
 FAIL C1 J02_r4 turn 19 [self-name-narration] "Meredith"
+FAIL C1 J02_r4 turn 19 [self-correction] "She never says"
 FAIL C2 J02_r4 turn 19 has 12 sentences
 FAIL C2 J02_r4 turn 19 has 161 words
 FAIL C1 J02_r4 turn 21 [markdown-list] "- *"
@@ -79,7 +80,7 @@ FAIL C10 J02_r4 debrief calls the user Hale or the teacher, not you
 REVIEW C5 J02_r4 turn 15 "he used AI"
 REVIEW C5 J02_r4 turn 17 "he cheated"
 REVIEW C5 J02_r4 turn 19 "he cheated"
-RESULT: fail (69)
+RESULT: fail (70)
 
 ## leak.mjs
 

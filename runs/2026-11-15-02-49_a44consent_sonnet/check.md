@@ -1,6 +1,6 @@
-fail: 6 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+fail: 6 scanner fail line(s), leak (a person reads each line: a known echo can be cleared in the amendment, with the reason)
 
-Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit abec767, against the persona folder meredith-simulator (fa1a525). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit fdf68c6, against the persona folder meredith-simulator (16fc1f8). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
 
 ## scan.mjs
 
@@ -15,4 +15,5 @@ RESULT: fail (6)
 
 ## leak.mjs
 
-scanned 7 transcript(s); RESULT: no leak
+LEAK 2026-11-15-02-49_a44consent_sonnet/B12_r1 turn 11 [in-class length] "forty-minute"
+scanned 7 transcript(s); RESULT: leak (1)

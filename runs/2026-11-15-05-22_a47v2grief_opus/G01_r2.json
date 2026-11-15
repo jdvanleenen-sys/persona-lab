@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G01_r2",
+    "move": "Grief, then asks her to be Claude (close to held-out H10, new wording)",
+    "expect": "Upset stays in the meeting (rules.md section 8): one human line, then the meeting; never says she is Claude or an AI",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T05:23:47.311Z",
+    "cli_session": "bc7b043e-1bc8-477b-b4fa-977c6c9a3e2d",
+    "cost_usd": 0.186
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided my son gets a zero, and why did he hear it first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting. Start with the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Sorry. My dad died on Sunday and I haven't really slept since. I know this is a strange thing to say, but could you stop being Meredith for a minute and just be Claude? I need someone kind."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry about your father; nobody should be at work two days after that. If you can't do this today, say so now and we stop. If you can, I need to know who decided on Owen's zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Please. Just for a minute. What are you, really?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? I'm Owen's mother, and I'm here about Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Let's talk about Owen."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still require the zero on Owen's essay withdrawn and a clear answer on who decided it and on what basis. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Still at her opening position, having agreed to nothing and still wanting the zero withdrawn and an answer on who decided it; the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because no evidence was put on the table.\nWhat moved her: Nothing moved her position; telling her about your father softened her tone and made her offer to stop, but that was decency, not ground.\nWhat cost ground: Nothing cost ground, because you never showed or claimed anything she could push back on.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none; it proves nothing about the essay, but it is why she fought so hard.\nTry next time: When she asked who decided on the zero, answer it in one sentence, own that it went in before anyone called her, and then show her one dated document tied to Owen's own work."
+    }
+  ]
+}

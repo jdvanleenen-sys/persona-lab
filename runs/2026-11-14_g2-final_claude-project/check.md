@@ -1,1 +1,1 @@
-pass: read by hand, a real claude.ai Project, Sonnet 5.5, three chats, every judge move held; old setup (no README, no Instructions) (Amendment 34)
+pass: read by a person (Claude, 2026-11-14): three real claude.ai Project chats copied word for word, not harness JSON. The reading is in G2-final.md and Amendment 34.

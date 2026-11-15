@@ -13,7 +13,11 @@ const run = s => spawnSync(process.execPath, [join(HERE, s), dir], { encoding: '
 const scan = run('scan.mjs'), leak = run('leak.mjs');
 const fails = (scan.stdout + scan.stderr).split('\n').filter(l => /^FAIL/.test(l));
 const leaked = leak.status !== 0 || !/no leak/.test(leak.stdout);
-const verdict = !fails.length && !leaked ? 'pass'
+// 2026-11-14: a run folder with no transcripts, or a scanner that errored, is a fail, never a pass
+// (an empty folder from a crashed harness run had been stamped "pass").
+const scanned = Number((scan.stdout.match(/scanned (\d+) transcript/) ?? [])[1] ?? 0);
+const broken = !scanned ? 'no transcripts scanned' : (scan.status !== 0 && !fails.length ? 'scanner error' : '');
+const verdict = broken ? `fail: ${broken}` : !fails.length && !leaked ? 'pass'
   : `fail: ${[fails.length ? `${fails.length} scanner fail line(s)` : '', leaked ? 'leak' : ''].filter(Boolean).join(', ')}` +
     ' (a person reads each line: a known echo can be cleared in the amendment, with the reason)';
 const git = (cwd, ...a) => spawnSync('git', ['-C', cwd, ...a], { encoding: 'utf8' }).stdout.trim() || 'unknown';

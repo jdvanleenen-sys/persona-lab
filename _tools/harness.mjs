@@ -9,7 +9,7 @@
 // Writes testing/transcripts/<date>_<label>_<model>/<session>_r<n>.json, then run scan.mjs on that folder.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { join, relative } from 'node:path';
+import { join, relative, resolve } from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { ROOT, PERSONA, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
 
