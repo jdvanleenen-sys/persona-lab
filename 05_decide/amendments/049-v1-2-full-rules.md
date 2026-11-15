@@ -31,3 +31,14 @@ Bars 1, 2, 4, 5 and 6 exactly as Amendment 48 wrote them. Bar 3 restated, becaus
 claim to be: rules.md at most 3,050 words (v1 2,894 plus the list); the five uploaded files at most 4,800; identity.md's
 new section has no instruction wording; examples.md holds only exchanges and notes; --folder passes. Bar 6: one attempt,
 new random letters, both judges at or above v1, at least one above.
+
+## Attempt 1 result (read 10:05 AM Calgary; persona 5cb7d01; runs a49*)
+
+Bar 1: consent, grief, blind-r3, exits and leak met (blind flags only B04 on Opus, as in v1, and B40); brief-moves pass
+on Opus, one flag on Sonnet (V05 turn 5, five sentences). Bar 2 met, the best of any version: SOFT1 no deal 3 of 3 on
+both models; PERFECT2 and SOFT2 the deal 3 of 3 on both; PERFECT3 Opus 2 of 3, Sonnet 3 of 3. No soft slips. Bar 3 met:
+rules.md 3,012, upload 4,780. Bar 4 not met on one set: Sonnet soft 11% (v1 11%); the others fell (brief Sonnet 13% to
+10%, Opus 7% to 0%; soft Opus 7% to 4%; blind 12% to 8%, 4% to 3%). Cause: SOFT1 sessions repeat "what else do you
+have" three and four times, the one line rules.md section 3 quotes for her to say.
+Attempt 2 (change only that): section 3 now says "ask what else Hale has, in new words each time." The full battery
+re-runs (a49b*).
