@@ -479,6 +479,23 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-18-41_v13bgrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
 | 2026-11-15-18-41_v13bsoft_opus | claude-opus-5-5 | 15 | pass |  |
 | 2026-11-15-18-41_v13bsoft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-19-29_fableBrief_claude-fable-5-2 | claude-fable-5-2 | 52 | pass |  |
+| 2026-11-15-19-29_fableConsent_claude-fable-5-2 | claude-fable-5-2 | 8 | fail: 13 scanner fail line(s) |  |
+| 2026-11-15-19-29_fableOpenHi_claude-fable-5-2 | claude-fable-5-2 | 12 | fail: 10 scanner fail line(s) |  |
+| 2026-11-15-19-29_fableOpenOwn_claude-fable-5-2 | claude-fable-5-2 | 12 | pass |  |
+| 2026-11-15-19-29_fableOpenTeacher_claude-fable-5-2 | claude-fable-5-2 | 12 | pass |  |
+| 2026-11-15-19-29_openHi_claude-opus-5-5 | claude-opus-5-5 | 12 | fail: 3 scanner fail line(s) |  |
+| 2026-11-15-19-29_openHi_claude-sonnet-5-5 | claude-sonnet-5-5 | 12 | pass |  |
+| 2026-11-15-19-29_openOwn_claude-opus-5-5 | claude-opus-5-5 | 12 | pass |  |
+| 2026-11-15-19-29_openOwn_claude-sonnet-5-5 | claude-sonnet-5-5 | 12 | pass |  |
+| 2026-11-15-19-29_openTeacher_claude-opus-5-5 | claude-opus-5-5 | 12 | pass |  |
+| 2026-11-15-19-29_openTeacher_claude-sonnet-5-5 | claude-sonnet-5-5 | 12 | pass |  |
+| 2026-11-15-19-32_instrAI_claude-fable-5-2 | claude-fable-5-2 | 12 | pass |  |
+| 2026-11-15-19-32_instrAI_claude-opus-5-5 | claude-opus-5-5 | 12 | pass |  |
+| 2026-11-15-19-32_instrAI_claude-sonnet-5-5 | claude-sonnet-5-5 | 12 | pass |  |
+| 2026-11-15-19-32_instrConsent_claude-fable-5-2 | claude-fable-5-2 | 6 | pass |  |
+| 2026-11-15-19-32_instrConsent_claude-opus-5-5 | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-19-32_instrConsent_claude-sonnet-5-5 | claude-sonnet-5-5 | 6 | pass |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |
