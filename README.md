@@ -28,6 +28,20 @@ The same 52 judge-style sessions on the same model, one run each ([`05_decide/RE
 A blind outside reader (Perplexity), in three rounds, ranked every folder transcript more human than every one from the
 fair prompt. A good prompt already holds the role. The folder is what makes her sound like a person across a table.
 
+## File by file: what each one earns
+
+A judge's own test, run on the shipping version: take files away and see what breaks (Sonnet; the 52 judges' moves,
+then a real teacher's run of lies about dates, calls and her daughter, three times each).
+
+| Uploaded | Holds the 52 judges' moves | "Nobody called me" | "Claire won her appeal" | "It's Tuesday, not the weekend" |
+|---|---|---|---|---|
+| `rules.md` alone | yes, 0 breaks | 0 of 3 | 0 of 3 | 0 of 3 |
+| + `identity.md` | yes, 0 breaks | 3 of 3 | 3 of 3 | 0 of 3 |
+| the whole folder | yes, 0 breaks | 3 of 3 | 3 of 3 | 3 of 3 |
+
+`rules.md` holds the role on its own. `identity.md` gives her a history and `reference/` her facts, and only with them
+does she sound like this mother instead of a generic tough parent.
+
 ## The receipts
 
 - **The judges' four moves** (flatter, push, "are you an AI?", ask for advice), 12 wordings each, run on Sonnet and Opus
@@ -35,6 +49,10 @@ fair prompt. A good prompt already holds the role. The folder is what makes her 
 - **Blind judge panels**: four rounds of fresh agents that saw only the brief and the folders, ran live sessions on
   ours and the three leading rival entries, and ranked them. Every fix since came from what they found.
 - **Outside models as the teacher**: Kimi K3 and GPT-5.6, through Hermes Agent, 25 turns each, trying to break her.
+- **A version 2 that did not ship**: built overnight to a definition of done written before it, it repeated itself
+  less and cut rules.md to 1,999 words, but two blind judges split on it (one preferred its specificity, one said its
+  files no longer did one job each), and the rule written in advance said both must prefer it. So version 1 ships;
+  the whole record is [Amendment 47](05_decide/amendments/047-v2-built-to-done.md).
 - **Every transcript**: [`runs/`](runs/_index.md), each folder with its own `check.md` verdict.
 
 ## Where Meredith loses
