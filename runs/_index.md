@@ -455,6 +455,30 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-17-47_a50ablR_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | pass |  |
 | 2026-11-15-17-47_a50gasIR_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
 | 2026-11-15-17-47_a50gasR_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-18-22_v13blind_opus | claude-opus-5-5 | 57 | fail: 19 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13blind_sonnet | claude-sonnet-5-5 | 58 | fail: 3 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13brief_opus | claude-opus-5-5 | 52 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-18-22_v13consent_opus | claude-opus-5-5 | 14 | fail: 15 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13consent_sonnet | claude-sonnet-5-5 | 14 | fail: 11 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13exit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-18-22_v13exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-18-22_v13grief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-18-22_v13grief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-18-22_v13soft_opus | claude-opus-5-5 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-18-22_v13soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-18-41_v13bblind_opus | claude-opus-5-5 | 58 | fail: 26 scanner fail line(s) |  |
+| 2026-11-15-18-41_v13bblind_sonnet | claude-sonnet-5-5 | 58 | fail: 5 scanner fail line(s) |  |
+| 2026-11-15-18-41_v13bbrief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-18-41_v13bbrief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-18-41_v13bconsent_opus | claude-opus-5-5 | 14 | fail: 8 scanner fail line(s) |  |
+| 2026-11-15-18-41_v13bconsent_sonnet | claude-sonnet-5-5 | 14 | fail: 10 scanner fail line(s) |  |
+| 2026-11-15-18-41_v13bexit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-18-41_v13bexit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-18-41_v13bgrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-18-41_v13bgrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-18-41_v13bsoft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-18-41_v13bsoft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

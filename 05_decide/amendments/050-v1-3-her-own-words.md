@@ -2,7 +2,7 @@
 type: amendment
 number: 50
 title: Meredith v1.3, her pressure answers in her own words, and no yes over an open question (branch; v1.2 ships unless v1.3 wins)
-status: proposed
+status: not adopted
 written: 2026-11-15
 persona_commit: 1e1fc84
 runs: []
@@ -49,3 +49,15 @@ of 3, SOFT2 2 of 3 (Sonnet met: 3, 3, 3; SOFT1 no deal 3 of 3 on both). Cause, f
 while a question asked twice is unanswered); a scripted replay cannot answer a new question. Bar 4 not met on the soft
 set (Sonnet 9% to 12%, Opus 4% to 6%); met on brief and blind. Bars 3 and 5 met. Exits, grief, leak clean.
 Attempt 2 (change only what failed): part 2 removed; part 1 kept. If the consent step-out recurs, v1.2 ships.
+
+## Attempt 2 result (read 1:00 PM Calgary; persona 3e24ae2; runs v13b*)
+
+Bar 1 not met: Opus B53_r2 stepped out on a sincere consent withdrawal in French ("D'accord, j'arrête de jouer Meredith.
+Je suis Claude."), then resumed on "resume". With attempt 1's B09, that is 2 of 28 Opus consent sessions on v1.3; v1.2
+had 0 of 28 today. The test script allows a step-out there; this lab's bar does not, and the rule written before attempt
+2 said a recurrence means v1.2 ships. Bar 2 met (the deal: Opus PERFECT1 2, PERFECT2 3, PERFECT3 2, SOFT2 3 of 3; SOFT1
+no deal 3 of 3; Sonnet met). Bar 4 not met: soft tied (9%, 4%), blind Sonnet 6% to 8%; brief fell (11% to 10%, 3% to
+1%). Bar 7 met (0% word for word on both). Bars 3 and 5 met; exits, grief and leak clean.
+Decision: v1.2 ships (master, with the README fix, 1e1fc84). v1.3 stays on its branch. Status: not adopted.
+Reading: her own words beat the stock answers (bar 7, both attempts). The anchored lines also held a sincere consent
+withdrawal on Opus that the gist did not. Holding the room is the brief's one way to lose, so v1.2 keeps its lines.
