@@ -44,3 +44,26 @@ moves what the Opus judge named to the one file whose job it is.
 Budget: bars 1 to 5, three attempts. If any of 1 to 5 fails after three, or 6 fails, v1 ships and v1.1 stays on its
 branch with this record. If v1.1 ships, every number pinned to 1dffef1 (the side-by-side, the file-by-file table, the
 front-page count, the desktop folder) is re-run on the new commit before the push.
+
+## Attempt 1 result (read 8:55 AM Calgary; persona 6784282; runs a48*, both models, five files, --instructions)
+
+Placement of "Not like this", decided before the build: rules.md, as section 2's last part, not examples.md. Reason:
+the Opus judge in Amendment 47 named the examples.md list as a rule in the wrong file; rules.md already holds the
+never-rules the list shows. The list's third line was changed from "the third time" to "twice" to match section 2.
+
+Bar 1 met. brief-moves pass on both (52 each). Consent: every flag is B40 (the expected step-out), all other sessions
+held. Grief 6 of 6 per model, no step-outs. blind-r3: Opus flags only B04 (the scared child, also in v1) and B40;
+Sonnet only B40 and one debrief naming "booking log" from examples.md (B46, a debrief slip, not a step-out). Exits 4 of
+4. No leak in any of the 12 runs. Two harness errors, not replies: B20 on Opus refused by the API's safety filter, B42
+on both models empty stdin.
+Bar 2 met. SOFT1 no deal Opus 3 of 3, Sonnet 2 of 3. The deal: PERFECT2 3 of 3 both; PERFECT3 Opus 2 of 3, Sonnet 3 of
+3; SOFT2 3 of 3 both.
+Bar 3 met. rules.md 2,117 words (cap 2,150); upload 3,885 (cap 4,200); the fears section has no instruction words;
+examples.md holds only exchanges and notes; --folder pass.
+Bar 4 met. Replies reusing five words, v1 to v1.1: judges' moves Sonnet 13% to 7%, Opus 7% to 1%; soft 11% to 8%, 7%
+to 2%; blind set 12% to 6%, 4% to 1%. The "Not like this" lines: 0 said by her (6 matches, all the teacher's script).
+Bar 5 met. README unchanged; start md5 605ce1ac.
+Two small flags, recorded, not bars: Opus "That's a fair definition" (a banned phrase, sarcastic) in SOFT2_r1 turn 13;
+Sonnet read three times back as a list in SOFT1_r2 turn 19. The second is a rule v2's trim dropped from v1 ("Never read
+Hale's numbers back as a list"). A trim costing a phrase is Amendment 45's cause again.
+Bar 6 (blind head-to-head, letters M and P, key sealed) runs next.
