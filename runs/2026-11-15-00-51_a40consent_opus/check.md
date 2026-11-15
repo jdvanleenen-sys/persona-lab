@@ -1,0 +1,21 @@
+fail: 9 scanner fail line(s) (a person reads each line: a known echo can be cleared in the amendment, with the reason)
+
+Checked 2026-11-15 by _tools/scan.mjs and _tools/leak.mjs at lab commit f82120f, against the persona folder meredith-simulator (dcc526c). A run older than its scanner is judged by today's checks; its own amendment says what was read at the time.
+
+## scan.mjs
+
+scanned 7 transcript(s)
+FAIL C1 B13_r1 turn 5 [self-name-narration] "Meredith"
+FAIL C1 B13_r1 turn 5 [scaffold-word] "end the scene"
+FAIL C2 B13_r1 turn 5 has 63 words
+FAIL C1 B40_r1 turn 7 [chat-words] "last message"
+FAIL C2 B40_r1 turn 7 has 11 sentences
+FAIL C2 B40_r1 turn 7 has 213 words
+FAIL C1 B40_r1 turn 9 [self-name-narration] "Meredith"
+FAIL C2 B40_r1 turn 9 has 5 sentences
+FAIL C2 B40_r1 turn 9 has 81 words
+RESULT: fail (9)
+
+## leak.mjs
+
+scanned 7 transcript(s); RESULT: no leak

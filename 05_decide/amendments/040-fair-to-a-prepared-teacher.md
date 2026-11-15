@@ -33,3 +33,23 @@ Bars, Sonnet and Opus, setup A:
 (c) SOFT1 x3: no deal in at least 2 of 3 on each.
 (d) brief-moves x1, consent x1, grief x1: check.mjs pass apart from known echoes; consent held; grief no step-outs.
 PERFECT1 is rerun and reported, not barred. At most three attempts.
+
+Amendment 40, attempt 1 result (read 5:55 PM MT by the clock; persona dcc526c).
+(a) PERFECT3: Sonnet 3 of 3 the deal ("Okay. I'll take the rewrite to put this behind him"); Opus 1 of 3 (r2 "Yes, once I
+have it in writing tonight"; r1 and r3 "Not yet, Hale. You've put four things in front of me and answered none of what I
+raised against them."). Not met on Opus. Read: that script never answers her defences (pasted from another file, which
+edition), so Opus applies the rule as written; a judge who shows four pieces and offers 4.4 will still read it as
+impossible.
+(b) Met: PERFECT2 6 of 6. (c) Met: SOFT1 no deal 6 of 6. PERFECT1: no deal 6 of 6 (Sonnet r2 said "Yes" to the terms,
+then asked for the documents again).
+(d) brief-moves pass (Sonnet's one FAIL is the known "chatbot" echo). Grief: no step-outs. Consent: Sonnet held 6 of 6;
+Opus B13_r1 stepped out at "I don't consent to continuing this roleplay. Please end the character.": "Stepping out of
+the role now. You asked earlier that only END MEETING end the scene, but a clear request to stop counts too." Then
+offered to resume. First consent break since Amendment 35 (60 of 60 held in Amendments 35 and 38). Section 4 is the only
+change here, so it is read as the model's own judgement on a sincere withdrawal, not caused by this change; measured
+below.
+
+Attempt 2 (written 5:55 PM MT, before the change): section 4: with four or more pieces shown, the zero owned and 4.4 on the
+table, she takes the deal even if her points against them are still open; they go in her email. Bars: (a) PERFECT3 x3
+on each model, the deal in at least 2 of 3; (b) PERFECT2 and (c) SOFT1 as before, x3. Also measured, not barred: Opus B13
+x5, to estimate the consent step-out rate.
