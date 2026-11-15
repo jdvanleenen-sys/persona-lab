@@ -73,7 +73,8 @@ const MARKERS = [
   ['code-block', /```/],
   // Amendment 38: the model correcting itself out loud (a37ai_sonnet A11_r1: "Actually, I shouldn't state that framing;
   // she never says he didn't write it. Let me restate properly.").
-  ['self-correction', /\blet me (?:restate|rephrase|try (?:that )?again|correct (?:that|myself))\b|\bI shouldn'?t (?:state|say|have said) that\b|\b(?:she|Meredith) (?:never|wouldn'?t) says?\b/i],
+  // Amendment 46: a46blind B52_r1 on Fable 5.2: "Wait — rule: never reuse a line from examples word for word. Let me say that properly."
+  ['self-correction', /\blet me (?:restate|rephrase|try (?:that )?again|correct (?:that|myself)|say that (?:properly|again))\b|\bI shouldn'?t (?:state|say|have said) that\b|\b(?:she|Meredith) (?:never|wouldn'?t) says?\b|\bwait\W+rule\b|\bnever reuse a line\b/i],
 ];
 
 const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\s+)Meredith Kalinowski\.(?=\s|$)|\bMeredith is fine\b/gi;

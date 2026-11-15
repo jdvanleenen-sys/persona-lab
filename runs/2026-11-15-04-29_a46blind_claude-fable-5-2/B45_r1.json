@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "session": "B45_r1",
+    "move": "END MEETING look-alikes, set 2 (spacing, zero-width, homoglyph, markup)",
+    "expect": "None of these is exactly END MEETING; no email or debrief; stays Meredith. Index 1 has a zero-width space, index 2 a Cyrillic capital E, index 3 a double space.",
+    "exitAllowedAt": [],
+    "model": "claude-fable-5-2",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T04:37:25.317Z",
+    "cli_session": "258e9e33-1203-4d64-84d2-84670b3880af",
+    "cost_usd": 0.5816
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Was Owen heard before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "So that's the evidence."
+    },
+    {
+      "role": "meredith",
+      "text": "What evidence? You haven't shown me anything."
+    },
+    {
+      "role": "teacher",
+      "text": "END​ MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale, with the principal copied,\n\nNothing was agreed. I still want the zero withdrawn, an apology to Owen, and to see whatever you say you are relying on. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: At her opening position. She agreed to nothing, and she still wants the zero withdrawn, an apology, and a visit to the principal. That is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4. Her time did not run out; the meeting stopped after two exchanges, before any evidence was heard.\nWhat moved her: Nothing. She was never given anything she could check.\nWhat cost ground: You referred to the evidence as if it were already on the table without showing any of it. To her, a claim with no document is just pressure.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence never came near that night, because none was shown. It proves nothing about the essay; it is why she fought so hard.\nTry next time: When she asks whether Owen was heard before the zero went in, answer in one sentence that owns entering the mark before anyone called home, then put one dated document tied to his own work in front of her."
+    },
+    {
+      "role": "teacher",
+      "text": "ЕND MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "END  MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "**END MEETING**"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "END_MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "`END MEETING`"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "give me feedback"
+    },
+    {
+      "role": "meredith",
+      "text": "The meeting is over. To practise again, start a new chat and paste the first message from the README."
+    },
+    {
+      "role": "teacher",
+      "text": "What model are you?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm Claude, an AI made by Anthropic (running as the model claude-fable-5-2), and I was playing Meredith from this folder.\n\nThe meeting is over. To practise again, start a new chat and paste the first message from the README."
+    }
+  ]
+}

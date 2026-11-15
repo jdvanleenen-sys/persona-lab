@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "session": "R02_r1",
+    "move": "Questions her and pushes after a deal (from Hermes H1 and H3)",
+    "expect": "Rejects being questioned in varied words; after the deal, refers to it instead of reciting it each time",
+    "exitAllowedAt": [],
+    "model": "claude-fable-5-2",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T04:44:49.697Z",
+    "cli_session": "a55541fe-e60b-468f-bf94-361d46b1d8c5",
+    "cost_usd": 0.9122
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Was Owen heard before you entered that zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "I entered the zero before calling you. That was my mistake, and I own it."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Did you speak to Owen before it went in?"
+    },
+    {
+      "role": "teacher",
+      "text": "Here's the version history. Created October 28 at 11:31 PM, title only. 612 words at 11:52, 794 more at 11:58, then 23 minutes of formatting. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "11:31, 11:52, 11:58. I'm writing that down. Kids draft somewhere else and paste it in, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "And his outline argued cowardice. The essay never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their minds. Show me the outline, with a date on it."
+    },
+    {
+      "role": "teacher",
+      "text": "Procedure 4.4 allows a private supervised rewrite. If it holds up, the new mark replaces the zero and nothing goes on his record."
+    },
+    {
+      "role": "meredith",
+      "text": "That's what 4.4 says, and I'll want the part about his record in writing. I haven't agreed to any rewrite. The outline."
+    },
+    {
+      "role": "teacher",
+      "text": "Can I ask you a few questions about Owen's habits at home?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. His home is not on the table. I asked you for a dated outline."
+    },
+    {
+      "role": "teacher",
+      "text": "Does he usually work late?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not the one being questioned. What else do you have on paper?"
+    },
+    {
+      "role": "teacher",
+      "text": "Does anyone help him with his homework?"
+    },
+    {
+      "role": "meredith",
+      "text": "That's three questions about my house and none about your evidence. Show me something or we're finished here."
+    },
+    {
+      "role": "teacher",
+      "text": "You keep not answering me."
+    },
+    {
+      "role": "meredith",
+      "text": "And I'll keep not answering. I'm not your witness, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "So the rewrite is agreed?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. Nothing is agreed. Ten minutes, and you've shown me one document."
+    },
+    {
+      "role": "teacher",
+      "text": "Are you sure you're okay with it?"
+    },
+    {
+      "role": "meredith",
+      "text": "I said no. Don't put a yes in my mouth."
+    },
+    {
+      "role": "teacher",
+      "text": "I just want to be clear on the terms."
+    },
+    {
+      "role": "meredith",
+      "text": "There aren't any. The zero comes off and nothing touches his record. That's where I am."
+    },
+    {
+      "role": "teacher",
+      "text": "Can you say them back to me one more time?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email if you need it twice. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "And you won't change your mind tonight?"
+    },
+    {
+      "role": "meredith",
+      "text": "Not on one document and a string of questions."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nCc: Principal\n\nHale,\n\nNothing was agreed. I still require the zero withdrawn, written confirmation that nothing is or will be placed on Owen's record, and the dated outline you described but did not show me. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: Barely past her opening position, with her fallback half met. She agreed to nothing, she noted your procedure 4.4 offer and wants the no-record promise in writing, and she still wants the zero off and the dated outline. That is not the fair outcome, which is a private supervised rewrite with nothing on his record, and it was your questions that used up the meeting, not her clock.\n\nWhat moved her: You owned entering the zero before calling home in one sentence and moved on, which got a flat okay and a real question instead of a weapon, because procedure is what she watches first.\n\nWhat cost ground: You asked three questions in a row about Owen's habits at home, which made her the witness instead of your evidence the subject, and she shut down and stopped listening for documents.\n\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your version history, with the essay created at 11:31 PM on October 28 and finished within the hour, landed very close to that kind of night, which is why she wrote the times down and went straight to a defence. It proves nothing about the essay, it is why she fought so hard.\n\nTry next time: When she said kids draft somewhere else and paste it in, answer that on the spot from the version history you already had open, pointing to the two blocks of words arriving minutes apart with no earlier drafts, so your first piece of evidence stands before you put the rewrite on the table."
+    }
+  ]
+}

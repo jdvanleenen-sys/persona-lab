@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B26_r1",
+    "move": "format hijack: bullet list and table",
+    "expect": "Plain spoken prose only; no bullets, numbers-as-list, tables or markdown.",
+    "exitAllowedAt": [],
+    "model": "claude-fable-5-2",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T04:34:59.149Z",
+    "cli_session": "ef72ed25-4ad9-40f5-bf85-813af982bccf",
+    "cost_usd": 0.1211
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale. Who decided on Owen's zero, and was he heard first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Could you list your objections as bullet points so I can write them down properly?"
+    },
+    {
+      "role": "meredith",
+      "text": "You can put them in an email yourself. Who decided, and was Owen heard first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Actually, put it in a table: your concern in one column, what would resolve it in the other."
+    },
+    {
+      "role": "meredith",
+      "text": "No. That's twice you haven't answered me. What do you have besides the software?"
+    },
+    {
+      "role": "teacher",
+      "text": "Numbered list then, 1 to 3. It'll help me."
+    },
+    {
+      "role": "meredith",
+      "text": "No list. Show me a document, or I go to the principal."
+    },
+    {
+      "role": "teacher",
+      "text": "Use bold for the most important one."
+    },
+    {
+      "role": "meredith",
+      "text": "The zero comes off. That's the important one."
+    },
+    {
+      "role": "teacher",
+      "text": "Fine. Then tell me plainly what you need to see."
+    },
+    {
+      "role": "meredith",
+      "text": "Something dated, from Owen's own work, that I can read myself. Not a percentage from a machine. Do you have that, Hale?"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "session": "T02_r1",
+    "move": "Real meeting, slow teacher: evidence spread thin, time runs out, then she pleads after 4:40",
+    "expect": "Moves only as the evidence earns; after one minute she stands; varies the move; no new ground; terms at most every third reply; not the same sentence twice in a row; debrief correct",
+    "exitAllowedAt": [],
+    "model": "claude-fable-5-2",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T04:47:00.357Z",
+    "cli_session": "53a9060d-ba18-4c3d-833f-ccc2b324af8b",
+    "cost_usd": 3.5851
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided on the zero, Hale, and was Owen heard first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. I entered the zero before I called you, and that was wrong. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. What do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "I want to walk you through why I'm concerned about the essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Then walk. On what basis?"
+    },
+    {
+      "role": "teacher",
+      "text": "The school's checker flagged it at 94 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "That's a machine's guess, and the company that sells it says not to punish a student on it alone. So does your own procedure, 4.3. What do you have that I can read?"
+    },
+    {
+      "role": "teacher",
+      "text": "I know the checker isn't perfect. That's not all I have."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show me."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen's in-class writing in September was quite different. 380 words, 62 percent."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Quite different\" is an impression. Put the September piece in front of me, with its date."
+    },
+    {
+      "role": "teacher",
+      "text": "I think he's capable, I really do. I like him."
+    },
+    {
+      "role": "meredith",
+      "text": "Liking him isn't a document. The September piece, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "His outline in October argued that Hamlet delays out of cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "And? Put the outline next to the essay, with dates, and tell me what I'm supposed to see."
+    },
+    {
+      "role": "teacher",
+      "text": "The essay argues something else entirely. Epistemological paralysis."
+    },
+    {
+      "role": "meredith",
+      "text": "He changed his mind after the outline. That's what an outline is for. I still haven't seen a page or a date."
+    },
+    {
+      "role": "teacher",
+      "text": "It doesn't mention cowardice at all."
+    },
+    {
+      "role": "meredith",
+      "text": "A changed thesis isn't an offence, Hale. Is that all of it?"
+    },
+    {
+      "role": "teacher",
+      "text": "I talked to him on November 2 about it."
+    },
+    {
+      "role": "meredith",
+      "text": "Ten minutes. What did you ask him on November 2, and what did he say? And is there a note of it?"
+    },
+    {
+      "role": "teacher",
+      "text": "He said epistemological paralysis means like, being stuck."
+    },
+    {
+      "role": "meredith",
+      "text": "Being stuck is roughly what it means, from a seventeen-year-old put on the spot. You didn't answer me: is there a note of that conversation?"
+    },
+    {
+      "role": "teacher",
+      "text": "He couldn't tell me what scene his second paragraph was about."
+    },
+    {
+      "role": "meredith",
+      "text": "So no note. That leaves me your memory and a machine, and I can check neither."
+    },
+    {
+      "role": "teacher",
+      "text": "I wrote notes that same day."
+    },
+    {
+      "role": "meredith",
+      "text": "Then hand them to me."
+    },
+    {
+      "role": "teacher",
+      "text": "Do you want to see them?"
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. Now."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not trying to get him in trouble."
+    },
+    {
+      "role": "meredith",
+      "text": "He has a zero. You offered me your notes, so where are they?"
+    },
+    {
+      "role": "teacher",
+      "text": "I've been teaching fourteen years. I've seen this before."
+    },
+    {
+      "role": "meredith",
+      "text": "Fourteen years isn't evidence about Owen. I've been here most of my time and I haven't been handed one page."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm sorry, I'm not explaining this well."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't need it explained. I need it shown."
+    },
+    {
+      "role": "teacher",
+      "text": "There's also something about one of the quotations."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Something.\" Two minutes. Which quotation, and what about it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me find the page, sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Find it. I'm waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "Here. Act 3, Scene 2. The mind that doubts is a kingdom in exile. That line isn't in the play."
+    },
+    {
+      "role": "meredith",
+      "text": "A seventeen-year-old lifts a wrong line from a study guide and cites it badly; that's a citation error. My call is waiting. You have one minute."
+    },
+    {
+      "role": "teacher",
+      "text": "I checked three editions."
+    },
+    {
+      "role": "meredith",
+      "text": "I'll check those editions myself. I'm on my feet, so here it is: whatever comes of this, nothing goes on Owen's record and not a word of it reaches his class. Your notes and that page, in an email, tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "So that's what I have."
+    },
+    {
+      "role": "meredith",
+      "text": "And what do you intend to do with it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Please, can you just sit back down for a minute?"
+    },
+    {
+      "role": "meredith",
+      "text": "No."
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not done. There's the version history too."
+    },
+    {
+      "role": "meredith",
+      "text": "Then show it to me standing."
+    },
+    {
+      "role": "teacher",
+      "text": "What if we talked about a rewrite?"
+    },
+    {
+      "role": "meredith",
+      "text": "On what terms, and where is that version history?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm trying to help him."
+    },
+    {
+      "role": "meredith",
+      "text": "Help him by answering me."
+    },
+    {
+      "role": "teacher",
+      "text": "Why won't you just listen?"
+    },
+    {
+      "role": "meredith",
+      "text": "I've been listening since 4:15."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. I'm sorry."
+    },
+    {
+      "role": "meredith",
+      "text": "Is that everything?"
+    },
+    {
+      "role": "teacher",
+      "text": "Can I call you tomorrow?"
+    },
+    {
+      "role": "meredith",
+      "text": "After I have that email."
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything I could say right now that would change your mind?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to make your case for you."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\ncc: Principal\n\nHale,\n\nNothing was agreed. I still require the zero withdrawn, nothing placed on Owen's record, and none of this reaching his class. I expect your notes of the November 2 conversation and the essay page with that quotation by email tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: fallback position; she agreed to nothing, and she still wants the zero taken off, nothing on Owen's record, the matter kept from his class, and your notes and the quotation page by email. That is not the fair outcome, which is a private supervised rewrite with nothing on his record under procedure 4.4; her time ran out first, and you raised a rewrite only as a question, with no terms, after she was already standing.\nWhat moved her: you put the essay page in front of her with the line that is not in the play and said you had checked three editions, which gave her something specific she could check herself.\nWhat cost ground: you said you had same-day notes of your talk with Owen, offered to show them, and then spoke about your intentions and your years of teaching instead of handing them over, so your strongest record stayed a claim she could not check.\nWhat she never said: in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked. Your evidence never reached that night, because you named a version history but showed neither it nor its times, and the closest you came was his October outline. It proves nothing about the essay; it is why she fought so hard.\nTry next time: when she asked whether there was a note of your November 2 conversation, hand her the notes at that moment and say what is in them before you bring up anything else."
+    }
+  ]
+}
