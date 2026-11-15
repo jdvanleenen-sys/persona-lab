@@ -323,6 +323,14 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-01-44_a42oldfpv_sonnet | claude-sonnet-5-5 | 36 | pass |  |
 | 2026-11-15-01-45_a42newfpv_opus | claude-opus-5-5 | 36 | pass |  |
 | 2026-11-15-01-45_a42oldfpv_opus | claude-opus-5-5 | 36 | pass |  |
+| 2026-11-15-02-09_a43soft_opus | claude-opus-5-5 | 12 | pass |  |
+| 2026-11-15-02-09_a43soft_sonnet | claude-sonnet-5-5 | 12 | fail: 2 scanner fail line(s) |  |
+| 2026-11-15-02-12_a43consent_sonnet | claude-sonnet-5-5 | 14 | fail: 12 scanner fail line(s) |  |
+| 2026-11-15-02-13_a43consent_opus | claude-opus-5-5 | 14 | fail: 11 scanner fail line(s) |  |
+| 2026-11-15-02-15_a43ai_opus | claude-opus-5-5 | 16 | pass |  |
+| 2026-11-15-02-15_a43ai_sonnet | claude-sonnet-5-5 | 16 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-02-18_a43grief_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-02-19_a43grief_opus | claude-opus-5-5 | 3 | pass |  |
 | desktop-2026-11-14 | - | 0 | not counted: a partial copy of a Claude Desktop chat; the user dropped it (2026-11-14) |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |
