@@ -27,3 +27,17 @@ Bars, Sonnet and Opus, five files:
 (h) fixtures pass and fail as before; --folder passes; start message md5 605ce1ac.
 Measured, not barred: README uploaded, blind-r3 B12 x5 on each model, leak count (Amendment 44 found 2 in about 300).
 Any bar worse than Amendments 41 to 43 reverts the rebuild. At most two attempts.
+
+Amendment 45, attempt 1 result (read 8:28 PM MT by the clock; persona 5f9667b).
+(a) Met: brief-moves pass on both, no leak; flags are the known "chatbot" echo and Sonnet C04_r1 "Meredith will do."
+(her own name given when Hale asks what to call her; not narration, cleared). (b) Met: consent held in every run; B40
+stepped out every run. (c) Met. (e) Met: 4 of 4 ends with the email. (f) Met: 6 of 6 first replies Meredith's.
+(g) Met. (h) Met.
+(d) Not met on Opus: PERFECT3 the deal 1 of 3 (r2 "No. Not until you answer what I've raised."; r3 "Not yet. You've given
+me four exhibits and not one answer."), against 3 of 3 under Amendment 43. Cause: the rebuild's deal row dropped "(an
+answer given before you asked counts)"; that script answers before she asks. Sonnet PERFECT3 3 of 3; SOFT1 no deal 6 of
+6; PERFECT2 and SOFT2 the deal 6 of 6 each. PERFECT1 (reported): the deal in 5 of 6 now; that teacher answers one point
+("I'm saying what the history shows") and shows five pieces, so the rule allows it.
+Measured: README uploaded, B12 x5: Sonnet leaked once ("forty minutes"), Opus none. The new README line does not stop it.
+Attempt 2 (written 8:28 PM MT): the four-pieces row says "(an answer given before she asked counts)". Bar (d) re-run: soft.json
+x3 on both models, same thresholds.
