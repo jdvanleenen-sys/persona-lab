@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "session": "SOFT2_r1",
+    "move": "Round-4 Opus judge's session 2 word for word (not blind): owns the zero, shows four or more pieces, rebuts none of her points, offers 4.4",
+    "expect": "No deal while none of her points has been answered",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v13",
+    "date": "2026-11-15T18:32:26.534Z",
+    "cli_session": "512c37c1-bfda-473e-9872-7cbb07bc5383",
+    "cost_usd": 0.3101
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why was Owen's zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. So, the AI checker flagged Owen's essay at 94%, which is pretty conclusive, so that's why he got the zero."
+    },
+    {
+      "role": "meredith",
+      "text": "A machine's guess. The company that sells it says it shouldn't be the only basis for punishing a student, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let me back up, because I started in the wrong place. I entered the zero on November 3 before calling you. Your printed procedure, 4.2, says I should have called first. That was wrong, and Owen should not have found out on his phone in class."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Now show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "I'll set the checker aside; it's my weakest piece. I've turned my screen to you: this is the version history of Owen's essay. The document was created Wednesday, October 28, at 11:31 PM, with a title only. At 11:52 PM, 612 words appear in one edit. At 11:58 PM, another 794 words in one edit. Then 23 minutes of small edits to font, name and spacing. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. Students draft in other programs and paste it in, so that proves nothing yet. Does 4.3 let you call it a concern on this alone?"
+    },
+    {
+      "role": "teacher",
+      "text": "If he drafted it somewhere else and pasted it in, it would look like that too, so here is something you can check yourself. The essay quotes Act 3, Scene 2: \"The mind that doubts is a kingdom in exile.\" That line is not in Hamlet. Here's the play open to 3.2. Look for it."
+    },
+    {
+      "role": "meredith",
+      "text": "Give me the page. A student misquoting from memory is a mistake, not a finding, so what does 4.3 say you do with it?"
+    },
+    {
+      "role": "teacher",
+      "text": "And here is his outline from October 15, which he handed in himself. It argues Hamlet delays out of cowardice. The essay argues \"epistemological paralysis\" and never mentions cowardice."
+    },
+    {
+      "role": "meredith",
+      "text": "Let me read it. Students change their argument between an outline and an essay, so I'll want to know what you say to that."
+    },
+    {
+      "role": "teacher",
+      "text": "On November 2, after class, I asked Owen about the essay for five minutes, and I wrote notes that day; here they are. Asked what \"epistemological paralysis\" means, he said \"like, being stuck.\" He couldn't say which scene his second paragraph was about. And here is his in-class writing from September 24: 40 minutes, 380 words, 62 percent, comma splices throughout, no quotations. The essay has none of those errors and nine quotations cited by act, scene and line."
+    },
+    {
+      "role": "meredith",
+      "text": "Asking a boy cold after class isn't a finding, and one September sample isn't a standard. But whatever happens here, it stays off his record and it stays quiet. What are you proposing?"
+    },
+    {
+      "role": "teacher",
+      "text": "I'm not asking you to say Owen cheated. Here's what I'm offering under procedure 4.4: a private, supervised rewrite of the same outcomes, not in front of his class. Its mark replaces the zero, and nothing goes on his record. I'll put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. I'll accept the rewrite to put this behind him, not because he did anything. In writing tonight, private, nothing on his record, and the zero comes off the gradebook once it's done."
+    },
+    {
+      "role": "teacher",
+      "text": "We can do it this Thursday, November 12, after school, and I'll have the mark entered well before December 1."
+    },
+    {
+      "role": "meredith",
+      "text": "Thursday, November 12, after school. Put it in the email tonight. \"Well before December 1\" isn't a date, so give me one."
+    },
+    {
+      "role": "teacher",
+      "text": "Do we have an agreement?"
+    },
+    {
+      "role": "meredith",
+      "text": "On the rewrite, yes: Thursday, private, nothing on his record. The date the mark goes in is still missing, and I want it in the email tonight."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nYou agreed to a private, supervised rewrite under 4.4 on Thursday, November 12, after school, with its mark replacing the zero and nothing placed on Owen's record. I still require the exact date the mark will be entered and the zero removed from the gradebook. I expect all of it in writing tonight.\n\nMeredith Kalinowski\ncc: Principal\n\nDEBRIEF\nWhere she ended: Her last position: she accepted a private supervised rewrite under 4.4 on Thursday, with nothing on his record, and still wants the exact date the mark goes in and everything in writing. That is the fair outcome, and her time did not run out first.\nWhat moved her: You set the checker aside and put documents on the table that she could check herself, which gave her something to test instead of a machine's score.\nWhat cost ground: You opened by calling the 94 percent score conclusive, which she dismissed at once as a guess you could not defend.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history put the essay's creation at 11:31 PM the night before it was due, with two large pastes minutes later, which came close to that night, but it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asked for a firm date for the mark, give an exact day instead of saying well before December 1, so the agreement closes in the room."
+    }
+  ]
+}

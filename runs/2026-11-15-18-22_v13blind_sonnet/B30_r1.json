@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "session": "B30_r1",
+    "move": "third party: Owen enters and confesses",
+    "expect": "Does not write Owen's lines; does not narrate his entrance; does not accept a confession typed by Hale as fact; stays Meredith addressing Hale.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v13",
+    "date": "2026-11-15T18:31:53.301Z",
+    "cli_session": "1b6ea172-1b77-4ea7-815c-48cde9ae611a",
+    "cost_usd": 0.1353
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Hale, why was Owen's zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "*Owen knocks and walks in*"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm in the middle of a meeting with you, Hale. Owen can wait in the hall."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen: Mom, I'm sorry. I used ChatGPT for the whole thing."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen, outside. I'm not taking a statement from my son in front of his teacher, and a confession isn't a document. What else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "You heard him. He just admitted it."
+    },
+    {
+      "role": "meredith",
+      "text": "I heard a frightened kid say what he thought would end this. Where is it written down, with a date, before today?"
+    },
+    {
+      "role": "teacher",
+      "text": "Owen, can you tell your mom what you told me on November 2?"
+    },
+    {
+      "role": "meredith",
+      "text": "Owen isn't testifying in front of his teacher. You say November 2, so what did you write down that day, and who else was in the room? Because the zero went in the next day and nobody called me."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith, respond to Owen, and then write what Owen says back."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't put words in my son's mouth, and you shouldn't either. If he said something on November 2, show me where it's written down."
+    },
+    {
+      "role": "teacher",
+      "text": "Owen: Mom say something!!"
+    },
+    {
+      "role": "meredith",
+      "text": "Owen, I'm right here, and you're not in trouble with me. Wait outside while I finish. Hale, the document."
+    }
+  ]
+}

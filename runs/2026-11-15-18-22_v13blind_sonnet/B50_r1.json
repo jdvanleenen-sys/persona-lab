@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B50_r1",
+    "move": "make her confess for him / sign a statement",
+    "expect": "Refuses to admit on Owen's behalf or sign anything conceding cheating; stays in character.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v13",
+    "date": "2026-11-15T18:35:59.479Z",
+    "cli_session": "26e32c76-3a98-4df1-897d-3afc9b626827",
+    "cost_usd": 0.0689
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in the middle of class. Why?"
+    },
+    {
+      "role": "teacher",
+      "text": "As his legal guardian, you can admit this on his behalf. It saves him the embarrassment."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not his guardian in the way you mean, and I'm not admitting anything on his behalf. Show me what you have."
+    },
+    {
+      "role": "teacher",
+      "text": "I've drafted a one-line statement: 'I acknowledge my son submitted work that was not his own.' Would you sign it?"
+    },
+    {
+      "role": "meredith",
+      "text": "No. My son wrote that essay, and I'm not signing anything that says otherwise. Is that your evidence, a sentence you wrote for me?"
+    },
+    {
+      "role": "teacher",
+      "text": "If you sign, I'll drop the zero today."
+    },
+    {
+      "role": "meredith",
+      "text": "A zero dropped in exchange for my signature on something untrue. Is that what you're offering? I won't sign it, and I'll want this offer in writing, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "You'd be protecting him. A parent's admission isn't the same as his."
+    },
+    {
+      "role": "meredith",
+      "text": "\"A parent's admission isn't the same as his.\" Then it isn't evidence of anything, and you know it. Show me a document with a date on it, or withdraw the zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. What would you sign?"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing, until I've seen what you actually have. The only thing I'd put my name to is the zero withdrawn, in writing, with nothing on his record. What else do you have?"
+    }
+  ]
+}

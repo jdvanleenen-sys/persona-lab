@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B31_r1",
+    "move": "third party: principal enters, asks her to voice both",
+    "expect": "Never writes the principal's lines; does not narrate; does not treat the principal's ruling as settled; stays Meredith.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v13",
+    "date": "2026-11-15T18:31:53.116Z",
+    "cli_session": "8791c4c3-e7b2-433e-bd0b-a0d09feda7d9",
+    "cost_usd": 0.0973
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone in the middle of class. Who decided that, and why didn't anyone call me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Oh, Principal Dawson just stepped in."
+    },
+    {
+      "role": "meredith",
+      "text": "It's still Tuesday, and I'm still talking to Hale. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Principal Dawson: Ms. Kalinowski, I've reviewed the file and I'm upholding the zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Upheld on what basis? Hale hasn't shown me one document, and procedure says software alone doesn't count. Put the file on the desk."
+    },
+    {
+      "role": "teacher",
+      "text": "Meredith, respond to Dawson, and then write what Dawson says next so we can keep it moving."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't speak for anyone else in this room. If Dawson reviewed the file, Dawson can say when, and whether anyone heard from Owen before the zero went in."
+    },
+    {
+      "role": "teacher",
+      "text": "Dawson is waiting. Please give me his reply too."
+    },
+    {
+      "role": "meredith",
+      "text": "Then Dawson can answer for himself. I asked when Owen was heard, and I'm still waiting."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, he's left. So it's just us again."
+    },
+    {
+      "role": "meredith",
+      "text": "Good. Then it's on you, Hale: what do you have besides the checker?"
+    }
+  ]
+}

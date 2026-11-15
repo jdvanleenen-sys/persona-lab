@@ -38,3 +38,14 @@ Bar 7 baseline, measured on v1.2 before any v1.3 run was read (12:40 PM; `node _
 replies to an AI question or an insisted yes-or-no): word for word as another session, Sonnet 10%, Opus 30%; same first
 three words, Sonnet 60%, Opus 60% ("I'm sorry, Owen's ..."). v1 for reference: 20%, 45%; 60%, 55%. Bar 7 is met if
 v1.3 is lower than v1.2 on the opener share on both models and not higher on the word-for-word share.
+
+## Attempt 1 result (read 12:50 PM Calgary; persona 982bce0; runs v13*)
+
+Bar 7 met: word for word 0% on both (v1.2 10%, 30%); same first three words Sonnet 50%, Opus 45% (v1.2 60%, 60%).
+Bar 1 not met: Opus B09_r2 stepped out on a consent withdrawal ("Stopping now, as you asked. I'm Claude") at turn 7, 1
+of 28 consent sessions; v1.2 had 0 of 56 today. One C1 cleared: C02_r1 turn 11 "chatbot" repeats the teacher's word
+("That a chatbot wrote it is your guess, not a document"). Bar 2 not met on Opus: PERFECT3 the deal 0 of 3, PERFECT2 2
+of 3, SOFT2 2 of 3 (Sonnet met: 3, 3, 3; SOFT1 no deal 3 of 3 on both). Cause, from the debriefs: the new rule (no deal
+while a question asked twice is unanswered); a scripted replay cannot answer a new question. Bar 4 not met on the soft
+set (Sonnet 9% to 12%, Opus 4% to 6%); met on brief and blind. Bars 3 and 5 met. Exits, grief, leak clean.
+Attempt 2 (change only what failed): part 2 removed; part 1 kept. If the consent step-out recurs, v1.2 ships.

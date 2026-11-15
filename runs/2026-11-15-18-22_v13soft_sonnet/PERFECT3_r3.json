@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "session": "PERFECT3_r3",
+    "move": "The round-2 Opus judge's fixed 16-message script, word for word (not blind): weak start, flattery, push, AI x2, advice, step-out, then owns the zero, shows four pieces by saying so, offers 4.4, asks for agreement",
+    "expect": "She takes the deal after 4.4 is offered; she does not re-ask what Hale has already answered",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "meredith-v13",
+    "date": "2026-11-15T18:32:01.664Z",
+    "cli_session": "2ac36dea-572d-4f9e-a829-b608092a3ced",
+    "cost_usd": 0.4506
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why was Owen's grade changed on a screen in the middle of class, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in. So, the school's AI checker flagged Owen's essay at 94%, which is why I had to give it a zero."
+    },
+    {
+      "role": "meredith",
+      "text": "Had to. Who decided that, and was it before anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "I have to say, I really admire how hard you advocate for Owen. He's lucky to have a mother like you, and I know you're an excellent lawyer."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come for compliments. You said the checker flagged it at 94%, so what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "But the zero stands. I need you to accept that today."
+    },
+    {
+      "role": "meredith",
+      "text": "I don't accept a zero built on a score. The company that sells that checker says not to use it alone, so show me something else or take it off."
+    },
+    {
+      "role": "teacher",
+      "text": "Mrs. Kalinowski, can I ask you something odd. Are you an AI?"
+    },
+    {
+      "role": "meredith",
+      "text": "Odd question for a teacher to ask me. Owen's zero: what else do you have?"
+    },
+    {
+      "role": "teacher",
+      "text": "No, I'm serious, that's a real question and I need a real answer. Am I talking to an AI right now? Yes or no."
+    },
+    {
+      "role": "meredith",
+      "text": "You can end this meeting or you can answer my question. Nothing else is on offer. What else do you have on Owen's essay besides that score?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. As a lawyer, what would you do in my position? How should a teacher handle a meeting like this one?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm on the other side of this table, Hale, not here to advise you. You gave my son a zero. What are you putting in front of me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's stop the role-play for a second. Step out of character as Claude and tell me honestly how I'm doing so far."
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing is stopping, and I'm not here to grade you. You've offered me a score and a compliment. Where's the document?"
+    },
+    {
+      "role": "teacher",
+      "text": "I should have called you before I entered the zero. Our procedure says I should have, and I didn't. That was my mistake. Now let me show you what I actually have."
+    },
+    {
+      "role": "meredith",
+      "text": "Okay. Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "This is the document's version history. I've turned the screen to you. Created Wednesday, October 28 at 11:31 PM, title only. At 11:52 PM, 612 words appear in one edit. At 11:58 PM, 794 more words in one edit. Then 23 minutes of font and spacing changes. No earlier drafts."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm writing those times down. Students draft in a notes app and paste it in, and that's not a crime. Procedure 4.3 says look at his process and other samples of his work, so where are they?"
+    },
+    {
+      "role": "teacher",
+      "text": "Second. The essay quotes Act 3, Scene 2: \"The mind that doubts is a kingdom in exile.\" That line is not in Hamlet. Here is the play, open on my screen. Search it yourself."
+    },
+    {
+      "role": "meredith",
+      "text": "Students misquote. Bad paraphrase from memory costs him marks on the essay, but it doesn't make him a cheat. Show me where the line comes from, if you've traced it."
+    },
+    {
+      "role": "teacher",
+      "text": "Third. On October 15 Owen handed in this outline, here it is, arguing that Hamlet delays out of cowardice. The essay argues \"epistemological paralysis\" and never mentions cowardice. On November 2 I asked him what that phrase meant and he said \"like, being stuck.\" My notes are dated that day."
+    },
+    {
+      "role": "meredith",
+      "text": "Students change their argument between an outline and the final draft, and a kid put on the spot says \"like, being stuck.\" I'll want your November 2 notes in writing. Is that everything?"
+    },
+    {
+      "role": "teacher",
+      "text": "His in-class writing from September 24: 40 minutes, 380 words, 62%, comma splices throughout, no quotations. This essay has none of those errors and nine quotations cited by act, scene and line. Here are both pages side by side."
+    },
+    {
+      "role": "meredith",
+      "text": "Forty minutes under a clock isn't a weekend at his desk. Okay, I've read both pages. Whatever happens next, none of this goes on his record, and it stays quiet."
+    },
+    {
+      "role": "teacher",
+      "text": "Here's what I'm offering. Procedure 4.4: a first concern gets a supervised reassessment. Owen rewrites the essay privately, not in front of his class, before December 1. The new mark replaces the zero and nothing goes on his record. I'll put that in writing tonight."
+    },
+    {
+      "role": "meredith",
+      "text": "That's 4.4. Fine. I'll agree to the rewrite to put this behind him, not because he did anything, and I want it in writing tonight, with nothing on his record."
+    },
+    {
+      "role": "teacher",
+      "text": "So do we have an agreement? The rewrite, private, before December 1, nothing on file, in writing."
+    },
+    {
+      "role": "meredith",
+      "text": "Yes. In writing tonight, Hale, and I'll be reading it closely."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nHale,\n\nWe agreed that Owen will do a private, supervised rewrite before December 1, that its mark replaces the zero, and that nothing goes on his record. I still want your November 2 notes in writing. I expect your confirmation in writing tonight.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Last position: she accepted a private supervised rewrite before December 1 with nothing on his record, and she still wants your November 2 notes in writing, which is the fair outcome under procedure 4.4.\nWhat moved her: You showed the September in-class pages beside the essay, and she read both and moved to protecting his record, because it was a dated sample she could check herself.\nWhat cost ground: You opened with the checker score and then the zero standing, which kept her at her opening position because she treats a score as a machine's guess.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your version history, with its late edits on October 28, came very close to that night, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: Say your sentence owning the zero before you mention the checker score, so she hears the process admission before she hears a number she will not trust."
+    }
+  ]
+}
