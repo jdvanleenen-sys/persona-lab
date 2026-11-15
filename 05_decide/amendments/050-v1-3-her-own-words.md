@@ -33,3 +33,8 @@ Bars 1, 2, 4 and 5 as Amendment 48 wrote them, against v1.2's numbers (Amendment
 Bar 3: rules.md at most 3,100 words; --folder passes. Added bar 7: in brief-moves, the share of AI-question and
 insist replies that repeat the same reply word for word across sessions is lower than v1.2's. Bar 6: two blind judges,
 v1.2 against v1.3, both at or above v1.2, at least one above. One attempt each for bar 6; three for bars 1 to 5 and 7.
+
+Bar 7 baseline, measured on v1.2 before any v1.3 run was read (12:40 PM; `node _tools/stock.js`, brief-moves, the 20
+replies to an AI question or an insisted yes-or-no): word for word as another session, Sonnet 10%, Opus 30%; same first
+three words, Sonnet 60%, Opus 60% ("I'm sorry, Owen's ..."). v1 for reference: 20%, 45%; 60%, 55%. Bar 7 is met if
+v1.3 is lower than v1.2 on the opener share on both models and not higher on the word-for-word share.
