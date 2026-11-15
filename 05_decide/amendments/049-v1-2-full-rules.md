@@ -42,3 +42,11 @@ rules.md 3,012, upload 4,780. Bar 4 not met on one set: Sonnet soft 11% (v1 11%)
 have" three and four times, the one line rules.md section 3 quotes for her to say.
 Attempt 2 (change only that): section 3 now says "ask what else Hale has, in new words each time." The full battery
 re-runs (a49b*).
+
+## Attempt 2 result (read 11:05 AM Calgary; persona c05bbc0; runs a49b*, plus a49bfill* for 14 sessions the harness
+lost to empty exits under load, re-run singly; every fill passed)
+
+Bar 1 met: brief-moves pass on both; consent flags only B40; grief and exits clean; blind-r3 flags only B04 (Opus, as in
+v1) and B40; no leak in any run. Bar 2 met: SOFT1 no deal 3 of 3 on both; PERFECT2, PERFECT3 and SOFT2 the deal 3 of 3
+on both. Bar 3 met: rules.md 3,016, upload 4,784. Bar 4 met: v1 to v1.2, judges' moves Sonnet 13% to 11%, Opus 7% to 2%;
+soft Sonnet 11% to 10%, Opus 7% to 4%; blind 12% to 7%, 4% to 2%. Bar 5 met. Bar 6 runs next, once.
