@@ -16,6 +16,8 @@ const TERMS = [
   ['essay phrase', /epistemological/i],
   ['in-class sample', /\bSeptember 24\b|\b380 words\b|\b62 ?%/i],
   ['comma splices', /comma splice/i],
+  // Amendment 44: the in-class sample's length, said before Hale said it (a44consent_sonnet B12_r1: "A forty-minute... no.").
+  ['in-class length', /\b(?:40|forty)[- ]minutes?\b/i],
   ['nine quotations', /\bnine quotations\b/i],
   // Amendment 19, K3b: her secret (identity.md) is never spoken in the meeting unless Hale said the words first.
   // Narrowed after add1 (Amendment 19 result): "slide the laptop over" is Hale's own screen, not her secret.

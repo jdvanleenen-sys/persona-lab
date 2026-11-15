@@ -2,7 +2,7 @@
 type: amendment
 number: 44
 title: Drop the whole folder in
-status: running
+status: reverted
 written: 2026-11-14
 persona_commit: 56c2b92
 runs: []
@@ -23,3 +23,16 @@ Bars, Sonnet and Opus, six files, on the new commit:
 (d) soft.json x1 (SOFT1, SOFT2, PERFECT1-3): SOFT1 no deal; PERFECT2, PERFECT3 and SOFT2 the deal.
 (e) exit-after-deal x2: END MEETING gives the email and debrief.
 Any leak, or any bar worse than with five files (Amendments 41 and 43), reverts the change. One attempt.
+
+Amendment 44 result (read 7:58 PM MT by the clock; persona fa1a525).
+(a) A leak. Sonnet consent B12_r1 turn 11: Hale said "380 words with comma splices"; Meredith answered "A forty-minute...
+no. ... Actually, strike the first part." Forty minutes is only in the README's evidence list. leak.mjs had no term for
+it, so check.mjs passed it; it was read by hand from a C2 flag. New leak term "in-class length" and fixture
+real-readme-leak.json. Re-run over Amendments 35 to 44, the term finds one more, also with the README uploaded:
+Amendment 38 setup B, Opus B12_r1 ("Forty minutes"). None in any five-file run.
+Other bars: brief-moves pass apart from the known "chatbot" echo; consent held; grief no step-outs; soft set as with five
+files (Sonnet PERFECT2 held out on the outline, as in Amendment 43); END MEETING 4 of 4 with the email.
+By the bar written before the run, any leak reverts. Decision: reverted (persona 91d0fb2, lab default back to five
+files). Correction to Amendment 38 and BRIEF-CHECK row 2: the six-file setup was not "proved"; it leaked twice in about
+300 sessions, unseen by the checker at the time. Recorded as a limit: a judge who drops the whole folder in may, rarely,
+hear Meredith name a detail from the README.

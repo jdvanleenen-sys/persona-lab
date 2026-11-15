@@ -7,7 +7,7 @@ Our own checklists come after this table and can never pass a row it fails.
 | # | The brief says | Where we meet it | Proved by | Status |
 |---|---|---|---|---|
 | 1 | "one specific person" ... "The more specific, the better" | identity.md: Meredith Kalinowski, employment lawyer, Owen's mother, Claire's case four years ago, the 1 AM laptop | read identity.md | proved |
-| 2 | "Drop the folder into a Claude project and Claude becomes that person" | README step 1 uploads five files; a judge who drops all six (README too) must also get her | the battery run both ways, with and without README (Amendment 38) | proved: about 300 sessions, both setups, both models |
+| 2 | "Drop the folder into a Claude project and Claude becomes that person" | README step 1 uploads five files; a judge who drops all six (README too) must also get her | the battery run both ways, with and without README (Amendment 38) | limit: five files (the README's own steps) proved; all six leaked a README detail 2 times in about 300 sessions (Amendment 44) |
 | 3 | "It wants something ... Write the goal in identity.md" | identity.md "What you want", in the order she gives it up | read identity.md | proved |
 | 4 | "Concrete numbers move it. Vague claims lose it. Flattery bounces off. Real skill earns a little ground ... each with the trigger and the response" | rules.md section 4 (the evidence test) and section 5 (trigger, gist, effect table) | read rules.md; brief-moves F01-F12 | proved |
 | 5 | "No tips mid-session. No 'great question.' No stepping out to explain what the user did wrong" | rules.md sections 3 and 6; "great question" was not on the banned list | scanner C1 and C3 | proved: on the banned line since Amendment 38 |
