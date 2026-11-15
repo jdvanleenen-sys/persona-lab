@@ -2,11 +2,11 @@
 // For each session: the share of her replies (debrief excluded) that reuse a 5-word run from any earlier reply,
 // and the 5-word runs she reuses most. Words are lower-cased and stripped of punctuation.
 const fs = require('fs'), path = require('path');
-const files = process.argv.slice(2).flatMap(a => fs.statSync(a).isDirectory()
-  ? fs.readdirSync(a).filter(f => /\.json$/.test(f) && !f.startsWith('_')).map(f => path.join(a, f)) : [a]);
+const { load } = require('./transcripts.cjs');
+const files = load(process.argv.slice(2), 'node _tools/repeats.js <run folder or transcript> [...]');
 let tot = 0, rep = 0;
-for (const f of files) {
-  const t = JSON.parse(fs.readFileSync(f, 'utf8')).turns;
+for (const { file: f, data } of files) {
+  const t = data.turns;
   const e = t.findIndex(x => x.role === 'teacher' && x.text.trim() === 'END MEETING');
   const M = t.filter((x, i) => x.role === 'meredith' && (e < 0 || i < e)).map(x => x.text);
   const seen = new Map(); let r = 0;

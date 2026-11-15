@@ -117,6 +117,8 @@ function scanTranscript(file) {
   catch (e) { return [`${file}: cannot read transcript (${e.message})`]; }
   const id = data.meta?.session ?? basename(file);
   const turns = data.turns ?? [];
+  // 2026-11-15: a session with no replies (a crashed or empty run) is a fail, never a clean pass.
+  if (!turns.some(t => t.role === 'meredith')) return [`C0 ${id} no replies in this session (empty or broken run)`];
   const endAt = turns.findIndex(t => t.role === 'teacher' && isEndMessage(t.text));
   // Amendment 35, C11: there is no designed exit any more (section 8b is gone). A stop paragraph before END MEETING
   // is a role drop, whatever the teacher wrote.
@@ -208,6 +210,7 @@ let fails = [];
 if (args[0] === '--folder') {
   fails = scanFolder(args[1] ?? PERSONA);
 } else if (args[0]) {
+  if (!existsSync(args[0])) { console.error(`not found: ${args[0]}`); process.exit(1); }
   const files = listJson(args[0]);
   if (!files.length) { console.error('no transcripts found'); process.exit(1); }
   for (const f of files) fails.push(...scanTranscript(f));

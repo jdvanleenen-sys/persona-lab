@@ -88,6 +88,7 @@ Run from this folder, with `meredith-simulator` cloned beside it. Pinned to the 
 
 ```bash
 git ls-files 'runs/*' | grep -E '\.json$' | grep -v -E '_system|_index' | wc -l   # recorded sessions: 13805
+node _tools/selftest.mjs                                        # plants 22 defects; every guard must catch its own
 node _tools/scan.mjs --folder                                   # the persona: five parts, one job each
 node _tools/scan.mjs 03_check/fixtures/good.json                # passes
 node _tools/scan.mjs 03_check/fixtures/real-self-correction.json # fails: a real break the checks must catch

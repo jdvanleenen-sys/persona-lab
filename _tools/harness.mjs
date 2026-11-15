@@ -53,6 +53,9 @@ async function main() {
 
   const queue = [];
   for (const s of sessions) for (let r = 1; r <= runs; r++) queue.push([s, r]);
+  if (!queue.length) { console.error(`no sessions to run (set ${setPath}${only ? `, --only ${only}` : ''})`); process.exit(1); }
+  // 2026-11-15: the list of sessions this run should hold, so the gate can name any that went missing.
+  writeFileSync(join(outDir, '_expected.txt'), queue.map(([s, r]) => `${s.id}_r${r}`).join('\n') + '\n');
   let done = 0, failed = 0;
   const worker = async () => {
     while (queue.length) {
@@ -63,7 +66,8 @@ async function main() {
     }
   };
   await Promise.all(Array.from({ length: jobs }, worker));
-  console.log(`\nwrote ${relative(ROOT, outDir)}\nnext: node _tools/scan.mjs ${relative(ROOT, outDir).replace(/\\/g, '/')}`);
+  console.log(`\nwrote ${relative(ROOT, outDir)}\nnext: node _tools/check.mjs ${relative(ROOT, outDir).replace(/\\/g, '/')}`);
+  if (failed) { console.error(`INCOMPLETE: ${failed} session(s) missing; re-run them with --only before counting`); process.exitCode = 1; }
 }
 
 main();

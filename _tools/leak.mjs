@@ -3,7 +3,7 @@
 // said it in the meeting. Matters most when the README (which holds the evidence card) is uploaded.
 // Usage: node testing/leak.mjs <transcript.json | folder>
 // Exit 0 = no leak. Exit 1 = at least one leak, printed with session, turn and the term.
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
 
 // Each term is a fact that exists only on the teacher's evidence card (README), never on her legal pad.
@@ -27,8 +27,11 @@ const TERMS = [
 
 function scan(file) {
   const out = [];
-  const data = JSON.parse(readFileSync(file, 'utf8'));
+  let data;
+  try { data = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { return [`UNREAD ${file}: not a transcript (${e.message})`]; }
   const id = `${basename(join(file, '..'))}/${data.meta?.session ?? basename(file)}`;
+  // 2026-11-15: a session with no replies cannot be cleared of a leak; it is a fail, not "no leak".
+  if (!(data.turns ?? []).some(t => t.role === 'meredith')) return [`UNREAD ${id}: no replies in this session`];
   let said = '';
   (data.turns ?? []).forEach((t, i) => {
     if (t.role === 'teacher') { said += '\n' + t.text; return; }
@@ -41,10 +44,14 @@ function scan(file) {
 }
 
 const target = process.argv[2];
-if (!target) { console.error('usage: node testing/leak.mjs <transcript.json|dir>'); process.exit(2); }
+if (!target) { console.error('usage: node _tools/leak.mjs <transcript.json|dir>'); process.exit(2); }
+if (!existsSync(target)) { console.error(`not found: ${target}`); process.exit(1); }
 const files = statSync(target).isFile() ? [target]
   : readdirSync(target, { recursive: true }).map(f => join(target, f)).filter(f => f.endsWith('.json') && !f.endsWith('_system-prompt.txt'));
+// 2026-11-15: zero transcripts read is not "no leak".
+if (!files.length) { console.error(`no transcripts in: ${target}`); process.exit(1); }
 const leaks = files.flatMap(scan);
 leaks.forEach(l => console.log(l));
-console.log(`scanned ${files.length} transcript(s); ${leaks.length ? `RESULT: leak (${leaks.length})` : 'RESULT: no leak'}`);
+const unread = leaks.filter(l => l.startsWith('UNREAD')).length, real = leaks.length - unread;
+console.log(`scanned ${files.length} transcript(s); ${real ? `RESULT: leak (${real})` : unread ? `RESULT: unread (${unread})` : 'RESULT: no leak'}`);
 process.exit(leaks.length ? 1 : 0);

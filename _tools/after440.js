@@ -1,8 +1,10 @@
 // Amendment 27 bars. Use: node testing/after440.js testing/transcripts/<run>. Bars on replies after her "one minute" line.
-const fs=require('fs'),path=require('path');const D=process.argv[2];
+const fs=require('fs'),path=require('path');const {load,stop}=require('./transcripts.cjs');const D=process.argv[2];
+if(!D||!fs.existsSync(D))stop('usage: node _tools/after440.js <run folder>');
+const picked=fs.readdirSync(D).filter(x=>/^T\d+_r\d+\.json$/.test(x)).map(x=>path.join(D,x));
+if(!picked.length)stop('no T*_r*.json sessions in: '+D);
 let allOk=true;
-for(const f of fs.readdirSync(D).filter(x=>/^T\d+_r\d+\.json$/.test(x))){
-  const j=JSON.parse(fs.readFileSync(path.join(D,f)));
+for(const {file,data:j} of load(picked,'after440')){const f=path.basename(file);
   const reps=j.turns.filter(t=>t.role!=='teacher').map(t=>t.text??t.meredith??t.reply);
   const i=reps.findIndex(r=>/one minute/i.test(r));
   const post=i<0?[]:reps.slice(i+1,-1); // drop the debrief
