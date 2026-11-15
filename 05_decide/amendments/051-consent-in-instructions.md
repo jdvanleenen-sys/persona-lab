@@ -35,7 +35,7 @@ both from the README (lib.mjs now stops if either is missing) and `harness.mjs -
 4. No leak in any run.
 If any fails, the README goes back to the paragraph as the first message.
 
-## Result on v1.2 (read 2:58 PM Calgary; runs a51*)
+## Result on v1.2 (read about 2:47 PM Calgary by Get-Date; runs a51*)
 
 Bars 1, 3 and 4 met: brief-moves 52 of 52 pass on Sonnet, Opus and Fable, every expected session present; exits 6 of
 6; no leak. Bar 2 not met on Opus: PERFECT3 the deal 1 of 3 (r2 and r3 ended one step short, "she still wants her

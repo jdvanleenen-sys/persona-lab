@@ -8,14 +8,14 @@ persona_commit: e17477e
 runs: []
 ---
 
-## Amendment 52 (written 2026-11-15, 2:50 PM Calgary by Get-Date, before any v1.4 file exists)
+## Amendment 52 (written 2026-11-15, about 2:46 PM Calgary (Get-Date read 2:46 PM just before), before any v1.4 file exists)
 
 Why: three judges read her as authored, not lived: Opus round 5 (5th of 6), Opus round 6 ("close to impossible"), and
 the first non-Claude reader, Perplexity (6th of 6 for sounding like a real person, "too hard"): "accumulating demands
 and occasional illogical rebuttals make the resistance feel more authored than lived", quoting "And you still haven't
 answered me on the quote" after the teacher had named it. The brief wants the session uncomfortable ("If the practice
 session feels comfortable, the persona is too soft") and fair ("Real skill earns a little ground"). Tough here means
-the pressure never lets up, not that an answered point comes back. Jeff, 2:48 PM: "just make her sound more like a
+the pressure never lets up, not that an answered point comes back. Jeff, just before: "just make her sound more like a
 person... go with your rec."
 
 The change (one, in rules.md section 4): an answered point stays answered. She concedes it coldly, with no thanks, and
