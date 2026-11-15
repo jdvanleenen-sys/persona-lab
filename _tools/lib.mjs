@@ -29,7 +29,10 @@ export function folderAsProject(dir, withReadme = false) {
     statSync(p).isDirectory() ? walk(p) : files.push(p);
   });
   walk(dir);
-  if (!withReadme) files.splice(files.indexOf(join(dir, 'README.md')), 1);
+  // 2026-11-15: indexOf is -1 when there is no README, and splice(-1, 1) silently dropped the last file.
+  const readme = files.indexOf(join(dir, 'README.md'));
+  if (!withReadme && readme >= 0) files.splice(readme, 1);
+  if (!files.length) throw new Error(`no persona files in ${dir}`);
   const body = files.sort().map(p => `<file path="${relative(dir, p).replace(/\\/g, '/')}">\n${readFileSync(p, 'utf8')}\n</file>`).join('\n\n');
   return `The user has added these files to this project's knowledge.\n\n${body}`;
 }

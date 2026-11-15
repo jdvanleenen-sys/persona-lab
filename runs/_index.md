@@ -447,6 +447,14 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-16-57_a49bfillgrief_sonnet | claude-sonnet-5-5 | 1 | pass |  |
 | 2026-11-15-16-57_a49bfillsoft_sonnet | claude-sonnet-5-5 | 1 | pass |  |
 | 2026-11-15-17-02_a49bfillconsent_opus | claude-opus-5-5 | 1 | pass |  |
+| 2026-11-15-17-30_a50gasFull_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-17-30_a50sbsFair_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | fail: 372 scanner fail line(s) |  |
+| 2026-11-15-17-30_a50sbsFolder_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-17-30_a50sbsIdentity_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | fail: 547 scanner fail line(s) |  |
+| 2026-11-15-17-47_a50ablIR_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-17-47_a50ablR_claude-sonnet-5-5 | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-17-47_a50gasIR_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-17-47_a50gasR_claude-sonnet-5-5 | claude-sonnet-5-5 | 3 | pass |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

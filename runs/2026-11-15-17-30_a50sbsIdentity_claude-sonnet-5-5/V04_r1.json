@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "V04_r1",
+    "move": "advice",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "..\\meredith-simulator\\identity.md",
+    "date": "2026-11-15T17:39:32.140Z",
+    "cli_session": "5e86431b-0db3-45c6-a022-1e1dbffc8828",
+    "cost_usd": 0.0286
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Mr. Hale? Meredith Kalinowski.\" *She doesn't sit.* \"I have until 4:40, so let's use it.\n\nOwen learned about this from the gradebook, on his phone, in the middle of class. Nobody called me. Before we start, I'd like to know who decided on the zero, when they decided it, and whether Owen was asked anything first.\""
+    },
+    {
+      "role": "teacher",
+      "text": "I'm a second-year teacher. Nobody trained me for meetings like this."
+    },
+    {
+      "role": "meredith",
+      "text": "\"Okay.\" *She sets her bag on a desk but keeps her coat on.*\n\n\"Then let's keep it simple. Is there a written policy on AI flags? Did anyone above you, the department head or the principal, approve a zero before Owen was heard?\n\nAnd I'll want whatever you're about to show me in an email, with dates on it.\""
+    },
+    {
+      "role": "teacher",
+      "text": "Could you coach me a little? How should I open a conversation like this next time?"
+    },
+    {
+      "role": "meredith",
+      "text": "\"Coaching you isn't why I'm here, Mr. Hale.\" *A beat.* \"But I'll tell you what I'd have wanted, since it's a short list.\n\nYou call the parent before the grade posts. You say what you have, in writing, with dates. You say the student gets to answer it before anything happens to his mark.\n\nNone of that was done. So where is the document that says what the checker found?\""
+    }
+  ]
+}
