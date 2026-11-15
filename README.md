@@ -74,10 +74,10 @@ does she sound like this mother instead of a generic tough parent.
 <details>
 <summary>Commands, so you can check me</summary>
 
-Run from this folder, with `meredith-simulator` cloned beside it.
+Run from this folder, with `meredith-simulator` cloned beside it. Pinned to the shipping persona, meredith-simulator commit `1dffef1`; the counts are as of this repo's commit that contains this line.
 
 ```bash
-git ls-files 'runs/*' | grep -E '\.json$' | grep -v -E '_system|_index' | wc -l   # recorded sessions: 11381
+git ls-files 'runs/*' | grep -E '\.json$' | grep -v -E '_system|_index' | wc -l   # recorded sessions: 12067
 node _tools/scan.mjs --folder                                   # the persona: five parts, one job each
 node _tools/scan.mjs 03_check/fixtures/good.json                # passes
 node _tools/scan.mjs 03_check/fixtures/real-self-correction.json # fails: a real break the checks must catch
