@@ -9,7 +9,7 @@
 // Writes testing/transcripts/<date>_<label>_<model>/<session>_r<n>.json, then run scan.mjs on that folder.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { join, relative, resolve } from 'node:path';
+import { basename, join, relative, resolve } from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { ROOT, PERSONA, START, arg, folderAsProject, claudeTurn } from './lib.mjs';
 
@@ -49,7 +49,7 @@ async function main() {
   // Amendment 30: --instructions adds the start paragraph as Project instructions (an approximation of claude.ai's box).
   const instr = process.argv.includes('--instructions') ? `<project_instructions>\n${START}\n</project_instructions>\n\n` : '';
   writeFileSync(sysFile, instr + (sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(arg('folder') ? resolve(arg('folder')) : PERSONA, process.argv.includes('--with-readme'))));
-  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : (arg('folder') ?? PERSONA) };
+  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : basename(resolve(arg('folder') ?? PERSONA)) };
 
   const queue = [];
   for (const s of sessions) for (let r = 1; r <= runs; r++) queue.push([s, r]);
