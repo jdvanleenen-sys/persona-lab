@@ -1,5 +1,7 @@
 # Run log
 
+**Status: closed 2026-11-11.** Runs and fixes after that date are recorded one per amendment in `amendments/` (index: `amendments/_index.md`); `RESULTS.md` is the summary. Kept as the record of what it covered.
+
 One line per run. Model version, date, place (project / harness / extra), set, result, transcript folder.
 
 | Date | Place | Model | Set | Result | Transcripts |

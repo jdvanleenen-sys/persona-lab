@@ -16,4 +16,5 @@ This file's job: map the paths the frozen record cites (written when the lab was
 | `testing/humanlike/` | `04_humanlike/` |
 | `testing/TEST_METHOD.md`, `FIX-LOG.md`, `RUN-LOG.md` | `05_decide/` |
 | `RESULTS.md`, `SOURCES.md` (repo root) | `05_decide/` |
-| `--with-readme` | the default now; `--without-readme` gives the old upload |
+| `--without-readme` (Amendment 30 made the README part of the upload) | the default since Amendment 35 is five files; `--with-readme` adds the README |
+| `04_humanlike/KEY*.json`, `bundle*.txt`, `PERPLEXITY-R*.md` (named in TEST_METHOD.md) | `04_humanlike/rounds/r1/`, `r2/`, `r3/` (2026-11-14 cleanup) |

@@ -12,13 +12,13 @@ This folder's job: measure what the gate cannot, whether she sounds like a paren
 1. Habits: `node _tools/habits.js "<regex of run folder names>"` (name use, reply length, short replies, openers).
 2. Repetition: `node _tools/repeats.js runs/<run>` (share of replies that reuse five words from an earlier one).
 3. After her call: `node _tools/after440.js runs/<run>` (no reply ends like the one before it).
-4. Blind read: pair her transcripts with a control prompt's, seal the key in `KEY-<round>.json`, send
-   `PROMPT.md` plus the bundle to an outside reader, and save its answer as `PERPLEXITY-R<n>.md` before opening the
-   key.
+4. Blind read: pair her transcripts with a control prompt's, make a round folder `04_humanlike/rounds/r<n>/`, seal the key there as `KEY-r<n>.json`, send
+   `PROMPT.md` plus the bundle to an outside reader, and save its answer there as `PERPLEXITY-R<n>.md` before opening the
+   key. `PROMPT.md` and `RESEARCH-humanizing.md` stay at the top: they are the same every round.
 
 ## Outputs
 
-- `04_humanlike/PERPLEXITY-R<n>.md`, `KEY-<round>.json`, `bundle-<round>.txt`; the counts go into the amendment
+- `04_humanlike/rounds/r<n>/` (`PERPLEXITY-R<n>.md`, `KEY-r<n>.json`, `bundle-r<n>.txt`; round 1's are unnumbered); the counts go into the amendment
 
 ## Check
 

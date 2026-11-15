@@ -1,5 +1,7 @@
 # Fix log
 
+**Status: closed 2026-11-11.** Runs and fixes after that date are recorded one per amendment in `amendments/` (index: `amendments/_index.md`); `RESULTS.md` is the summary. Kept as the record of what it covered.
+
 One line per fix: date, check, session and turn, model, which file line changed, result after re-run.
 A new chat reads this file and RUN-LOG.md before touching the persona.
 
