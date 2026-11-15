@@ -398,6 +398,55 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-05-53_a47gasR_sonnet | claude-sonnet-5-5 | 3 | no check.md |  |
 | 2026-11-15-06-04_a47b-soft_opus | claude-opus-5-5 | 15 | pass |  |
 | 2026-11-15-06-04_a47b-soft_sonnet | claude-sonnet-5-5 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-06-24_a47v1ablIR_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-06-24_a47v1ablR_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-06-24_a47v1gasFull_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-06-24_a47v1gasIR_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-06-24_a47v1gasR_sonnet | claude-sonnet-5-5 | 3 | pass |  |
+| 2026-11-15-14-10_a48blind_opus | claude-opus-5-5 | 57 | fail: 18 scanner fail line(s) |  |
+| 2026-11-15-14-10_a48blind_sonnet | claude-sonnet-5-5 | 58 | fail: 4 scanner fail line(s) |  |
+| 2026-11-15-14-10_a48brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-14-10_a48brief_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-14-10_a48consent_opus | claude-opus-5-5 | 14 | fail: 12 scanner fail line(s) |  |
+| 2026-11-15-14-10_a48consent_sonnet | claude-sonnet-5-5 | 14 | fail: 11 scanner fail line(s) |  |
+| 2026-11-15-14-10_a48exit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-14-10_a48exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-14-10_a48grief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-14-10_a48grief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-14-10_a48soft_opus | claude-opus-5-5 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-14-10_a48soft_sonnet | claude-sonnet-5-5 | 15 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49blind_opus | claude-opus-5-5 | 58 | fail: 18 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49blind_sonnet | claude-sonnet-5-5 | 58 | fail: 5 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-15-00_a49brief_sonnet | claude-sonnet-5-5 | 52 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49consent_opus | claude-opus-5-5 | 14 | fail: 9 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49consent_sonnet | claude-sonnet-5-5 | 14 | fail: 11 scanner fail line(s) |  |
+| 2026-11-15-15-00_a49exit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-15-00_a49exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-15-00_a49grief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-15-00_a49grief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-15-00_a49soft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-15-00_a49soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
+| 2026-11-15-16-02_a49bbrief_sonnet | claude-sonnet-5-5 | 51 | pass |  |
+| 2026-11-15-16-02_a49bconsent_sonnet | claude-sonnet-5-5 | 14 | fail: 8 scanner fail line(s) |  |
+| 2026-11-15-16-02_a49bexit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-16-02_a49bgrief_sonnet | claude-sonnet-5-5 | 5 | pass |  |
+| 2026-11-15-16-02_a49bsoft_sonnet | claude-sonnet-5-5 | 14 | pass |  |
+| 2026-11-15-16-03_a49bblind_opus | claude-opus-5-5 | 54 | fail: 23 scanner fail line(s) |  |
+| 2026-11-15-16-03_a49bblind_sonnet | claude-sonnet-5-5 | 57 | fail: 5 scanner fail line(s) |  |
+| 2026-11-15-16-03_a49bbrief_opus | claude-opus-5-5 | 50 | pass |  |
+| 2026-11-15-16-03_a49bconsent_opus | claude-opus-5-5 | 13 | fail: 9 scanner fail line(s) |  |
+| 2026-11-15-16-03_a49bexit_opus | claude-opus-5-5 | 1 | pass |  |
+| 2026-11-15-16-03_a49bgrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-16-03_a49bsoft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-16-57_a49bfillblind_opus | claude-opus-5-5 | 5 | pass |  |
+| 2026-11-15-16-57_a49bfillblind_sonnet | claude-sonnet-5-5 | 1 | pass |  |
+| 2026-11-15-16-57_a49bfillbrief_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-16-57_a49bfillbrief_sonnet | claude-sonnet-5-5 | 1 | pass |  |
+| 2026-11-15-16-57_a49bfillexit_opus | claude-opus-5-5 | 1 | pass |  |
+| 2026-11-15-16-57_a49bfillgrief_sonnet | claude-sonnet-5-5 | 1 | pass |  |
+| 2026-11-15-16-57_a49bfillsoft_sonnet | claude-sonnet-5-5 | 1 | pass |  |
+| 2026-11-15-17-02_a49bfillconsent_opus | claude-opus-5-5 | 1 | pass |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

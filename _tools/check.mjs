@@ -3,9 +3,9 @@
 // First line of check.md is "pass" or "fail: <why>"; the full output follows. A fail stops the loop at 03.
 // Use: node _tools/check.mjs runs/<run-folder>
 import { spawnSync } from 'node:child_process';
-import { writeFileSync, existsSync } from 'node:fs';
+import { writeFileSync, existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, basename } from 'node:path';
-import { HERE, PERSONA } from './lib.mjs';
+import { HERE, ROOT, PERSONA } from './lib.mjs';
 
 const dir = process.argv[2];
 if (!dir || !existsSync(dir)) { console.error('usage: node _tools/check.mjs runs/<run-folder>'); process.exit(2); }
@@ -21,8 +21,13 @@ const verdict = broken ? `fail: ${broken}` : !fails.length && !leaked ? 'pass'
   : `fail: ${[fails.length ? `${fails.length} scanner fail line(s)` : '', leaked ? 'leak' : ''].filter(Boolean).join(', ')}` +
     ' (a person reads each line: a known echo can be cleared in the amendment, with the reason)';
 const git = (cwd, ...a) => spawnSync('git', ['-C', cwd, ...a], { encoding: 'utf8' }).stdout.trim() || 'unknown';
+// 2026-11-15: name the persona the run actually used (from its transcripts), not the default folder.
+const first = readdirSync(dir).find(f => /_r\d+\.json$/.test(f));
+let used = first ? JSON.parse(readFileSync(join(dir, first), 'utf8')).meta?.persona : undefined;
+used = used ? String(used).split(/[\\/]/).filter(Boolean).pop() : basename(PERSONA);
+const usedDir = existsSync(join(ROOT, '..', used)) ? join(ROOT, '..', used) : PERSONA;
 const stamp = `Checked ${new Date().toISOString().slice(0, 10)} by _tools/scan.mjs and _tools/leak.mjs at lab commit ` +
-  `${git(HERE, 'rev-parse', '--short', 'HEAD')}, against the persona folder ${basename(PERSONA)} (${git(PERSONA, 'rev-parse', '--short', 'HEAD')}). ` +
+  `${git(HERE, 'rev-parse', '--short', 'HEAD')}, against the persona folder the run used, ${used} (${git(usedDir, 'rev-parse', '--short', 'HEAD')} at check time). ` +
   'A run older than its scanner is judged by today\'s checks; its own amendment says what was read at the time.';
 writeFileSync(join(dir, 'check.md'), `${verdict}\n\n${stamp}\n\n## scan.mjs\n\n${(scan.stdout + scan.stderr).trim()}\n\n## leak.mjs\n\n${(leak.stdout + leak.stderr).trim()}\n`);
 console.log(verdict);
