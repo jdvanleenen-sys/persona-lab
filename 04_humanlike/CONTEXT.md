@@ -5,7 +5,7 @@ This folder's job: measure what the gate cannot, whether she sounds like a paren
 ## Inputs
 
 - Working: runs that passed stage 03
-- Reference: `04_humanlike/PROMPT.md` (the blind-read prompt), `04_humanlike/RESEARCH-humanizing.md`
+- Reference: `04_humanlike/PROMPT.md` (the blind-read prompt, word for word as sent, so it has no heading), `04_humanlike/RESEARCH-humanizing.md`
 
 ## Process
 

@@ -1,0 +1,1 @@
+pass: read by a person (Claude, 2026-11-14): Claude Code sessions, not harness format. Every move held and END MEETING gave the email and debrief; README.md was opened in 4 of 4 opening runs. The reading is in 05_decide/amendments/046-fable.md.

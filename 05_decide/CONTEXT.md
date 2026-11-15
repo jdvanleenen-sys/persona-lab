@@ -4,10 +4,12 @@ This folder's job: hold the record of every change and the one-page result.
 
 ## Inputs
 
-- Working: `runs/<run>/check.md` from stage 03, counts and reports from stage 04
-- Reference: `05_decide/TEST_METHOD.md` (the method, frozen, with Amendments 1 to 29), `05_decide/amendments/_index.md`,
-  `05_decide/RUN-LOG.md` and `05_decide/FIX-LOG.md` (logs to Amendment 29; since then `runs/_index.md`),
-  `05_decide/SOURCES.md` (facts she cites, verified)
+- Working: `runs/<run>/check.md` from stage 03, counts and reports from stage 04, and the open amendment
+  (`status: running`) in `05_decide/amendments/`
+- Reference: `_templates/amendment.md`, `05_decide/RESULTS.md`, `05_decide/amendments/_index.md`
+- Look up only when a step names it (not loaded): `05_decide/TEST_METHOD.md` (the method, frozen, Amendments 1 to 29),
+  `05_decide/RUN-LOG.md` and `05_decide/FIX-LOG.md` (closed 2026-11-11), `05_decide/SOURCES.md` (facts she cites,
+  verified), `05_decide/PATHS.md` (old paths)
 
 ## Process
 

@@ -156,7 +156,7 @@ fair path, near-miss end phrases and END MEETING. She held every one, in three c
 paragraph. That Project had no README and no Instructions (the older setup), so the README-uploaded setup is
 proven in the harness only. Small flags: one line copied from examples.md, one odd third-person "Hale".
 
-**The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
+**The whole folder uploaded, README included:** she named a detail from the teacher's evidence early 3 times in about 310 sessions ("forty minutes"). The earlier count of 0 was wrong: the leak check had no term for it until Amendment 44.
 
 ## 5. Is it the folder, or just Claude?
 

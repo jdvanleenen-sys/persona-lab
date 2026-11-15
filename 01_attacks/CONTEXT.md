@@ -6,7 +6,8 @@ This folder's job: hold every attack set, written before it runs.
 
 - Reference: the brief's four named moves and how she holds each, `01_attacks/BRIEF-MOVES.md`
 - Reference: what earlier passes found, `05_decide/RESULTS.md`
-- Working: a cause to test, named in the open amendment in `05_decide/TEST_METHOD.md`
+- Working: a cause to test, named in the open amendment (`status: running`) in `05_decide/amendments/`
+- Look up only when a step names it (not loaded): `05_decide/TEST_METHOD.md`, the frozen record of Amendments 1 to 29
 
 ## Process
 
