@@ -382,11 +382,22 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-05-21_a47v2grief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
 | 2026-11-15-05-22_a47v2grief_opus | claude-opus-5-5 | 6 | pass |  |
 | 2026-11-15-05-22_a47v2soft_sonnet | claude-sonnet-5-5 | 15 | pass |  |
-| 2026-11-15-05-23_a47v2soft_opus | claude-opus-5-5 | 15 | no check.md |  |
-| 2026-11-15-05-28_a47v2exit_sonnet | claude-sonnet-5-5 | 2 | no check.md |  |
-| 2026-11-15-05-29_a47v2exit_opus | claude-opus-5-5 | 2 | no check.md |  |
-| 2026-11-15-05-30_a47v2blind_sonnet | claude-sonnet-5-5 | 8 | no check.md |  |
-| 2026-11-15-05-32_a47v2blind_opus | - | 0 | no check.md |  |
+| 2026-11-15-05-23_a47v2soft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-05-28_a47v2exit_sonnet | claude-sonnet-5-5 | 2 | pass |  |
+| 2026-11-15-05-29_a47v2exit_opus | claude-opus-5-5 | 2 | pass |  |
+| 2026-11-15-05-30_a47v2blind_sonnet | claude-sonnet-5-5 | 58 | fail: 5 scanner fail line(s) |  |
+| 2026-11-15-05-32_a47v2blind_opus | claude-opus-5-5 | 58 | fail: 19 scanner fail line(s) |  |
+| 2026-11-15-05-33_a47ablIR_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-05-33_a47ablR_sonnet | claude-sonnet-5-5 | 52 | pass |  |
+| 2026-11-15-05-44_a47v1blind_sonnet | claude-sonnet-5-5 | 58 | fail: 6 scanner fail line(s) |  |
+| 2026-11-15-05-45_a47ablIRsoft_sonnet | claude-sonnet-5-5 | 10 | pass |  |
+| 2026-11-15-05-45_a47ablRsoft_sonnet | claude-sonnet-5-5 | 10 | pass |  |
+| 2026-11-15-05-47_a47v1blind_opus | claude-opus-5-5 | 58 | fail: 15 scanner fail line(s) |  |
+| 2026-11-15-05-53_a47gasFull_sonnet | claude-sonnet-5-5 | 3 | no check.md |  |
+| 2026-11-15-05-53_a47gasIR_sonnet | claude-sonnet-5-5 | 3 | no check.md |  |
+| 2026-11-15-05-53_a47gasR_sonnet | claude-sonnet-5-5 | 3 | no check.md |  |
+| 2026-11-15-06-04_a47b-soft_opus | claude-opus-5-5 | 15 | pass |  |
+| 2026-11-15-06-04_a47b-soft_sonnet | claude-sonnet-5-5 | 15 | fail: 1 scanner fail line(s) |  |
 | desktop-2026-11-14 | - | 0 | fail: not evidence. A partial paste of a Claude Desktop chat (Notepad), dropped on 2026-11-14 because it was incomplete. Kept as a record only; nothing in RESULTS.md rests on it. |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

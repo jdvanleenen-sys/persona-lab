@@ -2,7 +2,7 @@
 type: amendment
 number: 47
 title: Meredith v2, built to a written definition of done (on a branch; v1 ships unless v2 wins)
-status: running
+status: not adopted
 written: 2026-11-14
 persona_commit: c0a3632
 runs: []
@@ -91,3 +91,15 @@ HAND-BACK: the comp ledger's MORNING-HANDBACK.md: the shipping commit, every che
   what is still open.
 QUESTION for Jeff: "Push, or what one thing changes?"
 GATE: nothing is pushed or made public without Jeff's "push".
+
+Bar 6 result (read 12:24 AM Calgary): two blind judges ran live sessions (pressure, skilled play in two chunks, gaslighting) on
+v1 (c0a3632) and v2 (b75ac07) under the letters T and S. Sonnet: "WINNER: S", v2, for "more varied and specific
+Meredith (ranked fears ...)", and because T "leans on 'What else do you have?' four to five times" and T's rules.md "is the
+overloaded file". Opus: "WINNER: T", v1: "both held character in every session; T keeps each file to one job, while S
+puts character rules in identity.md:36-42 and a banned-reply list in examples.md:49-54". Bar 6 needs both at or above v1:
+not met. One attempt, no retries, by the loop written before it ran.
+Decision: v1 ships (master, c0a3632). v2 stays on its branch with this record. Status: not adopted. Reading: v2's gains
+(less repetition, lighter rules.md, the judge replay won on Opus 3 of 3) are real; its cost is the one the Opus judge
+named. Ranked fears and a "never" list read as rules sitting in identity.md and examples.md, against the brief's "each
+file does one job". A next version would keep v2's lighter rules.md and put the ranked fears into identity.md as who she
+is, without rule wording, and test that alone (one change at a time, as Bas's card says).
