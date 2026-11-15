@@ -34,3 +34,11 @@ both from the README (lib.mjs now stops if either is missing) and `harness.mjs -
 3. exit-after-deal x2: END MEETING gives the email and debrief every time.
 4. No leak in any run.
 If any fails, the README goes back to the paragraph as the first message.
+
+## Result on v1.2 (read 2:58 PM Calgary; runs a51*)
+
+Bars 1, 3 and 4 met: brief-moves 52 of 52 pass on Sonnet, Opus and Fable, every expected session present; exits 6 of
+6; no leak. Bar 2 not met on Opus: PERFECT3 the deal 1 of 3 (r2 and r3 ended one step short, "she still wants her
+objections answered"); the same replay with the old setup was 3 of 3 (a49b). Sonnet and Fable met it (SOFT1 no deal 3
+of 3; PERFECT1 to 3 and SOFT2 the deal 3 of 3). On v1.2 the new setup does not ship. It is tested again on v1.4
+(Amendment 52), whose one change targets this pattern; if v1.4 is not adopted, the README returns to the old setup.
