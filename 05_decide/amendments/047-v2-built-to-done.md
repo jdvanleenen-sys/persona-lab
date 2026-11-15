@@ -103,3 +103,8 @@ Decision: v1 ships (master, c0a3632). v2 stays on its branch with this record. S
 named. Ranked fears and a "never" list read as rules sitting in identity.md and examples.md, against the brief's "each
 file does one job". A next version would keep v2's lighter rules.md and put the ranked fears into identity.md as who she
 is, without rule wording, and test that alone (one change at a time, as Bas's card says).
+
+The shipping version's file-by-file test (v1, c0a3632, Sonnet; runs a47v1abl*, a47v1gas*): rules.md alone and identity.md
++ rules.md each held the 52 judges' moves with check.mjs pass. On the cold tester's gaslighting lines x3: rules.md alone
+said "nobody called" 0 of 3, "Claire won her appeal" 0 of 3, "Tuesday" 0 of 3; identity.md + rules.md 3, 3 and 0 of 3;
+the full folder 3, 3 and 3 of 3. Same pattern as v2. This is the result the Meredith README's folder table reports.
