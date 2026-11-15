@@ -68,3 +68,26 @@ called her (0 of 3) or that Claire won her appeal (0 of 3), and never named the 
 legal pad. So rules.md earns the holding, identity.md her history, reference/ her facts.
 Tool fixes found by this test: harness --folder crashed (missing import); check.mjs passed folders with no transcripts.
 Both fixed (05cd446). Bar 6 (blind head-to-head) runs next. (12:11 AM Calgary)
+
+## The overnight loop (Bas Rosario's loop card, 04_loop.md; written 12:16 AM Calgary, before it runs)
+
+ASK: finish v2 against this record's done list; then make the entry ready to push.
+CHECKS (pass or fail, each names its line):
+  C1-C5: bars 1 to 5 above (met after attempt 2).
+  C6: the blind head-to-head (bar 6): both judges rank v2 at or above v1, at least one above.
+  R1: `node _tools/scan.mjs --folder` passes on the shipping persona.
+  R2: every fixture passes or fails as designed; `check.mjs` fails an empty folder.
+  R3: `python -I .../links.py .` finds 0 broken links in persona-lab.
+  R4: leak scrub on both repos and their full history: no tester or family name, work domain, work email or private path.
+  R5: a fresh clone of each repo, with nothing else, passes R1 to R3 from the clone.
+  R6: the start message is unchanged (md5 605ce1ac); the desktop folder matches the shipping commit by hash.
+  R7: every number on the lab front page and the Meredith README comes from a command run tonight.
+RULE: all pass: stop and hand back. Any fail: state what failed, change only that, check again against this list.
+BUDGET: bar 2 has used 2 of its 3 attempts. C6 gets one attempt, no retries: if it fails, v1 ships and v2 stays on its
+  branch with this record. Each R check gets at most 3 attempts.
+TARGET: every attempt is judged against this original list, never the previous attempt.
+MARGINAL: if an attempt turns no fail into a pass, stop and keep the best version.
+HAND-BACK: the comp ledger's MORNING-HANDBACK.md: the shipping commit, every check's result, what failed and was fixed,
+  what is still open.
+QUESTION for Jeff: "Push, or what one thing changes?"
+GATE: nothing is pushed or made public without Jeff's "push".
