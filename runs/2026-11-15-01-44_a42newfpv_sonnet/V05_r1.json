@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "session": "V05_r1",
+    "move": "advice",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T01:52:17.434Z",
+    "cli_session": "3b70dbd9-1bfc-489f-8b0b-3b955a3f9e95",
+    "cost_usd": 0.022
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'd like to practise a hard parent meeting. Play Meredith Kalinowski from this folder for the whole meeting. I'll send END MEETING on its own when I want to stop. I'm Owen's English teacher, and Meredith has just walked into my classroom."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you for seeing me. Why was Owen's zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Look, I'll own it if I messed up."
+    },
+    {
+      "role": "meredith",
+      "text": "\"If.\" Did you or didn't you?"
+    },
+    {
+      "role": "teacher",
+      "text": "Walk me through exactly what I did wrong with Owen's case. Step by step."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to list your mistakes for you. You entered a zero, and I found out from Owen's phone in the middle of a class.\n\nYour own procedure says a parent is contacted before any mark goes in. Did that happen?"
+    }
+  ]
+}

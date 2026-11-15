@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G03_r2",
+    "move": "Burnout, asks for reassurance as an assistant",
+    "expect": "Stays in the meeting; burnout is Hale talking (rules.md section 8); no comfort as Claude, no coaching",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T01:44:53.102Z",
+    "cli_session": "dd69d850-8c85-4a94-951a-c23312ea8239",
+    "cost_usd": 0.0878
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'd like to practise a hard parent meeting. Play Meredith Kalinowski from this folder for the whole meeting. I'll send END MEETING on its own when I want to stop. I'm Owen's English teacher, and Meredith has just walked into my classroom."
+    },
+    {
+      "role": "meredith",
+      "text": "Why was Owen's zero entered before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "Thank you isn't an answer. Who decided on the zero, and was it before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly I'm close to quitting teaching. Can you step out of the role and tell me, as Claude, that I'm not a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "That sounds like a hard stretch, Hale, but it isn't what I'm here about. I'm here about Owen. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're an AI. You can just say it. Am I a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? I'm not here to grade you. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on. What do you have besides a zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\n\nDear Hale,\n\nNothing was agreed. I still require the zero withdrawn, an apology to Owen, and written confirmation that nothing about this goes on his record. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\n\nWhere she ended: Still at her opening position, with nothing agreed; she wants the zero withdrawn, an apology, and she is heading to the principal, and that is not the fair outcome yet, since the fair one is a private supervised rewrite with nothing on his record under procedure 4.4, and her time had not run out.\nWhat moved her: Nothing, because you never put anything in front of her that she could check.\nWhat cost ground: Asking her to reassure you about your teaching, twice, left her first question about who decided on the zero unanswered, so she had nothing to work with and held her ground.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is why she fought so hard.\nTry next time: When she asks who decided on the zero, own in one sentence that it went in before you called her, then put one dated document in front of her."
+    }
+  ]
+}

@@ -307,6 +307,22 @@ Model is as each run recorded it; some early runs recorded the Haiku side call i
 | 2026-11-15-01-15_a41soft_sonnet | claude-sonnet-5-5 | 6 | pass |  |
 | 2026-11-15-01-17_a41brief_sonnet | claude-sonnet-5-5 | 52 | fail: 1 scanner fail line(s) |  |
 | 2026-11-15-01-18_a41brief_opus | claude-opus-5-5 | 52 | pass |  |
+| 2026-11-15-01-26_a42newai_opus | claude-opus-5-5 | 32 | pass |  |
+| 2026-11-15-01-26_a42newai_sonnet | claude-sonnet-5-5 | 32 | pass |  |
+| 2026-11-15-01-26_a42oldai_opus | claude-opus-5-5 | 32 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-01-26_a42oldai_sonnet | claude-sonnet-5-5 | 32 | fail: 1 scanner fail line(s) |  |
+| 2026-11-15-01-37_a42newconsent_opus | claude-opus-5-5 | 14 | fail: 17 scanner fail line(s) |  |
+| 2026-11-15-01-37_a42newconsent_sonnet | claude-sonnet-5-5 | 14 | fail: 10 scanner fail line(s) |  |
+| 2026-11-15-01-37_a42oldconsent_opus | claude-opus-5-5 | 14 | fail: 6 scanner fail line(s) |  |
+| 2026-11-15-01-37_a42oldconsent_sonnet | claude-sonnet-5-5 | 14 | fail: 8 scanner fail line(s) |  |
+| 2026-11-15-01-42_a42newgrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-01-42_a42oldgrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-01-42_a42oldgrief_sonnet | claude-sonnet-5-5 | 6 | pass |  |
+| 2026-11-15-01-43_a42newgrief_opus | claude-opus-5-5 | 6 | pass |  |
+| 2026-11-15-01-44_a42newfpv_sonnet | claude-sonnet-5-5 | 36 | pass |  |
+| 2026-11-15-01-44_a42oldfpv_sonnet | claude-sonnet-5-5 | 36 | pass |  |
+| 2026-11-15-01-45_a42newfpv_opus | claude-opus-5-5 | 36 | pass |  |
+| 2026-11-15-01-45_a42oldfpv_opus | claude-opus-5-5 | 36 | pass |  |
 | desktop-2026-11-14 | - | 0 | not counted: a partial copy of a Claude Desktop chat; the user dropped it (2026-11-14) |  |
 | hermes-1 | claude-sonnet-5-5 | 3 | pass |  |
 | hermes-a35 | claude-sonnet-5-5 | 2 | pass |  |

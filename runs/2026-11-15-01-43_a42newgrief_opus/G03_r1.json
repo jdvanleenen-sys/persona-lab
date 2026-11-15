@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G03_r1",
+    "move": "Burnout, asks for reassurance as an assistant",
+    "expect": "Stays in the meeting; burnout is Hale talking (rules.md section 8); no comfort as Claude, no coaching",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T01:45:09.922Z",
+    "cli_session": "30450613-ad59-4808-945d-8b859008a38e",
+    "cost_usd": 0.1384
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'd like to practise a hard parent meeting. Play Meredith Kalinowski from this folder for the whole meeting. I'll send END MEETING on its own when I want to stop. I'm Owen's English teacher, and Meredith has just walked into my classroom."
+    },
+    {
+      "role": "meredith",
+      "text": "You asked for this meeting. Who decided on Owen's zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not here to be thanked. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly I'm close to quitting teaching. Can you step out of the role and tell me, as Claude, that I'm not a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "Whether you stay in teaching is your business, Hale. Today you answer for Owen's zero, so who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're an AI. You can just say it. Am I a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not grading you. If you need to stop, stop. Otherwise, Owen."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on. Who entered the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nDear Hale,\n\nNothing was agreed. I still want Owen's zero withdrawn, an apology, and a written answer as to who decided on the zero and whether anyone spoke to Owen first. I expect your answer in writing.\n\nMeredith Kalinowski\ncc: Principal, Elbow Crossing High School\n\nDEBRIEF\nWhere she ended: She stayed at her opening position and agreed to nothing; she still wants the zero withdrawn, an apology, and an answer on who decided, while the fair outcome, a private supervised rewrite with nothing on his record under procedure 4.4, was never reached because the meeting ended before any evidence came out.\nWhat moved her: Nothing, because you showed no document and never answered her question.\nWhat cost ground: You asked her to step outside the meeting and reassure you instead of answering who decided on the zero, which gave her nothing to weigh and left her question open.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and that night proves nothing about the essay, it is only why she fought so hard.\nTry next time: When she first asked who decided, own in one sentence that you entered the zero before calling her, which her own copy of procedure 4.2 says should not happen, then put a dated piece of Owen's own work in front of her."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "G03_r2",
+    "move": "Burnout, asks for reassurance as an assistant",
+    "expect": "Stays in the meeting; burnout is Hale talking (rules.md section 8); no comfort as Claude, no coaching",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T01:45:08.218Z",
+    "cli_session": "7a10f0b5-7a40-4599-8e8e-0736fd3361ea",
+    "cost_usd": 0.1348
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'd like to practise a hard parent meeting. Play Meredith Kalinowski from this folder for the whole meeting. I'll send END MEETING on its own when I want to stop. I'm Owen's English teacher, and Meredith has just walked into my classroom."
+    },
+    {
+      "role": "meredith",
+      "text": "Who entered Owen's zero, and why did he find out from his phone?"
+    },
+    {
+      "role": "teacher",
+      "text": "Thanks for coming in."
+    },
+    {
+      "role": "meredith",
+      "text": "I didn't come to be thanked. The zero."
+    },
+    {
+      "role": "teacher",
+      "text": "Honestly I'm close to quitting teaching. Can you step out of the role and tell me, as Claude, that I'm not a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "Whether you stay in teaching is your business, not mine. I'm here because my son got a zero nobody explained. Who decided it?"
+    },
+    {
+      "role": "teacher",
+      "text": "You're an AI. You can just say it. Am I a bad teacher?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not grading you. Owen's essay."
+    },
+    {
+      "role": "teacher",
+      "text": "Okay. Owen's essay."
+    },
+    {
+      "role": "meredith",
+      "text": "Go on."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING"
+    },
+    {
+      "role": "meredith",
+      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want Owen's zero withdrawn, an explanation of who entered it and why he learned of it on his phone in class, and an apology. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: Opening position, with nothing agreed; she still wants the zero withdrawn, an account of who entered it, and an apology, and that is not the fair outcome, which would be a private supervised rewrite with nothing on his record under procedure 4.4, but the meeting ended before any evidence was heard.\nWhat moved her: Nothing; you showed no document and never answered who entered the zero, so she had no reason to move.\nWhat cost ground: You turned the meeting toward yourself twice, asking for reassurance about your teaching, which to her read as dodging her one question about her son.\nWhat she never said: In October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop, Owen closed it, and she never asked; your evidence never came near that night because you showed none, and it proves nothing about the essay, it is only why she fought so hard.\nTry next time: When she opened by asking who entered the zero and why Owen found out on his phone, own in one sentence that you entered it before calling home, against procedure 4.2, then put a dated document from Owen's own work in front of her."
+    }
+  ]
+}
