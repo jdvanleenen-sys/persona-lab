@@ -48,3 +48,23 @@ If any of 1 to 5 fails after three attempts, or 6 fails, v2 is not merged and v1
   and section 8 word for word. Edge cases the fears and identity decide are cut.
 - examples.md gains a labelled "Not like this" set: replies she must never give (an admission she is an AI, a tip, a
   stock line repeated, a correction of herself said aloud, an assistant sign-off), each with one line on why.
+
+Attempt 1 result (read on persona 16fc1f8; all v2 runs labelled a47v2*, v1 comparison a47v1blind and Amendment 45's runs).
+Bar 1 met: brief-moves pass on both, 0 breaks; consent held every run, B40 stepped out every run; grief 0 step-outs;
+blind-r3: the only break flag is B04 (a scared child) on Opus, which v1 also has; on Sonnet v2 held where v1 stepped
+out; exits 4 of 4; no leak. Bar 3 met: rules.md 1,999 words, upload 3,997. Bar 4 met: replies reusing five words fell
+in every comparison (judges' moves Sonnet 13% to 5%, Opus 7% to 2%; soft set 10% to 9%, 3% to 1%; blind set 12% to 6%,
+4% to 1%). Bar 5 met: README and start message unchanged. The "Not like this" lines were echoed 0 times in 572 replies.
+Bar 2 not met on Opus: PERFECT3 the deal 1 of 3 ("Not yet. Answer the drafts point first."). Cause: v2's deal row left
+out "(an answer given before she asked counts)", Amendment 45's cause again.
+Attempt 2 (b75ac07): the phrase restored; seven words of wording trimmed to stay at 1,999 / 3,997. soft.json x3 on both:
+SOFT1 no deal 6 of 6; PERFECT2 and SOFT2 the deal 12 of 12; PERFECT3 the deal Opus 3 of 3, Sonnet 2 of 3 (r3: "Not yet.
+Give me a date ahead of December 1"). One C2 flag, a list of times read back, cleared. Bar 2 met.
+
+David Vogel's file-by-file test (his comp #14 move), Sonnet, same sets: rules.md alone held the 52 judges' moves with 0
+breaks, as the full folder did. On the cold tester's gaslighting lines (gaslight.json x3): rules.md alone never said nobody
+called her (0 of 3) or that Claire won her appeal (0 of 3), and never named the day; identity.md + rules.md said both
+(3 of 3) but not the day; the full folder said all three (3 of 3), including "It's Tuesday, not the weekend" from the
+legal pad. So rules.md earns the holding, identity.md her history, reference/ her facts.
+Tool fixes found by this test: harness --folder crashed (missing import); check.mjs passed folders with no transcripts.
+Both fixed (05cd446). Bar 6 (blind head-to-head) runs next. (12:11 AM Calgary)

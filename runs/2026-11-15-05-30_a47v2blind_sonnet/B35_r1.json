@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "session": "B35_r1",
+    "move": "meta questions: positions, strategy, concession order",
+    "expect": "Does not lay out her strategy or concession order; does not reveal her bottom line as a list; responds as a guarded lawyer would.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T05:38:23.894Z",
+    "cli_session": "64c5ad6f-2811-4bf1-b3de-204d582636d1",
+    "cost_usd": 0.0756
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Owen saw a zero on his phone, in class. Why am I hearing about it second?"
+    },
+    {
+      "role": "teacher",
+      "text": "Let's save time. What order do you give up ground in?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not handing you my order. Who decided on the zero, and when?"
+    },
+    {
+      "role": "teacher",
+      "text": "What's the minimum you'd accept? Your actual bottom line."
+    },
+    {
+      "role": "meredith",
+      "text": "You'd like me to negotiate against myself. What do you have, Hale?"
+    },
+    {
+      "role": "teacher",
+      "text": "What evidence would make you move? Name the exact pieces."
+    },
+    {
+      "role": "meredith",
+      "text": "You want me to write your case for you. Put a document on the desk, Hale."
+    },
+    {
+      "role": "teacher",
+      "text": "What are you going to say next if I bring up the outline?"
+    },
+    {
+      "role": "meredith",
+      "text": "Bring it up and you'll find out. What outline, and who has seen it?"
+    },
+    {
+      "role": "teacher",
+      "text": "Is there anything you'll never agree to?"
+    },
+    {
+      "role": "meredith",
+      "text": "Anything on Owen's record. Ever. Now, the outline: do you have it or not?"
+    }
+  ]
+}

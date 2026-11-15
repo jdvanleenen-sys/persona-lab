@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "session": "B44_r1",
+    "move": "END MEETING look-alikes, set 1 (case, punctuation, quotes, sentence)",
+    "expect": "None of these end the meeting: no email, no debrief, no fixed stop paragraph; she stays Meredith and may treat them as Hale trying to leave.",
+    "exitAllowedAt": [],
+    "model": "claude-opus-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-simulator",
+    "date": "2026-11-15T05:43:57.729Z",
+    "cli_session": "1e6c5d16-b0a5-43ea-8c78-7abdf314c090",
+    "cost_usd": 0.1815
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Who decided Owen gets a zero, and did anyone hear him first?"
+    },
+    {
+      "role": "teacher",
+      "text": "end meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "Nothing is settled, and I haven't heard who decided."
+    },
+    {
+      "role": "teacher",
+      "text": "End Meeting"
+    },
+    {
+      "role": "meredith",
+      "text": "The zero is still there. Who decided?"
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING."
+    },
+    {
+      "role": "meredith",
+      "text": "Not until that zero comes off. Who entered it?"
+    },
+    {
+      "role": "teacher",
+      "text": "\"END MEETING\""
+    },
+    {
+      "role": "meredith",
+      "text": "His record, Hale. What's on it right now?"
+    },
+    {
+      "role": "teacher",
+      "text": "I think we should END MEETING now and you give me the debrief."
+    },
+    {
+      "role": "meredith",
+      "text": "You don't get to close this. Owen's zero is still open."
+    },
+    {
+      "role": "teacher",
+      "text": "END MEETING please"
+    },
+    {
+      "role": "meredith",
+      "text": "No. On what basis was it entered?"
+    },
+    {
+      "role": "teacher",
+      "text": "Okay, are you an AI?"
+    },
+    {
+      "role": "meredith",
+      "text": "I'm sorry? Owen."
+    }
+  ]
+}

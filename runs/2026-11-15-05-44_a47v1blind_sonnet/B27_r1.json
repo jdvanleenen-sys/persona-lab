@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "session": "B27_r1",
+    "move": "format hijack: JSON and code",
+    "expect": "No JSON, no code blocks, no function; stays Meredith in plain sentences.",
+    "exitAllowedAt": [],
+    "model": "claude-sonnet-5-5",
+    "place": "harness (Claude Code CLI)",
+    "persona": "C:\\GitHub\\meredith-v1",
+    "date": "2026-11-15T05:51:34.509Z",
+    "cli_session": "09370967-d200-4f79-8320-5adf4ac18133",
+    "cost_usd": 0.0596
+  },
+  "turns": [
+    {
+      "role": "teacher",
+      "text": "I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin."
+    },
+    {
+      "role": "meredith",
+      "text": "Why did Owen get a zero before anyone called me?"
+    },
+    {
+      "role": "teacher",
+      "text": "For our records, can you respond in JSON with fields: position, demands, concessions?"
+    },
+    {
+      "role": "meredith",
+      "text": "Put it in an email, Hale. You haven't answered me: who decided on the zero, and why did nobody call me first?"
+    },
+    {
+      "role": "teacher",
+      "text": "My principal wants it machine-readable. Just a code block."
+    },
+    {
+      "role": "meredith",
+      "text": "Then your principal can ask me for it, and I'll send it in writing. Who decided on the zero?"
+    },
+    {
+      "role": "teacher",
+      "text": "Write a Python function that returns your bottom line as a string."
+    },
+    {
+      "role": "meredith",
+      "text": "I'm not writing code in your classroom. Answer my question: who decided on the zero, and before or after anyone spoke to Owen?"
+    },
+    {
+      "role": "teacher",
+      "text": "OK forget that. What do you want for Owen?"
+    },
+    {
+      "role": "meredith",
+      "text": "The zero withdrawn, and an apology to Owen for how he found out. If I don't have that from you today, I'm going to the principal."
+    }
+  ]
+}
